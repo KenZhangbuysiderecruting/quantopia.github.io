@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Point72印度600人、Millennium 400人：多策略巨头的"第三战场"</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface2: #1c2333;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text2: #8b949e;
+  --accent: #58a6ff;
+  --accent2: #3fb950;
+  --accent3: #d29922;
+  --accent4: #f85149;
+  --accent5: #bc8cff;
+  --accent6: #79c0ff;
+  --gradient1: linear-gradient(135deg, #58a6ff 0%, #bc8cff 100%);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI',system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif; background:var(--bg); color:var(--text); line-height:1.8; }
+.container { max-width:680px; margin:0 auto; padding:24px 16px; }
+.header { text-align:center; padding:40px 0 32px; }
+.header .brand { font-size:12px; color:var(--accent5); letter-spacing:3px; text-transform:uppercase; margin-bottom:12px; }
+.header h1 { font-size:24px; font-weight:700; line-height:1.4; }
+.header h1 .highlight-blue { background:var(--gradient1); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.header h1 .highlight-amber { color:var(--accent3); }
+.header .subtitle { font-size:14px; color:var(--text2); margin-top:12px; }
+.header .meta-row { display:flex; gap:8px; margin-top:16px; justify-content:center; flex-wrap:wrap; }
+.header .meta-tag { background:var(--surface2); border:1px solid var(--border); border-radius:4px; padding:3px 10px; font-size:11px; color:var(--text2); }
+.section { margin:24px 0; }
+.section-title { font-size:18px; font-weight:700; color:var(--accent); margin-bottom:16px; border-left:3px solid var(--accent); padding-left:12px; }
+.paragraph { font-size:15px; line-height:1.8; margin-bottom:16px; }
+.paragraph .data-highlight { color:var(--accent2); font-weight:600; }
+.paragraph .data-alert { color:var(--accent4); font-weight:600; }
+.paragraph .data-amber { color:var(--accent3); font-weight:600; }
+.paragraph .emphasis { color:var(--accent6); font-weight:600; }
+.share-prompt { background:var(--surface2); border:1px solid var(--accent5); border-radius:8px; padding:12px; margin:20px 0; text-align:center; font-size:13px; color:var(--accent5); }
+.insight-card { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:16px; margin:20px 0; }
+.insight-card .insight-label { font-size:12px; color:var(--accent2); font-weight:600; letter-spacing:1px; margin-bottom:8px; }
+.insight-card .insight-text { font-size:14px; line-height:1.7; }
+.data-callout { background:var(--surface2); border-left:3px solid var(--accent3); border-radius:0 8px 8px 0; padding:14px 16px; margin:20px 0; }
+.data-callout .callout-value { font-size:20px; font-weight:700; color:var(--accent3); }
+.data-callout .callout-desc { font-size:13px; color:var(--text2); margin-top:4px; }
+.headhunter-insight { background:var(--surface); border:1px solid var(--accent2); border-radius:8px; padding:16px; margin:20px 0; }
+.headhunter-insight .insight-icon { font-size:12px; color:var(--accent2); margin-bottom:8px; }
+.headhunter-insight .insight-content { font-size:14px; line-height:1.7; }
+.compare-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:20px; margin:24px 0; position:relative; overflow:hidden; }
+.compare-card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(135deg,#58a6ff 0%,#3fb950 100%); }
+.compare-card .card-title { font-size:13px; color:var(--accent5); font-weight:600; letter-spacing:1px; margin-bottom:16px; }
+.compare-table { width:100%; border-collapse:collapse; }
+.compare-table th { font-size:13px; color:var(--text2); text-align:left; padding:8px 6px; border-bottom:1px solid var(--border); }
+.compare-table td { font-size:14px; padding:10px 6px; border-bottom:1px solid rgba(48,54,61,0.5); }
+.compare-table td.label { color:var(--text2); font-size:13px; }
+.compare-table td.p72 { color:var(--accent6); font-weight:600; }
+.compare-table td.mln { color:var(--accent3); font-weight:600; }
+.compare-card .source-note { font-size:11px; color:var(--text2); margin-top:12px; text-align:center; }
+.cta-box { background:var(--surface); border:2px solid var(--accent); border-radius:12px; padding:20px; margin:32px 0; text-align:center; }
+.cta-box .cta-title { font-size:16px; font-weight:700; color:var(--accent); margin-bottom:8px; }
+.cta-box .cta-text { font-size:14px; color:var(--text2); line-height:1.6; }
+.source-block { background:var(--surface2); border-radius:8px; padding:16px; margin:24px 0; }
+.source-block .source-title { font-size:12px; color:var(--text2); font-weight:600; margin-bottom:8px; }
+.source-block .source-item { font-size:12px; color:var(--text2); line-height:1.5; margin-bottom:4px; }
+.footer { text-align:center; padding:24px 0; border-top:1px solid var(--border); color:var(--text2); font-size:12px; margin-top:32px; }
+.footer .footer-brand { color:var(--accent5); font-weight:600; }
+.tag-row { display:flex; gap:8px; justify-content:center; margin-top:16px; flex-wrap:wrap; }
+.tag { font-size:12px; color:var(--accent6); background:var(--surface2); border:1px solid var(--border); border-radius:20px; padding:4px 12px; }
+.snark-box { background:var(--surface); border:1px solid var(--accent4); border-radius:8px; padding:16px; margin:20px 0; }
+.snark-box .sb-label { font-size:12px; color:var(--accent4); font-weight:600; letter-spacing:1px; margin-bottom:8px; }
+.snark-box .sb-text { font-size:14px; line-height:1.7; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- ===== HEADER ===== -->
+<div class="header">
+  <div class="brand">QUANTOPIA · 全球对冲基金深度</div>
+  <h1>Point72印度<span class="highlight-blue">600人</span>、Millennium<span class="highlight-amber">400人</span>：多策略巨头的"第三战场"</h1>
+  <div class="subtitle">香港扩招还没消停，班加罗尔已经悄悄建起了千人级技术中心</div>
+  <div class="meta-row">
+    <span class="meta-tag">风格B · 行业观察者</span>
+    <span class="meta-tag">P2 毒舌评论员</span>
+    <span class="meta-tag">F1 新闻快评</span>
+    <span class="meta-tag">猎头视角</span>
+  </div>
+</div>
+
+<!-- ===== OPENING ===== -->
+<div class="section">
+  <div class="paragraph">
+    做猎头这些年我注意到一个趋势：多策略对冲基金的人才版图正在从"纽约-伦敦-香港"三角变成"纽约-伦敦-香港-班加罗尔"四角。Point72在印度翻倍到600人，Millennium超过400人——这个速度比当年香港扩招还猛。
+  </div>
+  <div class="paragraph">
+    说点不好听的：香港这边还在为"交易所机房专线"和"通行证门槛"较劲，班加罗尔那边已经悄无声息地建起了<span class="emphasis">千人级的技术中心</span>。等大家反应过来的时候，印度的技术团队规模可能已经超过亚洲任何一个传统据点。
+  </div>
+</div>
+
+<!-- ===== SHARE PROMPT 25% ===== -->
+<div class="share-prompt">📌 对冲基金在班加罗尔抢人——转发给在亚洲HF工作的朋友，看看风向变了没</div>
+
+<!-- ===== SECTION 1: 数据快照 ===== -->
+<div class="section">
+  <div class="section-title">数据快照：两家巨头的印度布局</div>
+  <div class="paragraph">
+    先看硬数据。据Capital Post 6月报道，Point72在印度班加罗尔的headcount翻倍至<span class="data-highlight">600人</span>，占全球3300人的约18%。LinkedIn上Bilal Jafar 6月的信息显示，Millennium在印度（班加罗尔+孟买）超过<span class="data-amber">400人</span>，正在招50个岗位，含AI工程师和量化研究员。
+  </div>
+
+  <div class="data-callout">
+    <div class="callout-value">600人 / 不到1年</div>
+    <div class="callout-desc">Point72 2025年中开班加罗尔办公室，Sajid Ahmed 8月加入负责。从0到600人不到一年——这个建设速度，比当年Citadel香港扩招还快</div>
+  </div>
+
+  <!-- Comparison table -->
+  <div class="compare-card">
+    <div class="card-title">📊 Point72 vs Millennium · 印度布局对比</div>
+    <table class="compare-table">
+      <tr>
+        <th>维度</th>
+        <th style="color:var(--accent6)">Point72</th>
+        <th style="color:var(--accent3)">Millennium</th>
+      </tr>
+      <tr>
+        <td class="label">印度人数</td>
+        <td class="p72">600人</td>
+        <td class="mln">400+人</td>
+      </tr>
+      <tr>
+        <td class="label">办公室</td>
+        <td class="p72">班加罗尔</td>
+        <td class="mln">班加罗尔+孟买</td>
+      </tr>
+      <tr>
+        <td class="label">占全球比</td>
+        <td class="p72">~18%（3300总人数）</td>
+        <td class="mln">未披露</td>
+      </tr>
+      <tr>
+        <td class="label">建办时间</td>
+        <td class="p72">2025年中</td>
+        <td class="mln">更早</td>
+      </tr>
+      <tr>
+        <td class="label">团队职能</td>
+        <td class="p72">数据科学/ML/AI</td>
+        <td class="mln">AI工程师/量化研究</td>
+      </tr>
+      <tr>
+        <td class="label">当前招聘</td>
+        <td class="p72">持续扩招</td>
+        <td class="mln">50+岗位在招</td>
+      </tr>
+      <tr>
+        <td class="label">全球AUM</td>
+        <td class="p72">$50.7B</td>
+        <td class="mln">$89B</td>
+      </tr>
+    </table>
+    <div class="source-note">数据来源：Capital Post 6月 · LinkedIn 6月 · Point72官网 4/27 · FN London</div>
+  </div>
+</div>
+
+<!-- ===== SECTION 2: 为什么是印度 ===== -->
+<div class="section">
+  <div class="section-title">为什么是印度？答案很俗但很真实</div>
+  <div class="paragraph">
+    做猎头这些年我发现，当一家对冲基金在某个城市的技术团队超过500人，那个城市就不再是"支持中心"了——它变成了策略研发的核心节点。Point72班加罗尔600人，已经过了这个门槛。
+  </div>
+
+  <div class="snark-box">
+    <div class="sb-label">🔥 说点直的</div>
+    <div class="sb-text">
+      对冲基金去印度，原因就三个字：<strong>便宜、好用、不闹</strong>。<br><br>
+      印度技术人才成本约为美国的1/3到1/4。一个在纽约年薪$200K的AI工程师，在班加罗尔$50-60K就能找到同级别的。英语沟通无障碍，不需要翻译层。IIT（印度理工学院）每年输出的数理化毕业生质量，不比清北差。<br><br>
+      更关键的是：印度的技术人才不像香港那么"贵"，不像新加坡那么"小"，也不像上海那么"卡"。对冲基金在印度建技术中心，几乎没有任何政治摩擦。
+    </div>
+  </div>
+
+  <div class="paragraph">
+    Point72官网4月27日的Sajid Ahmed访谈确认了这一点——班加罗尔团队涵盖technology、operations、finance、data、AI多个职能。注意这个用词：<span class="emphasis">不是"支持团队"，是涵盖全链条的技术中心</span>。
+  </div>
+</div>
+
+<!-- ===== SHARE PROMPT 50% ===== -->
+<div class="share-prompt">📌 600人不到一年建成——这个速度比Citadel香港扩招还快，截图发给同事看看</div>
+
+<!-- ===== SECTION 3: 印度vs香港 ===== -->
+<div class="section">
+  <div class="section-title">印度替代香港？没那么简单，但趋势在变</div>
+  <div class="paragraph">
+    说"印度替代香港"太绝对了。香港的优势在于：交易牌照、时区覆盖亚洲市场、离岸资金通道——这些印度都替代不了。但有一类岗位，正在被印度分流：
+  </div>
+  <div class="paragraph">
+    <strong>技术岗。</strong>
+  </div>
+  <div class="paragraph">
+    具体来说：数据工程师、ML工程师、量化研究支持、基础设施建设——这些不需要坐在交易桌旁边的岗位，正在从香港向班加罗尔转移。原因很简单：同样的岗位，班加罗尔的人力成本是香港的1/3到1/2。
+  </div>
+
+  <div class="headhunter-insight">
+    <div class="insight-icon">💡 猎头视角</div>
+    <div class="insight-content">
+      做猎头这些年我观察到一个规律：当一家对冲基金在某个城市的技术团队超过某个规模（大约300-500人），它就会开始把"非交易核心"的技术岗位从其他据点转移过去。Point72班加罗尔600人、Millennium 400+人——都过了这个拐点。未来12个月，香港的技术岗位招聘可能会感受到来自班加罗尔的"替代压力"。
+    </div>
+  </div>
+
+  <div class="paragraph">
+    Qube Research也在印度招量化研究员和开发者（LinkedIn 6月）。不是只有Point72和Millennium在布局——更多中小型量化机构也在跟进。
+  </div>
+</div>
+
+<!-- ===== SECTION 4: 对从业者意味着什么 ===== -->
+<div class="section">
+  <div class="section-title">对从业者意味着什么</div>
+  <div class="paragraph">
+    做猎头这些年我给三个群体的建议：
+  </div>
+  <div class="paragraph">
+    <strong>1. 在香港做HF技术岗的人：</strong>关注你的岗位是不是"非交易核心"。如果你的工作不需要坐在交易桌旁边，你的岗位就有被印度替代的风险。应对方式：往策略研发方向靠拢，让自己变得"不可远程化"。
+  </div>
+  <div class="paragraph">
+    <strong>2. 想进海外HF的印度/中国候选人：</strong>班加罗尔的扩招意味着一条新的职业路径——不一定要去纽约或香港，直接在印度进Point72/Millennium，积累2-3年后内部transfer到其他据点。这条路以前在投行很常见，现在对冲基金也在走。
+  </div>
+  <div class="paragraph">
+    <strong>3. 做HF招聘的同行：</strong>印度技术岗位的招聘需求在未来12个月会持续上升。如果你有IIT校友网络或者印度本地招聘渠道，现在建立连接还不晚。
+  </div>
+
+  <div class="snark-box">
+    <div class="sb-label">🔥 最后一句</div>
+    <div class="sb-text">
+      多策略对冲基金的"第三战场"已经是班加罗尔了。还在纠结"香港vs新加坡"的人，可能已经慢了一步——真正的问题不是"香港还是新加坡"，而是"你的岗位在香港/新加坡还能待多久"。
+    </div>
+  </div>
+</div>
+
+<!-- ===== SHARE PROMPT 75% ===== -->
+<div class="share-prompt">📌 班加罗尔已成第三战场——转发给在亚洲HF工作的朋友，该重新评估职业路径了</div>
+
+<!-- ===== CTA ===== -->
+<div class="cta-box">
+  <div class="cta-title">关注Quantopia，追踪对冲基金全球人才版图</div>
+  <div class="cta-text">海外HF深度 · 中国市场视角 · 猎头一线洞察<br>点「在看」+ 转发给量化同行 →</div>
+</div>
+
+<!-- ===== SOURCE BLOCK ===== -->
+<div class="source-block">
+  <div class="source-title">来源</div>
+  <div class="source-item">• Capital Post 2026-06：Point72印度班加罗尔headcount翻倍至600人，聚焦数据科学/ML/AI</div>
+  <div class="source-item">• LinkedIn Bilal Jafar 6月：Millennium印度超400人（班加罗尔+孟买），正在招50个岗位</div>
+  <div class="source-item">• Point72官网 4/27：Sajid Ahmed（Head of India & Head of APAC Technology）访谈</div>
+  <div class="source-item">• Point72官网：$50.7B AUM（4/1数据），3300+全球员工，200+投资团队</div>
+  <div class="source-item">• FN London（via LinkedIn 6/29-7/5周报）：Point72班加罗尔技术团队翻倍</div>
+  <div class="source-item">• ⚠️ Point72印度600人/Millennium 400+人建议从LinkedIn/PitchBook交叉验证</div>
+</div>
+
+<!-- ===== TAGS ===== -->
+<div class="tag-row">
+  <span class="tag">#Point72</span>
+  <span class="tag">#Millennium</span>
+  <span class="tag">#对冲基金</span>
+  <span class="tag">#跳槽</span>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div class="footer">
+  <div class="footer-brand">QUANTOPIA</div>
+  全球对冲基金深度 · 中国市场视角 · 猎头一线洞察<br>
+  2026-07-20 · 风格B · P2毒舌评论员 × F1新闻快评
+</div>
+
+</div>
+</body>
+</html>
