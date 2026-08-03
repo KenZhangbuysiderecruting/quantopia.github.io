@@ -1,32 +1,128 @@
 :root{
   --bg:#0d1117; --panel:#161b22; --line:#2b3340; --txt:#e6edf3;
   --muted:#8b949e; --gold:#d29922; --blue:#58a6ff;
+  --purple:#bc8cff; --green:#3fb950; --orange:#f0883e; --red:#f85149; --cyan:#39c5cf;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--txt);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8}
-.wrap{max-width:820px;margin:0 auto;padding:0 20px}
-.site-header{background:var(--panel);border-bottom:1px solid var(--line);padding:28px 0}
-.site-header h1{font-size:28px;font-weight:800;color:var(--gold);letter-spacing:1px}
-.tagline{color:var(--muted);margin-top:4px;font-size:14px}
-.site-header nav{margin-top:14px}
-.site-header nav a{color:var(--blue);text-decoration:none;margin-right:18px;font-size:14px}
-.site-header nav a:hover{text-decoration:underline}
-.subscribe-banner{background:rgba(210,153,34,.1);border-bottom:1px solid rgba(210,153,34,.35);padding:12px 0;font-size:14px}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.site-header{background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid var(--line);padding:32px 0}
+.site-header h1{font-size:32px;font-weight:800;background:linear-gradient(90deg,#d29922 0%,#f0883e 50%,#58a6ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:1px}
+.tagline{color:var(--muted);margin-top:6px;font-size:14px}
+.site-header nav{margin-top:16px}
+.site-header nav a{color:var(--blue);text-decoration:none;margin-right:18px;font-size:14px;transition:color .2s}
+.site-header nav a:hover{color:var(--gold)}
+.subscribe-banner{background:linear-gradient(90deg,rgba(210,153,34,.12) 0%,rgba(88,166,255,.08) 100%);border-bottom:1px solid rgba(210,153,34,.35);padding:14px 0;font-size:14px}
 .subscribe-banner .wrap{padding:0 20px}
-main.wrap{padding-top:32px;padding-bottom:60px}
-h2{font-size:20px;margin:10px 0 20px;border-left:4px solid var(--gold);padding-left:12px}
-.post-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:16px}
-.post-card h3{font-size:17px;margin-bottom:6px}
-.post-card a{color:var(--txt);text-decoration:none}
-.post-card a:hover{color:var(--gold)}
-.post-card .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
-.post-card p{color:#c9d4e0;font-size:15px}
-.site-footer{background:var(--panel);border-top:1px solid var(--line);padding:24px 0;font-size:13px}
+.subscribe-banner b{color:var(--gold)}
+
+/* ==== 首页主区 ==== */
+main.wrap{padding-top:36px;padding-bottom:60px}
+.section-title{font-size:22px;margin:8px 0 24px;display:flex;align-items:center;gap:10px}
+.section-title::before{content:"";display:inline-block;width:4px;height:22px;background:linear-gradient(180deg,var(--gold) 0%,var(--orange) 100%);border-radius:2px}
+.section-title .count{color:var(--muted);font-size:13px;font-weight:400;margin-left:4px}
+
+/* ==== Featured Hero 卡片（最新一篇） ==== */
+.post-featured{
+  display:block;
+  background:linear-gradient(135deg,#1c2230 0%,#161b22 50%,#1a1f2c 100%);
+  border:1px solid var(--gold);
+  border-radius:14px;
+  padding:28px 32px;
+  margin-bottom:28px;
+  text-decoration:none;
+  color:inherit;
+  position:relative;
+  overflow:hidden;
+  transition:transform .25s,box-shadow .25s,border-color .25s;
+}
+.post-featured::before{
+  content:"";
+  position:absolute;top:0;right:0;width:180px;height:180px;
+  background:radial-gradient(circle,rgba(210,153,34,.18) 0%,transparent 70%);
+  pointer-events:none;
+}
+.post-featured:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(210,153,34,.15);border-color:var(--orange)}
+.post-featured .badge-new{
+  display:inline-block;
+  background:linear-gradient(90deg,var(--gold) 0%,var(--orange) 100%);
+  color:#0d1117;font-size:11px;font-weight:800;letter-spacing:1px;
+  padding:3px 10px;border-radius:4px;margin-bottom:12px;
+  position:relative;z-index:1;
+}
+.post-featured h3{font-size:24px;line-height:1.4;margin-bottom:10px;color:#fff;position:relative;z-index:1}
+.post-featured .meta{color:var(--muted);font-size:13px;margin-bottom:14px;position:relative;z-index:1}
+.post-featured .excerpt{color:#c9d4e0;font-size:15px;line-height:1.7;position:relative;z-index:1}
+.post-featured .arrow{position:absolute;bottom:24px;right:32px;color:var(--gold);font-size:13px;letter-spacing:1px}
+.post-featured .arrow::after{content:"→";margin-left:6px;transition:margin-left .2s}
+.post-featured:hover .arrow::after{margin-left:12px}
+
+/* ==== 网格容器（剩余文章） ==== */
+.posts-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+@media (max-width:680px){
+  .posts-grid{grid-template-columns:1fr}
+  .post-featured{padding:22px}
+  .post-featured h3{font-size:20px}
+}
+
+/* ==== 普通卡片 ==== */
+.post-card{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:20px 22px;
+  text-decoration:none;
+  color:inherit;
+  display:block;
+  position:relative;
+  border-left:4px solid var(--line);
+  transition:transform .2s,border-color .2s,background .2s;
+}
+.post-card:hover{transform:translateY(-2px);background:#1a2030}
+.post-card .tag{
+  display:inline-block;font-size:11px;font-weight:700;letter-spacing:.5px;
+  padding:2px 8px;border-radius:3px;margin-bottom:10px;
+  background:rgba(139,148,158,.15);color:var(--muted);
+}
+.post-card h3{font-size:16px;line-height:1.5;margin-bottom:8px;color:#fff;font-weight:600}
+.post-card .meta{color:var(--muted);font-size:12px;margin-bottom:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.post-card .meta .dot{color:#3b4252}
+.post-card .excerpt{color:#a3b1c2;font-size:13.5px;line-height:1.65}
+
+/* ==== 卡片分类颜色（按 tag 染色） ==== */
+.post-card.tag-人物{border-left-color:var(--purple)}
+.post-card.tag-人物 .tag{background:rgba(188,140,255,.15);color:var(--purple)}
+.post-card.tag-AI{border-left-color:var(--blue)}
+.post-card.tag-AI .tag{background:rgba(88,166,255,.15);color:var(--blue)}
+.post-card.tag-平台{border-left-color:var(--green)}
+.post-card.tag-平台 .tag{background:rgba(63,185,80,.15);color:var(--green)}
+.post-card.tag-数据{border-left-color:var(--gold)}
+.post-card.tag-数据 .tag{background:rgba(210,153,34,.15);color:var(--gold)}
+.post-card.tag-政策{border-left-color:var(--orange)}
+.post-card.tag-政策 .tag{background:rgba(240,136,62,.15);color:var(--orange)}
+.post-card.tag-业绩{border-left-color:var(--cyan)}
+.post-card.tag-业绩 .tag{background:rgba(57,197,207,.15);color:var(--cyan)}
+
+.site-footer{background:var(--panel);border-top:1px solid var(--line);padding:24px 0;font-size:13px;text-align:center}
 .site-footer .muted{color:var(--muted);margin-top:6px}
-/* 文章页 */
+.site-footer b{color:var(--gold)}
+
+/* ==== 文章页 ==== */
 .article{max-width:760px;margin:0 auto;padding:40px 20px 80px}
 .article h1{font-size:26px;margin-bottom:10px}
 .article .meta{color:var(--muted);font-size:13px;margin-bottom:24px}
 .article h2{font-size:20px;margin:30px 0 12px;border-left:4px solid var(--gold);padding-left:12px}
 .article p{margin:14px 0;color:#c9d4e0}
 .article .cta{background:rgba(210,153,34,.08);border-left:4px solid var(--gold);padding:14px 18px;border-radius:0 8px 8px 0;margin:24px 0}
+
+/* ==== about 页 ==== */
+.about{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+.about h1{font-size:28px;margin-bottom:16px}
+.about h2{font-size:20px;margin:28px 0 10px;border-left:4px solid var(--gold);padding-left:10px}
+.about p{margin:12px 0;color:#c9d4e0}
+.about ul{margin:10px 0 10px 22px;color:#c9d4e0}
+.about li{margin:4px 0}
