@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 把下面所有的 YOURUSERNAME 替换成你的 GitHub 用户名 -->
   <url>
-    <loc>https://YOURUSERNAME.github.io/quantopia-blog/</loc>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/</loc>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOURUSERNAME.github.io/quantopia-blog/posts/2026-07-22-sa.html</loc>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-08-20-index-rebalancing.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-08-16-hk-carried-interest.html</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- 每发一篇新文章，复制上面这一对 <url>...</url> 加进来，改 loc 里的文件名 -->
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-08-06-uk-aifmd-reform.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-08-03-bridgewater-ai.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-08-03-exoduspoint-ovata.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-08-03-ms-macro-departures.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-07-30-global-hf-ai-rout.html</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-07-27-PaulTudorJ.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-07-23-private-fund-deadline.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
