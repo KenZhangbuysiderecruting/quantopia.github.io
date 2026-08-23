@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kenzhangbuysiderecruting.github.io/quantopia.github.io/sitemap.xml
