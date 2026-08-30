@@ -57,12 +57,15 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 .post-featured .arrow::after{content:"→";margin-left:6px;transition:margin-left .2s}
 .post-featured:hover .arrow::after{margin-left:12px}
 
-/* ==== 网格容器（剩余文章） ==== */
+/* ==== 卡片高度对齐 + 按钮始终在底部 ==== */
 .posts-grid{
   display:grid;
   grid-template-columns:repeat(2,1fr);
   gap:16px;
+  align-items:stretch;  /* 同一行卡片等高 */
 }
+.job-card{display:flex;flex-direction:column;height:100%}
+.job-card .job-apply{margin-top:auto;padding-top:12px}
 @media (max-width:680px){
   .posts-grid{grid-template-columns:1fr}
   .post-featured{padding:22px}

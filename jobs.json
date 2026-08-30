@@ -46,22 +46,6 @@
    "why": "亚太扩张核心 HC，进去了就是早期团队成员；PnL share 上不封顶。"
   },
   {
-   "id": "QT-2605",
-   "function": "research",
-   "group": "香港",
-   "tag": "顶级衍生品做市商",
-   "title": "Options Market Maker",
-   "loc": "新加坡 / 上海",
-   "loc_filters": [
-    "hk",
-    "sg",
-    "cn"
-   ],
-   "excerpt": "股指 / 商品期权做市，全球顶级衍生品团队。需要快速定价能力与盘口直觉，CTA/交易背景亦可。",
-   "fit": "期权交易 / 卖方做市 / CTA · 数学物理背景 · 快速定价",
-   "why": "全球顶级衍生品团队，技术栈和策略迭代速度行业顶尖；CTA 背景也可以转。"
-  },
-  {
    "id": "QT-2620",
    "function": "research",
    "group": "香港",
@@ -209,6 +193,22 @@
    "why": "20+ 年老牌 HFT，公司有自营盘和技术栈积累；亚太扩张期加入，能搭团队。"
   },
   {
+   "id": "QT-2605",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "顶级衍生品做市商",
+   "title": "Options Market Maker",
+   "loc": "新加坡 / 上海",
+   "loc_filters": [
+    "hk",
+    "sg",
+    "cn"
+   ],
+   "excerpt": "股指 / 商品期权做市，全球顶级衍生品团队。需要快速定价能力与盘口直觉，CTA/交易背景亦可。",
+   "fit": "期权交易 / 卖方做市 / CTA · 数学物理背景 · 快速定价",
+   "why": "全球顶级衍生品团队，技术栈和策略迭代速度行业顶尖；CTA 背景也可以转。"
+  },
+  {
    "id": "QT-2607",
    "function": "research",
    "group": "新加坡",
@@ -310,7 +310,7 @@
   {
    "id": "QT-2609",
    "function": "research",
-   "group": "中国",
+   "group": "上海",
    "tag": "头部百亿量化",
    "title": "量化研究员 · 指数增强",
    "loc": "杭州 / 上海",
@@ -324,7 +324,7 @@
   {
    "id": "QT-2612",
    "function": "research",
-   "group": "中国",
+   "group": "上海",
    "tag": "头部指增私募",
    "title": "量化研究员 · Alpha 挖掘",
    "loc": "上海",
@@ -338,7 +338,7 @@
   {
    "id": "QT-2613",
    "function": "research",
-   "group": "中国",
+   "group": "上海",
    "tag": "高频 / CTA 私募",
    "title": "CTA 量化研究员",
    "loc": "上海 / 深圳",
@@ -352,7 +352,7 @@
   {
    "id": "QT-2614",
    "function": "research",
-   "group": "中国",
+   "group": "上海",
    "tag": "宏观 / 商品私募",
    "title": "宏观量化研究员",
    "loc": "深圳 / 上海",
@@ -366,7 +366,7 @@
   {
    "id": "QT-2632",
    "function": "research",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "Experienced Commodity Trader",
    "loc": "上海",
@@ -380,7 +380,7 @@
   {
    "id": "QT-2633",
    "function": "research",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球量化交易公司 · 上海",
    "title": "Quantitative Researcher",
    "loc": "上海",
@@ -390,22 +390,6 @@
    "excerpt": "RMB 资管平台量化研究员，做市 + 指数增强策略，服务机构客户。",
    "fit": "2+ 年量化研究 · 名校 STEM · C++/Python",
    "why": "上海 RMB 资管平台独立运营，策略迭代自主权大，carry 比例可观。"
-  },
-  {
-   "id": "QT-2608",
-   "function": "tech",
-   "group": "香港",
-   "tag": "多策略 Pod 平台 · 全球",
-   "title": "Quant Developer — Systematic Equities",
-   "loc": "全球（亚洲为主）",
-   "loc_filters": [
-    "remote",
-    "hk",
-    "sg"
-   ],
-   "excerpt": "C++/Python 双栈，研究平台搭建与生产化。3+ 年工程经验，平台内可申请孵化席位，目前 PM 席位开放。",
-   "fit": "3+ 年工程经验 · C++ + Python · 量化平台/研究工具经验",
-   "why": "内部有 PM 孵化席位 —— 工程做得好可以转 PM（Carry 通道）。"
   },
   {
    "id": "QT-2634",
@@ -650,23 +634,9 @@
    "why": "KDB+ 是量化行业核心技能，平台提供系统培训，学会即稀缺。"
   },
   {
-   "id": "QT-2610",
-   "function": "tech",
-   "group": "中国",
-   "tag": "Top 量化平台",
-   "title": "Senior Quant Engineer — 平台方向",
-   "loc": "北京",
-   "loc_filters": [
-    "cn"
-   ],
-   "excerpt": "实盘交易平台与数据链路。Rust / C++ 优先，5+ 年经验，懂低延迟系统，PCIe / FPGA 加分。百亿+ 规模，工程独立成军。",
-   "fit": "5+ 年工程经验 · Rust / C++ · 低延迟 / PCIe / FPGA 加分",
-   "why": "工程团队独立成军，技术决策权大；百亿+ 规模预算充足。"
-  },
-  {
    "id": "QT-2635",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "Senior Software Engineer",
    "loc": "上海",
@@ -680,7 +650,7 @@
   {
    "id": "QT-2636",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "Senior C++ Developer",
    "loc": "上海",
@@ -694,7 +664,7 @@
   {
    "id": "QT-2637",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "Data Centre Engineer",
    "loc": "上海",
@@ -708,7 +678,7 @@
   {
    "id": "QT-2638",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "Network Engineer",
    "loc": "上海",
@@ -722,7 +692,7 @@
   {
    "id": "QT-2639",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球量化交易公司 · 上海",
    "title": "Low Latency Software Developer",
    "loc": "上海",
@@ -736,7 +706,7 @@
   {
    "id": "QT-2643",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球量化交易公司 · 上海",
    "title": "HPC Engineer",
    "loc": "上海",
@@ -750,7 +720,7 @@
   {
    "id": "QT-2652",
    "function": "tech",
-   "group": "中国",
+   "group": "上海",
    "tag": "顶级多策略平台 · 上海",
    "title": "Quantitative Developer — C++ (上海)",
    "loc": "上海",
@@ -760,6 +730,36 @@
    "excerpt": "上海首次招 Quant Dev，3 个 HC。Quant Dev 或 C++ 数据采集背景均可。",
    "fit": "C++ · 量化开发或数据采集经验",
    "why": "上海 office 首次组建 QD 团队，3 HC 一起进=建队元老。"
+  },
+  {
+   "id": "QT-2610",
+   "function": "tech",
+   "group": "北京",
+   "tag": "Top 量化平台",
+   "title": "Senior Quant Engineer — 平台方向",
+   "loc": "北京",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "实盘交易平台与数据链路。Rust / C++ 优先，5+ 年经验，懂低延迟系统，PCIe / FPGA 加分。百亿+ 规模，工程独立成军。",
+   "fit": "5+ 年工程经验 · Rust / C++ · 低延迟 / PCIe / FPGA 加分",
+   "why": "工程团队独立成军，技术决策权大；百亿+ 规模预算充足。"
+  },
+  {
+   "id": "QT-2608",
+   "function": "tech",
+   "group": "全球 / 远程",
+   "tag": "多策略 Pod 平台 · 全球",
+   "title": "Quant Developer — Systematic Equities",
+   "loc": "全球（亚洲为主）",
+   "loc_filters": [
+    "remote",
+    "hk",
+    "sg"
+   ],
+   "excerpt": "C++/Python 双栈，研究平台搭建与生产化。3+ 年工程经验，平台内可申请孵化席位，目前 PM 席位开放。",
+   "fit": "3+ 年工程经验 · C++ + Python · 量化平台/研究工具经验",
+   "why": "内部有 PM 孵化席位 —— 工程做得好可以转 PM（Carry 通道）。"
   },
   {
    "id": "QT-2616",
@@ -821,7 +821,7 @@
   {
    "id": "QT-2611",
    "function": "ml",
-   "group": "中国",
+   "group": "上海",
    "tag": "头部自营量化",
    "title": "Machine Learning Researcher",
    "loc": "上海",
@@ -835,7 +835,7 @@
   {
    "id": "QT-2645",
    "function": "ml",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "AI Engineer",
    "loc": "上海",
@@ -849,7 +849,7 @@
   {
    "id": "QT-2646",
    "function": "ml",
-   "group": "中国",
+   "group": "上海",
    "tag": "全球顶级衍生品做市商 · 上海",
    "title": "Head of AI Engineering",
    "loc": "上海",
