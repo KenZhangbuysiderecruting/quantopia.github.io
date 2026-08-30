@@ -345,7 +345,7 @@ function renderFilter() {
       else if (loc === 'adh' && locs.includes('adh')) n++;
       else if (locs.includes(loc)) n++;  // sh/bj/sz 用精确 key 匹配
     });
-    if (n > 0) html += `<button class="filter-pill" data-filter="${loc}">${LOC_LABEL[loc]} ${n}</button>`;
+    html += `<button class="filter-pill" data-filter="${loc}">${LOC_LABEL[loc]} ${n}${n===0?" · 暂无":""}</button>`;
   });
   filter.innerHTML = html;
   filter.querySelectorAll('.filter-pill').forEach(btn => {
