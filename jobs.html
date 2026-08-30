@@ -16,8 +16,8 @@
 <meta name="twitter:title" content="全球对冲基金最新在招岗位 · Quantopia">
 <meta name="twitter:description" content="全球真实在招 · 海外 / 国内 / 加密三大方向 · 48h 内回复">
 <meta name="twitter:image" content="images/og-cover.jpg">
-<!-- Cloudflare Web Analytics -->
-<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e0"}'></script>
+<!-- Cloudflare Web Analytics (defer, 不阻塞) -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e0"}'></script>
 <!-- End Cloudflare Web Analytics -->
 </head>
 <body>
@@ -161,20 +161,30 @@
 // ===== 数据驱动：从 jobs.json 加载 =====
 let ALL_JOBS = [];
 
-fetch('jobs.json?t=' + Date.now())
-  .then(r => r.json())
+const FIVE_SEC = 5000;
+function loadJobs() {
+  document.getElementById('job-total').textContent = '· 加载中…（5秒超时）';
+  const timeoutP = new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), FIVE_SEC));
+  Promise.race([fetch('jobs.json?t=' + Date.now()).then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }), timeoutP])
   .then(data => {
-    ALL_JOBS = data.jobs;
-    document.getElementById('job-updated').textContent = data.updated;
+    ALL_JOBS = data.jobs || [];
+    document.getElementById('job-updated').textContent = data.updated || '—';
     renderStats();
     renderFilter();
     renderFunctions();
     renderJobs('all');
   })
   .catch(err => {
-    document.getElementById('jobs-list').innerHTML = '<p class="jobs-intro">⚠️ 岗位数据加载失败，请刷新重试。</p>';
-    console.error(err);
+    console.error('jobs.json load error:', err);
+    document.getElementById('job-total').textContent = '· ⚠️ 加载失败';
+    document.getElementById('jobs-list').innerHTML =
+      '<p class="jobs-intro" style="color:#f85149">⚠️ 岗位数据加载失败（' + (err.message || err) + '）。可能原因：<br>• 浏览器缓存了旧版本 → 请按 <b>Ctrl+Shift+R</b> 硬刷新<br>• 网络问题 → 几秒后重试<br>• 仍有问题可邮件联系：<a href="mailto:k.zhang@gravitasgroup.com">k.zhang@gravitasgroup.com</a></p>';
   });
+}
+loadJobs();
 
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
