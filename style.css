@@ -1,26 +1,25 @@
 :root{
-  --bg:#0d1117; --panel:#161b22; --line:#2b3340; --txt:#e6edf3;
-  --muted:#8b949e; --gold:#d29922; --blue:#58a6ff;
-  --purple:#bc8cff; --green:#3fb950; --orange:#f0883e; --red:#f85149; --cyan:#39c5cf;
+  --bg:#0A1428; --panel:#0F1D38; --line:#1E2F4E; --txt:#EDF1F7;
+  --muted:#71829B; --gold:#E8C07A; --blue:#8AB4D8;
+  --purple:#AFA9EC; --green:#5DCAA5; --orange:#E8A56A; --red:#F09595; --cyan:#85B7EB;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--txt);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8}
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
-.site-header{background:linear-gradient(180deg,rgba(10,20,40,.78) 0%,rgba(10,20,40,.7) 50%,rgba(10,20,40,.82) 100%),url("images/hero_bg.png") center 40%/cover no-repeat;border-bottom:1px solid var(--line);padding:44px 0;position:relative}
+.site-header{background:linear-gradient(180deg,rgba(10,20,40,.92),rgba(10,20,40,.86) 60%,rgba(10,20,40,.94)),url("images/hero_bg.png") center 40%/cover no-repeat;border-bottom:1px solid var(--line);padding:40px 0 36px;position:relative}
 .site-header::after{content:"";position:absolute;left:0;right:0;bottom:0;top:0;background:radial-gradient(ellipse at center,rgba(10,20,40,.45) 0%,transparent 70%);pointer-events:none}
 .site-header .wrap{position:relative;z-index:1}
-.site-header h1{font-size:32px;font-weight:800;background:linear-gradient(90deg,#d29922 0%,#f0883e 50%,#58a6ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:1px;text-shadow:0 2px 8px rgba(0,0,0,.6)}
-.tagline{color:#fff;margin-top:6px;font-size:14px;text-shadow:0 1px 4px rgba(0,0,0,.7)}
+.site-header h1{font-size:26px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:#fff;background:none;-webkit-text-fill-color:#fff;background-clip:initial;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.tagline{color:var(--muted);margin-top:4px;font-size:11px;letter-spacing:3px;text-transform:uppercase}
 .site-header nav{margin-top:16px}
-.site-header nav a{color:#e6edf3;text-decoration:none;margin-right:18px;font-size:14px;font-weight:600;padding:4px 8px;border-radius:6px;transition:all .2s;text-shadow:0 1px 3px rgba(0,0,0,.6)}
-.site-header nav a:hover{color:var(--gold);background:rgba(138,180,216,.15)}
+.site-header nav a{color:var(--muted);text-decoration:none;margin-left:26px;font-size:13px;letter-spacing:.5px;padding:6px 10px;border-radius:6px;transition:color .2s}
+.site-header nav a:hover{color:#fff}
 .site-header nav a.nav-social{
-  display:inline-flex;align-items:center;color:#fff;
-  background:rgba(10,102,194,.85);background:rgba(255,255,255,.95);color:var(--blue);
-  margin-left:6px;padding:4px 10px;border-radius:6px;
-  background:rgba(88,101,242,.1);transition:all .2s;
+  display:inline-flex;align-items:center;color:var(--blue);
+  margin-left:6px;padding:7px 18px;border-radius:24px;
+  border:1px solid rgba(138,180,216,.4);transition:all .2s;
 }
-.site-header nav a.nav-social:hover{color:#fff;background:#5865F2;transform:translateY(-1px)}
+.site-header nav a.nav-social:hover{color:#fff;border-color:var(--blue);background:rgba(138,180,216,.12);transform:translateY(-1px)}
 .site-header nav a.nav-social svg{display:block}
 
 /* LinkedIn 大按钮（about.html） */
@@ -129,7 +128,7 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 .post-card.tag-业绩{border-left-color:var(--cyan)}
 .post-card.tag-业绩 .tag{background:rgba(57,197,207,.15);color:var(--cyan)}
 
-.site-footer{background:var(--panel);border-top:1px solid var(--line);padding:24px 0;font-size:13px;text-align:center}
+.site-footer{background:transparent;border-top:1px solid var(--line);padding:30px 0;font-size:12.5px;text-align:center;color:var(--muted);letter-spacing:.5px}
 .site-footer .muted{color:var(--muted);margin-top:6px}
 .site-footer b{color:var(--gold)}
 
