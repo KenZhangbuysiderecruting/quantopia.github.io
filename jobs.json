@@ -863,12 +863,12 @@
     {
       "id": "QT-2663",
       "function": "research",
-      "group": "香港",
+      "group": "上海",
       "tag": "买方量化机构",
       "title": "Data Acquisition Specialist（另类数据采购）",
-      "loc": "香港",
+      "loc": "上海",
       "loc_filters": [
-        "hk"
+        "sh"
       ],
       "excerpt": "买方基金数据团队扩编：负责另类数据源采购与供应商管理，服务投研决策。3+ 年数据供应商经验 + 金融知识 + 合同谈判能力。",
       "fit": "Bachelor+ · 3+ 年数据供应商经验 · 熟悉金融工具与行业术语 · 擅长合同/服务条款谈判 · 跨团队协作",
