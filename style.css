@@ -147,3 +147,34 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 
 /* nav 当前页高亮 */
 .site-header nav a.active{color:var(--gold);font-weight:600}
+
+/* ==== 岗位页 v2：统计条 / 地区徽章 / 薪资高亮 ==== */
+.jobs-stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:12px;
+  margin:-6px 0 26px;
+}
+.jobs-stats .stat{
+  background:linear-gradient(135deg,#1c2230 0%,#161b22 100%);
+  border:1px solid var(--line);border-radius:10px;
+  padding:14px 10px;text-align:center;
+}
+.jobs-stats .stat b{
+  display:block;font-size:24px;font-weight:800;
+  background:linear-gradient(90deg,#d29922 0%,#f0883e 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  line-height:1.2;
+}
+.jobs-stats .stat span{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+@media (max-width:680px){.jobs-stats{grid-template-columns:repeat(2,1fr)}}
+
+.job-card .meta .loc{color:var(--cyan);font-weight:600}
+.job-card .meta .salary{color:var(--gold);font-weight:600}
+.job-card .job-apply a{font-weight:700}
+.job-card .job-apply a::after{content:" →";transition:margin-left .2s;display:inline-block}
+.job-card .job-apply a:hover::after{margin-left:6px}
+
+/* 移动端：卡片内 meta 换行更清爽 */
+@media (max-width:680px){
+  .job-card .meta{flex-direction:column;align-items:flex-start;gap:2px}
+  .job-card .meta .dot{display:none}
+}
