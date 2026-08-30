@@ -207,3 +207,168 @@ main.wrap{padding-top:36px;padding-bottom:60px}
   letter-spacing:.3px;
 }
 .jobs-loc-group .posts-grid{margin-bottom:6px}
+
+/* ==== 岗位页 v4：头条 / 编号徽章 / 画像 / FAQ / 表单 / 微信悬浮 ==== */
+
+/* 顶部 meta 行（更新时间 + 48h 承诺） */
+.jobs-meta{
+  display:flex;flex-wrap:wrap;gap:8px 18px;
+  font-size:13px;color:var(--muted);margin:-6px 0 18px;
+  padding:10px 14px;background:var(--panel);border-radius:8px;border:1px solid var(--line);
+}
+.jobs-meta b{color:var(--gold);font-weight:600}
+
+/* 头条岗位（Featured Hero） */
+.jobs-hero{
+  display:block;
+  background:linear-gradient(135deg,#1c2230 0%,#161b22 50%,#1a1f2c 100%);
+  border:1px solid var(--orange);
+  border-radius:14px;padding:24px 28px;margin-bottom:22px;
+  text-decoration:none;color:inherit;position:relative;overflow:hidden;
+  transition:transform .25s,box-shadow .25s,border-color .25s;
+}
+.jobs-hero::before{
+  content:"";position:absolute;top:0;right:0;width:180px;height:180px;
+  background:radial-gradient(circle,rgba(240,136,62,.2) 0%,transparent 70%);
+  pointer-events:none;
+}
+.jobs-hero:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(240,136,62,.18);border-color:var(--gold)}
+.jobs-hero .hero-badge{
+  display:inline-block;
+  background:linear-gradient(90deg,var(--orange) 0%,var(--gold) 100%);
+  color:#0d1117;font-size:11px;font-weight:800;letter-spacing:1px;
+  padding:3px 10px;border-radius:4px;margin-bottom:12px;position:relative;z-index:1;
+}
+.jobs-hero h3{font-size:22px;line-height:1.4;margin-bottom:10px;color:#fff;position:relative;z-index:1}
+.jobs-hero .meta{color:var(--muted);font-size:13px;margin-bottom:10px;position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:8px}
+.jobs-hero .meta .loc{color:var(--cyan);font-weight:600}
+.jobs-hero .meta .salary{color:var(--gold);font-weight:600}
+.jobs-hero .excerpt{color:#c9d4e0;font-size:14.5px;line-height:1.6;position:relative;z-index:1}
+.jobs-hero .hero-arrow{
+  position:absolute;bottom:22px;right:28px;color:var(--gold);font-size:13px;letter-spacing:1px;
+  font-weight:600;
+}
+
+/* 城市筛选 pill */
+.jobs-filter{
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px;
+  margin:18px 0 10px;
+}
+.jobs-filter .filter-label{font-size:13px;color:var(--muted);margin-right:6px}
+.jobs-filter .filter-pill{
+  padding:5px 12px;border-radius:999px;font-size:12.5px;font-weight:600;
+  background:var(--panel);border:1px solid var(--line);color:var(--muted);
+  cursor:pointer;transition:all .2s;
+}
+.jobs-filter .filter-pill:hover{border-color:var(--blue);color:var(--txt)}
+.jobs-filter .filter-pill.active{background:var(--blue);color:#0d1117;border-color:var(--blue)}
+
+/* 卡片右上角岗位编号徽章 */
+.job-card{position:relative}
+.job-card .job-id{
+  position:absolute;top:10px;right:14px;
+  font-size:10.5px;font-weight:700;color:var(--orange);
+  background:rgba(240,136,62,.1);padding:2px 8px;border-radius:4px;
+  letter-spacing:.5px;
+}
+.job-card .tag{margin-right:60px}
+
+/* 理想候选人 / 为什么值得去 */
+.job-card .job-fit,.job-card .job-why{
+  margin-top:8px;font-size:13px;color:#a3b1c2;line-height:1.6;
+  padding-left:8px;border-left:2px solid var(--line);
+}
+.job-card .job-fit b{color:var(--cyan);font-weight:600}
+.job-card .job-why{border-left-color:var(--gold)}
+.job-card .job-why b{color:var(--gold);font-weight:600}
+
+/* 投递按钮双通道 */
+.job-card .job-apply .wechat-link{
+  margin-left:10px;color:var(--green);
+}
+
+/* 候选人 FAQ */
+.jobs-faq{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:10px;padding:18px 22px;margin:30px 0 22px;
+}
+.jobs-faq h3{font-size:16px;margin-bottom:12px;color:var(--blue);letter-spacing:.3px}
+.jobs-faq details{
+  border-top:1px solid var(--line);padding:10px 0;
+  font-size:13.5px;color:#c9d4e0;
+}
+.jobs-faq details:first-of-type{border-top:none;padding-top:0}
+.jobs-faq summary{
+  cursor:pointer;font-weight:600;color:var(--txt);
+  padding:2px 0;list-style:none;
+}
+.jobs-faq summary::before{content:"▶";display:inline-block;width:14px;color:var(--gold);margin-right:4px;font-size:10px;transition:transform .2s}
+.jobs-faq details[open] summary::before{transform:rotate(90deg)}
+.jobs-faq details p{margin-top:8px;color:#a3b1c2;line-height:1.7}
+.jobs-faq b{color:var(--gold);font-weight:600}
+
+/* 候选人登记表单 */
+.jobs-register{
+  background:linear-gradient(135deg,rgba(88,166,255,.06) 0%,rgba(210,153,34,.04) 100%);
+  border:1px solid rgba(88,166,255,.25);border-radius:12px;
+  padding:22px 26px;margin:26px 0;
+}
+.jobs-register h3{font-size:17px;color:var(--blue);margin-bottom:6px;letter-spacing:.3px}
+.jobs-register p.muted{font-size:13px;color:var(--muted);margin-bottom:14px}
+.jobs-register form{display:flex;flex-direction:column;gap:12px}
+.jobs-register .form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.jobs-register label{display:flex;flex-direction:column;font-size:12.5px;color:var(--muted);font-weight:600;gap:4px}
+.jobs-register input,
+.jobs-register select,
+.jobs-register textarea{
+  background:var(--bg);color:var(--txt);
+  border:1px solid var(--line);border-radius:6px;
+  padding:9px 12px;font-size:13.5px;font-family:inherit;
+  transition:border-color .2s;
+}
+.jobs-register input:focus,
+.jobs-register select:focus,
+.jobs-register textarea:focus{outline:none;border-color:var(--blue)}
+.jobs-register button[type="submit"]{
+  align-self:flex-start;
+  padding:10px 24px;border:none;border-radius:6px;
+  background:linear-gradient(90deg,var(--blue) 0%,var(--cyan) 100%);
+  color:#0d1117;font-weight:700;font-size:14px;cursor:pointer;
+  transition:transform .15s;
+}
+.jobs-register button[type="submit"]:hover{transform:translateY(-1px)}
+@media (max-width:680px){.jobs-register .form-row{grid-template-columns:1fr}}
+
+/* 微信悬浮卡片 */
+.wechat-float{
+  position:fixed;right:20px;bottom:20px;z-index:1000;
+}
+.wechat-btn{
+  background:linear-gradient(135deg,#07c160 0%,#00b853 100%);
+  color:#fff;border:none;padding:14px 20px;border-radius:999px;
+  font-size:14px;font-weight:700;cursor:pointer;
+  box-shadow:0 4px 20px rgba(7,193,96,.4);
+  transition:transform .2s;
+}
+.wechat-btn:hover{transform:translateY(-2px)}
+.wechat-popup{
+  position:absolute;right:0;bottom:60px;width:280px;
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:12px;padding:16px;text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,.5);
+  opacity:0;transform:translateY(10px);pointer-events:none;
+  transition:all .25s;
+}
+.wechat-popup.open{opacity:1;transform:translateY(0);pointer-events:auto}
+.wechat-popup img{width:200px;height:200px;border-radius:8px;margin-bottom:10px}
+.wechat-popup p{font-size:13px;color:var(--txt);margin:4px 0}
+.wechat-popup p.muted{font-size:11.5px;color:var(--muted)}
+.wechat-popup .wechat-close{
+  margin-top:8px;background:none;border:1px solid var(--line);
+  color:var(--muted);padding:4px 12px;border-radius:4px;font-size:12px;cursor:pointer;
+}
+@media (max-width:680px){
+  .wechat-float{right:12px;bottom:12px}
+  .wechat-popup{width:240px}
+  .wechat-popup img{width:180px;height:180px}
+}
