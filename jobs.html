@@ -303,6 +303,20 @@ function renderJobs(filter) {
 
   list.innerHTML = html || '<p class="jobs-intro">该城市暂无在招岗位，试试其他城市。</p>';
 
+  // 绑定 hero 跳转：高亮目标卡片 + smooth scroll
+  list.querySelectorAll('a.jobs-hero').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const id = a.getAttribute('href').slice(1);
+      const target = document.getElementById(id);
+      if (!target) return;
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.querySelectorAll('.job-card.highlight').forEach(c => c.classList.remove('highlight'));
+      target.classList.add('highlight');
+      setTimeout(() => target.classList.remove('highlight'), 2400);
+    });
+  });
+
   // 重新绑定微信按钮
   list.querySelectorAll('.wechat-link').forEach(link => {
     link.addEventListener('click', e => {
