@@ -126,3 +126,24 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 .about p{margin:12px 0;color:#c9d4e0}
 .about ul{margin:10px 0 10px 22px;color:#c9d4e0}
 .about li{margin:4px 0}
+
+/* ==== 岗位页（jobs.html） ==== */
+.jobs-intro{color:var(--muted);font-size:14px;margin:-12px 0 24px;line-height:1.7}
+.jobs-intro b{color:var(--gold);font-weight:600}
+.jobs-group{font-size:17px;margin:30px 0 14px;display:flex;align-items:baseline;flex-wrap:wrap;gap:10px}
+.jobs-group::before{content:"";display:inline-block;width:3px;height:16px;background:var(--gold);border-radius:2px;align-self:center}
+.jobs-group-meta{color:var(--muted);font-size:12px;font-weight:400;letter-spacing:.5px}
+.job-card{padding:22px 24px}
+.job-card h3{font-size:17px}
+.job-card .job-apply{margin-top:12px;font-size:13px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px}
+.job-card .job-apply b{color:var(--gold);font-weight:600}
+.job-card .job-apply a{color:var(--blue);text-decoration:none;font-weight:600}
+.job-card .job-apply a:hover{color:var(--gold);text-decoration:underline}
+.jobs-tip{background:rgba(88,166,255,.06);border:1px solid rgba(88,166,255,.25);border-radius:10px;padding:18px 22px;margin:30px 0 10px}
+.jobs-tip h4{font-size:14px;color:var(--blue);margin-bottom:8px;letter-spacing:.5px}
+.jobs-tip p{font-size:13.5px;color:#c9d4e0;margin:6px 0;line-height:1.7}
+.jobs-tip code{background:rgba(255,255,255,.06);padding:1px 6px;border-radius:3px;font-size:12.5px;color:var(--gold)}
+.jobs-tip b{color:var(--gold);font-weight:600}
+
+/* nav 当前页高亮 */
+.site-header nav a.active{color:var(--gold);font-weight:600}
