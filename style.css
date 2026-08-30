@@ -308,16 +308,26 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 /* 卡片内 details 折叠 */
 .job-details{margin-top:8px}
 .job-details summary{
-  cursor:pointer;font-size:12.5px;color:var(--gold);
-  padding:5px 10px;border-radius:6px;
-  background:rgba(210,153,34,.08);border:1px solid rgba(210,153,34,.2);
+  cursor:pointer;font-size:13px;color:var(--gold);
+  padding:8px 14px;border-radius:6px;
+  background:rgba(210,153,34,.12);border:1px solid rgba(210,153,34,.3);
   list-style:none;font-weight:600;
-  display:inline-block;transition:all .2s;
+  display:flex;align-items:center;gap:8px;
+  transition:all .2s;user-select:none;
 }
-.job-details summary::before{content:"▶";display:inline-block;width:14px;color:var(--gold);margin-right:4px;font-size:9px;transition:transform .2s}
-.job-details[open] summary::before{transform:rotate(90deg)}
-.job-details summary:hover{background:rgba(210,153,34,.14)}
-.job-details[open] summary{margin-bottom:8px}
+.job-details summary::before{
+  content:"";display:inline-block;
+  width:0;height:0;
+  border-left:6px solid var(--gold);
+  border-top:4px solid transparent;
+  border-bottom:4px solid transparent;
+  transition:transform .2s;flex-shrink:0;
+}
+.job-details[open] > summary::before{
+  transform:rotate(90deg);
+}
+.job-details summary:hover{background:rgba(210,153,34,.2);border-color:var(--gold)}
+.job-details[open] summary{margin-bottom:8px;background:rgba(210,153,34,.18)}
 
 /* 理想候选人 / 为什么值得去 */
 .job-card .job-fit,.job-card .job-why{
