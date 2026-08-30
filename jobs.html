@@ -212,8 +212,8 @@ function renderStats() {
 }
 
 // ===== 城市筛选 =====
-const LOC_LABEL = { 'hk': '香港', 'sg': '新加坡', 'sh': '上海', 'bj': '北京', 'sz': '深圳', 'hz': '杭州', 'adh': '阿布扎比', 'remote': '远程' };
-const LOC_ORDER = ['hk', 'sg', 'sh', 'bj', 'sz', 'hz', 'adh', 'remote'];
+const LOC_LABEL = { 'hk': '香港', 'sg': '新加坡', 'sh': '上海', 'sz': '深圳', 'bj': '北京', 'syd': '悉尼', 'adh': '阿布扎比', 'remote': '远程' };
+const LOC_ORDER = ['hk', 'sg', 'sh', 'sz', 'bj', 'syd', 'adh', 'remote'];
 
 function loc_key(loc_filters) {
   // 把 group 名映射回筛选 key
@@ -234,7 +234,7 @@ function renderFilter() {
       else if (loc === 'sg' && locs.includes('sg')) n++;
       else if (loc === 'remote' && locs.includes('remote')) n++;
       else if (loc === 'adh' && locs.includes('adh')) n++;
-      else if (['sh','bj','sz','hz'].includes(loc) && locs.includes('cn')) n++;  // 中国大陆岗位统一计入 cn 筛选
+      else if (['sh','bj','sz'].includes(loc) && locs.includes('cn')) n++;  // 中国大陆岗位统一计入 cn 筛选
     });
     if (n > 0) html += `<button class="filter-pill" data-filter="${loc}">${LOC_LABEL[loc]} ${n}</button>`;
   });
@@ -286,7 +286,7 @@ function renderJobs(filter) {
     if (filter === 'sg') return locs.includes('sg');
     if (filter === 'adh') return locs.includes('adh');
     if (filter === 'remote') return locs.includes('remote');
-    if (['sh','bj','sz','hz'].includes(filter)) return locs.includes('cn');  // 中国大陆细筛都用 cn
+    if (['sh','bj','sz'].includes(loc)) return locs.includes('cn');  // 中国大陆按 cn 筛选
     return true;
   });
 
