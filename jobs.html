@@ -325,6 +325,14 @@ function renderStats() {
   const funcs = new Set(ALL_JOBS.map(j => j.function));
   const cities = new Set();
   ALL_JOBS.forEach(j => j.loc_filters.forEach(l => cities.add(l)));
+  // 写 hero 数字
+  const h_total = document.getElementById('hf-total');
+  const h_cities = document.getElementById('hf-cities');
+  const h_funcs = document.getElementById('hf-funcs');
+  if (h_total) h_total.textContent = ALL_JOBS.length;
+  if (h_cities) h_cities.textContent = cities.size;
+  if (h_funcs) h_funcs.textContent = funcs.size;
+  // 保留旧统计条（兼容）
   document.getElementById('job-total').textContent = `· 共 ${ALL_JOBS.length} 个 · 每周一更新`;
   const stats = document.getElementById('jobs-stats');
   stats.innerHTML = `
@@ -348,14 +356,14 @@ let FILTER = { loc: null, func: null, search: '' };  // 当前筛选状态
 function renderSidebar() {
   // Cities
   const locBox = document.getElementById('sidebar-locations');
-  let locHtml = `<label class="sidebar-row"><input type="radio" name="loc" value="" checked><span>全部 (${ALL_JOBS.length})</span></label>`;
+  let locHtml = '';
   LOC_ORDER.forEach(loc => {
     const n = ALL_JOBS.filter(j => (j.loc_filters||[]).includes(loc)).length;
-    locHtml += `<label class="sidebar-row"><input type="radio" name="loc" value="${loc}"><span>${LOC_LABEL[loc]} (${n})</span></label>`;
+    locHtml += `<label class="sidebar-row"><input type="checkbox" name="loc" value="${loc}"><span>${LOC_LABEL[loc]} (${n})</span></label>`;
   });
   locBox.innerHTML = locHtml;
-  locBox.querySelectorAll('input').forEach(r => r.addEventListener('change', () => {
-    FILTER.loc = r.value || null;
+  locBox.querySelectorAll('input').forEach(c => c.addEventListener('change', () => {
+    FILTER.loc = Array.from(locBox.querySelectorAll('input:checked')).map(i => i.value);
     renderJobs();
   }));
   // Functions
@@ -406,7 +414,10 @@ function cardHTML(j) {
 function renderJobs() {
   const list = document.getElementById('jobs-list');
   const shown = ALL_JOBS.filter(j => {
-    if (FILTER.loc && !(j.loc_filters||[]).includes(FILTER.loc)) return false;
+    if (FILTER.loc && FILTER.loc.length > 0) {
+      const locs = j.loc_filters || [];
+      if (!FILTER.loc.some(l => locs.includes(l))) return false;
+    }
     if (FILTER.func && j.function !== FILTER.func) return false;
     if (FILTER.search) {
       const t = (j.title + ' ' + j.loc + ' ' + j.tag + ' ' + (j.excerpt||'')).toLowerCase();
