@@ -6,15 +6,18 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--txt);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8}
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
-.site-header{background:url("images/hero_bg.png") center 40%/cover no-repeat,linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid var(--line);padding:44px 0}
-.site-header h1{font-size:32px;font-weight:800;background:linear-gradient(90deg,#d29922 0%,#f0883e 50%,#58a6ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:1px}
-.tagline{color:var(--muted);margin-top:6px;font-size:14px}
+.site-header{background:linear-gradient(180deg,rgba(10,20,40,.78) 0%,rgba(10,20,40,.7) 50%,rgba(10,20,40,.82) 100%),url("images/hero_bg.png") center 40%/cover no-repeat;border-bottom:1px solid var(--line);padding:44px 0;position:relative}
+.site-header::after{content:"";position:absolute;left:0;right:0;bottom:0;top:0;background:radial-gradient(ellipse at center,rgba(10,20,40,.45) 0%,transparent 70%);pointer-events:none}
+.site-header .wrap{position:relative;z-index:1}
+.site-header h1{font-size:32px;font-weight:800;background:linear-gradient(90deg,#d29922 0%,#f0883e 50%,#58a6ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:1px;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.tagline{color:#fff;margin-top:6px;font-size:14px;text-shadow:0 1px 4px rgba(0,0,0,.7)}
 .site-header nav{margin-top:16px}
-.site-header nav a{color:var(--blue);text-decoration:none;margin-right:18px;font-size:14px;transition:color .2s}
-.site-header nav a:hover{color:var(--gold)}
+.site-header nav a{color:#e6edf3;text-decoration:none;margin-right:18px;font-size:14px;font-weight:600;padding:4px 8px;border-radius:6px;transition:all .2s;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.site-header nav a:hover{color:var(--gold);background:rgba(138,180,216,.15)}
 .site-header nav a.nav-social{
-  display:inline-flex;align-items:center;color:var(--muted);
-  margin-left:6px;padding:4px 8px;border-radius:6px;
+  display:inline-flex;align-items:center;color:#fff;
+  background:rgba(10,102,194,.85);background:rgba(255,255,255,.95);color:var(--blue);
+  margin-left:6px;padding:4px 10px;border-radius:6px;
   background:rgba(88,101,242,.1);transition:all .2s;
 }
 .site-header nav a.nav-social:hover{color:#fff;background:#5865F2;transform:translateY(-1px)}
