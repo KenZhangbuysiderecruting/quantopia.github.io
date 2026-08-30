@@ -158,17 +158,32 @@
   </section>
 
 
-  <!-- 城市筛选 -->
-  <div class="jobs-filter" id="jobs-filter" aria-label="按城市筛选">
-    <span class="filter-label">📍 按城市：</span>
-  </div>
+  <!-- 主体：左侧 sidebar filter + 右侧卡片网格 -->
+  <div class="jobs-board">
+    <aside class="jobs-sidebar" id="jobs-sidebar">
+      <div class="sidebar-section">
+        <h4>🔍 搜索</h4>
+        <input type="text" id="jobs-search" placeholder="Search..." autocomplete="off">
+      </div>
+      <div class="sidebar-section">
+        <h4>📍 按城市</h4>
+        <div class="sidebar-list" id="sidebar-locations"></div>
+      </div>
+      <div class="sidebar-section">
+        <h4>🏷 按职能</h4>
+        <div class="sidebar-list" id="sidebar-functions"></div>
+      </div>
+    </aside>
 
-  <!-- 职能快速跳转 -->
-  <nav class="jobs-functions" id="jobs-functions" aria-label="职能分类"></nav>
-
-  <!-- 岗位列表（JS 渲染） -->
-  <div id="jobs-list">
-    <p class="jobs-intro">岗位加载中…</p>
+    <section class="jobs-grid-wrap">
+      <div class="jobs-grid-meta" id="jobs-meta">
+        <span class="showing-count">显示 <b id="showing-n">—</b> 个岗位</span>
+        <button class="reset-btn" id="reset-filter" hidden>× 重置筛选</button>
+      </div>
+      <div class="jobs-grid" id="jobs-list">
+        <p class="jobs-intro">岗位加载中…</p>
+      </div>
+    </section>
   </div>
 
 
@@ -283,9 +298,8 @@ function loadJobs(attempt = 1) {
     ALL_JOBS = data.jobs || [];
     document.getElementById('job-updated').textContent = data.updated || '—';
     renderStats();
-    renderFilter();
-    renderFunctions();
-    renderJobs('all');
+    renderSidebar();
+    renderJobs();
     injectJobSchema();  // JobPosting 结构化数据
   })
   .catch(err => {
@@ -320,147 +334,95 @@ function renderStats() {
     <div class="stat"><b>${funcs.size}</b><span>职能方向</span></div>`;
 }
 
-// ===== 城市筛选 =====
-const LOC_LABEL = { 'hk': '香港', 'sg': '新加坡', 'sh': '上海', 'sz': '深圳', 'bj': '北京', 'syd': '悉尼', 'adh': '阿布扎比', 'remote': '远程' };
-const LOC_ORDER = ['hk', 'sg', 'sh', 'sz', 'bj', 'syd', 'adh', 'remote'];
-
-function loc_key(loc_filters) {
-  // 把 group 名映射回筛选 key
-  const mapping = { '香港':'hk', '新加坡':'sg', '上海':'sh', '北京':'bj', '深圳':'sz', '杭州':'hz', '阿布扎比':'adh', '全球 / 远程':'remote' };
-  return Object.entries(mapping).find(([name]) => loc_filters.includes(name) || (loc_filters.includes('hk') && name==='香港') || (loc_filters.includes('sg') && name==='新加坡') || (loc_filters.includes('cn') && ['上海','北京','深圳','杭州'].includes(name)))?.[1];
-}
-
-function renderFilter() {
-  const filter = document.getElementById('jobs-filter');
-  let html = `<span class="filter-label">📍 按城市：</span>`;
-  html += `<button class="filter-pill active" data-filter="all">全部 ${ALL_JOBS.length}</button>`;
-  LOC_ORDER.forEach(loc => {
-    // 按 loc key 匹配（兼容 hk/sg/cn 等旧 key）
-    let n = 0;
-    ALL_JOBS.forEach(j => {
-      const locs = j.loc_filters || [];
-      if (loc === 'hk' && locs.includes('hk')) n++;
-      else if (loc === 'sg' && locs.includes('sg')) n++;
-      else if (loc === 'remote' && locs.includes('remote')) n++;
-      else if (loc === 'adh' && locs.includes('adh')) n++;
-      else if (locs.includes(loc)) n++;  // sh/bj/sz 用精确 key 匹配
-    });
-    html += `<button class="filter-pill" data-filter="${loc}">${LOC_LABEL[loc]} ${n}${n===0?" · 暂无":""}</button>`;
-  });
-  filter.innerHTML = html;
-  filter.querySelectorAll('.filter-pill').forEach(btn => {
-    btn.addEventListener('click', () => {
-      filter.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderJobs(btn.dataset.filter);
-    });
-  });
-}
-
-// ===== 职能跳转 =====
+// ===== Sidebar 筛选（WorldQuant 风）=====
+const LOC_LABEL = { 'hk':'香港', 'sg':'新加坡', 'sh':'上海', 'sz':'深圳', 'bj':'北京', 'syd':'悉尼', 'adh':'阿布扎比', 'remote':'远程' };
+const LOC_ORDER = ['hk','sg','sh','sz','bj','syd','adh','remote'];
 const FUNC_META = {
-  research: ['🧠 投研类', 'QR / PM / 交易员 / 做市'],
-  tech: ['🛠 技术开发', 'QD / QE / 平台 / 低延迟'],
-  ml: ['🤖 机器学习', 'ML Researcher · AI in Quant']
+  research: ['🧠 投研', 'QR / PM / Trader / 做市'],
+  tech: ['🛠 技术', 'QD / QE / 平台 / 低延迟'],
+  ml: ['🤖 ML', 'ML Researcher · AI']
 };
-const FUNC_ORDER = ['research', 'tech', 'ml'];
+const FUNC_ORDER = ['research','tech','ml'];
+let FILTER = { loc: null, func: null, search: '' };  // 当前筛选状态
 
-function renderFunctions() {
-  const nav = document.getElementById('jobs-functions');
-  nav.innerHTML = FUNC_ORDER.map(f => {
+function renderSidebar() {
+  // Cities
+  const locBox = document.getElementById('sidebar-locations');
+  let locHtml = `<label class="sidebar-row"><input type="radio" name="loc" value="" checked><span>全部 (${ALL_JOBS.length})</span></label>`;
+  LOC_ORDER.forEach(loc => {
+    const n = ALL_JOBS.filter(j => (j.loc_filters||[]).includes(loc)).length;
+    locHtml += `<label class="sidebar-row"><input type="radio" name="loc" value="${loc}"><span>${LOC_LABEL[loc]} (${n})</span></label>`;
+  });
+  locBox.innerHTML = locHtml;
+  locBox.querySelectorAll('input').forEach(r => r.addEventListener('change', () => {
+    FILTER.loc = r.value || null;
+    renderJobs();
+  }));
+  // Functions
+  const funcBox = document.getElementById('sidebar-functions');
+  let funcHtml = `<label class="sidebar-row"><input type="radio" name="func" value="" checked><span>全部</span></label>`;
+  FUNC_ORDER.forEach(f => {
     const n = ALL_JOBS.filter(j => j.function === f).length;
-    return `<a href="#${f}" class="func-pill func-${f}">${FUNC_META[f][0]} <b>${n}</b></a>`;
-  }).join('');
+    funcHtml += `<label class="sidebar-row"><input type="radio" name="func" value="${f}"><span>${FUNC_META[f][0]} (${n})</span></label>`;
+  });
+  funcBox.innerHTML = funcHtml;
+  funcBox.querySelectorAll('input').forEach(r => r.addEventListener('change', () => {
+    FILTER.func = r.value || null;
+    renderJobs();
+  }));
+  // Search
+  document.getElementById('jobs-search').addEventListener('input', e => {
+    FILTER.search = e.target.value.trim().toLowerCase();
+    renderJobs();
+  });
+  // Reset
+  document.getElementById('reset-filter').addEventListener('click', () => {
+    FILTER = { loc:null, func:null, search:'' };
+    document.getElementById('jobs-search').value = '';
+    document.querySelectorAll('input[name="loc"]')[0].checked = true;
+    document.querySelectorAll('input[name="func"]')[0].checked = true;
+    renderJobs();
+  });
 }
 
 // ===== 岗位卡片渲染 =====
 function cardHTML(j) {
-  const detailsContent = (j.fit || j.why) ? `
-      ${j.fit ? `<p class="job-fit"><b>👤 理想候选人</b>：${esc(j.fit)}</p>` : ''}
-      ${j.why ? `<p class="job-why"><b>⭐ 为什么值得去</b>：${esc(j.why)}</p>` : ''}` : '';
-  return `<article class="job-card" id="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}">
-    <div class="job-card-top">
-      <span class="job-id">${j.id}</span>
-      <span class="tag">${esc(j.tag)}</span>
-      <span class="loc-mini">📍 ${esc(j.loc)}</span>
+  // 极简卡片：标题 + 标签 + 地点 + 日期 + 投递箭头
+  const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML' };
+  return `<a class="job-row" id="${j.id}" href="#wechat-popup" data-job="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}" data-func="${j.function}" data-text="${esc(j.title + ' ' + j.loc + ' ' + j.tag).toLowerCase()}">
+    <div class="job-row-main">
+      <h4>${esc(j.title)}</h4>
+      <div class="job-row-meta">
+        <span class="dot"></span>
+        <span class="loc">${esc(j.loc)}</span>
+        <span class="dot-sep">·</span>
+        <span class="func">${fmap[j.function] || j.function}</span>
+      </div>
     </div>
-    <h3>${esc(j.title)}</h3>
-    <p class="excerpt">${esc(j.excerpt)}</p>
-    ${detailsContent ? `<details class="job-details"><summary><span class="plus">+</span> 候选人画像 / 为什么值得去</summary><div class="job-details-body">${detailsContent}</div></details>` : ''}
-    <div class="job-actions">
-      <a class="job-btn job-btn-primary" href="mailto:k.zhang@gravitasgroup.com?subject=${j.id} ${esc(j.title)}">投递简历</a>
-      <a class="job-btn job-btn-ghost wechat-link" href="#wechat-popup" data-job="${j.id}">微信问</a>
-    </div>
-  </article>`;
-}
+    <div class="job-row-arrow">→</div>
+  </a>`;
 
-function renderJobs(filter) {
+function renderJobs() {
   const list = document.getElementById('jobs-list');
-  const shown = filter === 'all' ? ALL_JOBS : ALL_JOBS.filter(j => {
-    const locs = j.loc_filters || [];
-    if (['hk','sg','adh','remote','sh','bj','sz','syd'].includes(filter)) return locs.includes(filter);
+  const shown = ALL_JOBS.filter(j => {
+    if (FILTER.loc && !(j.loc_filters||[]).includes(FILTER.loc)) return false;
+    if (FILTER.func && j.function !== FILTER.func) return false;
+    if (FILTER.search) {
+      const t = (j.title + ' ' + j.loc + ' ' + j.tag + ' ' + (j.excerpt||'')).toLowerCase();
+      if (!t.includes(FILTER.search)) return false;
+    }
     return true;
   });
-
-  // 按 function → group 分组
+  document.getElementById('showing-n').textContent = shown.length;
+  document.getElementById('reset-filter').hidden = !(FILTER.loc || FILTER.func || FILTER.search);
   let html = '';
   FUNC_ORDER.forEach(f => {
     const fJobs = shown.filter(j => j.function === f);
     if (fJobs.length === 0) return;
-    html += `<h3 class="jobs-group" id="${f}">${FUNC_META[f][0]} <span class="jobs-group-meta">${FUNC_META[f][1]}</span></h3>`;
-    // 组内按 group 再分
-    const groups = {};
-    fJobs.forEach(j => { (groups[j.group] = groups[j.group] || []).push(j); });
-    Object.keys(groups).forEach(g => {
-      html += `<div class="jobs-loc-group">
-        <h4 class="loc-h">📍 ${esc(g)}</h4>
-        <div class="posts-grid">
-          ${groups[g].map(cardHTML).join('\n')}
-        </div>
-      </div>`;
-    });
+    html += '<div class="jobs-func-group"><h4 class="jobs-func-h">' + FUNC_META[f][0] + ' <span>· ' + fJobs.length + '</span></h4><div class="job-list">' + fJobs.map(cardHTML).join('') + '</div></div>';
   });
 
-  // 头条岗位：取第一条（阿布扎比主权基金优先）
-  const hero = ALL_JOBS.find(j => j.loc_filters.includes('adh')) || ALL_JOBS[0];
-  if (hero && filter === 'all') {
-    document.getElementById('jobs-hero').innerHTML = `
-      <a class="jobs-hero" href="#${hero.id}">
-        <span class="hero-badge">⭐ 本期头条 · 独家机会</span>
-        <h3>${esc(hero.tag)} · ${esc(hero.title)}</h3>
-        <p class="meta"><span class="loc">📍 ${esc(hero.loc)}</span></p>
-        <p class="excerpt">${esc(hero.excerpt)}</p>
-        <span class="hero-arrow">查看详情 →</span>
-      </a>`;
-  } else {
-    document.getElementById('jobs-hero').innerHTML = '';
-  }
-
-  list.innerHTML = html || '<p class="jobs-intro">该城市暂无在招岗位，试试其他城市。</p>';
-
-  // 绑定 hero 跳转：高亮目标卡片 + smooth scroll
-  list.querySelectorAll('a.jobs-hero').forEach(a => {
-    a.addEventListener('click', e => {
-      e.preventDefault();
-      const id = a.getAttribute('href').slice(1);
-      const target = document.getElementById(id);
-      if (!target) return;
-      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      document.querySelectorAll('.job-card.highlight').forEach(c => c.classList.remove('highlight'));
-      target.classList.add('highlight');
-      setTimeout(() => target.classList.remove('highlight'), 2400);
-    });
-  });
-
-  // 重新绑定微信按钮
-  list.querySelectorAll('.wechat-link').forEach(link => {
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const hint = document.getElementById('wechat-job-hint');
-      if (hint) hint.textContent = `扫码后请发送「${link.dataset.job}」+ 一句话介绍`;
-      document.getElementById('wechat-popup').classList.add('open');
-    });
-  });
+  list.innerHTML = html || '<p class="jobs-intro">该筛选条件下暂无岗位，试试其他组合。</p>';
 }
 
 // ===== JobPosting 结构化数据（Google 职位收录） =====
