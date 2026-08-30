@@ -12,6 +12,22 @@ body{background:var(--bg);color:var(--txt);font-family:-apple-system,"Segoe UI",
 .site-header nav{margin-top:16px}
 .site-header nav a{color:var(--blue);text-decoration:none;margin-right:18px;font-size:14px;transition:color .2s}
 .site-header nav a:hover{color:var(--gold)}
+.site-header nav a.nav-social{
+  display:inline-flex;align-items:center;color:var(--muted);
+  margin-left:6px;padding:4px 8px;border-radius:6px;
+  background:rgba(88,101,242,.1);transition:all .2s;
+}
+.site-header nav a.nav-social:hover{color:#fff;background:#5865F2;transform:translateY(-1px)}
+.site-header nav a.nav-social svg{display:block}
+
+/* LinkedIn 大按钮（about.html） */
+.btn-linkedin{
+  display:inline-flex;align-items:center;
+  padding:10px 22px;background:#0a66c2;color:#fff;
+  font-weight:700;font-size:15px;text-decoration:none;
+  border-radius:8px;transition:all .2s;
+}
+.btn-linkedin:hover{background:#084d92;transform:translateY(-1px);box-shadow:0 4px 16px rgba(10,102,194,.3)}
 .subscribe-banner{background:linear-gradient(90deg,rgba(210,153,34,.12) 0%,rgba(88,166,255,.08) 100%);border-bottom:1px solid rgba(210,153,34,.35);padding:14px 0;font-size:14px}
 .subscribe-banner .wrap{padding:0 20px}
 .subscribe-banner b{color:var(--gold)}
