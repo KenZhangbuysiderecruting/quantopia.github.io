@@ -150,13 +150,19 @@
   <button class="wechat-btn" onclick="toggleWechat()" aria-label="微信直投">
     💬 微信直投
   </button>
-  <div class="wechat-popup" id="wechat-popup">
+  <div class="wechat-popup" id="wechat-popup" onclick="event.stopPropagation()">
     <img src="images/ken-wechat.jpg" alt="Ken WeChat QR">
-    <p><b>扫一扫加 Ken</b></p>
-    <p class="muted" id="wechat-job-hint">48h 内回复 · 注明岗位编号优先处理</p>
-    <button class="wechat-close" onclick="toggleWechat()">关闭</button>
+    <p class="muted wechat-hint" id="wechat-job-hint">扫一扫加我 · 注明岗位编号优先</p>
+    <button class="wechat-close" onclick="toggleWechat()" aria-label="关闭">×</button>
   </div>
 </div>
+<script>
+  // 点击浮窗外关闭
+  document.addEventListener('click', e => {
+    const fl = document.getElementById('wechat-float');
+    if (!fl.contains(e.target)) document.getElementById('wechat-popup').classList.remove('open');
+  });
+</script>
 
 <script>
 // ===== 数据驱动：从 jobs.json 加载 =====
