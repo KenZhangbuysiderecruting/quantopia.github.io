@@ -25,7 +25,7 @@ quantopia-blog/
 
 ## 发布新文章清单
 - [ ] 复制 `posts/2026-07-22-sa.html` 改名 `YYYY-MM-DD-slug.html`
-- [ ] 填标题 / meta / description（含关键词 Citadel/Millennium/量化/对冲基金）
+- [ ] 填标题 / meta / description（含关键词：全球顶级多策略平台/亚太做市商/量化/对冲基金/猎头/深圳 等脱敏词，按保密约定不列具体客户名）
 - [ ] 正文贴公众号内容，末尾挂"关注公众号 Quantopia" + 二维码
 - [ ] 在 `index.html` 的 `#posts` 区加一张卡片
 - [ ] push 到 main 分支
