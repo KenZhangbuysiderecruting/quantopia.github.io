@@ -366,13 +366,15 @@ main.wrap{padding-top:36px;padding-bottom:60px}
   padding:22px 26px;margin:26px 0;
 }
 .jobs-cases h3{font-size:17px;color:var(--gold);margin-bottom:14px;letter-spacing:.3px}
-.cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.case-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.cases-grid{display:flex;overflow-x:auto;gap:14px;padding:4px 4px 12px 4px;scrollbar-width:thin;scroll-snap-type:x proximity}
+.cases-grid::-webkit-scrollbar{height:6px}
+.cases-grid::-webkit-scrollbar-thumb{background:rgba(138,180,216,.25);border-radius:3px}
+.case-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;min-width:260px;max-width:300px;flex-shrink:0;scroll-snap-align:start}
 .case-card .case-tag{font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;letter-spacing:.3px}
 .case-card h4{font-size:14px;color:#fff;margin-bottom:6px;line-height:1.4}
 .case-card .case-desc{font-size:12.5px;color:var(--muted);line-height:1.6}
 .cases-note{font-size:11.5px;color:var(--muted);margin-top:12px;line-height:1.6}
-@media (max-width:680px){.cases-grid{grid-template-columns:1fr}}
+@media (max-width:680px){.cases-grid{flex-direction:column;overflow-x:visible}.case-card{min-width:auto;max-width:none}}
 
 /* 候选人 FAQ */
 .jobs-faq{

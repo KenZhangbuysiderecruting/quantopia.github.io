@@ -69,20 +69,6 @@
 
   <!-- 头条岗位（JS 渲染） -->
   <div id="jobs-hero"></div>
-
-  <!-- 城市筛选 -->
-  <div class="jobs-filter" id="jobs-filter" aria-label="按城市筛选">
-    <span class="filter-label">📍 按城市：</span>
-  </div>
-
-  <!-- 职能快速跳转 -->
-  <nav class="jobs-functions" id="jobs-functions" aria-label="职能分类"></nav>
-
-  <!-- 岗位列表（JS 渲染） -->
-  <div id="jobs-list">
-    <p class="jobs-intro">岗位加载中…</p>
-  </div>
-
   <!-- 成功案例 -->
   <section class="jobs-cases">
     <h3>🏆 成功案例（匿名化）</h3>
@@ -147,9 +133,44 @@
         <h4>Desk Quant 入职</h4>
         <p class="case-desc">中东做市/交易机构（全球人才竞争热点地区），交易台量化支持岗，薪酬对标当地市场顶尖。</p>
       </div>
+      <div class="case-card">
+        <p class="case-tag">做市商 · 新加坡</p>
+        <h4>Trader 入职</h4>
+        <p class="case-desc">交易员岗，做市商新加坡办公室，EP 签证全程办理。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag">Crypto · 香港</p>
+        <h4>Quant Researcher（Crypto）入职</h4>
+        <p class="case-desc">加密量化方向，香港加密做市/交易机构，Base 对标市场顶尖。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag">Crypto · 上海</p>
+        <h4>Quant Researcher（Crypto）入职</h4>
+        <p class="case-desc">加密量化，国内加密团队，对标市场顶尖薪酬。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag">全球多策略 · 远程</p>
+        <h4>Quant Researcher 远程入职</h4>
+        <p class="case-desc">全球基金远程办公，Base 对标市场顶尖。</p>
+      </div>
     </div>
     <p class="cases-note">* 以上案例均经客户与候选人同意后匿名化展示，不透露任何机构、个人身份与具体薪资信息。</p>
   </section>
+
+
+  <!-- 城市筛选 -->
+  <div class="jobs-filter" id="jobs-filter" aria-label="按城市筛选">
+    <span class="filter-label">📍 按城市：</span>
+  </div>
+
+  <!-- 职能快速跳转 -->
+  <nav class="jobs-functions" id="jobs-functions" aria-label="职能分类"></nav>
+
+  <!-- 岗位列表（JS 渲染） -->
+  <div id="jobs-list">
+    <p class="jobs-intro">岗位加载中…</p>
+  </div>
+
 
   <!-- 候选人 FAQ -->
   <section class="jobs-faq">
@@ -250,11 +271,11 @@
 // ===== 数据驱动：从 jobs.json 加载 =====
 let ALL_JOBS = [];
 
-const FIVE_SEC = 5000;
-function loadJobs() {
-  document.getElementById('job-total').textContent = '· 加载中…（5秒超时）';
-  const timeoutP = new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), FIVE_SEC));
-  Promise.race([fetch('jobs.json?t=' + Date.now()).then(r => {
+const FIFTEEN_SEC = 15000;
+function loadJobs(attempt = 1) {
+  document.getElementById('job-total').textContent = attempt > 1 ? `· 重试中…（第 ${attempt} 次）` : '· 加载中…（15秒超时）';
+  const timeoutP = new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), FIFTEEN_SEC));
+  Promise.race([fetch('jobs.json?v=' + Date.now()).then(r => {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   }), timeoutP])
@@ -268,7 +289,12 @@ function loadJobs() {
     injectJobSchema();  // JobPosting 结构化数据
   })
   .catch(err => {
-    console.error('jobs.json load error:', err);
+    console.error('jobs.json load error (attempt ' + attempt + '):', err);
+    if (attempt < 2) {
+      // 第一次失败：等 2 秒后重试
+      setTimeout(() => loadJobs(attempt + 1), 2000);
+      return;
+    }
     document.getElementById('job-total').textContent = '· ⚠️ 加载失败';
     document.getElementById('jobs-list').innerHTML =
       '<p class="jobs-intro" style="color:#f85149">⚠️ 岗位数据加载失败（' + (err.message || err) + '）。可能原因：<br>• 浏览器缓存了旧版本 → 请按 <b>Ctrl+Shift+R</b> 硬刷新<br>• 网络问题 → 几秒后重试<br>• 仍有问题可邮件联系：<a href="mailto:k.zhang@gravitasgroup.com">k.zhang@gravitasgroup.com</a></p>';
