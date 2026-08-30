@@ -470,12 +470,12 @@
    "function": "tech",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
-   "title": "Quantitative Developer — Python (新交易台)",
+   "title": "Desk Quant — Python (新交易台)",
    "loc": "香港",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "新交易台 Python Quant Dev，Junior-Mid（2–6 年），纯 Python 方向，接受纯技术背景。",
+   "excerpt": "新交易台 Desk Quant，Junior-Mid（2–6 年），纯 Python 方向，接受纯技术背景。坐在交易台旁边，直接服务 desk 策略。",
    "fit": "2–6 年 Python · 交易台/平台开发",
    "why": "新交易台=全新 PnL 机会，QD 早期加入可转策略；急招推进快。"
   },
@@ -484,12 +484,12 @@
    "function": "tech",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
-   "title": "Senior Quantitative Developer — Python (QPM)",
+   "title": "Senior Desk Quant — Python (QPM)",
    "loc": "香港",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "QPM 交易台高级 Quant Dev，8+ 年经验，接受有量化/研究背景的开发。",
+   "excerpt": "QPM 交易台高级 Desk Quant，8+ 年经验，接受有量化/研究背景的开发。",
    "fit": "8+ 年经验 · Python · 量化研究背景加分",
    "why": "QPM 是平台核心 desk，senior QD 待遇对标 PM 通道。"
   },
@@ -498,13 +498,13 @@
    "function": "tech",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
-   "title": "Quantitative Developer — C++ (S)",
+   "title": "Desk Quant — C++ (交易台)",
    "loc": "香港 / 新加坡",
    "loc_filters": [
     "hk",
     "sg"
    ],
-   "excerpt": "交易台典型 C++ Dev，<5 年经验。要求硬核 C++（不接受偶尔用 C++ 的 Rust/Go 开发者）。",
+   "excerpt": "交易台典型 Desk Quant (C++)，<5 年经验。要求硬核 C++（不接受偶尔用 C++ 的 Rust/Go 开发者）。",
    "fit": "<5 年 · 硬核 C++ · 交易系统",
    "why": "对 junior 友好（<5 年），纯 C++ 打磨平台级代码。"
   },
@@ -527,12 +527,12 @@
    "function": "tech",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
-   "title": "Quantitative Developer — Python (CTA)",
+   "title": "Desk Quant — Python (CTA)",
    "loc": "香港",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "CTA 方向 Python Quant Dev，新 HC。需 CTA 资产类别经验，seniority 不限（2–30 年均可）。",
+   "excerpt": "CTA 交易台 Desk Quant，新 HC。需 CTA 资产类别经验，seniority 不限（2–30 年均可）。",
    "fit": "Python · CTA / 期货策略经验",
    "why": "CTA 是稀缺方向，技能+资产类别双匹配很难找，匹配即高价值。"
   },
@@ -584,12 +584,12 @@
    "function": "tech",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
-   "title": "C++ Core Developer — Pricing & Risk",
+   "title": "Desk Quant — C++ Pricing & Risk",
    "loc": "香港",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "强 C++ 定价/量化库方向，懂建模并集成到系统。FX / 期权等资产类别经验。急招（非通用 C++ 应用开发）。",
+   "excerpt": "交易台定价风控 C++ 方向，强 C++ 定价/量化库，FX/期权资产类别经验。急招。",
    "fit": "强 C++ · 定价/量化库 · FX 或期权经验",
    "why": "定价风控是核心利润系统，急招=真实在推；技能稀缺定价高。"
   },
