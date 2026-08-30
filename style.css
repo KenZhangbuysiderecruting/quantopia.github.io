@@ -82,8 +82,38 @@ main.wrap{padding-top:36px;padding-bottom:60px}
   gap:16px;
   align-items:stretch;  /* 同一行卡片等高 */
 }
-.job-card{display:flex;flex-direction:column;height:100%}
-.job-card .job-apply{margin-top:auto;padding-top:12px}
+/* ==== 新版岗位卡片（紧凑 row 风格）==== */
+.job-card{
+  background:linear-gradient(180deg,rgba(15,29,56,.7),rgba(15,29,56,.4));
+  border:1px solid var(--line);border-left:4px solid var(--gold);
+  border-radius:10px;padding:18px 20px;display:flex;flex-direction:column;
+  height:100%;position:relative;transition:all .25s;overflow:hidden;
+}
+.job-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(232,192,122,.4),transparent);opacity:0;transition:opacity .3s}
+.job-card:hover{transform:translateY(-3px);border-color:rgba(232,192,122,.45);background:linear-gradient(180deg,rgba(138,180,216,.07),rgba(15,29,56,.55))}
+.job-card:hover::before{opacity:1}
+.job-card-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;font-size:11px;letter-spacing:.5px}
+.job-card .job-id{font-size:10.5px;color:var(--muted);font-weight:600;letter-spacing:1.5px;opacity:.8}
+.job-card .tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.5px;padding:3px 8px;border-radius:3px;background:rgba(232,192,122,.12);color:var(--gold);border:1px solid rgba(232,192,122,.2)}
+.job-card .loc-mini{font-size:11px;color:var(--muted);font-weight:500;letter-spacing:.3px}
+.job-card h3{font-size:17px;font-weight:600;line-height:1.45;color:#fff;margin:0 0 10px;letter-spacing:-.2px;min-height:2.6em}
+.job-card .excerpt{font-size:13px;color:#a3b1c2;line-height:1.65;margin:0 0 14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.job-card .job-details{margin:0 0 14px}
+.job-card .job-details summary{cursor:pointer;padding:8px 12px;background:rgba(138,180,216,.08);border:1px solid rgba(138,180,216,.15);border-radius:6px;color:var(--blue);font-size:12px;letter-spacing:.3px;transition:all .2s;list-style:none;outline:none;display:flex;align-items:center;gap:6px}
+.job-card .job-details summary:hover{background:rgba(138,180,216,.14)}
+.job-card .job-details summary::-webkit-details-marker{display:none}
+.job-card .job-details .plus{display:inline-flex;width:14px;height:14px;align-items:center;justify-content:center;font-size:14px;color:var(--gold);font-weight:600;border:1px solid rgba(232,192,122,.3);border-radius:3px;transition:transform .25s}
+.job-card .job-details[open] .plus{transform:rotate(45deg)}
+.job-card .job-details-body{margin-top:10px;padding:12px;background:rgba(15,29,56,.5);border:1px solid rgba(138,180,216,.12);border-radius:6px}
+.job-card .job-details-body .job-fit,.job-card .job-details-body .job-why{font-size:12.5px;color:#a3b1c2;line-height:1.7;margin:6px 0}
+.job-card .job-details-body b{color:var(--blue);font-weight:600}
+.job-card .job-actions{display:flex;gap:8px;margin-top:auto;padding-top:10px;border-top:1px dashed rgba(138,180,216,.15)}
+.job-card .job-btn{flex:1;text-align:center;padding:8px 0;border-radius:6px;font-size:12.5px;font-weight:600;text-decoration:none;letter-spacing:.5px;transition:all .2s}
+.job-card .job-btn-primary{background:linear-gradient(120deg,var(--blue),#5E8FB8);color:#0A1428;border:1px solid transparent}
+.job-card .job-btn-primary:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(138,180,216,.25)}
+.job-card .job-btn-ghost{background:transparent;color:var(--blue);border:1px solid rgba(138,180,216,.3)}
+.job-card .job-btn-ghost:hover{background:rgba(138,180,216,.08);border-color:var(--blue)}
+.posts-grid{gap:14px}
 @media (max-width:680px){
   .posts-grid{grid-template-columns:1fr}
   .post-featured{padding:22px}

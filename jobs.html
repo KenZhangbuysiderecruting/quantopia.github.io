@@ -375,18 +375,22 @@ function renderFunctions() {
 
 // ===== 岗位卡片渲染 =====
 function cardHTML(j) {
-  return `<article class="post-card tag-数据 job-card" id="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}">
-    <span class="job-id">${j.id}</span>
-    <span class="tag">${esc(j.tag)}</span>
-    <h3>${esc(j.title)}</h3>
-    <p class="meta"><span class="loc">📍 ${esc(j.loc)}</span></p>
-    <p class="excerpt">${esc(j.excerpt)}</p>
-    <details class="job-details">
-      <summary>👀 查看候选人画像 / 为什么值得去</summary>
+  const detailsContent = (j.fit || j.why) ? `
       ${j.fit ? `<p class="job-fit"><b>👤 理想候选人</b>：${esc(j.fit)}</p>` : ''}
-      ${j.why ? `<p class="job-why"><b>⭐ 为什么值得去</b>：${esc(j.why)}</p>` : ''}
-    </details>
-    <p class="job-apply">投递 → <a href="mailto:k.zhang@gravitasgroup.com?subject=${j.id} ${esc(j.title)}">邮件</a> · <a href="#wechat-popup" class="wechat-link" data-job="${j.id}">微信</a></p>
+      ${j.why ? `<p class="job-why"><b>⭐ 为什么值得去</b>：${esc(j.why)}</p>` : ''}` : '';
+  return `<article class="job-card" id="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}">
+    <div class="job-card-top">
+      <span class="job-id">${j.id}</span>
+      <span class="tag">${esc(j.tag)}</span>
+      <span class="loc-mini">📍 ${esc(j.loc)}</span>
+    </div>
+    <h3>${esc(j.title)}</h3>
+    <p class="excerpt">${esc(j.excerpt)}</p>
+    ${detailsContent ? `<details class="job-details"><summary><span class="plus">+</span> 候选人画像 / 为什么值得去</summary><div class="job-details-body">${detailsContent}</div></details>` : ''}
+    <div class="job-actions">
+      <a class="job-btn job-btn-primary" href="mailto:k.zhang@gravitasgroup.com?subject=${j.id} ${esc(j.title)}">投递简历</a>
+      <a class="job-btn job-btn-ghost wechat-link" href="#wechat-popup" data-job="${j.id}">微信问</a>
+    </div>
   </article>`;
 }
 
