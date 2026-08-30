@@ -300,6 +300,16 @@ function loadJobs(attempt = 1) {
     renderStats();
     renderSidebar();
     renderJobs();
+    // 事件委托：job-row 点击打开微信弹层（重渲染后仍生效）
+    document.getElementById('jobs-list').addEventListener('click', e => {
+      const row = e.target.closest('.job-row');
+      if (!row) return;
+      e.preventDefault();
+      const hint = document.getElementById('wechat-job-hint');
+      if (hint) hint.textContent = '扫一扫，发送「' + row.dataset.job + '」+ 一句话介绍';
+      const fl = document.getElementById('wechat-popup');
+      if (fl) fl.classList.add('open');
+    });
     injectJobSchema();  // JobPosting 结构化数据
   })
   .catch(err => {
