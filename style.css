@@ -329,14 +329,15 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 .jobs-register input:focus,
 .jobs-register select:focus,
 .jobs-register textarea:focus{outline:none;border-color:var(--blue)}
-.jobs-register button[type="submit"]{
+.jobs-register button[type="button"]{
   align-self:flex-start;
   padding:10px 24px;border:none;border-radius:6px;
   background:linear-gradient(90deg,var(--blue) 0%,var(--cyan) 100%);
   color:#0d1117;font-weight:700;font-size:14px;cursor:pointer;
   transition:transform .15s;
 }
-.jobs-register button[type="submit"]:hover{transform:translateY(-1px)}
+.jobs-register button[type="button"]:hover{transform:translateY(-1px)}
+.jobs-tip-mini{font-size:11.5px;color:var(--muted);margin-top:10px;line-height:1.6}
 @media (max-width:680px){.jobs-register .form-row{grid-template-columns:1fr}}
 
 /* 微信悬浮卡片 */

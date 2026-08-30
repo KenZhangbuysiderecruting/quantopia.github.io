@@ -94,11 +94,11 @@
     </details>
   </section>
 
-  <!-- 候选人登记表单 -->
+  <!-- 候选人登记表单（用 JS 拼接 mailto 跳转，避开 HTTPS 提交警告） -->
   <section class="jobs-register">
     <h3>📥 没看到合适岗位？先登记简历</h3>
     <p class="muted">3-6 个月内新职位主动联系你。或者直接微信扫一扫 → 注明「登记简历」。</p>
-    <form action="mailto:k.zhang@gravitasgroup.com" method="post" enctype="text/plain">
+    <div>
       <div class="form-row">
         <label>姓名<input name="name" required placeholder="中文姓名"></label>
         <label>邮箱<input name="email" type="email" required placeholder="常用邮箱"></label>
@@ -127,8 +127,9 @@
       <label>一句话介绍自己（可选）
         <textarea name="note" rows="3" placeholder="比如：5 年 HFT 实盘，现居新加坡"></textarea>
       </label>
-      <button type="submit">提交登记 →</button>
-    </form>
+      <button type="button" onclick="submitRegister()">提交登记 →</button>
+      <p class="jobs-tip-mini">点击后会打开您的邮件客户端预填好内容，发送即完成登记（无需担心数据安全警告）</p>
+    </div>
   </section>
 
   <section class="jobs-tip">
@@ -310,6 +311,40 @@ function renderJobs(filter) {
 // ===== 微信悬浮卡片 =====
 function toggleWechat() {
   document.getElementById('wechat-popup').classList.toggle('open');
+}
+
+// ===== 候选人登记（拼接 mailto，避开 HTTPS 提交警告） =====
+function submitRegister() {
+  const name = document.querySelector('.jobs-register [name=name]').value.trim();
+  const email = document.querySelector('.jobs-register [name=email]').value.trim();
+  const direction = document.querySelector('.jobs-register [name=direction]').value;
+  const region = document.querySelector('.jobs-register [name=region]').value;
+  const note = document.querySelector('.jobs-register [name=note]').value.trim();
+  if (!name || !email) {
+    alert('请填写姓名和邮箱');
+    return;
+  }
+  if (!direction) {
+    alert('请选择意向方向');
+    return;
+  }
+  if (!/^[^@]+@[^@]+\.[^@]+$/.test(email)) {
+    alert('邮箱格式不对，请检查');
+    return;
+  }
+  const body = [
+    '候选人登记',
+    '',
+    '姓名：' + name,
+    '邮箱：' + email,
+    '意向方向：' + direction,
+    '意向地区：' + (region || '不限'),
+    '自我介绍：' + (note || '（无）'),
+    '',
+    '— Quantopia 网站登记表'
+  ].join('\n');
+  const subject = '候选人登记 · ' + direction.split('（')[0];
+  window.location.href = 'mailto:k.zhang@gravitasgroup.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 }
 </script>
 </body>
