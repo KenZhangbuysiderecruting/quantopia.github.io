@@ -300,17 +300,35 @@ function loadJobs(attempt = 1) {
     renderStats();
     renderSidebar();
     renderJobs();
-    // 事件委托：job-row 点击打开微信弹层（重渲染后仍生效）
-    // stopPropagation 防止冒泡到 document 触发外部点击关闭
+    // 事件委托：点击 row 头部切换详情展开；微信按钮打开弹层
     document.getElementById('jobs-list').addEventListener('click', e => {
-      const row = e.target.closest('.job-row');
-      if (!row) return;
+      // wechat 按钮
+      const wc = e.target.closest('.wechat-link');
+      if (wc) {
+        e.preventDefault();
+        e.stopPropagation();
+        const hint = document.getElementById('wechat-job-hint');
+        if (hint) hint.textContent = '扫一扫，发送「' + wc.dataset.job + '」+ 一句话介绍';
+        const fl = document.getElementById('wechat-popup');
+        if (fl) fl.classList.add('open');
+        return;
+      }
+      // 邮件按钮：让邮件客户端打开
+      const mail = e.target.closest('.job-apply-primary');
+      if (mail) return;  // 默认行为
+      // 其余点击（点 head 或 body 文字）：展开/收起
+      const head = e.target.closest('.job-row-head');
+      if (!head) return;
       e.preventDefault();
       e.stopPropagation();
-      const hint = document.getElementById('wechat-job-hint');
-      if (hint) hint.textContent = '扫一扫，发送「' + row.dataset.job + '」+ 一句话介绍';
-      const fl = document.getElementById('wechat-popup');
-      if (fl) fl.classList.add('open');
+      const row = head.closest('.job-row');
+      if (!row) return;
+      const body = row.querySelector('.job-row-body');
+      const arrow = head.querySelector('.job-row-arrow');
+      if (!body) return;  // 无 body 的 row 跳过（不会发生）
+      const isOpen = row.classList.toggle('open');
+      body.style.display = isOpen ? 'block' : 'none';
+      if (arrow) arrow.textContent = isOpen ? '↑' : (body.innerHTML ? '↓' : '→');
     });
     injectJobSchema();  // JobPosting 结构化数据
   })
@@ -407,10 +425,19 @@ function renderSidebar() {
 
 // ===== 岗位卡片渲染 =====
 function cardHTML(j) {
-  // 极简卡片：标题 + 标签 + 地点 + 日期 + 投递箭头
   const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML' };
-  return `<a class="job-row" id="${j.id}" href="#wechat-popup" data-job="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}" data-func="${j.function}" data-text="${esc(j.title + ' ' + j.loc + ' ' + j.tag).toLowerCase()}">
-    <div class="job-row-main">
+  // 详情区：摘要 + 候选人画像 + 为什么值得去 + 投递按钮
+  const body = (j.excerpt || j.fit || j.why) ? `<div class="job-row-body">
+    ${j.excerpt ? `<p class="job-excerpt">${esc(j.excerpt)}</p>` : ''}
+    ${j.fit ? `<p class="job-fit"><b>👤 理想候选人</b>${esc(j.fit)}</p>` : ''}
+    ${j.why ? `<p class="job-why"><b>⭐ 为什么值得去</b>${esc(j.why)}</p>` : ''}
+    <div class="job-apply-row">
+      <a class="job-apply-primary" href="mailto:k.zhang@gravitasgroup.com?subject=${j.id} ${esc(j.title)}">📧 投递简历</a>
+      <a class="job-apply-ghost wechat-link" href="#wechat-popup" data-job="${j.id}">💬 微信问</a>
+    </div>
+  </div>` : '';
+  return `<div class="job-row">
+    <div class="job-row-head" data-job="${j.id}">
       <h4>${esc(j.title)}</h4>
       <div class="job-row-meta">
         <span class="dot"></span>
@@ -418,9 +445,10 @@ function cardHTML(j) {
         <span class="dot-sep">·</span>
         <span class="func">${fmap[j.function] || j.function}</span>
       </div>
+      <div class="job-row-arrow">${body ? '↓' : '→'}</div>
     </div>
-    <div class="job-row-arrow">→</div>
-  </a>`;
+    ${body}
+  </div>`;
 }
 
 function renderJobs() {
