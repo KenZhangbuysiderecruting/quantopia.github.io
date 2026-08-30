@@ -1,0 +1,864 @@
+{
+ "updated": "2026-08-30",
+ "note": "公司名按客户保密约定匿名化，真实机构名称仅在正式沟通中披露。投递：k.zhang@gravitasgroup.com",
+ "jobs": [
+  {
+   "id": "QT-2601",
+   "function": "research",
+   "group": "香港",
+   "tag": "Tier-1 多策略平台",
+   "title": "Quantitative Researcher — Asia Equities",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "亚太股票 alpha 策略研究，团队由全球 Top 多策略平台出身的 PM 领衔。3+ 年经验，PhD 或顶级硕士优先。扩编中，全流程 4 周出 offer。",
+   "fit": "PhD / 顶级硕士 · 3+ 年股票 alpha 实盘 · Python + 统计功底扎实",
+   "why": "HC 充足，扩编期加入晋升快；团队由前顶级平台 PM 带，能学到原汁原味的 multi-PM 协作。"
+  },
+  {
+   "id": "QT-2602",
+   "function": "research",
+   "group": "香港",
+   "tag": "全球多资产对冲基金",
+   "title": "Portfolio Manager — Multi-Asset",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "成熟多资产策略 PM 席位，平台提供基础设施与风控支持。5+ 年独立管理实盘记录，业绩可验证，自带团队优先。",
+   "fit": "5+ 年独立 PM 经验 · 多资产/全球宏观 · 有可验证 PnL 历史",
+   "why": "平台提供基础设施与资金，PM 只管投研与执行；自带团队过来可叠加团队管理 carry。"
+  },
+  {
+   "id": "QT-2604",
+   "function": "research",
+   "group": "香港",
+   "tag": "Top 做市商 · 香港 / 新加坡",
+   "title": "Market Making Quant Trader",
+   "loc": "香港 / 新加坡",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "excerpt": "亚太股票 / ETF 做市，头部做市平台亚太扩张核心 HC。做市策略 + 执行优化，2+ 年做市实盘优先。",
+   "fit": "2+ 年做市或系统化交易 · C++/Python · 懂订单簿微观结构",
+   "why": "亚太扩张核心 HC，进去了就是早期团队成员；PnL share 上不封顶。"
+  },
+  {
+   "id": "QT-2605",
+   "function": "research",
+   "group": "香港",
+   "tag": "顶级衍生品做市商",
+   "title": "Options Market Maker",
+   "loc": "新加坡 / 上海",
+   "loc_filters": [
+    "hk",
+    "sg",
+    "cn"
+   ],
+   "excerpt": "股指 / 商品期权做市，全球顶级衍生品团队。需要快速定价能力与盘口直觉，CTA/交易背景亦可。",
+   "fit": "期权交易 / 卖方做市 / CTA · 数学物理背景 · 快速定价",
+   "why": "全球顶级衍生品团队，技术栈和策略迭代速度行业顶尖；CTA 背景也可以转。"
+  },
+  {
+   "id": "QT-2620",
+   "function": "research",
+   "group": "香港",
+   "tag": "老牌 HFT 自营交易",
+   "title": "Quantitative Researcher",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "亚太股票 / 多资产 alpha 研究，HFT 老牌自营交易公司香港团队扩编。3+ 年量化研究经验。",
+   "fit": "3+ 年策略研究 · Python/C++ · 数学/物理/CS 背景",
+   "why": "老牌公司现金流稳定，bonus 结构在自营里属中上，香港团队近两年持续扩编。"
+  },
+  {
+   "id": "QT-2622",
+   "function": "research",
+   "group": "香港",
+   "tag": "顶级多策略量化平台",
+   "title": "Senior Quant Researcher — Fixed Income",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "固收方向 Senior QR，负责利率/信用模型研究。新加坡办公室扩张中，团队 30+ 人。",
+   "fit": "4+ 年固收量化研究 · 利率建模/信用 · PhD 优先",
+   "why": "新加坡税务友好，签证全程办理；固收团队是平台近两年增长最快的条线之一。"
+  },
+  {
+   "id": "QT-2623",
+   "function": "research",
+   "group": "香港",
+   "tag": "顶级多策略量化平台",
+   "title": "Senior Quant Researcher — Intraday Statistical Arbitrage",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "日内统计套利方向，独立策略产出能力要求高。能讲清 PnL 归因。",
+   "fit": "4+ 年日内/高频统计套利 · 独立策略产出 · 强工程能力",
+   "why": "日内套利是平台 alpha 核心方向，团队资源充足，PnL 归因清晰、晋升透明。"
+  },
+  {
+   "id": "QT-2624",
+   "function": "research",
+   "group": "香港",
+   "tag": "顶级多策略量化平台",
+   "title": "Junior Quant Researcher",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "Junior QR 席位，接受应届生与 1–2 年经验。平台有系统化培训体系。",
+   "fit": "应届/1–2 年 · 数学/统计/CS 名校 · Python 扎实",
+   "why": "平台招 junior 有完善 mentor 体系，从研究基础设施到实盘全链路可见。"
+  },
+  {
+   "id": "QT-2626",
+   "function": "research",
+   "group": "香港",
+   "tag": "Top 市场做市商",
+   "title": "Systematic Trader",
+   "loc": "香港 / 新加坡",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "excerpt": "系统化策略日常交易与风险管理，与策略开发/技术团队紧密配合。Base 区间 $150k–325k。",
+   "fit": "电子交易经验 · Python · Linux · 名校 STEM/金融",
+   "why": "全球顶级做市商，平台成熟、风控严格，交易员话语权大，base 区间透明。"
+  },
+  {
+   "id": "QT-2628",
+   "function": "research",
+   "group": "香港",
+   "tag": "Top 市场做市商",
+   "title": "Quantitative Trader",
+   "loc": "香港 / 新加坡",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "excerpt": "半系统化交易，与 QR 团队共同优化策略，覆盖期权/ETF/期货等复杂产品。Base 区间 $175k–350k。",
+   "fit": "复杂金融产品交易经验 · Python/SQL/R · 博弈论兴趣",
+   "why": "全球做市商头部平台，交易员与 QR 深度协作，决策自主空间大。"
+  },
+  {
+   "id": "QT-2629",
+   "function": "research",
+   "group": "香港",
+   "tag": "老牌多策略对冲基金",
+   "title": "Quantitative Researcher — Hong Kong",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "多策略平台香港 QR 席位，与 PM 深度协作做股票 alpha 研究。",
+   "fit": "3+ 年量化研究 · 股票 alpha · 名校背景",
+   "why": "老牌 multi-strategy 平台，carry 结构清晰，香港团队近两年持续加人。"
+  },
+  {
+   "id": "QT-2631",
+   "function": "research",
+   "group": "香港",
+   "tag": "顶级多策略平台",
+   "title": "Quantitative Researcher / Trader",
+   "loc": "新加坡 / 香港 / 上海",
+   "loc_filters": [
+    "sg",
+    "hk",
+    "cn"
+   ],
+   "excerpt": "多资产量化研究 + 交易，三地可选，平台为全球 top 多策略之一。",
+   "fit": "1–5 年量化研究或交易 · 数学/物理/CS · 强 coding",
+   "why": "三地 office 可选（SG/HK/SH），平台资金规模大，研究资源充足。"
+  },
+  {
+   "id": "QT-2647",
+   "function": "research",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Data Scientist",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "数据科学家，偏研究方向。必须有研究经验（基本面因子研究 / ETF Specialist / 交易研究任一）。急招。",
+   "fit": "3+ 年研究或数据科学 · 基本面因子 / ETF 经验 · Python",
+   "why": "急招说明 HC 真实在推进；研究侧也可投，路径比纯 ML 工程师更贴交易。"
+  },
+  {
+   "id": "QT-2603",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "老牌 HFT 交易公司",
+   "title": "Quant Trader — Low Latency",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "低延迟策略执行方向，自营盘。3+ 年 HFT 实盘经验，熟悉订单簿微观结构。公司 20+ 年历史，亚太团队扩张中。",
+   "fit": "3+ 年 HFT 实盘 · 懂订单簿 / 微观结构 · 抗压能力强",
+   "why": "20+ 年老牌 HFT，公司有自营盘和技术栈积累；亚太扩张期加入，能搭团队。"
+  },
+  {
+   "id": "QT-2607",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "中频股票量化",
+   "title": "Senior Quantitative Researcher",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "中频股票策略，团队 30+ 人。4+ 年独立策略产出，能讲清 PnL 归因。新加坡办公室扩张，签证公司全程办理。",
+   "fit": "4+ 年中频/中低频股票策略 · 统计学/计算机/数学 PhD 优先",
+   "why": "签证 EP 全程办理，含家属；新加坡税收低；团队 30+ 人有完善 mentor 体系。"
+  },
+  {
+   "id": "QT-2621",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "老牌 HFT 自营交易 · 新加坡（Latour 团队）",
+   "title": "Junior Quant Trader / Researcher",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "新加坡 Latour 团队积极招聘 Junior Quant，三个月竞业期内均可看，买卖方背景都欢迎。支持新加坡 EP sponsor。",
+   "fit": "0–3 年经验 · 数学/物理/CS/金融工程 · 交易或研究背景均可",
+   "why": "新加坡团队扩张期，EP sponsor 全流程支持；Junior 进来自营盘练手，成长曲线陡。"
+  },
+  {
+   "id": "QT-2625",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "顶级多策略量化平台",
+   "title": "Junior Commodities Fundamental Analyst",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "大宗商品基本面分析方向，与交易团队深度配合。接受应届/1–3 年经验。",
+   "fit": "应届/1–3 年 · 大宗商品/能源/宏观背景 · 数据分析强",
+   "why": "商品条线是新扩张方向，fundamental + quant 结合，路径稀缺。"
+  },
+  {
+   "id": "QT-2627",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "Top 市场做市商",
+   "title": "Systematic Crypto Trader",
+   "loc": "新加坡 / 远程",
+   "loc_filters": [
+    "sg",
+    "remote"
+   ],
+   "excerpt": "数字资产团队系统化策略交易，CeFi 交易所覆盖，全球 24/7 协作但无需夜班。",
+   "fit": "专业加密交易经验 · CeFi/衍生品 · Python",
+   "why": "数字资产是平台增长最快的业务线，全球轮班无需夜班，有机会全球办公室轮岗。"
+  },
+  {
+   "id": "QT-2630",
+   "function": "research",
+   "group": "新加坡",
+   "tag": "顶级多策略平台",
+   "title": "Crypto — Quantitative Trader",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "加密货币量化交易，平台自有资金，新加坡团队负责亚太加密业务。",
+   "fit": "2+ 年加密/期货量化交易 · 策略+执行 · Python/C++",
+   "why": "平台自营资金足，PnL share 透明；新加坡加密业务处于上升通道。"
+  },
+  {
+   "id": "QT-2606",
+   "function": "research",
+   "group": "阿布扎比",
+   "tag": "主权财富基金 · 阿布扎比",
+   "title": "Data Scientist",
+   "loc": "阿布扎比",
+   "loc_filters": [
+    "adh"
+   ],
+   "excerpt": "全球最大主权基金之一，数据科学方向。面向 PhD 毕业生或 2 年以内经验，薪酬免税，福利顶级（住房 / 子女教育 / 医疗）。",
+   "fit": "PhD 毕业或 2 年内 · 数据科学 / 统计 / ML · Python 扎实",
+   "why": "主权基金平台稀缺、薪酬全免所得税；PhD 应届或 junior 就能进顶级主权基金，职业起点极高。"
+  },
+  {
+   "id": "QT-2662",
+   "function": "research",
+   "group": "阿布扎比",
+   "tag": "主权财富基金 · 阿布扎比",
+   "title": "Junior Quant Researcher",
+   "loc": "阿布扎比",
+   "loc_filters": [
+    "adh"
+   ],
+   "excerpt": "全球最大主权基金之一，量化研究方向。面向 PhD 毕业生或 2 年以内经验，薪酬免税，福利顶级。",
+   "fit": "PhD 毕业或 2 年内 · 数学 / 物理 / 量化金融 · Python 扎实",
+   "why": "顶级主权基金的 junior 席位极稀缺；免税薪酬 + 顶级福利，2 年经验即可申请。"
+  },
+  {
+   "id": "QT-2609",
+   "function": "research",
+   "group": "中国",
+   "tag": "头部百亿量化",
+   "title": "量化研究员 · 指数增强",
+   "loc": "杭州 / 上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "alpha 信号研发与组合优化，部门 60+ 人。985 硕以上，实盘策略经验优先。研究员人均 carry 200–500 万区间。",
+   "fit": "985 硕 + 2+ 年量化研究 · 实盘可验证业绩 · Python/C++",
+   "why": "国内规模稳居前列，研究员人均 carry 200-500 万；alpha 部门 60+ 人，mentor 体系完整。"
+  },
+  {
+   "id": "QT-2612",
+   "function": "research",
+   "group": "中国",
+   "tag": "头部指增私募",
+   "title": "量化研究员 · Alpha 挖掘",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "日频 alpha 因子挖掘与组合构建。2+ 年量化研究经验，统计功底扎实。团队近三年规模翻倍，晋升通道清晰。",
+   "fit": "2+ 年量化因子研究 · 统计/数学 PhD 或 985 硕 · Python",
+   "why": "规模三年翻倍，晋升通道清晰；alpha 方向团队 30+ 人，可系统学习。"
+  },
+  {
+   "id": "QT-2613",
+   "function": "research",
+   "group": "中国",
+   "tag": "高频 / CTA 私募",
+   "title": "CTA 量化研究员",
+   "loc": "上海 / 深圳",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "期货 CTA 策略，中短周期。3+ 年 CTA 实盘或研究经验，能独立迭代策略。商品期货数据与信号处理基础扎实。",
+   "fit": "3+ 年 CTA 实盘或研究 · Python · 商品期货数据处理",
+   "why": "CTA 头部团队，carry 比例高于股票私募；策略迭代自主权大。"
+  },
+  {
+   "id": "QT-2614",
+   "function": "research",
+   "group": "中国",
+   "tag": "宏观 / 商品私募",
+   "title": "宏观量化研究员",
+   "loc": "深圳 / 上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "宏观因子建模与另类数据管线。金融 + 编程复合背景优先，Python 强，能独立搭数据 ETL。资管规模百亿级。",
+   "fit": "金融工程 + 编程复合背景 · 宏观或商品经验 · Python 数据 ETL",
+   "why": "宏观 + 另类数据方向稀缺；百亿规模，团队在搭建期加入有股权机会。"
+  },
+  {
+   "id": "QT-2632",
+   "function": "research",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "Experienced Commodity Trader",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "大宗商品交易（农产品/化工/金属/新能源），上海团队。3+ 年商品交易经验，懂供应链与市场结构。",
+   "fit": "3+ 年商品交易 · 农产品/化工/金属 · 懂供需与风险",
+   "why": "做市商利润池全球共享，bonus 行业顶配；上海办公室扩编期。"
+  },
+  {
+   "id": "QT-2633",
+   "function": "research",
+   "group": "中国",
+   "tag": "全球量化交易公司 · 上海",
+   "title": "Quantitative Researcher",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "RMB 资管平台量化研究员，做市 + 指数增强策略，服务机构客户。",
+   "fit": "2+ 年量化研究 · 名校 STEM · C++/Python",
+   "why": "上海 RMB 资管平台独立运营，策略迭代自主权大，carry 比例可观。"
+  },
+  {
+   "id": "QT-2608",
+   "function": "tech",
+   "group": "香港",
+   "tag": "多策略 Pod 平台 · 全球",
+   "title": "Quant Developer — Systematic Equities",
+   "loc": "全球（亚洲为主）",
+   "loc_filters": [
+    "remote",
+    "hk",
+    "sg"
+   ],
+   "excerpt": "C++/Python 双栈，研究平台搭建与生产化。3+ 年工程经验，平台内可申请孵化席位，目前 PM 席位开放。",
+   "fit": "3+ 年工程经验 · C++ + Python · 量化平台/研究工具经验",
+   "why": "内部有 PM 孵化席位 —— 工程做得好可以转 PM（Carry 通道）。"
+  },
+  {
+   "id": "QT-2634",
+   "function": "tech",
+   "group": "香港",
+   "tag": "老牌 HFT 自营交易",
+   "title": "Reliability Engineer",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "交易系统可靠性工程，非传统 SRE/cloud 背景（本岗位不招 SRE/云背景候选人）。需理解交易系统运行。",
+   "fit": "懂 Linux/网络/系统 · 交易系统运维经验优先 · 非纯云背景",
+   "why": "非传统 SRE，直接对接交易团队，能深入交易系统核心；团队小、影响大。"
+  },
+  {
+   "id": "QT-2640",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略量化平台",
+   "title": "Quant Developer (Python)",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "Python Quant Dev，研究平台与回测框架。",
+   "fit": "3+ 年 Python · 量化平台经验 · 懂 C++ 加分",
+   "why": "多策略平台研究工具链完备，QD 与研究员 1:1 协作，工程价值直接可见。"
+  },
+  {
+   "id": "QT-2642",
+   "function": "tech",
+   "group": "香港",
+   "tag": "老牌多策略对冲基金",
+   "title": "Quantitative Developer — Hong Kong",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "多策略平台量化开发，研究/交易系统方向。",
+   "fit": "3+ 年 C++/Python · 量化平台经验",
+   "why": "老牌平台 QD 团队稳定，香港团队与 PM 直接协作，能转研究方向。"
+  },
+  {
+   "id": "QT-2648",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Low Latency Market Data Developer (C++)",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "新建市场数据团队，C++ 方向，3+ 年经验。急招，可推近期未挂的候选人。",
+   "fit": "3+ 年 C++ · 市场数据/行情 · 低延迟",
+   "why": "全新团队早期成员，直接定义行情架构；急招=流程快。"
+  },
+  {
+   "id": "QT-2649",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Quantitative Developer — Python (新交易台)",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "新交易台 Python Quant Dev，Junior-Mid（2–6 年），纯 Python 方向，接受纯技术背景。",
+   "fit": "2–6 年 Python · 交易台/平台开发",
+   "why": "新交易台=全新 PnL 机会，QD 早期加入可转策略；急招推进快。"
+  },
+  {
+   "id": "QT-2650",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Senior Quantitative Developer — Python (QPM)",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "QPM 交易台高级 Quant Dev，8+ 年经验，接受有量化/研究背景的开发。",
+   "fit": "8+ 年经验 · Python · 量化研究背景加分",
+   "why": "QPM 是平台核心 desk，senior QD 待遇对标 PM 通道。"
+  },
+  {
+   "id": "QT-2651",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Quantitative Developer — C++ (S)",
+   "loc": "香港 / 新加坡",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "excerpt": "交易台典型 C++ Dev，<5 年经验。要求硬核 C++（不接受偶尔用 C++ 的 Rust/Go 开发者）。",
+   "fit": "<5 年 · 硬核 C++ · 交易系统",
+   "why": "对 junior 友好（<5 年），纯 C++ 打磨平台级代码。"
+  },
+  {
+   "id": "QT-2653",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Quantitative Developer — C++ (核心)",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "5+ 年典型 Quant Dev，支持多个交易 desk，需相关经验。",
+   "fit": "5+ 年 · C++ · 多 desk 支持经验",
+   "why": "多 desk 支持=视野广，接触平台所有策略线。"
+  },
+  {
+   "id": "QT-2654",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Quantitative Developer — Python (CTA)",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "CTA 方向 Python Quant Dev，新 HC。需 CTA 资产类别经验，seniority 不限（2–30 年均可）。",
+   "fit": "Python · CTA / 期货策略经验",
+   "why": "CTA 是稀缺方向，技能+资产类别双匹配很难找，匹配即高价值。"
+  },
+  {
+   "id": "QT-2655",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Senior Software Engineer — Data Platform",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "APAC 首个数据平台工程师，负责自建数据平台。接受纯技术背景（<3 个月 notice）。",
+   "fit": "3+ 年数据平台/基础设施 · 可能还有 1 个 HC",
+   "why": "APAC 首个 hire=定义平台架构；可能再加 1 HC，团队早期。"
+  },
+  {
+   "id": "QT-2656",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 新加坡/香港",
+   "title": "Senior Software Engineer — Quant Research Framework",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "5+ 年经验，最好坐过交易台。维护核心研究框架、工具、API。需 infra/生产背景。",
+   "fit": "5+ 年 · 研究框架/工具链 · infra 生产经验",
+   "why": "研究框架是全员依赖的核心设施，影响面大；SG/HK 双地可选。"
+  },
+  {
+   "id": "QT-2657",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Software Engineer — Researcher Experience",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "服务研究员的技术支持工程师，帮研究员解决技术问题、提升效率。SaaS 客户解决方案工程师背景最匹配。",
+   "fit": "技术+沟通 · 客户解决方案工程师经验",
+   "why": "研究员体验岗=长期稳定，金融知识非必需，沟通型工程师天堂。"
+  },
+  {
+   "id": "QT-2658",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "C++ Core Developer — Pricing & Risk",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "强 C++ 定价/量化库方向，懂建模并集成到系统。FX / 期权等资产类别经验。急招（非通用 C++ 应用开发）。",
+   "fit": "强 C++ · 定价/量化库 · FX 或期权经验",
+   "why": "定价风控是核心利润系统，急招=真实在推；技能稀缺定价高。"
+  },
+  {
+   "id": "QT-2659",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Research Platform — Software Engineer",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "8–12 年经验，语言不限但最终用 Go。建设 HPC 研究平台的工具链。急招，偏好大厂背景。",
+   "fit": "8–12 年 · Go · HPC / 平台工程 · 大厂背景",
+   "why": "HPC 研究平台=量化核心基础设施，超级急招，大厂背景直接可谈。"
+  },
+  {
+   "id": "QT-2660",
+   "function": "tech",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Data Support Engineer",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "数据支持工程师，2+ 年经验，技术门槛低于其他岗位，需接受做支持。急招。",
+   "fit": "2+ 年 · 数据/运维支持 · 沟通好",
+   "why": "低门槛进顶级多策略平台的机会；急招流程快。"
+  },
+  {
+   "id": "QT-2618",
+   "function": "tech",
+   "group": "新加坡",
+   "tag": "老牌 HFT 交易公司",
+   "title": "C++ Engineer — Low Latency Infrastructure",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "低延迟交易系统、订单簿引擎、内核 bypass 网络。5+ 年 C++ 工程经验，Linux 内核 / DPDK / FPGA 加分。",
+   "fit": "5+ 年 C++ · Linux 内核 / DPDK / FPGA / 网络栈",
+   "why": "技术栈深度行业顶尖；FPGA / 内核方向同事都是该领域 KOL。"
+  },
+  {
+   "id": "QT-2641",
+   "function": "tech",
+   "group": "新加坡",
+   "tag": "顶级多策略量化平台",
+   "title": "Junior Software Developer (KDB+/Q)",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "KDB+/Q 时序数据库开发，研究数据平台方向。接受应届/1–2 年经验。",
+   "fit": "KDB+/Q 或相关时序经验 · 应届可投",
+   "why": "KDB+ 是量化行业核心技能，平台提供系统培训，学会即稀缺。"
+  },
+  {
+   "id": "QT-2610",
+   "function": "tech",
+   "group": "中国",
+   "tag": "Top 量化平台",
+   "title": "Senior Quant Engineer — 平台方向",
+   "loc": "北京",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "实盘交易平台与数据链路。Rust / C++ 优先，5+ 年经验，懂低延迟系统，PCIe / FPGA 加分。百亿+ 规模，工程独立成军。",
+   "fit": "5+ 年工程经验 · Rust / C++ · 低延迟 / PCIe / FPGA 加分",
+   "why": "工程团队独立成军，技术决策权大；百亿+ 规模预算充足。"
+  },
+  {
+   "id": "QT-2635",
+   "function": "tech",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "Senior Software Engineer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "上海技术团队，交易系统/研究平台方向。5+ 年 C++/Java/Go 工程经验。",
+   "fit": "5+ 年后端/系统开发 · C++/Java/Go · 名校背景",
+   "why": "上海技术团队 30+ 人，做市商系统复杂度高，技术成长快。"
+  },
+  {
+   "id": "QT-2636",
+   "function": "tech",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "Senior C++ Developer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "低延迟交易系统 C++ 开发，核心订单管理系统。5+ 年 C++ 经验。",
+   "fit": "5+ 年 C++ · 低延迟/网络编程 · Linux",
+   "why": "做市商核心系统，直接接触全球级低延迟架构，技术天花板高。"
+  },
+  {
+   "id": "QT-2637",
+   "function": "tech",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "Data Centre Engineer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "数据中心基础设施管理，交易所托管机房、网络布线、硬件部署。",
+   "fit": "数据中心/机房运维经验 · 懂网络/硬件",
+   "why": "交易公司数据中心是核心资产，接触全球交易所托管架构。"
+  },
+  {
+   "id": "QT-2638",
+   "function": "tech",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "Network Engineer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "交易所网络接入、低延迟网络架构与运维。",
+   "fit": "网络工程经验 · 低延迟网络 · CCNP/同等水平",
+   "why": "全球级低延迟网络架构，与交易所直连，网络工程师成长平台顶级。"
+  },
+  {
+   "id": "QT-2639",
+   "function": "tech",
+   "group": "中国",
+   "tag": "全球量化交易公司 · 上海",
+   "title": "Low Latency Software Developer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "自研交易软件与基础设施，C++ 2+ 年经验。分布式计算、实时风控方向。",
+   "fit": "2+ 年 C++ · 网络编程/TCP/IP · 多线程",
+   "why": "2010 年成立的全球量化交易公司，印度市场头部，上海团队自主开发空间大。"
+  },
+  {
+   "id": "QT-2643",
+   "function": "tech",
+   "group": "中国",
+   "tag": "全球量化交易公司 · 上海",
+   "title": "HPC Engineer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "GPU 分布式计算集群设计与运维，模型训练基础设施。",
+   "fit": "HPC/GPU 集群经验 · CUDA/Slurm · 系统级工程",
+   "why": "自建 GPU 集群做分布式训练，量化+AI 结合方向，工程挑战大。"
+  },
+  {
+   "id": "QT-2652",
+   "function": "tech",
+   "group": "中国",
+   "tag": "顶级多策略平台 · 上海",
+   "title": "Quantitative Developer — C++ (上海)",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "上海首次招 Quant Dev，3 个 HC。Quant Dev 或 C++ 数据采集背景均可。",
+   "fit": "C++ · 量化开发或数据采集经验",
+   "why": "上海 office 首次组建 QD 团队，3 HC 一起进=建队元老。"
+  },
+  {
+   "id": "QT-2616",
+   "function": "tech",
+   "group": "全球 / 远程",
+   "tag": "加密做市 · 远程",
+   "title": "Market Maker — Algo Execution",
+   "loc": "远程",
+   "loc_filters": [
+    "remote"
+   ],
+   "excerpt": "自动化做市与执行优化，低延迟基础设施。2+ 年做市或执行经验，Go / Rust / C++ 均可。团队分布全球，完全远程。",
+   "fit": "2+ 年做市 / 执行经验 · Go / Rust / C++ · 加密背景加分",
+   "why": "完全远程 + 全球团队 + Token Bonus；技术栈前沿，加密做市 infra 经验累积快。"
+  },
+  {
+   "id": "QT-2644",
+   "function": "ml",
+   "group": "香港",
+   "tag": "老牌 HFT 自营交易",
+   "title": "Machine Learning Engineer",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "ML Engineer，将模型落地到交易与研究管线。",
+   "fit": "3+ 年 ML 工程 · Python/深度学习框架 · 懂特征工程",
+   "why": "老牌自营公司 ML 团队稳定，模型直接服务交易决策，落地快。"
+  },
+  {
+   "id": "QT-2661",
+   "function": "ml",
+   "group": "香港",
+   "tag": "顶级多策略平台 · 香港",
+   "title": "Senior AI Engineer",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "用 AI 开发工具加速工程效率的岗位（非 LLM/ML/推荐系统）。新 HC，偏好有金融知识者。",
+   "fit": "AI/Agentic 工程实践 · 金融知识加分",
+   "why": "新 HC+AI 提效方向=团队内部重点项目，金融知识是稀缺加分项。"
+  },
+  {
+   "id": "QT-2619",
+   "function": "ml",
+   "group": "新加坡",
+   "tag": "加密资管 · 全球",
+   "title": "AI Researcher — DeFi / On-Chain",
+   "loc": "远程 / 新加坡",
+   "loc_filters": [
+    "remote",
+    "sg"
+   ],
+   "excerpt": "链上 / DEX 量化策略，Solidity 与 EVM 实战经验。ML/RL 在链上数据建模方向。研究员配股计划行业最慷慨档。",
+   "fit": "Solidity / EVM 实战 · RL/ML 链上建模 · 加密原生背景",
+   "why": "配股计划行业最慷慨档；远程为主，新加坡办公室可去可不去。"
+  },
+  {
+   "id": "QT-2611",
+   "function": "ml",
+   "group": "中国",
+   "tag": "头部自营量化",
+   "title": "Machine Learning Researcher",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "深度学习 / Transformer 因子合成。顶会或顶刊优先。连续多年百亿+ 资管规模，自营扩编，研究氛围顶级。",
+   "fit": "深度学习 / Transformer 实战 · 顶会 NeurIPS/ICML/ICLR 优先 · 因子建模经验",
+   "why": "研究氛围顶级，每年顶会论文产出；自营资金规模百亿+，模型可快速上实盘验证。"
+  },
+  {
+   "id": "QT-2645",
+   "function": "ml",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "AI Engineer",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "AI Engineering 团队首批成员，负责模型服务与评估体系。团队从 2-3 人起步。",
+   "fit": "3+ 年 AI/ML 工程 · 大模型推理/评估 · 中文+英文",
+   "why": "新团队首批成员 = 核心岗位，直接定义模型策略，成长曲线陡。"
+  },
+  {
+   "id": "QT-2646",
+   "function": "ml",
+   "group": "中国",
+   "tag": "全球顶级衍生品做市商 · 上海",
+   "title": "Head of AI Engineering",
+   "loc": "上海",
+   "loc_filters": [
+    "cn"
+   ],
+   "excerpt": "全球 AI 工程负责人，搭建模型服务与评估双团队（目标 10-15 人），负责模型路由与成本优化。",
+   "fit": "10+ 年 ML/AI 工程 · 团队管理 · 大模型部署与评估经验",
+   "why": "从 0 到 1 搭建全球模型战略团队，直接向全球 tech 负责人汇报，行业稀缺岗。"
+  }
+ ]
+}
