@@ -290,6 +290,21 @@ main.wrap{padding-top:36px;padding-bottom:60px}
   margin-left:10px;color:var(--green);
 }
 
+/* 成功案例区 */
+.jobs-cases{
+  background:linear-gradient(135deg,rgba(210,153,34,.05) 0%,rgba(240,136,62,.04) 100%);
+  border:1px solid rgba(210,153,34,.2);border-radius:12px;
+  padding:22px 26px;margin:26px 0;
+}
+.jobs-cases h3{font-size:17px;color:var(--gold);margin-bottom:14px;letter-spacing:.3px}
+.cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.case-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.case-card .case-tag{font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;letter-spacing:.3px}
+.case-card h4{font-size:14px;color:#fff;margin-bottom:6px;line-height:1.4}
+.case-card .case-desc{font-size:12.5px;color:var(--muted);line-height:1.6}
+.cases-note{font-size:11.5px;color:var(--muted);margin-top:12px;line-height:1.6}
+@media (max-width:680px){.cases-grid{grid-template-columns:1fr}}
+
 /* 候选人 FAQ */
 .jobs-faq{
   background:var(--panel);border:1px solid var(--line);

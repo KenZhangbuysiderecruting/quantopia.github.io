@@ -74,6 +74,29 @@
     <p class="jobs-intro">岗位加载中…</p>
   </div>
 
+  <!-- 成功案例 -->
+  <section class="jobs-cases">
+    <h3>🏆 近一年成功案例（匿名化）</h3>
+    <div class="cases-grid">
+      <div class="case-card">
+        <p class="case-tag">海外多策略平台 · 香港</p>
+        <h4>Portfolio Manager 入职，3 个月</h4>
+        <p class="case-desc">从候选人接触到 offer，3 个月完成。候选人原在另一家平台带 4 人团队，业绩可验证。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag">头部量化私募 · 上海</p>
+        <h4>Senior Quant Engineer 入职，4 周</h4>
+        <p class="case-desc">急招岗位，4 周内推荐 2 名候选人，1 名入职。工程团队搭建关键成员。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag">顶级做市商 · 新加坡</p>
+        <h4>Quant Trader 入职，6 周</h4>
+        <p class="case-desc">EP 签证全程办理，候选人携 3 年 HFT 实盘经验，入职后直接接手亚太盘口。</p>
+      </div>
+    </div>
+    <p class="cases-note">* 以上案例均经客户与候选人同意后匿名化展示，不透露任何机构与个人身份信息。</p>
+  </section>
+
   <!-- 候选人 FAQ -->
   <section class="jobs-faq">
     <h3>📌 投递前常见问题</h3>
@@ -183,6 +206,7 @@ function loadJobs() {
     renderFilter();
     renderFunctions();
     renderJobs('all');
+    injectJobSchema();  // JobPosting 结构化数据
   })
   .catch(err => {
     console.error('jobs.json load error:', err);
@@ -349,6 +373,38 @@ function renderJobs(filter) {
       document.getElementById('wechat-popup').classList.add('open');
     });
   });
+}
+
+// ===== JobPosting 结构化数据（Google 职位收录） =====
+function injectJobSchema() {
+  const schema = {
+    '@context': 'https://schema.org/',
+    '@graph': ALL_JOBS.slice(0, 50).map(j => ({
+      '@type': 'JobPosting',
+      title: j.title,
+      description: (j.excerpt || '') + ' ' + (j.fit || '') + ' ' + (j.why || ''),
+      datePosted: '2026-08-30',
+      validThrough: '2026-12-31',
+      employmentType: 'FULL_TIME',
+      hiringOrganization: {
+        '@type': 'Organization',
+        name: j.tag,
+        sameAs: 'https://kenzhangbuysiderecruting.github.io/quantopia.github.io/jobs.html'
+      },
+      jobLocation: {
+        '@type': 'Place',
+        address: { '@type': 'PostalAddress', addressLocality: j.loc }
+      },
+      url: 'https://kenzhangbuysiderecruting.github.io/quantopia.github.io/jobs.html#' + j.id
+    }))
+  };
+  let old = document.getElementById('ld-jobs');
+  if (old) old.remove();
+  const s = document.createElement('script');
+  s.type = 'application/ld+json';
+  s.id = 'ld-jobs';
+  s.textContent = JSON.stringify(schema);
+  document.head.appendChild(s);
 }
 
 // ===== 微信悬浮卡片 =====
