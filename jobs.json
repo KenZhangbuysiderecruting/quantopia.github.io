@@ -67,8 +67,8 @@
       "title": "Senior Quant Researcher — Fixed Income",
       "loc": "新加坡 / 香港",
       "loc_filters": [
-        "sg",
-        "hk"
+        "hk",
+        "sg"
       ],
       "excerpt": "固收方向 Senior QR，负责利率/信用模型研究。新加坡办公室扩张中，团队 30+ 人。",
       "fit": "4+ 年固收量化研究 · 利率建模/信用 · PhD 优先",
@@ -82,8 +82,8 @@
       "title": "Senior Quant Researcher — Intraday Statistical Arbitrage",
       "loc": "新加坡 / 香港",
       "loc_filters": [
-        "sg",
-        "hk"
+        "hk",
+        "sg"
       ],
       "excerpt": "日内统计套利方向，独立策略产出能力要求高。能讲清 PnL 归因。",
       "fit": "4+ 年日内/高频统计套利 · 独立策略产出 · 强工程能力",
@@ -97,8 +97,8 @@
       "title": "Junior Quant Researcher",
       "loc": "新加坡 / 香港",
       "loc_filters": [
-        "sg",
-        "hk"
+        "hk",
+        "sg"
       ],
       "excerpt": "Junior QR 席位，接受应届生与 1–2 年经验。平台有系统化培训体系。",
       "fit": "应届/1–2 年 · 数学/统计/CS 名校 · Python 扎实",
@@ -156,9 +156,8 @@
       "title": "Quantitative Researcher / Trader",
       "loc": "新加坡 / 香港 / 上海",
       "loc_filters": [
-        "sg",
         "hk",
-        "cn"
+        "sg"
       ],
       "excerpt": "多资产量化研究 + 交易，三地可选，平台为全球 top 多策略之一。",
       "fit": "1–5 年量化研究或交易 · 数学/物理/CS · 强 coding",
@@ -200,9 +199,8 @@
       "title": "Options Market Maker",
       "loc": "新加坡 / 上海",
       "loc_filters": [
-        "hk",
         "sg",
-        "cn"
+        "hk"
       ],
       "excerpt": "股指 / 商品期权做市，全球顶级衍生品团队。需要快速定价能力与盘口直觉，CTA/交易背景亦可。",
       "fit": "期权交易 / 卖方做市 / CTA · 数学物理背景 · 快速定价",
@@ -315,7 +313,7 @@
       "title": "量化研究员 · 指数增强",
       "loc": "杭州 / 上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "alpha 信号研发与组合优化，部门 60+ 人。985 硕以上，实盘策略经验优先。研究员人均 carry 200–500 万区间。",
       "fit": "985 硕 + 2+ 年量化研究 · 实盘可验证业绩 · Python/C++",
@@ -329,7 +327,7 @@
       "title": "量化研究员 · Alpha 挖掘",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "日频 alpha 因子挖掘与组合构建。2+ 年量化研究经验，统计功底扎实。团队近三年规模翻倍，晋升通道清晰。",
       "fit": "2+ 年量化因子研究 · 统计/数学 PhD 或 985 硕 · Python",
@@ -343,7 +341,7 @@
       "title": "CTA 量化研究员",
       "loc": "上海 / 深圳",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "期货 CTA 策略，中短周期。3+ 年 CTA 实盘或研究经验，能独立迭代策略。商品期货数据与信号处理基础扎实。",
       "fit": "3+ 年 CTA 实盘或研究 · Python · 商品期货数据处理",
@@ -357,7 +355,7 @@
       "title": "宏观量化研究员",
       "loc": "深圳 / 上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "宏观因子建模与另类数据管线。金融 + 编程复合背景优先，Python 强，能独立搭数据 ETL。资管规模百亿级。",
       "fit": "金融工程 + 编程复合背景 · 宏观或商品经验 · Python 数据 ETL",
@@ -371,7 +369,7 @@
       "title": "Experienced Commodity Trader",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "大宗商品交易（农产品/化工/金属/新能源），上海团队。3+ 年商品交易经验，懂供应链与市场结构。",
       "fit": "3+ 年商品交易 · 农产品/化工/金属 · 懂供需与风险",
@@ -385,7 +383,7 @@
       "title": "Quantitative Researcher",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "RMB 资管平台量化研究员，做市 + 指数增强策略，服务机构客户。",
       "fit": "2+ 年量化研究 · 名校 STEM · C++/Python",
@@ -399,8 +397,8 @@
       "title": "Reliability Engineer",
       "loc": "新加坡 / 香港",
       "loc_filters": [
-        "sg",
-        "hk"
+        "hk",
+        "sg"
       ],
       "excerpt": "交易系统可靠性工程，非传统 SRE/cloud 背景（本岗位不招 SRE/云背景候选人）。需理解交易系统运行。",
       "fit": "懂 Linux/网络/系统 · 交易系统运维经验优先 · 非纯云背景",
@@ -414,8 +412,8 @@
       "title": "Quant Developer (Python)",
       "loc": "新加坡 / 香港",
       "loc_filters": [
-        "sg",
-        "hk"
+        "hk",
+        "sg"
       ],
       "excerpt": "Python Quant Dev，研究平台与回测框架。",
       "fit": "3+ 年 Python · 量化平台经验 · 懂 C++ 加分",
@@ -542,8 +540,8 @@
       "title": "Senior Software Engineer — Quant Research Framework",
       "loc": "新加坡 / 香港",
       "loc_filters": [
-        "sg",
-        "hk"
+        "hk",
+        "sg"
       ],
       "excerpt": "5+ 年经验，最好坐过交易台。维护核心研究框架、工具、API。需 infra/生产背景。",
       "fit": "5+ 年 · 研究框架/工具链 · infra 生产经验",
@@ -641,7 +639,7 @@
       "title": "Senior Software Engineer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "上海技术团队，交易系统/研究平台方向。5+ 年 C++/Java/Go 工程经验。",
       "fit": "5+ 年后端/系统开发 · C++/Java/Go · 名校背景",
@@ -655,7 +653,7 @@
       "title": "Senior C++ Developer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "低延迟交易系统 C++ 开发，核心订单管理系统。5+ 年 C++ 经验。",
       "fit": "5+ 年 C++ · 低延迟/网络编程 · Linux",
@@ -669,7 +667,7 @@
       "title": "Data Centre Engineer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "数据中心基础设施管理，交易所托管机房、网络布线、硬件部署。",
       "fit": "数据中心/机房运维经验 · 懂网络/硬件",
@@ -683,7 +681,7 @@
       "title": "Network Engineer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "交易所网络接入、低延迟网络架构与运维。",
       "fit": "网络工程经验 · 低延迟网络 · CCNP/同等水平",
@@ -697,7 +695,7 @@
       "title": "Low Latency Software Developer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "自研交易软件与基础设施，C++ 2+ 年经验。分布式计算、实时风控方向。",
       "fit": "2+ 年 C++ · 网络编程/TCP/IP · 多线程",
@@ -711,7 +709,7 @@
       "title": "HPC Engineer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "GPU 分布式计算集群设计与运维，模型训练基础设施。",
       "fit": "HPC/GPU 集群经验 · CUDA/Slurm · 系统级工程",
@@ -725,7 +723,7 @@
       "title": "Quantitative Developer — C++ (上海)",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "上海首次招 Quant Dev，3 个 HC。Quant Dev 或 C++ 数据采集背景均可。",
       "fit": "C++ · 量化开发或数据采集经验",
@@ -739,7 +737,7 @@
       "title": "Senior Quant Engineer — 平台方向",
       "loc": "北京",
       "loc_filters": [
-        "cn"
+        "bj"
       ],
       "excerpt": "实盘交易平台与数据链路。Rust / C++ 优先，5+ 年经验，懂低延迟系统，PCIe / FPGA 加分。百亿+ 规模，工程独立成军。",
       "fit": "5+ 年工程经验 · Rust / C++ · 低延迟 / PCIe / FPGA 加分",
@@ -811,8 +809,8 @@
       "title": "AI Researcher — DeFi / On-Chain",
       "loc": "远程 / 新加坡",
       "loc_filters": [
-        "remote",
-        "sg"
+        "sg",
+        "remote"
       ],
       "excerpt": "链上 / DEX 量化策略，Solidity 与 EVM 实战经验。ML/RL 在链上数据建模方向。研究员配股计划行业最慷慨档。",
       "fit": "Solidity / EVM 实战 · RL/ML 链上建模 · 加密原生背景",
@@ -826,7 +824,7 @@
       "title": "Machine Learning Researcher",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "深度学习 / Transformer 因子合成。顶会或顶刊优先。连续多年百亿+ 资管规模，自营扩编，研究氛围顶级。",
       "fit": "深度学习 / Transformer 实战 · 顶会 NeurIPS/ICML/ICLR 优先 · 因子建模经验",
@@ -840,7 +838,7 @@
       "title": "AI Engineer",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "AI Engineering 团队首批成员，负责模型服务与评估体系。团队从 2-3 人起步。",
       "fit": "3+ 年 AI/ML 工程 · 大模型推理/评估 · 中文+英文",
@@ -854,7 +852,7 @@
       "title": "Head of AI Engineering",
       "loc": "上海",
       "loc_filters": [
-        "cn"
+        "sh"
       ],
       "excerpt": "全球 AI 工程负责人，搭建模型服务与评估双团队（目标 10-15 人），负责模型路由与成本优化。",
       "fit": "10+ 年 ML/AI 工程 · 团队管理 · 大模型部署与评估经验",

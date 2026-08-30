@@ -343,7 +343,7 @@ function renderFilter() {
       else if (loc === 'sg' && locs.includes('sg')) n++;
       else if (loc === 'remote' && locs.includes('remote')) n++;
       else if (loc === 'adh' && locs.includes('adh')) n++;
-      else if (['sh','bj','sz'].includes(loc) && locs.includes('cn')) n++;  // 中国大陆岗位统一计入 cn 筛选
+      else if (locs.includes(loc)) n++;  // sh/bj/sz 用精确 key 匹配
     });
     if (n > 0) html += `<button class="filter-pill" data-filter="${loc}">${LOC_LABEL[loc]} ${n}</button>`;
   });
@@ -394,11 +394,7 @@ function renderJobs(filter) {
   const list = document.getElementById('jobs-list');
   const shown = filter === 'all' ? ALL_JOBS : ALL_JOBS.filter(j => {
     const locs = j.loc_filters || [];
-    if (filter === 'hk') return locs.includes('hk');
-    if (filter === 'sg') return locs.includes('sg');
-    if (filter === 'adh') return locs.includes('adh');
-    if (filter === 'remote') return locs.includes('remote');
-    if (['sh','bj','sz'].includes(loc)) return locs.includes('cn');  // 中国大陆按 cn 筛选
+    if (['hk','sg','adh','remote','sh','bj','sz','syd'].includes(filter)) return locs.includes(filter);
     return true;
   });
 
