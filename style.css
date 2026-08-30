@@ -178,3 +178,32 @@ main.wrap{padding-top:36px;padding-bottom:60px}
   .job-card .meta{flex-direction:column;align-items:flex-start;gap:2px}
   .job-card .meta .dot{display:none}
 }
+
+/* ==== 岗位页 v3：职能快速跳转 + 地区二级分组 ==== */
+.jobs-functions{
+  display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 26px;
+  padding:12px 14px;background:rgba(210,153,34,.04);
+  border:1px solid rgba(210,153,34,.2);border-radius:10px;
+}
+.jobs-functions .func-pill{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:7px 14px;border-radius:999px;
+  background:var(--panel);border:1px solid var(--line);
+  color:var(--txt);text-decoration:none;font-size:13.5px;font-weight:500;
+  transition:all .2s;
+}
+.jobs-functions .func-pill b{color:var(--gold);font-weight:700;font-size:12px}
+.jobs-functions .func-pill:hover{transform:translateY(-1px);background:#1a2030}
+.jobs-functions .func-research:hover{border-color:var(--gold);box-shadow:0 0 0 2px rgba(210,153,34,.15)}
+.jobs-functions .func-tech:hover{border-color:var(--blue);box-shadow:0 0 0 2px rgba(88,166,255,.15)}
+.jobs-functions .func-ml:hover{border-color:var(--purple);box-shadow:0 0 0 2px rgba(188,140,255,.15)}
+
+/* 地区二级分组标题 */
+.jobs-loc-group{margin:20px 0 8px}
+.loc-h{
+  font-size:13px;font-weight:600;color:var(--cyan);
+  margin:6px 0 10px;padding-left:10px;
+  border-left:3px solid var(--cyan);
+  letter-spacing:.3px;
+}
+.jobs-loc-group .posts-grid{margin-bottom:6px}
