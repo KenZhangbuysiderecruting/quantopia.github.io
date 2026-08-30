@@ -308,8 +308,11 @@ function cardHTML(j) {
     <h3>${esc(j.title)}</h3>
     <p class="meta"><span class="loc">📍 ${esc(j.loc)}</span></p>
     <p class="excerpt">${esc(j.excerpt)}</p>
-    ${j.fit ? `<p class="job-fit"><b>👤 理想候选人</b>：${esc(j.fit)}</p>` : ''}
-    ${j.why ? `<p class="job-why"><b>⭐ 为什么值得去</b>：${esc(j.why)}</p>` : ''}
+    <details class="job-details">
+      <summary>👀 查看候选人画像 / 为什么值得去</summary>
+      ${j.fit ? `<p class="job-fit"><b>👤 理想候选人</b>：${esc(j.fit)}</p>` : ''}
+      ${j.why ? `<p class="job-why"><b>⭐ 为什么值得去</b>：${esc(j.why)}</p>` : ''}
+    </details>
     <p class="job-apply">投递 → <a href="mailto:k.zhang@gravitasgroup.com?subject=${j.id} ${esc(j.title)}">邮件</a> · <a href="#wechat-popup" class="wechat-link" data-job="${j.id}">微信</a></p>
   </article>`;
 }

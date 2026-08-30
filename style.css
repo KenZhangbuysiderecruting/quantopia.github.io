@@ -305,6 +305,20 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 }
 .job-card .tag{margin-right:60px}
 
+/* 卡片内 details 折叠 */
+.job-details{margin-top:8px}
+.job-details summary{
+  cursor:pointer;font-size:12.5px;color:var(--gold);
+  padding:5px 10px;border-radius:6px;
+  background:rgba(210,153,34,.08);border:1px solid rgba(210,153,34,.2);
+  list-style:none;font-weight:600;
+  display:inline-block;transition:all .2s;
+}
+.job-details summary::before{content:"▶";display:inline-block;width:14px;color:var(--gold);margin-right:4px;font-size:9px;transition:transform .2s}
+.job-details[open] summary::before{transform:rotate(90deg)}
+.job-details summary:hover{background:rgba(210,153,34,.14)}
+.job-details[open] summary{margin-bottom:8px}
+
 /* 理想候选人 / 为什么值得去 */
 .job-card .job-fit,.job-card .job-why{
   margin-top:8px;font-size:13px;color:#a3b1c2;line-height:1.6;
