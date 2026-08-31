@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "note": "公司名按客户保密约定匿名化，真实机构名称仅在正式沟通中披露。投递：k.zhang@gravitasgroup.com",
   "jobs": [
     {
@@ -871,6 +871,1084 @@
       "excerpt": "买方基金数据团队扩编：负责另类数据源采购与供应商管理，服务投研决策。3+ 年数据供应商经验 + 金融知识 + 合同谈判能力。",
       "fit": "Bachelor+ · 3+ 年数据供应商经验 · 熟悉金融工具与行业术语 · 擅长合同/服务条款谈判 · 跨团队协作",
       "why": "数据团队核心岗：直接对接投研与工程，管理另类数据全生命周期，参与公司战略级数据项目，视野开阔。"
+    },
+    {
+      "id": "QT-2664",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级衍生品做市商",
+      "title": "Trader — Commodities Desk",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "大宗商品（金属/原油）做市策略开发与实时风控",
+      "fit": "量化背景本科+，1 年以上交易经验",
+      "why": "顶级衍生品做市商，商品台全球联动，培训体系完善"
+    },
+    {
+      "id": "QT-2665",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级衍生品做市商",
+      "title": "Experienced Quantitative Researcher (D1)",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "机器学习驱动的全自动交易策略研发",
+      "fit": "5 年+量化研究，BS/MS/PhD",
+      "why": "头部做市商核心研究岗，数据与算力资源顶级"
+    },
+    {
+      "id": "QT-2666",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "顶级做市商",
+      "title": "Software Engineer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "构建公司核心系统与开发工具",
+      "fit": "本科/硕士计算机相关，工程能力强",
+      "why": "顶级做市商，工程文化闻名，薪酬极具竞争力"
+    },
+    {
+      "id": "QT-2667",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "顶级做市商",
+      "title": "Cybersecurity Engineer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "安全工程与防护体系搭建",
+      "fit": "有安全工程经验",
+      "why": "技术栈前沿，安全团队独立建制"
+    },
+    {
+      "id": "QT-2668",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级 HFT 自营交易",
+      "title": "Fixed Income Trader",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "全球固定收益策略交易（宏观团队）",
+      "fit": "有全球固收策略交易经验",
+      "why": "顶级 HFT 自营，宏观固收新方向，成长空间大"
+    },
+    {
+      "id": "QT-2669",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级 HFT 自营交易",
+      "title": "Algo Developer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "预测模型与交易策略构建",
+      "fit": "数学/CS/统计/物理背景",
+      "why": "算法驱动，技术+策略双线发展"
+    },
+    {
+      "id": "QT-2670",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "顶级 HFT 自营交易",
+      "title": "Software Engineer — Python",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "研究/交易系统 Python 开发",
+      "fit": "Python/C++ 经验",
+      "why": "核心系统开发，与研究员紧密协作"
+    },
+    {
+      "id": "QT-2671",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级做市商",
+      "title": "Options Quantitative Strategist",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "期权波动率信号与定价模型",
+      "fit": "3-5 年 OAMM 量化研究，PhD 优先",
+      "why": "顶级做市商，期权策略岗稀缺，含金量高"
+    },
+    {
+      "id": "QT-2672",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级做市商",
+      "title": "Quantitative Trader",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "算法交易策略配置与风控",
+      "fit": "量化背景，编程强",
+      "why": "全资产做市平台，实盘资源丰富"
+    },
+    {
+      "id": "QT-2673",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级 HFT · 加密做市",
+      "title": "Quantitative Researcher",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "交易策略研究开发",
+      "fit": "量化研究背景，Python/统计",
+      "why": "顶级 HFT，研究深度与实盘结合紧密"
+    },
+    {
+      "id": "QT-2674",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Quantitative Trading Researcher",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "高频交易算法开发",
+      "fit": "硕士，3 年+量化交易",
+      "why": "老牌 HFT，多策略线，稳定平台"
+    },
+    {
+      "id": "QT-2675",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Junior Quant Trader / Researcher",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "策略研发与部署",
+      "fit": "量化背景，硕士优先",
+      "why": "老牌 HFT，适合进阶成长"
+    },
+    {
+      "id": "QT-2676",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "顶级做市商",
+      "title": "Quantitative Developer / Research Engineer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "自动交易系统软件方案",
+      "fit": "本科+ CS/数学，C++/Python",
+      "why": "顶级做市商，量化+工程结合岗"
+    },
+    {
+      "id": "QT-2677",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "顶级做市商",
+      "title": "Kdb+/Q Engineer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "行情数据与量化研究平台",
+      "fit": "Kdb+/Q 生产经验",
+      "why": "稀缺技能岗，数据基础设施核心"
+    },
+    {
+      "id": "QT-2678",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级多策略平台",
+      "title": "Quantitative Researcher — Equity",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "系统化股票 alpha 研究",
+      "fit": "硕士/博士，1-3 年",
+      "why": "顶级多策略平台，Pod 制高分成，出 alpha 奖金弹性大"
+    },
+    {
+      "id": "QT-2679",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "顶级多策略平台",
+      "title": "Server-Side Engineer (C++) — Pre-Trade Risk",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "低延迟盘前风控系统开发",
+      "fit": "5 年+ C++（Java 加分）",
+      "why": "核心风控系统，技术门槛高"
+    },
+    {
+      "id": "QT-2680",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级多策略平台",
+      "title": "Cubist Quantitative Researcher",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "系统化股票 alpha 研究",
+      "fit": "硕士/博士",
+      "why": "Cubist 系统化平台，数据与投研资源顶级"
+    },
+    {
+      "id": "QT-2681",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级多策略平台",
+      "title": "Cubist Portfolio Manager",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "系统化策略组合管理",
+      "fit": "资深，独立管理组合",
+      "why": "独立 PM 岗，分成机制市场化"
+    },
+    {
+      "id": "QT-2682",
+      "function": "ml",
+      "group": "新加坡",
+      "tag": "顶级多策略平台",
+      "title": "Senior Data Scientist",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "数据集接入清洗，服务系统化 PM",
+      "fit": "博士/硕士，5 年+",
+      "why": "数据科学岗直连投资端，价值感强"
+    },
+    {
+      "id": "QT-2683",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级多策略量化平台",
+      "title": "Desk Quant Analyst",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "投资台量化分析",
+      "fit": "量化背景",
+      "why": "全球多策略量化平台，投研台前岗"
+    },
+    {
+      "id": "QT-2684",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级多策略量化平台",
+      "title": "Junior Quant Researcher",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "量化研究",
+      "fit": "硕士/博士",
+      "why": "平台扩编，新人培养体系成熟"
+    },
+    {
+      "id": "QT-2685",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "全球多策略对冲基金",
+      "title": "Platform Engineer — Trade Support",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "量化交易平台 7×24 支持与自动化",
+      "fit": "本科 CS，5 年+",
+      "why": "全球多策略，平台工程核心岗"
+    },
+    {
+      "id": "QT-2686",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "全球多策略对冲基金",
+      "title": "Senior Platform Support Engineer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "平台支持工程",
+      "fit": "资深",
+      "why": "稳定平台，技术栈成熟"
+    },
+    {
+      "id": "QT-2687",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "全球多策略对冲基金",
+      "title": "Commodities Quantitative Developer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "大宗商品交易量化开发",
+      "fit": "工程背景",
+      "why": "全球多策略，商品条线扩张期"
+    },
+    {
+      "id": "QT-2688",
+      "function": "ml",
+      "group": "新加坡",
+      "tag": "全球多策略对冲基金",
+      "title": "Data Scientist — AI Enablement",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "生成式 AI 赋能投研",
+      "fit": "数据科学背景",
+      "why": "AI+投研前沿方向"
+    },
+    {
+      "id": "QT-2689",
+      "function": "ml",
+      "group": "新加坡",
+      "tag": "顶级多策略对冲基金",
+      "title": "Machine Learning Researcher — PhD Intern",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "ML/深度学习交易模型研究",
+      "fit": "博士在读/应届",
+      "why": "顶级多策略，ML 研究岗稀缺"
+    },
+    {
+      "id": "QT-2690",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "顶级多策略对冲基金",
+      "title": "Commodities Portfolio Manager",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "大宗商品组合管理",
+      "fit": "资深，独立管理组合",
+      "why": "顶级多策略，商品条线资源强"
+    },
+    {
+      "id": "QT-2691",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "全球量化资管",
+      "title": "Algo Trading Developer — C++",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "算法交易系统开发",
+      "fit": "C++ 低延迟开发",
+      "why": "全球量化资管，技术+交易结合"
+    },
+    {
+      "id": "QT-2692",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "多策略 Pod 平台",
+      "title": "Equity Analyst — India Cyclicals",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "印度周期板块基本面研究与建模",
+      "fit": "4-8 年股票研究",
+      "why": "多策略 Pod 平台，新兴市场覆盖"
+    },
+    {
+      "id": "QT-2693",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "全球量化自营平台",
+      "title": "Trader",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "系统化策略交易执行",
+      "fit": "交易经验",
+      "why": "全球量化自营，交易执行岗"
+    },
+    {
+      "id": "QT-2694",
+      "function": "research",
+      "group": "新加坡",
+      "tag": "全球量化自营平台",
+      "title": "Portfolio Manager",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "独立管理系统化组合与风险",
+      "fit": "5-8 年量化策略",
+      "why": "独立 PM 岗，市场化分成"
+    },
+    {
+      "id": "QT-2695",
+      "function": "ml",
+      "group": "悉尼",
+      "tag": "顶级衍生品做市商",
+      "title": "Software Engineer — AI",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "设计构建 AI agent 编排数据与工作流",
+      "fit": "本科 CS/AI，Python 熟练",
+      "why": "顶级做市商 AI 方向，技术前沿"
+    },
+    {
+      "id": "QT-2696",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级衍生品做市商",
+      "title": "Production Software Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "生产交易系统部署与运维工具链",
+      "fit": "资深，分布式系统经验",
+      "why": "核心交易系统，工程要求高"
+    },
+    {
+      "id": "QT-2697",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "顶级做市商",
+      "title": "Equity Options Volatility Trader",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "股指/个股期权波动率做市",
+      "fit": "有期权波动率交易经验",
+      "why": "顶级做市商，期权波动率核心台"
+    },
+    {
+      "id": "QT-2698",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "顶级做市商",
+      "title": "Quantitative Researcher — HFT Commodity Futures",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "高频商品期货策略研究",
+      "fit": "量化背景，HFT 期货",
+      "why": "商品 HFT 方向，竞争壁垒高"
+    },
+    {
+      "id": "QT-2699",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "顶级做市商",
+      "title": "OTC Trader — Crypto",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "加密期权/OTC 做市",
+      "fit": "有 OTC/加密交易经验",
+      "why": "加密做市新兴台，成长快"
+    },
+    {
+      "id": "QT-2700",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级期权做市商",
+      "title": "C++ Developer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "高性能交易系统开发",
+      "fit": "C++/Linux，交易系统经验",
+      "why": "顶级期权做市商，工程实力强"
+    },
+    {
+      "id": "QT-2701",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级期权做市商",
+      "title": "Low-Latency C++ Engineer — Market Data & Signals",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "行情数据与信号系统",
+      "fit": "C++/低延迟",
+      "why": "低延迟核心，技术含金量高"
+    },
+    {
+      "id": "QT-2702",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级期权做市商",
+      "title": "C# Developer — Core Trading Technology",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "核心交易技术开发",
+      "fit": "C#/前端交易环境",
+      "why": "核心交易技术，稳定平台"
+    },
+    {
+      "id": "QT-2703",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "顶级做市商",
+      "title": "APAC Analytics Coverage",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "客户交易分析产品支持",
+      "fit": "1-2 年，商业/数据背景，Python/SQL",
+      "why": "顶级做市商，亚太分析岗"
+    },
+    {
+      "id": "QT-2704",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级 HFT · 加密做市",
+      "title": "Crypto Production Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "加密交易系统生产工程",
+      "fit": "生产环境工程经验",
+      "why": "顶级 HFT 加密条线，生产工程核心"
+    },
+    {
+      "id": "QT-2705",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级 HFT · 加密做市",
+      "title": "Systems Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "交易系统运维",
+      "fit": "系统运维经验",
+      "why": "核心基础设施岗"
+    },
+    {
+      "id": "QT-2706",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Quantitative Trader / Researcher — APAC",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "算法交易策略研发（多地点）",
+      "fit": "数学统计 CS 背景，Python/C++",
+      "why": "老牌 HFT，亚太多地点覆盖"
+    },
+    {
+      "id": "QT-2707",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级做市商",
+      "title": "Quantitative Developer / Research Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "自动交易系统软件方案",
+      "fit": "本科+ CS/数学，C++/Python",
+      "why": "顶级做市商，量化工程结合"
+    },
+    {
+      "id": "QT-2708",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "顶级做市商",
+      "title": "Kdb+/Q Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "行情数据与量化研究平台",
+      "fit": "Kdb+/Q 生产经验",
+      "why": "稀缺技能岗，数据基建核心"
+    },
+    {
+      "id": "QT-2709",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "顶级多策略平台",
+      "title": "Quantitative Researcher",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "量化 alpha 研究",
+      "fit": "硕士/博士，3-7 年",
+      "why": "顶级多策略，系统化研究平台"
+    },
+    {
+      "id": "QT-2710",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "顶级多策略平台",
+      "title": "Entry-Level Quantitative Researcher",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "alpha 信号研究",
+      "fit": "本/硕/博应届",
+      "why": "顶级多策略，应届培养体系"
+    },
+    {
+      "id": "QT-2711",
+      "function": "research",
+      "group": "悉尼",
+      "tag": "全球量化资管",
+      "title": "ETF Trader — Asian Markets",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "新建 ETF 做市台，交易/研究/技术三合一",
+      "fit": "1-5 年交易/做市经验",
+      "why": "全球量化资管，新台搭建机会"
+    },
+    {
+      "id": "QT-2712",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "全球量化资管",
+      "title": "FPGA Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "超低延迟硬件交易系统设计",
+      "fit": "FPGA/RTL 开发",
+      "why": "硬件低延迟，稀缺方向"
+    },
+    {
+      "id": "QT-2713",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "亚太高频做市商",
+      "title": "Front Office Python Developer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "前台快速应用开发",
+      "fit": "Python，前台系统",
+      "why": "亚太高频做市，前台开发岗"
+    },
+    {
+      "id": "QT-2714",
+      "function": "tech",
+      "group": "悉尼",
+      "tag": "亚太高频做市商",
+      "title": "Java Software Engineer",
+      "loc": "悉尼",
+      "loc_filters": [
+        "syd"
+      ],
+      "excerpt": "交易系统开发",
+      "fit": "Java 经验",
+      "why": "亚太高频做市，交易系统岗"
+    },
+    {
+      "id": "QT-2715",
+      "function": "research",
+      "group": "上海",
+      "tag": "顶级衍生品做市商",
+      "title": "Senior Statarb PM / Quant Researcher (Equity MFS)",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "搭建上海股票中频统计套利策略",
+      "fit": "3 年+股票统计套利团队经验",
+      "why": "顶级做市商上海台，从 0 到 1 搭建"
+    },
+    {
+      "id": "QT-2716",
+      "function": "ml",
+      "group": "上海",
+      "tag": "顶级衍生品做市商",
+      "title": "Senior Machine Learning Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "构建/部署 ML 模型与训练推理管线",
+      "fit": "资深，ML 平台经验",
+      "why": "顶级做市商 ML 方向，平台资源强"
+    },
+    {
+      "id": "QT-2717",
+      "function": "tech",
+      "group": "上海",
+      "tag": "顶级期权做市商",
+      "title": "Software Engineer — C++",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "高频低延迟自动交易系统开发",
+      "fit": "本科技术类，5 年+现代 C++，中英文流利",
+      "why": "顶级期权做市商，低延迟工程"
+    },
+    {
+      "id": "QT-2718",
+      "function": "tech",
+      "group": "上海",
+      "tag": "顶级 HFT 自营交易",
+      "title": "Head of Trading Operations — China",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "领导中国交易运营团队",
+      "fit": "CS 本科，中英文流利，Python/C++ 加分",
+      "why": "顶级 HFT，中国区负责人岗"
+    },
+    {
+      "id": "QT-2719",
+      "function": "ml",
+      "group": "上海",
+      "tag": "顶级 HFT · 加密做市",
+      "title": "Deep Learning Researcher — Trading Team",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "深度学习模型研究",
+      "fit": "深度学习研究背景",
+      "why": "顶级 HFT 深度学习方向，稀缺"
+    },
+    {
+      "id": "QT-2720",
+      "function": "ml",
+      "group": "上海",
+      "tag": "顶级 HFT · 加密做市",
+      "title": "Data Scientist — Post Trade Analytics",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "交易后数据分析与性能优化",
+      "fit": "3 年+ Python 数据科学，统计背景",
+      "why": "顶级 HFT，数据分析岗"
+    },
+    {
+      "id": "QT-2721",
+      "function": "tech",
+      "group": "上海",
+      "tag": "顶级 HFT · 加密做市",
+      "title": "Python Software Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "核心系统 Python 开发",
+      "fit": "Python/C++",
+      "why": "核心系统开发"
+    },
+    {
+      "id": "QT-2722",
+      "function": "ml",
+      "group": "上海",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Machine Learning Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "ML 推理与训练优化",
+      "fit": "ML 工程经验",
+      "why": "老牌 HFT，ML 工程岗"
+    },
+    {
+      "id": "QT-2723",
+      "function": "tech",
+      "group": "上海",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Systems Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "交易服务器运维",
+      "fit": "Linux 运维经验",
+      "why": "核心基础设施"
+    },
+    {
+      "id": "QT-2724",
+      "function": "tech",
+      "group": "上海",
+      "tag": "顶级做市商",
+      "title": "C++ Software Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "高性能交易系统（多地点可 relocate）",
+      "fit": "C++/多线程/分布式",
+      "why": "顶级做市商，可全球 relocate"
+    },
+    {
+      "id": "QT-2725",
+      "function": "tech",
+      "group": "上海",
+      "tag": "亚太高频做市商",
+      "title": "Low Latency C++ Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "低延迟系统开发",
+      "fit": "3 年+，C++",
+      "why": "亚太高频做市，低延迟核心"
+    },
+    {
+      "id": "QT-2726",
+      "function": "tech",
+      "group": "上海",
+      "tag": "亚太高频做市商",
+      "title": "Graduate Low Latency C++ Software Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "低延迟交易系统开发",
+      "fit": "应届，C++",
+      "why": "亚太高频，应届技术培养"
+    },
+    {
+      "id": "QT-2727",
+      "function": "tech",
+      "group": "上海",
+      "tag": "顶级多策略平台",
+      "title": "Quant Research Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "核心量化 pipeline/数据基础设施",
+      "fit": "博士级（顶级院校）",
+      "why": "顶级多策略，量化工程核心"
+    },
+    {
+      "id": "QT-2728",
+      "function": "ml",
+      "group": "上海",
+      "tag": "顶级多策略平台",
+      "title": "Deep Learning Quantitative Researcher",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "深度学习 alpha 研究管线",
+      "fit": "博士级",
+      "why": "顶级多策略，DL 投研方向"
+    },
+    {
+      "id": "QT-2729",
+      "function": "research",
+      "group": "上海",
+      "tag": "顶级多策略平台",
+      "title": "Junior Quantitative Researcher — Equity",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "全球股票收益预测信号",
+      "fit": "本/硕/博，应届可",
+      "why": "顶级多策略，应届可进"
+    },
+    {
+      "id": "QT-2730",
+      "function": "ml",
+      "group": "上海",
+      "tag": "全球多资产对冲基金",
+      "title": "Quantitative Researcher — AI/ML",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "AI/ML 驱动的量化策略研究",
+      "fit": "硕士/博士（量化）",
+      "why": "全球多资产，AI/ML 投研岗"
+    },
+    {
+      "id": "QT-2731",
+      "function": "tech",
+      "group": "上海",
+      "tag": "全球多资产对冲基金",
+      "title": "Quantitative Developer — Systematic",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "系统化策略工程开发",
+      "fit": "2 年+ Python",
+      "why": "全球多资产，系统化工程"
+    },
+    {
+      "id": "QT-2732",
+      "function": "tech",
+      "group": "上海",
+      "tag": "全球多资产对冲基金",
+      "title": "Lead Quantitative Developer — Systematic China Platform",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "上海系统化工程团队负责人",
+      "fit": "5 年+（技术负责人）",
+      "why": "全球多资产，中国区技术负责人岗"
+    },
+    {
+      "id": "QT-2733",
+      "function": "tech",
+      "group": "上海",
+      "tag": "全球量化资管",
+      "title": "Senior Software Engineer — Market Access",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "交易系统 Market Access 架构与开发",
+      "fit": "资深 C++/低延迟/多线程",
+      "why": "全球量化资管，核心交易系统"
+    },
+    {
+      "id": "QT-2734",
+      "function": "research",
+      "group": "上海",
+      "tag": "亚洲 HFT 自营交易",
+      "title": "Quantitative Research & Trading Campus Program",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "机器学习/深度学习因子研究与策略开发",
+      "fit": "2026/2027 届应届/实习",
+      "why": "亚洲 HFT，校招培养体系"
+    },
+    {
+      "id": "QT-2735",
+      "function": "research",
+      "group": "上海",
+      "tag": "上海量化私募 · 纽约双总部",
+      "title": "Junior Quantitative Researcher",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "策略研发与 tick 级数据 alpha 挖掘",
+      "fit": "1-3 年系统化 alpha/股票研究",
+      "why": "上海+纽约双总部，tick 级数据资源强"
+    },
+    {
+      "id": "QT-2736",
+      "function": "tech",
+      "group": "上海",
+      "tag": "上海量化私募 · 纽约双总部",
+      "title": "Quantitative Engineer",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "策略模型实现与回测框架优化",
+      "fit": "C++/Python",
+      "why": "双总部平台，工程与策略结合"
+    },
+    {
+      "id": "QT-2737",
+      "function": "ml",
+      "group": "上海",
+      "tag": "头部百亿量化私募",
+      "title": "量化研究员 — AI 算法方向",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "大模型/Transformer 端到端收益预测",
+      "fit": "硕士/博士",
+      "why": "头部百亿私募，大模型投研前沿"
+    },
+    {
+      "id": "QT-2738",
+      "function": "research",
+      "group": "上海",
+      "tag": "头部百亿量化私募",
+      "title": "量化研究员 — 组合优化方向",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "多信号融合、风险模型与优化器",
+      "fit": "985/海外硕士/博士",
+      "why": "头部百亿私募，组合优化核心"
+    },
+    {
+      "id": "QT-2739",
+      "function": "research",
+      "group": "上海",
+      "tag": "头部百亿量化私募",
+      "title": "量化研究员 — 高频因子方向",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "逐笔数据、日内因子与交易执行",
+      "fit": "2027 届应届",
+      "why": "头部百亿私募，高频因子"
+    },
+    {
+      "id": "QT-2740",
+      "function": "tech",
+      "group": "上海",
+      "tag": "头部百亿量化私募",
+      "title": "开发工程师 — 量化开发/机器学习平台",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "回测框架、实盘对接、模型部署",
+      "fit": "2027 届应届",
+      "why": "头部百亿私募，量化开发"
     }
   ]
 }
