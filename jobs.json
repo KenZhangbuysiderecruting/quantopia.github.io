@@ -1949,6 +1949,468 @@
       "excerpt": "回测框架、实盘对接、模型部署",
       "fit": "2027 届应届",
       "why": "头部百亿私募，量化开发"
+    },
+    {
+      "id": "QT-2741",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "量化策略研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "国内股票市场量化策略研发，统计历史数据、挖掘预测性交易信号",
+      "fit": "名校理工本科+，不要求金融经验",
+      "why": "头部量化私募，策略研发核心岗"
+    },
+    {
+      "id": "QT-2742",
+      "function": "ml",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "机器学习研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "用强化/深度/机器学习开发量化策略与组合策略",
+      "fit": "扎实 ML 理论基础，奥赛/ACM/Kaggle 获奖优先",
+      "why": "头部量化私募，ML 投研方向"
+    },
+    {
+      "id": "QT-2743",
+      "function": "tech",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "量化开发工程师",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "优化 Python SDK 与数据链路性能，C++ 提速",
+      "fit": "较强 Python 工程能力，熟悉 C++",
+      "why": "头部量化私募，工程+策略结合"
+    },
+    {
+      "id": "QT-2744",
+      "function": "research",
+      "group": "深圳",
+      "tag": "百亿量化私募",
+      "title": "量化研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "海量金融数据研究分析、挖掘信号、开发优化量化模型",
+      "fit": "硕士，1-3 年经验",
+      "why": "百亿量化私募（双金牛），投研岗"
+    },
+    {
+      "id": "QT-2745",
+      "function": "tech",
+      "group": "深圳",
+      "tag": "百亿量化私募",
+      "title": "量化系统开发工程师（C++）",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "量化系统与基础设施开发",
+      "fit": "本科+，C++",
+      "why": "百亿量化私募，系统开发岗"
+    },
+    {
+      "id": "QT-2746",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "期权交易员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "期权交易策略开发、期权定价与波动率模型",
+      "fit": "一流大学数学/物理/计算机/金融工程",
+      "why": "头部量化私募，期权方向稀缺"
+    },
+    {
+      "id": "QT-2747",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "算法交易研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "设计优化程序化下单算法、评估执行成本",
+      "fit": "知名高校研究生+，2 年+算法交易经验",
+      "why": "头部量化私募，算法交易核心岗"
+    },
+    {
+      "id": "QT-2748",
+      "function": "tech",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "核心系统工程师（C++）",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "开发维护境内外股票/期货/期权量化交易系统",
+      "fit": "前 20 高校本硕博应届或毕业 2 年内",
+      "why": "头部量化私募，核心系统岗"
+    },
+    {
+      "id": "QT-2749",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "量化投资经理 / PM（中高频）",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "中高频价量因子挖掘、多因子整合、组合优化",
+      "fit": "硕士+，5 年+经验（1 年+实盘业绩）",
+      "why": "头部量化私募，独立 PM 岗，市场化分成"
+    },
+    {
+      "id": "QT-2750",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "量化研究员（中高频 / C++）",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "C++ 环境下日内高频因子开发、实盘信号优化",
+      "fit": "硕士+，1 年+",
+      "why": "头部量化私募，高频方向"
+    },
+    {
+      "id": "QT-2751",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "高频量化研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "股票中高频策略研发、机器学习提升预测稳定性",
+      "fit": "本科+",
+      "why": "头部量化私募（80 亿+），高频策略"
+    },
+    {
+      "id": "QT-2752",
+      "function": "research",
+      "group": "深圳",
+      "tag": "宏观百亿量化私募",
+      "title": "股票量化研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "A 股量价策略、Alpha 因子挖掘、多因子模型全流程",
+      "fit": "硕士，2 年+量化投研",
+      "why": "宏观策略百亿私募，股票量化线"
+    },
+    {
+      "id": "QT-2753",
+      "function": "research",
+      "group": "深圳",
+      "tag": "宏观百亿量化私募",
+      "title": "CTA 高频量化研究员",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "CTA 高频量化策略研究",
+      "fit": "硕士，2 年+",
+      "why": "宏观百亿私募，CTA 高频线"
+    },
+    {
+      "id": "QT-2754",
+      "function": "research",
+      "group": "深圳",
+      "tag": "头部量化私募",
+      "title": "量化研究员（中高频股票）",
+      "loc": "深圳",
+      "loc_filters": [
+        "sz"
+      ],
+      "excerpt": "因子构建与测试、组合最优化、市场冲击模型",
+      "fit": "名校本科/硕士/博士，0-8 年",
+      "why": "头部量化私募，中高频股票方向"
+    },
+    {
+      "id": "QT-2755",
+      "function": "research",
+      "group": "北京",
+      "tag": "千亿量化私募",
+      "title": "量化策略研究员（梧桐计划）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "依托算力与 AI 框架分析海量数据，用 ML 挖掘 Alpha 信号",
+      "fit": "硕士+（2027 届校招）",
+      "why": "千亿量化私募，核心策略岗"
+    },
+    {
+      "id": "QT-2756",
+      "function": "ml",
+      "group": "北京",
+      "tag": "千亿量化私募",
+      "title": "AI 算法研究员（梧桐计划）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "AI 研究框架做特征提取、价格预测、组合优化",
+      "fit": "硕士+（2027 届校招）",
+      "why": "千亿量化私募，AI 投研前沿"
+    },
+    {
+      "id": "QT-2757",
+      "function": "tech",
+      "group": "北京",
+      "tag": "千亿量化私募",
+      "title": "量化实现工程师 / Quant Developer",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "构建并优化支撑策略研发与实盘交易的核心系统",
+      "fit": "硕士+（2027 届校招）",
+      "why": "千亿量化私募，核心工程岗"
+    },
+    {
+      "id": "QT-2758",
+      "function": "tech",
+      "group": "北京",
+      "tag": "千亿量化私募",
+      "title": "Quant Developer（C++）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "研究股票/期货/期权量化模型，为研究员提供数据与技术支撑",
+      "fit": "硕士+，量化经验加分非必须",
+      "why": "千亿量化私募，社招工程岗"
+    },
+    {
+      "id": "QT-2759",
+      "function": "research",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "量化研究员（股票）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "开发量化股票新策略，与基金经理协作优化组合",
+      "fit": "硕士，3 年+量化股票策略经验",
+      "why": "百亿量化私募，股票策略岗"
+    },
+    {
+      "id": "QT-2760",
+      "function": "research",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "资深量化研究员（CTA）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "独立 lead 策略类别，端到端 ML 非线性策略研究",
+      "fit": "3-5 年 CTA 策略经验，日内中高频",
+      "why": "百亿量化私募，CTA 资深岗"
+    },
+    {
+      "id": "QT-2761",
+      "function": "research",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "量化投资研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "量化投资策略研究及实盘跟踪优化",
+      "fit": "理工科硕博士优先",
+      "why": "百亿量化私募，投研岗"
+    },
+    {
+      "id": "QT-2762",
+      "function": "ml",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "大模型量化投资研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "将大模型技术用于量化策略研究",
+      "fit": "硕博士优先（2027 届校招）",
+      "why": "百亿量化私募，大模型×量化前沿"
+    },
+    {
+      "id": "QT-2763",
+      "function": "tech",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "C++ 开发工程师",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "量化交易系统、回测平台、数据平台开发",
+      "fit": "重点院校，多年 C/C++ 经验",
+      "why": "百亿量化私募，核心系统开发"
+    },
+    {
+      "id": "QT-2764",
+      "function": "tech",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "量化开发工程师",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "参与股票量化数据、投研、回测、生产、风控核心系统开发",
+      "fit": "硕士，2 年+，精通 C++/Python",
+      "why": "百亿量化私募，全栈核心系统"
+    },
+    {
+      "id": "QT-2765",
+      "function": "research",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "高频基金经理 / 研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "研发股票 T0、商品/金融期货日内高频策略",
+      "fit": "硕士，3-5 年",
+      "why": "百亿量化私募，高频策略独立岗"
+    },
+    {
+      "id": "QT-2766",
+      "function": "research",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "股票量化研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "股票 Alpha 策略研究",
+      "fit": "官网校招+社招持续在招",
+      "why": "百亿量化私募，股票 Alpha"
+    },
+    {
+      "id": "QT-2767",
+      "function": "research",
+      "group": "北京",
+      "tag": "百亿量化私募",
+      "title": "CTA 研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "管理期货策略研究与开发",
+      "fit": "官网持续在招",
+      "why": "百亿量化私募，CTA 线"
+    },
+    {
+      "id": "QT-2768",
+      "function": "ml",
+      "group": "北京",
+      "tag": "头部量化私募",
+      "title": "量化 AI 研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "机器学习/深度学习在量化研究中的创新应用",
+      "fit": "本科+（27/28 届秋招）",
+      "why": "头部量化私募，AI×量化前沿"
+    },
+    {
+      "id": "QT-2769",
+      "function": "tech",
+      "group": "北京",
+      "tag": "头部量化私募",
+      "title": "量化开发工程师（C++）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "低延迟交易系统、高性能量化平台开发",
+      "fit": "本科+（27/28 届秋招）",
+      "why": "头部量化私募，低延迟工程"
+    },
+    {
+      "id": "QT-2770",
+      "function": "research",
+      "group": "北京",
+      "tag": "头部量化私募",
+      "title": "策略研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "量化策略研发",
+      "fit": "2026-2027 届全职",
+      "why": "头部量化私募（沪京双总部），策略岗"
+    },
+    {
+      "id": "QT-2771",
+      "function": "ml",
+      "group": "北京",
+      "tag": "头部量化私募",
+      "title": "机器学习研究员",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "ML 模型在量化投研中的应用",
+      "fit": "2026-2027 届全职",
+      "why": "头部量化私募，ML 投研"
+    },
+    {
+      "id": "QT-2772",
+      "function": "ml",
+      "group": "北京",
+      "tag": "头部量化私募",
+      "title": "AI 算法 / 研发工程师",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "宽德智能学习实验室 AI 平台研发",
+      "fit": "校招（网申中）",
+      "why": "头部量化私募，AI 平台前沿"
+    },
+    {
+      "id": "QT-2773",
+      "function": "ml",
+      "group": "北京",
+      "tag": "头部量化私募",
+      "title": "大模型研究员（LLM/NLP）",
+      "loc": "北京",
+      "loc_filters": [
+        "bj"
+      ],
+      "excerpt": "大模型与 AI Agent 在投研问答、金融决策中的应用",
+      "fit": "校招/实习",
+      "why": "头部量化私募，大模型×金融前沿"
     }
   ]
 }
