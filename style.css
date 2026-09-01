@@ -220,7 +220,30 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 
 /* ==== Jobs Board：WorldQuant 风格（侧栏 + 极简列表）==== */
 .jobs-board{display:grid;grid-template-columns:240px 1fr;gap:36px;margin:20px 0 60px}
-@media(max-width:780px){.jobs-board{grid-template-columns:1fr;gap:20px}}
+@media(max-width:780px){
+  .jobs-board{grid-template-columns:1fr;gap:24px}
+  .jobs-sidebar{position:static !important;max-height:none;overflow:visible;padding-bottom:0;align-self:auto}
+  .jobs-page-hero{padding:48px 0 36px}
+  .jobs-page-hero h1{font-size:36px}
+  .jobs-page-hero .hero-floors{gap:24px;display:grid;grid-template-columns:repeat(2,1fr)}
+  .jobs-page-hero .metric b{font-size:30px}
+  .jobs-page-hero .hero-sub{font-size:14px}
+  .jobs-hero .kicker{font-size:11px}
+  .jobs-hero h1{font-size:36px!important}
+  .jobs-meta{flex-direction:column;gap:8px;align-items:flex-start}
+  .trust-bar{grid-template-columns:1fr!important}
+  .jobs-stats{gap:8px}
+  .case-card{padding:18px}
+  .jobs-board .grid-template-columns{1fr}
+  .jobs-func-h{font-size:11px;margin-bottom:14px;padding-bottom:6px}
+  .job-row{padding:18px 16px}
+  .job-row h4{font-size:16px;margin-bottom:6px;min-height:0}
+  .job-row-meta{font-size:12px;flex-wrap:wrap;gap:6px}
+  .job-row-arrow{font-size:16px}
+  .job-drawer-panel{width:100vw;padding:60px 24px 80px}
+  .filter-pill{font-size:13px;padding:6px 12px}
+  .wechat-popup{left:24px!important;right:24px!important;width:auto!important}
+}
 .jobs-sidebar{position:sticky;top:20px;align-self:start}
 .sidebar-section{margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
 .sidebar-section:last-child{border-bottom:none}
