@@ -5,6 +5,23 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--txt);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8}
+/* 英文模式：Times New Roman 衬线字体（用户要求 2026-09-01） */
+html[data-lang="en"] body,
+html[data-lang="en"] .hero h1,
+html[data-lang="en"] .hero .sub,
+html[data-lang="en"] .jobs-page-hero h1,
+html[data-lang="en"] .job-row h4,
+html[data-lang="en"] .job-drawer-title,
+html[data-lang="en"] .article h1,
+html[data-lang="en"] .article h2,
+html[data-lang="en"] .article p,
+html[data-lang="en"] .site-header h1,
+html[data-lang="en"] .section-title,
+html[data-lang="en"] .sidebar-row,
+html[data-lang="en"] .stat b,
+html[data-lang="en"] .metric b {
+  font-family: 'Times New Roman', 'Georgia', 'Times', serif !important;
+}
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
 .site-header{background:linear-gradient(180deg,rgba(10,20,40,.92),rgba(10,20,40,.86) 60%,rgba(10,20,40,.94)),url("images/hero_bg.png") center 40%/cover no-repeat;border-bottom:1px solid var(--line);padding:40px 0 36px;position:relative}
 .site-header::after{content:"";position:absolute;left:0;right:0;bottom:0;top:0;background:radial-gradient(ellipse at center,rgba(10,20,40,.45) 0%,transparent 70%);pointer-events:none}
@@ -593,4 +610,47 @@ html{scroll-behavior:smooth}
   .wechat-float{right:12px;bottom:12px}
   .wechat-popup{width:240px}
   .wechat-popup img{width:180px;height:180px}
+}
+
+/* ===== 中英双语切换（2026-09-01 新增） ===== */
+.lang-switch-wrap{display:inline-flex;align-items:center;margin-left:14px;vertical-align:middle}
+.lang-switch{
+  background:transparent;border:1px solid rgba(138,180,216,.45);color:var(--ice,#8AB4D8);
+  padding:5px 14px;border-radius:20px;font-size:12px;letter-spacing:1px;cursor:pointer;
+  transition:all .25s;font-family:inherit;
+}
+.lang-switch:hover{background:rgba(138,180,216,.12);border-color:var(--ice,#8AB4D8);color:#fff}
+html[data-lang="en"] .lang-switch{color:#fff;border-color:rgba(232,192,122,.6);background:rgba(232,192,122,.08)}
+.lang-switch-inline{position:relative;top:-1px}
+/* 整块语言容器：默认显示中文，英文时隐藏 */
+[data-lang-block="zh"]{display:block}
+[data-lang-block="en"]{display:none}
+html[data-lang="en"] [data-lang-block="zh"]{display:none}
+html[data-lang="en"] [data-lang-block="en"]{display:block}
+
+/* ===== 英文模式：切换到 Times New Roman 衬线（2026-09-01 用户试调） ===== */
+html[data-lang="en"] body,
+html[data-lang="en"] p,
+html[data-lang="en"] li,
+html[data-lang="en"] h1,
+html[data-lang="en"] h2,
+html[data-lang="en"] h3,
+html[data-lang="en"] h4,
+html[data-lang="en"] a,
+html[data-lang="en"] button,
+html[data-lang="en"] input,
+html[data-lang="en"] textarea,
+html[data-lang="en"] select,
+html[data-lang="en"] .metric .l,
+html[data-lang="en"] .metric .v,
+html[data-lang="en"] .kicker,
+html[data-lang="en"] .tag,
+html[data-lang="en"] .sub,
+html[data-lang="en"] .lead {
+  font-family: "Times New Roman", "Times", "Georgia", serif;
+}
+/* 数字和 metric 数字用等宽感更好的无衬线，避免衬线数字过大 */
+html[data-lang="en"] .metric .v {
+  font-family: "Times New Roman", "Times", "Georgia", serif;
+  letter-spacing: -1px;
 }

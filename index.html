@@ -15,6 +15,7 @@
 <meta name="twitter:title" content="Quantopia · 全球对冲基金深度分析">
 <meta name="twitter:image" content="images/og-cover.jpg">
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
+<script defer src="js/i18n.js"></script>
 <style>
 :root{--bg:#0A1428;--panel:#0F1D38;--ice:#8AB4D8;--gold:#E8C07A;--txt:#EDF1F7;--muted:#71829B;--line:rgba(138,180,216,.14)}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -105,114 +106,115 @@ footer{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:26px 4
 <header>
   <div class="logo">QUANTOPIA<small>GLOBAL HEDGE FUND INTELLIGENCE</small></div>
   <nav>
-    <a href="index.html">首页</a>
-    <a href="jobs.html">岗位</a>
-    <a href="about.html">关于</a>
-    <a class="lnk" href="https://www.linkedin.com/in/ken-zhang-040139138/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    <a href="index.html" data-i18n="nav.home">首页</a>
+    <a href="jobs.html" data-i18n="nav.jobs">岗位</a>
+    <a href="about.html" data-i18n="nav.about">关于</a>
+    <a class="lnk" href="https://www.linkedin.com/in/ken-zhang-040139138/" target="_blank" rel="noopener" data-i18n="nav.linkedin">LinkedIn ↗</a>
+    <span class="lang-switch-wrap"></span>
   </nav>
 </header>
 
 <section class="hero">
-  <div class="kicker">Quant Recruiter · First-Person Intelligence</div>
-  <h1>对冲基金的世界<br>我帮你<b>拆开看</b></h1>
-  <p class="sub">机构版图 · 人才流动 · 薪酬真相。从一个<b>买方量化猎头</b>的桌面出发——谁在招人、为什么、多少钱。</p>
+  <div class="kicker" data-i18n="index.kicker">Quant Recruiter · First-Person Intelligence</div>
+  <h1><span data-en="The world of hedge funds,<br>decoded <b>for you</b>.">对冲基金的世界<br>我帮你<b>拆开看</b></span></h1>
+  <p class="sub" data-i18n="index.sub">机构版图 · 人才流动 · 薪酬真相。从一个<b>买方量化猎头</b>的桌面出发——谁在招人、为什么、多少钱。</p>
   <div class="actions">
-    <a class="btn-solid" href="jobs.html">浏览 61 个在招岗位</a>
-    <a class="btn-ghost" href="#posts">阅读最新深度</a>
+    <a class="btn-solid" href="jobs.html" data-i18n="index.cta.jobs">浏览 61 个在招岗位</a>
+    <a class="btn-ghost" href="#posts" data-i18n="index.cta.read">阅读最新深度</a>
   </div>
   <div class="floor">
-    <div class="metric"><div class="v"><span class="cnt" data-to="15">0</span></div><div class="l">Deep Dives</div></div>
-    <div class="metric"><div class="v"><span class="cnt" data-to="61">0</span></div><div class="l">Open Roles</div></div>
-    <div class="metric"><div class="v"><span class="cnt" data-to="127">0</span><sup>+</sup></div><div class="l">Placements</div></div>
-    <div class="metric"><div class="v"><span class="cnt" data-to="7">0</span></div><div class="l">Regions</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="15">0</span></div><div class="l" data-i18n="index.m.deep">Deep Dives</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="61">0</span></div><div class="l" data-i18n="index.m.roles">Open Roles</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="127">0</span><sup>+</sup></div><div class="l" data-i18n="index.m.placed">Placements</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="7">0</span></div><div class="l" data-i18n="index.m.regions">Regions</div></div>
   </div>
 </section>
 
 <main id="posts">
-  <div class="sec-head reveal"><h2>Latest — 最新深度</h2><a href="about.html">关于 Quantopia →</a></div>
+  <div class="sec-head reveal"><h2 data-i18n="index.latest">Latest — 最新深度</h2><a href="about.html" data-i18n="index.aboutlink">关于 Quantopia →</a></div>
   <div class="articles reveal">
     <a class="art" href="posts/2026-08-30-90亿迪拜挖人Dym.html">
       <div class="idx">01</div>
-      <h3>90 亿、迪拜、挖人：Dymon 怎么用中东的钱和对手的人，画出一张跨三大洲的版图</h3>
+      <h3 data-en="$9B, Dubai, and Talent Raids: How Dymon Is Mapping a Three-Continent Franchise with Middle East Capital and Rivals' People">90 亿、迪拜、挖人：Dymon 怎么用中东的钱和对手的人，画出一张跨三大洲的版图</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art" href="posts/2026-08-30-对冲基金薪酬真相应届.html">
       <div class="idx">02</div>
-      <h3>对冲基金薪酬真相：应届 22.7 万美元、MD 平均 220 万，但 3000 万 sleeve 管着也拿不到 50 万</h3>
+      <h3 data-en="Hedge Fund Pay Truths: $227K for New Grads, $2.2M Average for MDs — But a $30M Sleeve Won't Get You $500K">对冲基金薪酬真相：应届 22.7 万美元、MD 平均 220 万，但 3000 万 sleeve 管着也拿不到 50 万</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art" href="posts/2026-08-27-佛罗里达对冲基金狂招.html">
       <div class="idx">03</div>
-      <h3>佛罗里达对冲基金狂招应届博士：量化行业的人才流水线变了</h3>
+      <h3 data-en="Florida Hedge Funds Are Binge-Hiring Fresh PhDs: The Quant Talent Pipeline Is Changing">佛罗里达对冲基金狂招应届博士：量化行业的人才流水线变了</h3>
       <span class="go">READ →</span>
     </a>
   </div>
   <div class="art-list reveal">
     <a class="art-item" href="posts/2026-08-26-应届生offer开到.html">
       <span class="date">2026-08-26</span>
-      <h3>应届生 offer 开到 150 万美元，量化研究员的中位数却只有 20 万</h3>
+      <h3 data-en="New-Grad Offers Reaching $1.5 Million — While the Median Quant Researcher Earns Just $200K">应届生 offer 开到 150 万美元，量化研究员的中位数却只有 20 万</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-23-AI没淘汰量化研究员.html">
       <span class="date">2026-08-23</span>
-      <h3>AI 没淘汰量化研究员，却把&quot;会写代码&quot;降了价</h3>
+      <h3 data-en="AI Didn't Eliminate Quant Researchers — It Just Devalued &quot;Can Code&quot;">AI 没淘汰量化研究员，却把&quot;会写代码&quot;降了价</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-23-fasanara-open-quant.html">
       <span class="date">2026-08-23</span>
-      <h3>Fasanara 反着做量化：不养大 PM，专门投资小团队</h3>
+      <h3 data-en="Fasanara Flips the Quant Playbook: Skip the Big PMs, Back the Small Teams">Fasanara 反着做量化：不养大 PM，专门投资小团队</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-20-index-rebalancing.html">
       <span class="date">2026-08-20</span>
-      <h3>37亿美元、1.63秒：指数再平衡这门"机械生意"的水有多深？</h3>
+      <h3 data-en="$3.7 Billion and 1.63 Seconds: How Deep Is the “Mechanical Business” of Index Rebalancing?">37亿美元、1.63秒：指数再平衡这门"机械生意"的水有多深？</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-16-hk-carried-interest.html">
       <span class="date">2026-08-16</span>
-      <h3>DLD 进军香港、Graham Capital 开亚洲首店：Carried Interest 零税率如何改写亚洲对冲基金人才地图</h3>
+      <h3 data-en="DLD Expands to Hong Kong, Graham Capital Opens Its First Asia Office: How 0% Carried Interest Is Redrawing Asia’s Hedge Fund Talent Map">DLD 进军香港、Graham Capital 开亚洲首店：Carried Interest 零税率如何改写亚洲对冲基金人才地图</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-06-uk-aifmd-reform.html">
       <span class="date">2026-08-06</span>
-      <h3>脱欧八年后，英国终于甩开了EU的对冲基金监管：三层分级取代一刀切</h3>
+      <h3 data-en="Eight Years After Brexit, the UK Finally Shakes Off EU Hedge Fund Regulation: Three Tiers Replace One-Size-Fits-All">脱欧八年后，英国终于甩开了EU的对冲基金监管：三层分级取代一刀切</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-03-bridgewater-ai.html">
       <span class="date">2026-08-03</span>
-      <h3>桥水AI和人类打平8.1%：12年实验的第一张成绩单</h3>
+      <h3 data-en="Bridgewater’s AI Ties Its Humans at 8.1%: The First Report Card of a 12-Year Experiment">桥水AI和人类打平8.1%：12年实验的第一张成绩单</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-03-exoduspoint-ovata.html">
       <span class="date">2026-08-03</span>
-      <h3>香港15亿基金Ovata被连锅端：亚洲股票人才正在集体投奔平台</h3>
+      <h3 data-en="Hong Kong's $1.5B Fund Ovata Shut Down: Asia Equity Talent Flocks to Platforms">香港15亿基金Ovata被连锅端：亚洲股票人才正在集体投奔平台</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-08-03-ms-macro-departures.html">
       <span class="date">2026-08-03</span>
-      <h3>大摩亚洲宏观团队走了近40人：新加坡交易人才大逃亡</h3>
+      <h3 data-en="Morgan Stanley's Asia Macro Team Lost Nearly 40 People: The Singapore Trading Talent Exodus">大摩亚洲宏观团队走了近40人：新加坡交易人才大逃亡</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-07-30-global-hf-ai-rout.html">
       <span class="date">2026-07-30</span>
-      <h3>当全球对冲基金创下$5.6万亿新高时，AI量化正经历2024年2月以来最大回撤</h3>
+      <h3 data-en="While Global Hedge Funds Hit a Record $5.6 Trillion, AI Quant Strategies Suffer Their Biggest Drawdown Since February 2024">当全球对冲基金创下$5.6万亿新高时，AI量化正经历2024年2月以来最大回撤</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-07-27-PaulTudorJ.html">
       <span class="date">2026-07-27</span>
-      <h3>Paul Tudor Jones的量化部门要独立了：高盛21年老将掌舵香港</h3>
+      <h3 data-en="Paul Tudor Jones' Quant Unit Is Spinning Off: 21-Year Goldman Veteran to Head Hong Kong">Paul Tudor Jones的量化部门要独立了：高盛21年老将掌舵香港</h3>
       <span class="go">READ →</span>
     </a>
     <a class="art-item" href="posts/2026-07-23-private-fund-deadline.html">
       <span class="date">2026-07-23</span>
-      <h3>7月31日大限：量化私募的&quot;成人礼&quot;，正在重写人才版图</h3>
+      <h3 data-en="July 31 Deadline: Quant Private Funds' &quot;Rite of Passage&quot; Is Rewriting the Talent Map">7月31日大限：量化私募的&quot;成人礼&quot;，正在重写人才版图</h3>
       <span class="go">READ →</span>
     </a>
   </div>
 
   <div class="data-band reveal">
     <div class="data-half">
-      <h3>Offer 交付 · 按地区</h3>
+      <h3 data-i18n="index.offers.region">Offer 交付 · 按地区</h3>
       <div class="bars">
         <div class="bar"><i></i><span>上海</span></div>
         <div class="bar"><i></i><span>香港</span></div>
@@ -223,25 +225,25 @@ footer{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:26px 4
       </div>
     </div>
     <div class="data-half">
-      <h3>为什么相信我们</h3>
+      <h3 data-i18n="index.why.trust">为什么相信我们</h3>
       <ul>
-        <li><span>数据来源</span><b>127 条真实 offer</b></li>
-        <li><span>PM 级案例</span><b>8 周完成</b></li>
-        <li><span>应届最快</span><b>3 周出 offer</b></li>
-        <li><span>覆盖地区</span><b>7 个</b></li>
+        <li><span data-i18n="index.d1.k">数据来源</span><b data-i18n="index.d1.v">127 条真实 offer</b></li>
+        <li><span data-i18n="index.d2.k">PM 级案例</span><b data-i18n="index.d2.v">8 周完成</b></li>
+        <li><span data-i18n="index.d3.k">应届最快</span><b data-i18n="index.d3.v">3 周出 offer</b></li>
+        <li><span data-i18n="index.d4.k">覆盖地区</span><b data-i18n="index.d4.v">7 个</b></li>
       </ul>
     </div>
   </div>
 
   <div class="cta-band reveal">
-    <h2>找工作，或者只是好奇？<em>都欢迎。</em></h2>
-    <div class="row"><a class="btn-solid" href="jobs.html">浏览全部岗位 →</a></div>
+    <h2><span data-i18n="index.cta.title1">找工作，或者只是好奇？</span><span data-i18n="index.cta.title2"><em>都欢迎。</em></span></h2>
+    <div class="row"><a class="btn-solid" href="jobs.html" data-i18n="index.cta.all">浏览全部岗位 →</a></div>
   </div>
 </main>
 
 <footer>
-  <span>© 2026 QUANTOPIA · Ken Zhang / Gravitas Recruitment Group</span>
-  <span>SHENZHEN · HONG KONG · SINGAPORE · LONDON · DUBAI</span>
+  <span data-i18n="index.footer1">© 2026 QUANTOPIA · Ken Zhang / Gravitas Recruitment Group</span>
+  <span data-i18n="index.footer2">SHENZHEN · HONG KONG · SINGAPORE · LONDON · DUBAI</span>
 </footer>
 
 <script>

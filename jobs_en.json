@@ -1,0 +1,2416 @@
+{
+ "updated": "2026-08-31",
+ "note": "English translations of Quantopia open roles",
+ "jobs": [
+  {
+   "id": "QT-2601",
+   "function": "research",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Quantitative Researcher — Asia Equities",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Tier-1 Multi-Strategy Platform",
+   "excerpt": "Researching alpha strategies in Asia-Pacific equities, on a team led by a PM from a top global multi-strategy platform. 3+ years of experience required; PhD or top-tier master's preferred. The team is expanding — full process to offer in 4 weeks.",
+   "fit": "PhD / top-tier master's · 3+ years of live equity alpha · strong Python and statistics",
+   "why": "Plenty of headcount — joining during an expansion means faster promotion. Led by a former top-platform PM, so you'll learn authentic multi-PM collaboration."
+  },
+  {
+   "id": "QT-2602",
+   "function": "research",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Portfolio Manager — Multi-Asset",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Global Multi-Asset Hedge Fund",
+   "excerpt": "PM seat for a mature multi-asset strategy, with the platform providing infrastructure and risk support. 5+ years of independent live management with a verifiable track record; teams are welcome.",
+   "fit": "5+ years as an independent PM · multi-asset / global macro · verifiable PnL history",
+   "why": "The platform provides infrastructure and capital, so the PM focuses purely on research and execution. Bring your own team and stack team-management carry on top."
+  },
+  {
+   "id": "QT-2604",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Market Making Quant Trader",
+   "loc": "Hong Kong / Singapore",
+   "group": "Hong Kong",
+   "tag": "Top Market Maker · HK / SG",
+   "excerpt": "Market making in Asia-Pacific equities / ETFs — a core headcount in a top market maker's APAC expansion. Market-making strategy plus execution optimization; 2+ years of live market making preferred.",
+   "fit": "2+ years in market making or systematic trading · C++/Python · solid grasp of order book microstructure",
+   "why": "A core APAC-expansion headcount — joining now makes you an early team member, with uncapped PnL share."
+  },
+  {
+   "id": "QT-2620",
+   "function": "research",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Quantitative Researcher",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Alpha research across Asia-Pacific equities / multi-asset at a well-established HFT proprietary trading firm; the Hong Kong team is expanding. 3+ years of quantitative research experience.",
+   "fit": "3+ years of strategy research · Python/C++ · background in math / physics / CS",
+   "why": "An established firm with stable cash flow and an above-average bonus structure for prop trading; the Hong Kong team has been steadily expanding over the past two years."
+  },
+  {
+   "id": "QT-2622",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Senior Quant Researcher — Fixed Income",
+   "loc": "Singapore / Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Quant Platform",
+   "excerpt": "Senior Quant Researcher in fixed income, working on rates and credit modeling. The Singapore office is expanding; team of 30+.",
+   "fit": "4+ years in fixed income quant research · rates modeling / credit · PhD preferred",
+   "why": "Singapore is tax-friendly with full visa sponsorship. Fixed income has been one of the platform's fastest-growing desks over the past two years."
+  },
+  {
+   "id": "QT-2623",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Senior Quant Researcher — Intraday Statistical Arbitrage",
+   "loc": "Singapore / Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Quant Platform",
+   "excerpt": "Intraday statistical arbitrage role demanding strong independent strategy production. Must be able to articulate PnL attribution clearly.",
+   "fit": "4+ years in intraday / HFT statistical arbitrage · independent strategy production · strong engineering",
+   "why": "Intraday arb is a core alpha focus for the platform — ample resources, clear PnL attribution, and transparent promotion."
+  },
+  {
+   "id": "QT-2624",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Junior Quant Researcher",
+   "loc": "Singapore / Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Quant Platform",
+   "excerpt": "Junior QR seat open to new grads and those with 1–2 years of experience. The platform offers a structured training program.",
+   "fit": "New grad / 1–2 years · top school in math / statistics / CS · solid Python",
+   "why": "A strong mentorship program for juniors — full visibility from research infrastructure to live trading."
+  },
+  {
+   "id": "QT-2626",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Systematic Trader",
+   "loc": "Hong Kong / Singapore",
+   "group": "Hong Kong",
+   "tag": "Top Market Maker",
+   "excerpt": "Day-to-day trading and risk management of systematic strategies, working closely with strategy development and technology teams. Base range $150k–325k.",
+   "fit": "Electronic trading experience · Python · Linux · top-tier STEM / finance degree",
+   "why": "A top global market maker with a mature platform and rigorous risk controls — traders carry real voice and the base band is transparent."
+  },
+  {
+   "id": "QT-2628",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Quantitative Trader",
+   "loc": "Hong Kong / Singapore",
+   "group": "Hong Kong",
+   "tag": "Top Market Maker",
+   "excerpt": "Semi-systematic trading, refining strategies together with the QR team across complex products including options, ETFs, and futures. Base range $175k–350k.",
+   "fit": "Experience trading complex financial products · Python/SQL/R · interest in game theory",
+   "why": "A top-tier global market-making platform — traders collaborate deeply with QRs and enjoy broad decision-making autonomy."
+  },
+  {
+   "id": "QT-2629",
+   "function": "research",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Quantitative Researcher — Hong Kong",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Established Multi-Strategy Hedge Fund",
+   "excerpt": "QR seat in Hong Kong at a multi-strategy platform, working closely with PMs on equity alpha research.",
+   "fit": "3+ years of quant research · equity alpha · strong academic background",
+   "why": "An established multi-strategy platform with a clear carry structure; the Hong Kong team has been hiring steadily over the past two years."
+  },
+  {
+   "id": "QT-2631",
+   "function": "research",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Quantitative Researcher / Trader",
+   "loc": "Singapore / Hong Kong / Shanghai",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform",
+   "excerpt": "Multi-asset quant research plus trading, with three location options. The platform is one of the world's top multi-strategy firms.",
+   "fit": "1–5 years in quant research or trading · math / physics / CS · strong coding",
+   "why": "Three offices to choose from (SG/HK/SH). Large platform with ample capital and research resources."
+  },
+  {
+   "id": "QT-2647",
+   "function": "research",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Data Scientist",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "Data Scientist with a research orientation. Research experience is required (any of fundamental factor research / ETF specialist / trading research). Urgent hiring.",
+   "fit": "3+ years in research or data science · fundamental factors / ETF experience · Python",
+   "why": "Urgent hiring means the headcount is real and moving. Research-side profiles are welcome too — this path sits closer to trading than a pure ML engineering role."
+  },
+  {
+   "id": "QT-2603",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Quant Trader — Low Latency",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Established HFT Trading Firm",
+   "excerpt": "Low-latency strategy execution on the firm's own capital. 3+ years of live HFT experience and a solid grasp of order book microstructure. The firm is 20+ years old and its APAC team is expanding.",
+   "fit": "3+ years of live HFT · order book / microstructure expertise · high pressure tolerance",
+   "why": "A 20+ year-old HFT with proprietary capital and a deep technical stack. Joining during APAC expansion means you can help build the team."
+  },
+  {
+   "id": "QT-2605",
+   "function": "research",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "title": "Options Market Maker",
+   "loc": "Singapore / Shanghai",
+   "group": "Singapore",
+   "tag": "Top-Tier Derivatives Market Maker",
+   "excerpt": "Market making in index / commodity options within a world-class derivatives team. Requires fast pricing and sharp tape-reading instincts; CTA / trading backgrounds are also welcome.",
+   "fit": "Options trading / sell-side market making / CTA · math or physics background · fast pricing",
+   "why": "A world-class derivatives team with an industry-leading tech stack and strategy iteration speed. CTA backgrounds can transition in."
+  },
+  {
+   "id": "QT-2607",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Senior Quantitative Researcher",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Mid-Frequency Equity Quant",
+   "excerpt": "Mid-frequency equity strategies; team of 30+. 4+ years of independent strategy production with clear PnL attribution. The Singapore office is expanding with full visa sponsorship.",
+   "fit": "4+ years in mid- / low-mid-frequency equity strategies · PhD in statistics / CS / math preferred",
+   "why": "Full EP sponsorship including dependents; low Singapore taxes; a 30+ team with a well-developed mentorship system."
+  },
+  {
+   "id": "QT-2621",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Junior Quant Researcher (QR) — Latour Team",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Established HFT Proprietary Trading · SG",
+   "excerpt": "The Latour team in Singapore is actively hiring Junior Quants — candidates within a three-month notice period are fine, and both buy-side and sell-side backgrounds are welcome. EP sponsorship available.",
+   "fit": "0–3 years of experience · math / physics / CS / financial engineering · trading or research background",
+   "why": "The Singapore team is expanding with full EP sponsorship. Juniors get hands-on with proprietary capital — a steep growth curve."
+  },
+  {
+   "id": "QT-2625",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Junior Commodities Fundamental Analyst",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top-Tier Multi-Strategy Quant Platform",
+   "excerpt": "Fundamental analysis in commodities, working closely with the trading team. Open to new grads and those with 1–3 years of experience.",
+   "fit": "New grad / 1–3 years · commodities / energy / macro background · strong data analysis",
+   "why": "Commodities is a new expansion area combining fundamental and quant approaches — a rare career path."
+  },
+  {
+   "id": "QT-2627",
+   "function": "research",
+   "loc_filters": [
+    "sg",
+    "remote"
+   ],
+   "title": "Systematic Crypto Trader",
+   "loc": "Singapore / Remote",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Systematic strategy trading within the digital assets team, covering CeFi exchanges. Global 24/7 collaboration without night shifts.",
+   "fit": "Professional crypto trading experience · CeFi / derivatives · Python",
+   "why": "Digital assets is the platform's fastest-growing business line. Global rotation without night shifts, with opportunities to rotate across offices."
+  },
+  {
+   "id": "QT-2630",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Crypto — Quantitative Trader",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top-Tier Multi-Strategy Platform",
+   "excerpt": "Quantitative crypto trading on the platform's own capital; the Singapore team runs APAC crypto.",
+   "fit": "2+ years in crypto / futures quant trading · strategy + execution · Python/C++",
+   "why": "Plenty of proprietary capital with transparent PnL share. Singapore crypto is on a strong growth trajectory."
+  },
+  {
+   "id": "QT-2606",
+   "function": "research",
+   "loc_filters": [
+    "adh"
+   ],
+   "title": "Data Scientist",
+   "loc": "Abu Dhabi",
+   "group": "Abu Dhabi",
+   "tag": "Sovereign Wealth Fund · Abu Dhabi",
+   "excerpt": "Data science role at one of the world's largest sovereign wealth funds. Open to PhD graduates or those with under 2 years of experience. Tax-free compensation with top-tier benefits (housing / children's education / healthcare).",
+   "fit": "Recent PhD or <2 years of experience · data science / statistics / ML · solid Python",
+   "why": "A rare sovereign wealth fund seat with fully tax-free pay — PhD grads or juniors can enter a top sovereign fund, an exceptional career starting point."
+  },
+  {
+   "id": "QT-2662",
+   "function": "research",
+   "loc_filters": [
+    "adh"
+   ],
+   "title": "Junior Quant Researcher",
+   "loc": "Abu Dhabi",
+   "group": "Abu Dhabi",
+   "tag": "Sovereign Wealth Fund · Abu Dhabi",
+   "excerpt": "Quant research role at one of the world's largest sovereign wealth funds. Open to PhD graduates or those with under 2 years of experience. Tax-free compensation with top-tier benefits.",
+   "fit": "Recent PhD or <2 years of experience · math / physics / quantitative finance · solid Python",
+   "why": "Junior seats at top sovereign funds are extremely rare. Tax-free pay plus top-tier benefits, and you can apply with as little as 2 years of experience."
+  },
+  {
+   "id": "QT-2609",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher — Index Enhancement",
+   "loc": "Hangzhou / Shanghai",
+   "group": "Shanghai",
+   "tag": "Top 10B-RMB Quant Fund",
+   "excerpt": "Alpha signal research and portfolio optimization; 60+ in the department. Master's from a top-tier (985) university or above; live strategy experience preferred. Average researcher carry ranges from RMB 2M to 5M.",
+   "fit": "985 master's + 2+ years of quant research · verifiable live performance · Python/C++",
+   "why": "Consistently among the largest quant funds domestically, with average researcher carry of RMB 2–5M. The alpha department of 60+ has a complete mentorship system."
+  },
+  {
+   "id": "QT-2612",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher — Alpha Discovery",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Index-Enhancement Fund",
+   "excerpt": "Daily-frequency alpha factor mining and portfolio construction. 2+ years of quant research experience with solid statistics. Team AUM has doubled in three years with clear promotion paths.",
+   "fit": "2+ years in quant factor research · PhD in statistics / math or 985 master's · Python",
+   "why": "AUM doubled in three years with clear promotion paths; 30+ people on the alpha team means systematic learning."
+  },
+  {
+   "id": "QT-2613",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "CTA Quantitative Researcher",
+   "loc": "Shanghai / Shenzhen",
+   "group": "Shanghai",
+   "tag": "HFT / CTA Fund",
+   "excerpt": "Futures CTA strategies across short and medium horizons. 3+ years of live or research CTA experience with the ability to iterate strategies independently. Solid fundamentals in commodity futures data and signal processing.",
+   "fit": "3+ years of CTA live / research · Python · commodity futures data processing",
+   "why": "A leading CTA team with higher carry ratios than equity funds; strong autonomy in strategy iteration."
+  },
+  {
+   "id": "QT-2614",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Macro Quantitative Researcher",
+   "loc": "Shenzhen / Shanghai",
+   "group": "Shanghai",
+   "tag": "Macro / Commodities Fund",
+   "excerpt": "Macro factor modeling and alternative data pipelines. Hybrid finance + programming backgrounds preferred; strong Python and the ability to build data ETL independently. AUM at the 10B-RMB level.",
+   "fit": "Hybrid financial engineering + programming background · macro or commodities experience · Python data ETL",
+   "why": "Macro + alternative data is a rare direction. At 10B-RMB scale, joining during the team-building phase offers equity upside."
+  },
+  {
+   "id": "QT-2632",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Experienced Commodity Trader",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "excerpt": "Commodity trading (agriculturals / chemicals / metals / new energy) with the Shanghai team. 3+ years of commodity trading experience with a grasp of supply chains and market structure.",
+   "fit": "3+ years in commodity trading · agriculturals / chemicals / metals · understands supply-demand and risk",
+   "why": "The profit pool is shared globally with industry-top bonuses. The Shanghai office is in an expansion phase."
+  },
+  {
+   "id": "QT-2633",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Quant Trading Firm · Shanghai",
+   "excerpt": "Quantitative researcher on an RMB asset-management platform running market-making and index-enhancement strategies for institutional clients.",
+   "fit": "2+ years of quant research · top-tier STEM degree · C++/Python",
+   "why": "The Shanghai RMB platform operates independently with strong strategy autonomy and meaningful carry."
+  },
+  {
+   "id": "QT-2634",
+   "function": "tech",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Reliability Engineer",
+   "loc": "Singapore / Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Reliability engineering for trading systems — not a traditional SRE/cloud role (SRE/cloud candidates will not be considered). Requires understanding how trading systems operate.",
+   "fit": "Knowledge of Linux / networking / systems · trading-system ops experience preferred · not a pure-cloud background",
+   "why": "Not a traditional SRE role — you work directly with trading teams and go deep into the core of trading systems. Small team, big impact."
+  },
+  {
+   "id": "QT-2640",
+   "function": "tech",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Quant Developer (Python)",
+   "loc": "Singapore / Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Quant Platform",
+   "excerpt": "Python Quant Dev working on the research platform and backtesting framework.",
+   "fit": "3+ years of Python · quant platform experience · C++ knowledge a plus",
+   "why": "A complete research toolchain at a multi-strategy platform; QDs collaborate 1:1 with researchers, making engineering impact directly visible."
+  },
+  {
+   "id": "QT-2642",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Quantitative Developer — Hong Kong",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Established Multi-Strategy Hedge Fund",
+   "excerpt": "Quantitative development at a multi-strategy platform, focused on research / trading systems.",
+   "fit": "3+ years of C++/Python · quant platform experience",
+   "why": "A stable QD team at an established platform; the HK team works directly with PMs, with room to move into research."
+  },
+  {
+   "id": "QT-2648",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Low Latency Market Data Developer (C++)",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "A newly formed market data team, C++ focused, 3+ years of experience. Urgent hiring — candidates not currently on the market are also welcome.",
+   "fit": "3+ years of C++ · market data / feeds · low latency",
+   "why": "Be an early member of a brand-new team and define the market data architecture. Urgent hiring means a fast process."
+  },
+  {
+   "id": "QT-2649",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Desk Quant — Python (New Desk)",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "Desk Quant for a new trading desk, junior-to-mid (2–6 years), pure Python, open to pure engineering backgrounds. Sit alongside the desk and directly serve its strategies.",
+   "fit": "2–6 years of Python · trading desk / platform development",
+   "why": "A new desk means brand-new PnL opportunity; joining early as a QD can lead into strategy work. Urgent hiring, fast process."
+  },
+  {
+   "id": "QT-2650",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Senior Desk Quant — Python (QPM)",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "Senior Desk Quant on the QPM desk, 8+ years of experience. Open to developers with quant / research backgrounds.",
+   "fit": "8+ years of experience · Python · quant research background a plus",
+   "why": "QPM is a core desk for the platform, with senior QD compensation benchmarked against the PM track."
+  },
+  {
+   "id": "QT-2651",
+   "function": "tech",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Desk Quant — C++ (Trading Desk)",
+   "loc": "Hong Kong / Singapore",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "A typical Desk Quant (C++) on a trading desk, <5 years of experience. Requires hardcore C++ (Rust/Go developers who touch C++ occasionally will not be considered).",
+   "fit": "<5 years · hardcore C++ · trading systems",
+   "why": "Junior-friendly (<5 years) — a chance to build platform-grade code in pure C++."
+  },
+  {
+   "id": "QT-2653",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Quantitative Developer — C++ (Core)",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "A typical Quant Dev with 5+ years, supporting multiple trading desks; relevant experience required.",
+   "fit": "5+ years · C++ · multi-desk support experience",
+   "why": "Supporting multiple desks gives you broad visibility across all of the platform's strategy lines."
+  },
+  {
+   "id": "QT-2654",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Desk Quant — Python (CTA)",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "Desk Quant on the CTA desk — a new headcount. CTA asset-class experience required; seniority flexible (2–30 years all welcome).",
+   "fit": "Python · CTA / futures strategy experience",
+   "why": "CTA is a scarce niche; candidates matching both the skill set and the asset class are rare — a match is high value."
+  },
+  {
+   "id": "QT-2655",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Senior Software Engineer — Data Platform",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "The first data platform engineer in APAC, owning the build-out of an in-house data platform. Pure engineering backgrounds welcome (<3-month notice).",
+   "fit": "3+ years in data platform / infrastructure · possibly one more headcount",
+   "why": "As the first APAC hire you define the platform architecture. Possibly one more HC — an early team."
+  },
+  {
+   "id": "QT-2656",
+   "function": "tech",
+   "loc_filters": [
+    "hk",
+    "sg"
+   ],
+   "title": "Senior Software Engineer — Quant Research Framework",
+   "loc": "Singapore / Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · SG/HK",
+   "excerpt": "5+ years of experience, ideally with trading desk exposure. Maintain the core research framework, tooling, and APIs. Infra / production background required.",
+   "fit": "5+ years · research framework / toolchain · infra production experience",
+   "why": "The research framework is core infrastructure everyone depends on — huge impact. Choose between SG or HK."
+  },
+  {
+   "id": "QT-2657",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Software Engineer — Researcher Experience",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "A technical support engineer serving researchers, solving their technical issues and boosting productivity. SaaS customer solutions engineer backgrounds are the best fit.",
+   "fit": "Technical + communication skills · customer solutions engineer experience",
+   "why": "A researcher-experience role means long-term stability; finance knowledge is not required — a great fit for communication-driven engineers."
+  },
+  {
+   "id": "QT-2658",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Desk Quant — C++ Pricing & Risk",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "C++ pricing & risk on a trading desk — strong C++ with pricing / quant libraries, plus FX / options asset-class experience. Urgent hiring.",
+   "fit": "Strong C++ · pricing / quant libraries · FX or options experience",
+   "why": "Pricing & risk sits at the core of the profit engine. Urgent hiring means it's real; scarce skills command premium pay."
+  },
+  {
+   "id": "QT-2659",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Research Platform — Software Engineer",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "8–12 years of experience; language-agnostic but you'll ultimately work in Go. Build the toolchain for the HPC research platform. Urgent hiring; big-tech backgrounds preferred.",
+   "fit": "8–12 years · Go · HPC / platform engineering · big-tech background",
+   "why": "The HPC research platform is the firm's core quant infrastructure. Extremely urgent hiring; big-tech backgrounds can go straight to negotiation."
+  },
+  {
+   "id": "QT-2660",
+   "function": "tech",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Data Support Engineer",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "Data support engineer, 2+ years of experience. The technical bar is lower than other roles, but you must be comfortable with a support function. Urgent hiring.",
+   "fit": "2+ years · data / ops support · strong communication",
+   "why": "A lower-barrier entry into a top multi-strategy platform. Urgent hiring means a fast process."
+  },
+  {
+   "id": "QT-2618",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "C++ Engineer — Low Latency Infrastructure",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Established HFT Trading Firm",
+   "excerpt": "Low-latency trading systems, order book engines, and kernel-bypass networking. 5+ years of C++ engineering; Linux kernel / DPDK / FPGA experience a plus.",
+   "fit": "5+ years of C++ · Linux kernel / DPDK / FPGA / network stack",
+   "why": "Industry-leading technical depth; colleagues in FPGA / kernel work are KOLs in their fields."
+  },
+  {
+   "id": "QT-2641",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Junior Software Developer (KDB+/Q)",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top-Tier Multi-Strategy Quant Platform",
+   "excerpt": "KDB+/Q time-series database development for the research data platform. Open to new grads and 1–2 years of experience.",
+   "fit": "KDB+/Q or related time-series experience · new grads welcome",
+   "why": "KDB+ is a core quant-industry skill. The platform provides structured training — master it and you become scarce."
+  },
+  {
+   "id": "QT-2635",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Senior Software Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "excerpt": "Shanghai tech team focused on trading systems / research platforms. 5+ years of C++/Java/Go engineering experience.",
+   "fit": "5+ years in backend / systems development · C++/Java/Go · strong academic background",
+   "why": "Shanghai tech team of 30+. Market maker systems are highly complex — rapid technical growth."
+  },
+  {
+   "id": "QT-2636",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Senior C++ Developer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "excerpt": "C++ development on low-latency trading systems, core OMS. 5+ years of C++ experience.",
+   "fit": "5+ years of C++ · low latency / network programming · Linux",
+   "why": "Core market-maker systems with direct exposure to global-scale low-latency architecture — a high technical ceiling."
+  },
+  {
+   "id": "QT-2637",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Data Centre Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "excerpt": "Data center infrastructure management: exchange colocation facilities, network cabling, and hardware deployment.",
+   "fit": "Data center / colocation ops experience · networking and hardware knowledge",
+   "why": "Data centers are core assets for a trading firm — exposure to global exchange colocation architecture."
+  },
+  {
+   "id": "QT-2638",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Network Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "excerpt": "Exchange network connectivity, low-latency network architecture, and operations.",
+   "fit": "Network engineering experience · low-latency networks · CCNP or equivalent",
+   "why": "Global-scale low-latency network architecture with direct exchange connectivity — a top environment for network engineers."
+  },
+  {
+   "id": "QT-2639",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Low Latency Software Developer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Quant Trading Firm · Shanghai",
+   "excerpt": "In-house trading software and infrastructure; 2+ years of C++. Focused on distributed computing and real-time risk.",
+   "fit": "2+ years of C++ · network programming / TCP-IP · multithreading",
+   "why": "A global quant trading firm founded in 2010 and a leader in the Indian market; the Shanghai team has wide latitude for in-house development."
+  },
+  {
+   "id": "QT-2643",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "HPC Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Quant Trading Firm · Shanghai",
+   "excerpt": "Design and operations of GPU distributed compute clusters — model training infrastructure.",
+   "fit": "HPC / GPU cluster experience · CUDA/Slurm · systems-level engineering",
+   "why": "Building in-house GPU clusters for distributed training — a quant + AI direction with serious engineering challenges."
+  },
+  {
+   "id": "QT-2652",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Developer — C++ (Shanghai)",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top-Tier Multi-Strategy Platform · Shanghai",
+   "excerpt": "Shanghai's first Quant Dev hiring — 3 headcounts. Backgrounds in either Quant Dev or C++ data acquisition are all welcome.",
+   "fit": "C++ · quant development or data acquisition experience",
+   "why": "The Shanghai office is forming its QD team for the first time — with 3 HCs, you'll be a founding member."
+  },
+  {
+   "id": "QT-2610",
+   "function": "tech",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Senior Quant Engineer — Platform",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Platform",
+   "excerpt": "Live trading platform and data pipelines. Rust / C++ preferred, 5+ years of experience, low-latency systems, PCIe / FPGA a plus. 10B+ RMB scale with an independent engineering org.",
+   "fit": "5+ years of engineering · Rust / C++ · low latency / PCIe / FPGA a plus",
+   "why": "An independent engineering org with strong technical decision-making power; ample budget at 10B+ RMB scale."
+  },
+  {
+   "id": "QT-2608",
+   "function": "tech",
+   "loc_filters": [
+    "remote",
+    "hk",
+    "sg"
+   ],
+   "title": "Quant Developer — Systematic Equities",
+   "loc": "Global (Asia-focused)",
+   "group": "Global / Remote",
+   "tag": "Multi-Strategy Pod Platform · Global",
+   "excerpt": "C++/Python dual-stack role building and productionizing the research platform. 3+ years of engineering experience. The platform offers incubation seats; PM seats are currently open.",
+   "fit": "3+ years of engineering · C++ + Python · quant platform / research tooling experience",
+   "why": "Internal PM incubation seats — strong engineering can convert into a PM role (a carry pathway)."
+  },
+  {
+   "id": "QT-2616",
+   "function": "tech",
+   "loc_filters": [
+    "remote"
+   ],
+   "title": "Market Maker — Algo Execution",
+   "loc": "Remote",
+   "group": "Global / Remote",
+   "tag": "Crypto Market Making · Remote",
+   "excerpt": "Automated market making and execution optimization on low-latency infrastructure. 2+ years of market-making or execution experience; Go / Rust / C++ all fine. Fully remote with a globally distributed team.",
+   "fit": "2+ years in market making / execution · Go / Rust / C++ · crypto background a plus",
+   "why": "Fully remote, global team, and token bonus. A cutting-edge stack with fast accumulation of crypto market-making infra experience."
+  },
+  {
+   "id": "QT-2644",
+   "function": "ml",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Machine Learning Engineer",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "ML Engineer taking models into production across trading and research pipelines.",
+   "fit": "3+ years of ML engineering · Python / deep learning frameworks · feature engineering",
+   "why": "A stable ML team at an established proprietary firm; models directly serve trading decisions with fast deployment."
+  },
+  {
+   "id": "QT-2661",
+   "function": "ml",
+   "loc_filters": [
+    "hk"
+   ],
+   "title": "Senior AI Engineer",
+   "loc": "Hong Kong",
+   "group": "Hong Kong",
+   "tag": "Top-Tier Multi-Strategy Platform · HK",
+   "excerpt": "A role using AI dev tools to accelerate engineering productivity (not LLM / ML / recommender systems). New headcount; candidates with finance knowledge preferred.",
+   "fit": "AI / agentic engineering experience · finance knowledge a plus",
+   "why": "A new HC in the AI-productivity space is a priority internal project — finance knowledge is a rare differentiator."
+  },
+  {
+   "id": "QT-2619",
+   "function": "ml",
+   "loc_filters": [
+    "sg",
+    "remote"
+   ],
+   "title": "AI Researcher — DeFi / On-Chain",
+   "loc": "Remote / Singapore",
+   "group": "Singapore",
+   "tag": "Crypto Asset Management · Global",
+   "excerpt": "On-chain / DEX quantitative strategies with hands-on Solidity and EVM experience; ML/RL modeling on on-chain data. Researcher equity package is among the most generous in the industry.",
+   "fit": "Hands-on Solidity / EVM · RL/ML on-chain modeling · crypto-native background",
+   "why": "One of the most generous equity plans in the industry. Primarily remote; the Singapore office is optional."
+  },
+  {
+   "id": "QT-2611",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Machine Learning Researcher",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Proprietary Quant",
+   "excerpt": "Deep learning / Transformer factor synthesis. Top-conference or top-journal publications preferred. Sustained RMB 10B+ AUM; the proprietary desk is expanding within a first-class research environment.",
+   "fit": "Hands-on deep learning / Transformer experience · NeurIPS/ICML/ICLR publications preferred · Factor modeling experience",
+   "why": "Top research culture with annual top-conference output; RMB 10B+ proprietary capital means models can be validated live quickly."
+  },
+  {
+   "id": "QT-2645",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "AI Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Global Derivatives Market Maker · Shanghai",
+   "excerpt": "One of the founding members of the AI Engineering team, responsible for model serving and evaluation infrastructure. Team starts at 2-3 people.",
+   "fit": "3+ years in AI/ML engineering · LLM inference/evaluation · Chinese + English",
+   "why": "Founding member of a new team = a core role that directly defines the model strategy; steep growth curve."
+  },
+  {
+   "id": "QT-2646",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Head of AI Engineering",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Global Derivatives Market Maker · Shanghai",
+   "excerpt": "Global head of AI engineering, building out model serving and evaluation teams (target 10-15 people), owning model routing and cost optimization.",
+   "fit": "10+ years in ML/AI engineering · Team management · LLM deployment and evaluation experience",
+   "why": "Build the global model strategy team from 0 to 1, reporting directly to the global tech lead — a rare role in the industry."
+  },
+  {
+   "id": "QT-2663",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Data Acquisition Specialist (Alternative Data Sourcing)",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Buy-Side Quant Firm",
+   "excerpt": "Buy-side fund data team expanding: source alternative datasets and manage vendors to support research and investment decisions. 3+ years of data vendor experience, financial knowledge, and contract negotiation skills required.",
+   "fit": "Bachelor's+ · 3+ years of data vendor experience · Familiarity with financial instruments and industry terminology · Skilled at negotiating contracts/SLAs · Cross-team collaboration",
+   "why": "Core data team role: works directly with research and engineering, owns the full lifecycle of alternative data, and joins strategic data projects with broad exposure."
+  },
+  {
+   "id": "QT-2664",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Trader — Commodities Desk",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Derivatives Market Maker",
+   "excerpt": "Develop market-making strategies for commodities (metals/crude) with real-time risk management.",
+   "fit": "Bachelor's+ with quant background, 1+ years of trading experience",
+   "why": "Top derivatives market maker with globally connected commodity desks and a well-established training program."
+  },
+  {
+   "id": "QT-2665",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Experienced Quantitative Researcher (D1)",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Derivatives Market Maker",
+   "excerpt": "Develop fully automated trading strategies driven by machine learning.",
+   "fit": "5+ years in quantitative research; BS/MS/PhD",
+   "why": "Core research role at a leading market maker with top-tier data and compute resources."
+  },
+  {
+   "id": "QT-2666",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Software Engineer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Build the firm's core systems and developer tooling.",
+   "fit": "Bachelor's/Master's in CS or related field, strong engineering skills",
+   "why": "Top market maker renowned for its engineering culture and highly competitive compensation."
+  },
+  {
+   "id": "QT-2667",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Cybersecurity Engineer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Security engineering and building out the firm's defense infrastructure.",
+   "fit": "Security engineering experience",
+   "why": "Cutting-edge tech stack with a dedicated, independently organized security team."
+  },
+  {
+   "id": "QT-2668",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Fixed Income Trader",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top HFT Proprietary Trading",
+   "excerpt": "Global fixed income strategy trading (macro team).",
+   "fit": "Experience trading global fixed income strategies",
+   "why": "Top HFT proprietary firm; new macro fixed income initiative with significant growth upside."
+  },
+  {
+   "id": "QT-2669",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Algo Developer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top HFT Proprietary Trading",
+   "excerpt": "Build predictive models and trading strategies.",
+   "fit": "Background in math/CS/statistics/physics",
+   "why": "Algorithm-driven environment with dual growth tracks in technology and strategy."
+  },
+  {
+   "id": "QT-2670",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Software Engineer — Python",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top HFT Proprietary Trading",
+   "excerpt": "Python development for research and trading systems.",
+   "fit": "Python/C++ experience",
+   "why": "Core systems development with close collaboration alongside researchers."
+  },
+  {
+   "id": "QT-2671",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Options Quantitative Strategist",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Options volatility signals and pricing models.",
+   "fit": "3-5 years of quant research in OAMM; PhD preferred",
+   "why": "Top market maker; scarce options strategy role with high value."
+  },
+  {
+   "id": "QT-2672",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Quantitative Trader",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Configure algorithmic trading strategies and manage risk.",
+   "fit": "Quant background, strong programming skills",
+   "why": "All-asset market-making platform with abundant live trading resources."
+  },
+  {
+   "id": "QT-2673",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Quantitative Researcher",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top HFT · Crypto Market Making",
+   "excerpt": "Research and develop trading strategies.",
+   "fit": "Quant research background; Python/statistics",
+   "why": "Top HFT firm where deep research is tightly coupled with live trading."
+  },
+  {
+   "id": "QT-2674",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Quantitative Trading Researcher",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Develop high-frequency trading algorithms.",
+   "fit": "Master's degree, 3+ years in quant trading",
+   "why": "Established HFT firm with multiple strategy lines on a stable platform."
+  },
+  {
+   "id": "QT-2675",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Junior Quant Trader / Researcher",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Strategy research and deployment.",
+   "fit": "Quant background, Master's preferred",
+   "why": "Established HFT firm, ideal for career progression."
+  },
+  {
+   "id": "QT-2676",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Quantitative Developer / Research Engineer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Software solutions for automated trading systems.",
+   "fit": "Bachelor's+ in CS/math; C++/Python",
+   "why": "Top market maker; a role combining quant and engineering."
+  },
+  {
+   "id": "QT-2677",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Kdb+/Q Engineer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Market Maker",
+   "excerpt": "Market data and quantitative research platform.",
+   "fit": "Production Kdb+/Q experience",
+   "why": "Scarce skill set; core to the data infrastructure."
+  },
+  {
+   "id": "QT-2678",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Quantitative Researcher — Equity",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Systematic equity alpha research.",
+   "fit": "Master's/PhD, 1-3 years",
+   "why": "Top multi-strategy platform with a pod structure and high payout; alpha producers enjoy significant bonus upside."
+  },
+  {
+   "id": "QT-2679",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Server-Side Engineer (C++) — Pre-Trade Risk",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Develop low-latency pre-trade risk systems.",
+   "fit": "5+ years of C++ (Java a plus)",
+   "why": "Core risk infrastructure with a high technical bar."
+  },
+  {
+   "id": "QT-2680",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Cubist Quantitative Researcher",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Systematic equity alpha research.",
+   "fit": "Master's/PhD",
+   "why": "Cubist's systematic platform offers top-tier data and research resources."
+  },
+  {
+   "id": "QT-2681",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Cubist Portfolio Manager",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Manage systematic strategy portfolios.",
+   "fit": "Senior-level, independently manages a portfolio",
+   "why": "Independent PM role with market-standard payout."
+  },
+  {
+   "id": "QT-2682",
+   "function": "ml",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Senior Data Scientist",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Onboard and clean datasets to support systematic PMs.",
+   "fit": "PhD/Master's, 5+ years",
+   "why": "Data science role directly connected to the investment side — high impact."
+  },
+  {
+   "id": "QT-2683",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Desk Quant Analyst",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Quant Platform",
+   "excerpt": "Quantitative analysis for the trading desk.",
+   "fit": "Quant background",
+   "why": "Global multi-strategy quant platform; front-of-desk research role."
+  },
+  {
+   "id": "QT-2684",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Junior Quant Researcher",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Quant Platform",
+   "excerpt": "Quantitative research.",
+   "fit": "Master's/PhD",
+   "why": "Platform expanding; mature development program for juniors."
+  },
+  {
+   "id": "QT-2685",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Platform Engineer — Trade Support",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Multi-Strategy Hedge Fund",
+   "excerpt": "7×24 support and automation for the quant trading platform.",
+   "fit": "Bachelor's in CS, 5+ years",
+   "why": "Global multi-strategy fund; core platform engineering role."
+  },
+  {
+   "id": "QT-2686",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Senior Platform Support Engineer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Multi-Strategy Hedge Fund",
+   "excerpt": "Platform support engineering.",
+   "fit": "Senior-level experience",
+   "why": "Stable platform with a mature tech stack."
+  },
+  {
+   "id": "QT-2687",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Commodities Quantitative Developer",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Multi-Strategy Hedge Fund",
+   "excerpt": "Quantitative development for commodities trading.",
+   "fit": "Engineering background",
+   "why": "Global multi-strategy fund; commodities desk in expansion mode."
+  },
+  {
+   "id": "QT-2688",
+   "function": "ml",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Data Scientist — AI Enablement",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Multi-Strategy Hedge Fund",
+   "excerpt": "Generative AI to empower research and investment.",
+   "fit": "Data science background",
+   "why": "Frontier direction combining AI with investment research."
+  },
+  {
+   "id": "QT-2689",
+   "function": "ml",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Machine Learning Researcher — PhD Intern",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Hedge Fund",
+   "excerpt": "Research on ML/deep learning trading models.",
+   "fit": "Current PhD student or recent graduate",
+   "why": "Top multi-strategy fund; scarce ML research role."
+  },
+  {
+   "id": "QT-2690",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Commodities Portfolio Manager",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Top Multi-Strategy Hedge Fund",
+   "excerpt": "Manage a commodities portfolio.",
+   "fit": "Senior-level, independently manages a portfolio",
+   "why": "Top multi-strategy fund with strong commodities resources."
+  },
+  {
+   "id": "QT-2691",
+   "function": "tech",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Algo Trading Developer — C++",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Quant Asset Manager",
+   "excerpt": "Develop algorithmic trading systems.",
+   "fit": "Low-latency C++ development",
+   "why": "Global quant asset manager combining technology and trading."
+  },
+  {
+   "id": "QT-2692",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Equity Analyst — India Cyclicals",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Multi-Strategy Pod Platform",
+   "excerpt": "Fundamental research and modeling of Indian cyclicals.",
+   "fit": "4-8 years of equity research",
+   "why": "Multi-strategy pod platform with emerging markets coverage."
+  },
+  {
+   "id": "QT-2693",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Trader",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Quant Proprietary Platform",
+   "excerpt": "Execute systematic strategies.",
+   "fit": "Trading experience",
+   "why": "Global quant proprietary platform; trade execution role."
+  },
+  {
+   "id": "QT-2694",
+   "function": "research",
+   "loc_filters": [
+    "sg"
+   ],
+   "title": "Portfolio Manager",
+   "loc": "Singapore",
+   "group": "Singapore",
+   "tag": "Global Quant Proprietary Platform",
+   "excerpt": "Independently manage a systematic portfolio and its risk.",
+   "fit": "5-8 years in quantitative strategies",
+   "why": "Independent PM role with market-standard payout."
+  },
+  {
+   "id": "QT-2695",
+   "function": "ml",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Software Engineer — AI",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Derivatives Market Maker",
+   "excerpt": "Design and build AI agents to orchestrate data and workflows.",
+   "fit": "Bachelor's in CS/AI, strong Python",
+   "why": "AI track at a top market maker — cutting-edge technology."
+  },
+  {
+   "id": "QT-2696",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Production Software Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Derivatives Market Maker",
+   "excerpt": "Deployment and operations tooling for production trading systems.",
+   "fit": "Senior-level; distributed systems experience",
+   "why": "Core trading systems with demanding engineering requirements."
+  },
+  {
+   "id": "QT-2697",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Equity Options Volatility Trader",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Market Maker",
+   "excerpt": "Volatility market making in index and single-stock options.",
+   "fit": "Options volatility trading experience",
+   "why": "Top market maker; core volatility desk."
+  },
+  {
+   "id": "QT-2698",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Quantitative Researcher — HFT Commodity Futures",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Market Maker",
+   "excerpt": "Research on high-frequency commodity futures strategies.",
+   "fit": "Quant background with HFT futures experience",
+   "why": "High barriers to entry in commodity HFT."
+  },
+  {
+   "id": "QT-2699",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "OTC Trader — Crypto",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Market Maker",
+   "excerpt": "Market making in crypto options/OTC.",
+   "fit": "OTC/crypto trading experience",
+   "why": "New crypto market-making desk with fast growth."
+  },
+  {
+   "id": "QT-2700",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "C++ Developer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Options Market Maker",
+   "excerpt": "Develop high-performance trading systems.",
+   "fit": "C++/Linux with trading systems experience",
+   "why": "Top options market maker with strong engineering."
+  },
+  {
+   "id": "QT-2701",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Low-Latency C++ Engineer — Market Data & Signals",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Options Market Maker",
+   "excerpt": "Market data and signal systems.",
+   "fit": "C++ and low-latency expertise",
+   "why": "Core low-latency work with high technical value."
+  },
+  {
+   "id": "QT-2702",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "C# Developer — Core Trading Technology",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Options Market Maker",
+   "excerpt": "Develop core trading technology.",
+   "fit": "C# and front-end trading environments",
+   "why": "Core trading technology on a stable platform."
+  },
+  {
+   "id": "QT-2703",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "APAC Analytics Coverage",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Market Maker",
+   "excerpt": "Support client-facing trading analytics products.",
+   "fit": "1-2 years; business/data background; Python/SQL",
+   "why": "Top market maker; APAC analytics role."
+  },
+  {
+   "id": "QT-2704",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Crypto Production Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top HFT · Crypto Market Making",
+   "excerpt": "Production engineering for crypto trading systems.",
+   "fit": "Production environment engineering experience",
+   "why": "Top HFT crypto desk; core production engineering."
+  },
+  {
+   "id": "QT-2705",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Systems Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top HFT · Crypto Market Making",
+   "excerpt": "Operations and maintenance of trading systems.",
+   "fit": "Systems operations experience",
+   "why": "Core infrastructure role."
+  },
+  {
+   "id": "QT-2706",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Quantitative Trader / Researcher — APAC",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Research and develop algorithmic trading strategies (multi-location).",
+   "fit": "Math/stats/CS background; Python/C++",
+   "why": "Established HFT firm with multi-location APAC coverage."
+  },
+  {
+   "id": "QT-2707",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Quantitative Developer / Research Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Market Maker",
+   "excerpt": "Software solutions for automated trading systems.",
+   "fit": "Bachelor's+ in CS/math; C++/Python",
+   "why": "Top market maker combining quant and engineering."
+  },
+  {
+   "id": "QT-2708",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Kdb+/Q Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Market Maker",
+   "excerpt": "Market data and quantitative research platform.",
+   "fit": "Production Kdb+/Q experience",
+   "why": "Scarce skill set; core to the data infrastructure."
+  },
+  {
+   "id": "QT-2709",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Quantitative Researcher",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Quantitative alpha research.",
+   "fit": "Master's/PhD, 3-7 years",
+   "why": "Top multi-strategy platform for systematic research."
+  },
+  {
+   "id": "QT-2710",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Entry-Level Quantitative Researcher",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Research alpha signals.",
+   "fit": "Recent Bachelor's/Master's/PhD graduate",
+   "why": "Top multi-strategy platform with a strong new-graduate development program."
+  },
+  {
+   "id": "QT-2711",
+   "function": "research",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "ETF Trader — Asian Markets",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Global Quant Asset Manager",
+   "excerpt": "Building a new ETF market-making desk — trading, research, and technology combined.",
+   "fit": "1-5 years of trading/market-making experience",
+   "why": "Global quant asset manager; opportunity to help build a new desk."
+  },
+  {
+   "id": "QT-2712",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "FPGA Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "Global Quant Asset Manager",
+   "excerpt": "Design ultra-low-latency hardware trading systems.",
+   "fit": "FPGA/RTL development",
+   "why": "Hardware low-latency — a scarce specialization."
+  },
+  {
+   "id": "QT-2713",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Front Office Python Developer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "APAC High-Frequency Market Maker",
+   "excerpt": "Rapid application development for the front office.",
+   "fit": "Python; front-office systems",
+   "why": "APAC high-frequency market maker; front-office development role."
+  },
+  {
+   "id": "QT-2714",
+   "function": "tech",
+   "loc_filters": [
+    "syd"
+   ],
+   "title": "Java Software Engineer",
+   "loc": "Sydney",
+   "group": "Sydney",
+   "tag": "APAC High-Frequency Market Maker",
+   "excerpt": "Trading systems development.",
+   "fit": "Java experience",
+   "why": "APAC high-frequency market maker; trading systems role."
+  },
+  {
+   "id": "QT-2715",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Senior Statarb PM / Quant Researcher (Equity MFS)",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Derivatives Market Maker",
+   "excerpt": "Build medium-frequency statistical arbitrage strategies for Shanghai equities.",
+   "fit": "3+ years leading equity stat-arb teams",
+   "why": "Top market maker's Shanghai desk; build from 0 to 1."
+  },
+  {
+   "id": "QT-2716",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Senior Machine Learning Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Derivatives Market Maker",
+   "excerpt": "Build and deploy ML models with training and inference pipelines.",
+   "fit": "Senior-level; ML platform experience",
+   "why": "ML track at a top market maker with strong platform resources."
+  },
+  {
+   "id": "QT-2717",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Software Engineer — C++",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Options Market Maker",
+   "excerpt": "Develop high-frequency, low-latency automated trading systems.",
+   "fit": "Bachelor's in a technical field, 5+ years of modern C++, fluent in Chinese and English.",
+   "why": "Top options market maker with low-latency engineering at its core."
+  },
+  {
+   "id": "QT-2718",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Head of Trading Operations — China",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top HFT Proprietary Trading",
+   "excerpt": "Lead the China trading operations team.",
+   "fit": "CS bachelor's degree, fluent in Chinese and English; Python/C++ a plus.",
+   "why": "Top-tier HFT firm, head role for the China region."
+  },
+  {
+   "id": "QT-2719",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Deep Learning Researcher — Trading Team",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top HFT · Crypto Market Making",
+   "excerpt": "Conduct deep learning model research for the trading team.",
+   "fit": "Deep learning research background required.",
+   "why": "Rare deep learning seat at a top HFT firm."
+  },
+  {
+   "id": "QT-2720",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Data Scientist — Post Trade Analytics",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top HFT · Crypto Market Making",
+   "excerpt": "Own post-trade data analysis and performance optimization.",
+   "fit": "3+ years of Python data science with a statistics background.",
+   "why": "Top HFT firm, dedicated data analytics role."
+  },
+  {
+   "id": "QT-2721",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Python Software Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top HFT · Crypto Market Making",
+   "excerpt": "Develop core systems in Python.",
+   "fit": "Strong Python/C++ engineering skills.",
+   "why": "Core systems development at a top HFT firm."
+  },
+  {
+   "id": "QT-2722",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Machine Learning Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Optimize ML inference and training pipelines.",
+   "fit": "ML engineering experience required.",
+   "why": "Established HFT firm, ML engineering role."
+  },
+  {
+   "id": "QT-2723",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Systems Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Established HFT Proprietary Trading",
+   "excerpt": "Manage trading server operations and infrastructure.",
+   "fit": "Linux operations and infrastructure experience.",
+   "why": "Core infrastructure at an established HFT firm."
+  },
+  {
+   "id": "QT-2724",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "C++ Software Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Market Maker",
+   "excerpt": "Build high-performance trading systems; relocation available across multiple locations.",
+   "fit": "C++, multithreading, and distributed systems expertise.",
+   "why": "Top market maker with global relocation options."
+  },
+  {
+   "id": "QT-2725",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Low Latency C++ Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Asia-Pacific HFT Market Maker",
+   "excerpt": "Develop low-latency trading systems.",
+   "fit": "3+ years of C++ development experience.",
+   "why": "Asia-Pacific HFT market maker, low-latency at the core."
+  },
+  {
+   "id": "QT-2726",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Graduate Low Latency C++ Software Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Asia-Pacific HFT Market Maker",
+   "excerpt": "Develop low-latency trading systems as part of a structured graduate program.",
+   "fit": "Recent graduate with strong C++ fundamentals.",
+   "why": "Asia-Pacific HFT firm with a dedicated graduate training track."
+  },
+  {
+   "id": "QT-2727",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quant Research Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Build and maintain the core quant pipeline and data infrastructure.",
+   "fit": "PhD-level (top-tier university).",
+   "why": "Top multi-strategy platform, core quant engineering role."
+  },
+  {
+   "id": "QT-2728",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Deep Learning Quantitative Researcher",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Drive the deep learning alpha research pipeline.",
+   "fit": "PhD-level research background.",
+   "why": "Top multi-strategy platform, DL-focused research seat."
+  },
+  {
+   "id": "QT-2729",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Junior Quantitative Researcher — Equity",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top Multi-Strategy Platform",
+   "excerpt": "Research global equity return prediction signals.",
+   "fit": "Bachelor's/Master's/PhD; fresh graduates welcome.",
+   "why": "Top multi-strategy platform, open to early-career researchers."
+  },
+  {
+   "id": "QT-2730",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher — AI/ML",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Multi-Asset Hedge Fund",
+   "excerpt": "Conduct AI/ML-driven quantitative strategy research.",
+   "fit": "Master's/PhD in a quantitative discipline.",
+   "why": "Global multi-asset fund, AI/ML research role."
+  },
+  {
+   "id": "QT-2731",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Developer — Systematic",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Multi-Asset Hedge Fund",
+   "excerpt": "Engineer and develop the systematic strategy stack.",
+   "fit": "2+ years of Python development experience.",
+   "why": "Global multi-asset fund, systematic engineering role."
+  },
+  {
+   "id": "QT-2732",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Lead Quantitative Developer — Systematic China Platform",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Multi-Asset Hedge Fund",
+   "excerpt": "Lead the Shanghai systematic engineering team.",
+   "fit": "5+ years of experience as a technical lead.",
+   "why": "Global multi-asset fund, China tech lead role."
+  },
+  {
+   "id": "QT-2733",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Senior Software Engineer — Market Access",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Global Quant Asset Manager",
+   "excerpt": "Architect and develop market access for trading systems.",
+   "fit": "Senior C++/low-latency/multithreading expertise.",
+   "why": "Global quant asset manager, core trading systems."
+  },
+  {
+   "id": "QT-2734",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Research & Trading Campus Program",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Asian HFT Proprietary Trading",
+   "excerpt": "Factor research and strategy development using machine and deep learning.",
+   "fit": "2026/2027 graduates; internships also available.",
+   "why": "Asian HFT firm with a structured campus training program."
+  },
+  {
+   "id": "QT-2735",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Junior Quantitative Researcher",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Shanghai Quant Fund · Dual HQ with New York",
+   "excerpt": "Strategy research and alpha mining on tick-level data.",
+   "fit": "1-3 years in systematic alpha/equity research.",
+   "why": "Dual Shanghai + New York headquarters with strong tick-level data resources."
+  },
+  {
+   "id": "QT-2736",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Engineer",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Shanghai Quant Fund · Dual HQ with New York",
+   "excerpt": "Implement strategy models and optimize the backtesting framework.",
+   "fit": "Strong C++/Python engineering skills.",
+   "why": "Dual-HQ platform blending engineering with strategy."
+  },
+  {
+   "id": "QT-2737",
+   "function": "ml",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher — AI Algorithms",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top 10B-RMB Quant Fund",
+   "excerpt": "End-to-end return prediction using large models / Transformers.",
+   "fit": "Master's or PhD degree.",
+   "why": "Top 10B-RMB fund, frontier LLM research seat."
+  },
+  {
+   "id": "QT-2738",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher — Portfolio Optimization",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top 10B-RMB Quant Fund",
+   "excerpt": "Multi-signal combination, risk models, and portfolio optimizers.",
+   "fit": "Master's/PhD from 985 or overseas universities.",
+   "why": "Top 10B-RMB fund, portfolio optimization at the core."
+  },
+  {
+   "id": "QT-2739",
+   "function": "research",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Quantitative Researcher — High-Frequency Factors",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top 10B-RMB Quant Fund",
+   "excerpt": "Tick data, intraday factor research, and trade execution.",
+   "fit": "Class of 2027, fresh graduate.",
+   "why": "Top 10B-RMB fund, high-frequency factor desk."
+  },
+  {
+   "id": "QT-2740",
+   "function": "tech",
+   "loc_filters": [
+    "sh"
+   ],
+   "title": "Developer — Quant Development / ML Platform",
+   "loc": "Shanghai",
+   "group": "Shanghai",
+   "tag": "Top 10B-RMB Quant Fund",
+   "excerpt": "Backtesting frameworks, live trading integration, and model deployment.",
+   "fit": "Class of 2027, fresh graduate.",
+   "why": "Top 10B-RMB fund, quant development role."
+  },
+  {
+   "id": "QT-2741",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quantitative Strategy Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Research quantitative strategies for the domestic equity market — analyze historical data and mine predictive trading signals.",
+   "fit": "Bachelor's or above in STEM from a top university; finance experience not required.",
+   "why": "Top quant fund, core strategy research role."
+  },
+  {
+   "id": "QT-2742",
+   "function": "ml",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Machine Learning Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Develop quant and portfolio strategies using reinforcement, deep, and machine learning.",
+   "fit": "Solid ML fundamentals; Olympiad/ACM/Kaggle awards a plus.",
+   "why": "Top quant fund, ML research direction."
+  },
+  {
+   "id": "QT-2743",
+   "function": "tech",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quant Developer",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Optimize Python SDK and data pipeline performance, accelerating hot paths with C++.",
+   "fit": "Strong Python engineering skills; C++ proficiency required.",
+   "why": "Top quant fund, engineering and strategy combined."
+  },
+  {
+   "id": "QT-2744",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quantitative Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Analyze large-scale financial data, mine signals, and develop and optimize quantitative models.",
+   "fit": "Master's degree with 1-3 years of experience.",
+   "why": "10B-RMB quant fund (double Golden Bull award), research role."
+  },
+  {
+   "id": "QT-2745",
+   "function": "tech",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quant Systems Developer (C++)",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Develop quant systems and infrastructure.",
+   "fit": "Bachelor's or above with C++ expertise.",
+   "why": "10B-RMB quant fund, systems development role."
+  },
+  {
+   "id": "QT-2746",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Options Trader",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Develop options trading strategies, pricing, and volatility models.",
+   "fit": "Top-tier university degree in math/physics/CS/financial engineering.",
+   "why": "Top quant fund, rare options desk role."
+  },
+  {
+   "id": "QT-2747",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Algorithmic Trading Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Design and optimize algorithmic order execution and evaluate execution costs.",
+   "fit": "Graduate degree from a top university, 2+ years of algorithmic trading experience.",
+   "why": "Top quant fund, core algorithmic trading role."
+  },
+  {
+   "id": "QT-2748",
+   "function": "tech",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Core Systems Engineer (C++)",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Develop and maintain quant trading systems for domestic and offshore equities, futures, and options.",
+   "fit": "Bachelor's/Master's/PhD from a top-20 university; fresh graduate or within 2 years of graduation.",
+   "why": "Top quant fund, core systems role."
+  },
+  {
+   "id": "QT-2749",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quant Portfolio Manager / PM (Mid-to-High Frequency)",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Mine mid-to-high-frequency price-volume factors, integrate multi-factor signals, and optimize portfolios.",
+   "fit": "Master's or above, 5+ years of experience (1+ year of live track record).",
+   "why": "Top quant fund, independent PM role with a market-aligned PnL split."
+  },
+  {
+   "id": "QT-2750",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quantitative Researcher (Mid-High Frequency / C++)",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Develop intraday high-frequency factors in C++ and optimize live signals.",
+   "fit": "Master's or above, 1+ years of experience.",
+   "why": "Top quant fund, high-frequency research direction."
+  },
+  {
+   "id": "QT-2751",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "High-Frequency Quant Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Research mid-to-high-frequency equity strategies, using machine learning to improve prediction stability.",
+   "fit": "Bachelor's or above.",
+   "why": "Top quant fund (8B+ RMB AUM), high-frequency strategy seat."
+  },
+  {
+   "id": "QT-2752",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Equity Quant Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "10B-RMB Macro Quant Fund",
+   "excerpt": "A-share price-volume strategies, alpha factor mining, and the full multi-factor modeling pipeline.",
+   "fit": "Master's degree, 2+ years in quantitative research.",
+   "why": "10B-RMB macro quant fund, equity quant line."
+  },
+  {
+   "id": "QT-2753",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "CTA High-Frequency Quant Researcher",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "10B-RMB Macro Quant Fund",
+   "excerpt": "Research CTA high-frequency quantitative strategies.",
+   "fit": "Master's degree, 2+ years of experience.",
+   "why": "10B-RMB macro fund, CTA high-frequency line."
+  },
+  {
+   "id": "QT-2754",
+   "function": "research",
+   "loc_filters": [
+    "sz"
+   ],
+   "title": "Quantitative Researcher (Mid-High Frequency Equities)",
+   "loc": "Shenzhen",
+   "group": "Shenzhen",
+   "tag": "Top Quant Fund",
+   "excerpt": "Factor construction and testing, portfolio optimization, and market impact modeling.",
+   "fit": "Bachelor's/Master's/PhD from a top university, 0-8 years of experience.",
+   "why": "Top quant fund, mid-to-high-frequency equities direction."
+  },
+  {
+   "id": "QT-2755",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quant Strategy Researcher (Wutong Program)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "100B-RMB Quant Fund",
+   "excerpt": "Leverage computing power and AI frameworks to analyze massive datasets and mine alpha signals with ML.",
+   "fit": "Master's or above (2027 campus recruiting).",
+   "why": "100B-RMB quant fund, core strategy role."
+  },
+  {
+   "id": "QT-2756",
+   "function": "ml",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "AI Algorithm Researcher (Wutong Program)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "100B-RMB Quant Fund",
+   "excerpt": "Use AI research frameworks for feature extraction, price prediction, and portfolio optimization.",
+   "fit": "Master's or above (2027 campus recruiting).",
+   "why": "100B-RMB quant fund, AI research frontier."
+  },
+  {
+   "id": "QT-2757",
+   "function": "tech",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quant Developer",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "100B-RMB Quant Fund",
+   "excerpt": "Build and optimize the core systems powering strategy research and live trading.",
+   "fit": "Master's or above (2027 campus recruiting).",
+   "why": "100B-RMB quant fund, core engineering role."
+  },
+  {
+   "id": "QT-2758",
+   "function": "tech",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quant Developer (C++)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "100B-RMB Quant Fund",
+   "excerpt": "Build quant models across equities, futures, and options, providing data and technical support to researchers.",
+   "fit": "Master's or above; quant experience a plus, not required.",
+   "why": "100B-RMB quant fund, experienced-hire engineering role."
+  },
+  {
+   "id": "QT-2759",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quantitative Researcher (Equities)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Develop new quant equity strategies and collaborate with portfolio managers to optimize portfolios.",
+   "fit": "Master's degree, 3+ years in quant equity strategies.",
+   "why": "10B-RMB quant fund, equity strategy role."
+  },
+  {
+   "id": "QT-2760",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Senior Quantitative Researcher (CTA)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Independently lead a strategy category with end-to-end research on ML-driven nonlinear strategies.",
+   "fit": "3-5 years of CTA strategy experience, intraday mid-to-high frequency.",
+   "why": "10B-RMB quant fund, senior CTA role."
+  },
+  {
+   "id": "QT-2761",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quantitative Investment Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Quant investment strategy research with live-performance tracking and optimization.",
+   "fit": "STEM Master's/PhD preferred.",
+   "why": "10B-RMB quant fund, investment research role."
+  },
+  {
+   "id": "QT-2762",
+   "function": "ml",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "LLM Quantitative Investment Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Apply large language models to quantitative strategy research.",
+   "fit": "Master's/PhD preferred (2027 campus recruiting).",
+   "why": "10B-RMB quant fund, LLM × quant frontier."
+  },
+  {
+   "id": "QT-2763",
+   "function": "tech",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "C++ Software Engineer",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Develop quant trading systems, backtesting platforms, and data platforms.",
+   "fit": "Key-university background with multi-year C/C++ experience.",
+   "why": "10B-RMB quant fund, core systems development."
+  },
+  {
+   "id": "QT-2764",
+   "function": "tech",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quant Developer",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Build core systems for equity quant data, research, backtesting, production, and risk control.",
+   "fit": "Master's degree, 2+ years, strong C++/Python.",
+   "why": "10B-RMB quant fund, full-stack core systems."
+  },
+  {
+   "id": "QT-2765",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "High-Frequency PM / Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Develop equity T+0 and intraday high-frequency strategies across commodity and financial futures.",
+   "fit": "Master's degree, 3-5 years of experience.",
+   "why": "10B-RMB quant fund, independent high-frequency strategy seat."
+  },
+  {
+   "id": "QT-2766",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Equity Quant Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Equity alpha strategy research.",
+   "fit": "Campus and experienced hiring open on a rolling basis.",
+   "why": "10B-RMB quant fund, equity alpha desk."
+  },
+  {
+   "id": "QT-2767",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "CTA Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "10B-RMB Quant Fund",
+   "excerpt": "Research and develop managed futures (CTA) strategies.",
+   "fit": "Open applications on the company website.",
+   "why": "10B-RMB quant fund, CTA line."
+  },
+  {
+   "id": "QT-2768",
+   "function": "ml",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quant AI Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Fund",
+   "excerpt": "Innovative applications of machine and deep learning in quantitative research.",
+   "fit": "Bachelor's or above (autumn recruiting for classes of 2027/2028).",
+   "why": "Top quant fund, AI × quant frontier."
+  },
+  {
+   "id": "QT-2769",
+   "function": "tech",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Quant Developer (C++)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Fund",
+   "excerpt": "Develop low-latency trading systems and high-performance quant platforms.",
+   "fit": "Bachelor's or above (autumn recruiting for classes of 2027/2028).",
+   "why": "Top quant fund, low-latency engineering."
+  },
+  {
+   "id": "QT-2770",
+   "function": "research",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Strategy Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Fund",
+   "excerpt": "Quantitative strategy research and development.",
+   "fit": "Full-time roles for classes of 2026-2027.",
+   "why": "Top quant fund (dual HQ in Shanghai + Beijing), strategy role."
+  },
+  {
+   "id": "QT-2771",
+   "function": "ml",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "Machine Learning Researcher",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Fund",
+   "excerpt": "Apply ML models to quantitative investment research.",
+   "fit": "Full-time roles for classes of 2026-2027.",
+   "why": "Top quant fund, ML research seat."
+  },
+  {
+   "id": "QT-2772",
+   "function": "ml",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "AI Algorithm / R&D Engineer",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Fund",
+   "excerpt": "R&D on the AI platform at the WideQuant Intelligent Learning Lab.",
+   "fit": "Campus recruiting (applications now open).",
+   "why": "Top quant fund, AI platform frontier."
+  },
+  {
+   "id": "QT-2773",
+   "function": "ml",
+   "loc_filters": [
+    "bj"
+   ],
+   "title": "LLM Researcher (LLM/NLP)",
+   "loc": "Beijing",
+   "group": "Beijing",
+   "tag": "Top Quant Fund",
+   "excerpt": "Apply large language models and AI agents to research Q&A and financial decision-making.",
+   "fit": "Campus recruiting / internship.",
+   "why": "Top quant fund, LLM × finance frontier."
+  }
+ ]
+}

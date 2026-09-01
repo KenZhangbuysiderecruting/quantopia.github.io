@@ -19,6 +19,7 @@
 <!-- Cloudflare Web Analytics (defer, 不阻塞) -->
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
 <!-- End Cloudflare Web Analytics -->
+<script defer src="js/i18n.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -26,12 +27,13 @@
     <h1>Quantopia</h1>
     <p class="tagline">全球对冲基金深度分析 · 中国市场视角 · 猎头一线洞察</p>
     <nav>
-      <a href="index.html">首页</a>
-      <a href="jobs.html" class="active">最新的岗位</a>
-      <a href="about.html">关于</a>
+      <a href="index.html" data-i18n="nav.home">首页</a>
+      <a href="jobs.html" class="active" data-i18n="nav.jobs">最新的岗位</a>
+      <a href="about.html" data-i18n="nav.about">关于</a>
       <a href="https://www.linkedin.com/in/ken-zhang-040139138/" target="_blank" rel="noopener" class="nav-social" aria-label="LinkedIn">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4 1.39 0 1.39 1.12 1.39 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
       </a>
+      <span class="lang-switch-wrap"></span>
     </nav>
   </div>
 </header>
@@ -45,9 +47,9 @@
 <main class="wrap" id="jobs">
   <!-- Jobs Hero（对齐首页品牌感） -->
   <section class="jobs-page-hero">
-    <div class="kicker">Open Roles · Updated Weekly</div>
-    <h1>对冲基金的<b>全球在招岗位</b></h1>
-    <p class="hero-sub">从香港的 PM 到阿布扎比的 Trader <span class="sep">·</span> 从应届 Offer 到资深 PM <span class="sep">·</span> 一线人才在此。</p>
+    <div class="kicker" data-i18n="jobs.hero.kicker">Open Roles · Updated Weekly</div>
+    <h1 data-i18n="jobs.hero.title1">对冲基金的<b>全球在招岗位</b></h1>
+    <p class="hero-sub" data-i18n="jobs.hero.sub">从香港的 PM 到阿布扎比的 Trader <span class="sep">·</span> 从应届 Offer 到资深 PM <span class="sep">·</span> 一线人才在此。</p>
     <div class="hero-floors">
       <div class="metric"><b id="hf-total">—</b><span>在招职位</span></div>
       <div class="metric"><b>30+</b><span>覆盖机构</span></div>
@@ -84,90 +86,90 @@
   <div id="jobs-hero"></div>
   <!-- 成功案例 -->
   <section class="jobs-cases">
-    <h3>🏆 成功案例（匿名化）</h3>
+    <h3 data-i18n="jobs.cases">🏆 成功案例（匿名化）</h3>
     <div class="cases-grid">
       <div class="case-card">
-        <p class="case-tag">海外多策略平台 · 香港</p>
-        <h4>Portfolio Manager 入职，3 个月</h4>
-        <p class="case-desc">从候选人接触到 offer，3 个月完成。候选人原在另一家平台带 4 人团队，业绩可验证。</p>
+        <p class="case-tag" data-i18n="jobs.case.hk.p">海外多策略平台 · 香港</p>
+        <h4 data-i18n="jobs.case.hk.t">Portfolio Manager 入职，3 个月</h4>
+        <p class="case-desc" data-i18n="jobs.case.hk.d">从候选人接触到 offer，3 个月完成。候选人原在另一家平台带 4 人团队，业绩可验证。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag" data-i18n="jobs.case.sh.p" data-i18n="jobs.case.sh2.p">头部量化私募 · 上海</p>
+        <h4 data-i18n="jobs.case.sh.t">Senior Quant Engineer 入职，4 周</h4>
+        <p class="case-desc" data-i18n="jobs.case.sh.d">急招岗位，4 周内推荐 2 名候选人，1 名入职。工程团队搭建关键成员。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag" data-i18n="jobs.case.sg.p">顶级做市商 · 新加坡</p>
+        <h4 data-i18n="jobs.case.sg.t">Quant Trader 入职，6 周</h4>
+        <p class="case-desc" data-i18n="jobs.case.sg.d">EP 签证全程办理，候选人携 3 年 HFT 实盘经验，入职后直接接手亚太盘口。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag" data-i18n="jobs.case.sg2.p">全球顶级做市商 · 新加坡</p>
+        <h4 data-i18n="jobs.case.sg2.t">Quant PM 入职，8 周</h4>
+        <p class="case-desc" data-i18n="jobs.case.sg2.d">候选人在全球多策略平台任 Quant 近 5 年，经长期跟进后转任做市商 Quant PM，薪资对标市场顶尖水平（含高额保证奖金与签字费）。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag" data-i18n="jobs.case.ov.p">全球顶级多策略平台 · 海外</p>
+        <h4 data-i18n="jobs.case.ov.t">股票量化研究员入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.ov.d">北大数学本科 + 港大硕士 + 欧陆名校数学博士，数学奥赛奖牌得主、多篇顶刊论文。入职全球顶级多策略平台股票量化团队。</p>
+      </div>
+      <div class="case-card">
+        <p class="case-tag" data-i18n="jobs.case.hk2.p" data-i18n="jobs.case.hk3.p">全球多策略基金 · 香港</p>
+        <h4 data-i18n="jobs.case.hk2.t">Quant Developer 入职，6 周</h4>
+        <p class="case-desc" data-i18n="jobs.case.hk2.d">国内名校软件工程 + 英硕，C++/KDB+/Python 全栈，海外多策略基金香港办公室补强交易系统团队。</p>
       </div>
       <div class="case-card">
         <p class="case-tag">头部量化私募 · 上海</p>
-        <h4>Senior Quant Engineer 入职，4 周</h4>
-        <p class="case-desc">急招岗位，4 周内推荐 2 名候选人，1 名入职。工程团队搭建关键成员。</p>
+        <h4 data-i18n="jobs.case.sh2.t">ML Researcher 应届入职，3 周</h4>
+        <p class="case-desc" data-i18n="jobs.case.sh2.d">应届博士，4 篇 AI 顶会论文（ICML / AISTATS / ICASSP），从接触到 offer 仅 3 周，加入头部量化私募 AI 研究组。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">顶级做市商 · 新加坡</p>
-        <h4>Quant Trader 入职，6 周</h4>
-        <p class="case-desc">EP 签证全程办理，候选人携 3 年 HFT 实盘经验，入职后直接接手亚太盘口。</p>
+        <p class="case-tag" data-i18n="jobs.case.ny.p">海外投行 · 纽约</p>
+        <h4 data-i18n="jobs.case.ny.t">Quant Researcher 入职（双 offer）</h4>
+        <p class="case-desc" data-i18n="jobs.case.ny.d">北大本科 + 美硕金工，同时拿下海外投行纽约量化岗与国内头部双 offer，薪酬均对标市场顶尖。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">全球顶级做市商 · 新加坡</p>
-        <h4>Quant PM 入职，8 周</h4>
-        <p class="case-desc">候选人在全球多策略平台任 Quant 近 5 年，经长期跟进后转任做市商 Quant PM，薪资对标市场顶尖水平（含高额保证奖金与签字费）。</p>
-      </div>
-      <div class="case-card">
-        <p class="case-tag">全球顶级多策略平台 · 海外</p>
-        <h4>股票量化研究员入职</h4>
-        <p class="case-desc">北大数学本科 + 港大硕士 + 欧陆名校数学博士，数学奥赛奖牌得主、多篇顶刊论文。入职全球顶级多策略平台股票量化团队。</p>
+        <p class="case-tag" data-i18n="jobs.case.bj.p">头部机构 · 北京</p>
+        <h4 data-i18n="jobs.case.bj.t">机器学习研究员入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.bj.d">大模型 / ML 方向，头部量化机构 AI 组，薪酬市场顶尖水平。从接触到 offer 约 4 周。</p>
       </div>
       <div class="case-card">
         <p class="case-tag">全球多策略基金 · 香港</p>
-        <h4>Quant Developer 入职，6 周</h4>
-        <p class="case-desc">国内名校软件工程 + 英硕，C++/KDB+/Python 全栈，海外多策略基金香港办公室补强交易系统团队。</p>
+        <h4 data-i18n="jobs.case.hk3.t">Quant Researcher 入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.hk3.d">国内名校 + 海外硕士，2-4 年量化研究经验，入职全球多策略基金香港办公室，Base 对标市场顶尖。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">头部量化私募 · 上海</p>
-        <h4>ML Researcher 应届入职，3 周</h4>
-        <p class="case-desc">应届博士，4 篇 AI 顶会论文（ICML / AISTATS / ICASSP），从接触到 offer 仅 3 周，加入头部量化私募 AI 研究组。</p>
+        <p class="case-tag" data-i18n="jobs.case.ldn.p">全球大宗商品机构 · 伦敦</p>
+        <h4 data-i18n="jobs.case.ldn.t">大宗商品分析师入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.ldn.d">能源/石油方向，候选人背景扎实，入职伦敦大宗商品交易机构，薪酬对标当地市场顶尖水平。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">海外投行 · 纽约</p>
-        <h4>Quant Researcher 入职（双 offer）</h4>
-        <p class="case-desc">北大本科 + 美硕金工，同时拿下海外投行纽约量化岗与国内头部双 offer，薪酬均对标市场顶尖。</p>
+        <p class="case-tag" data-i18n="jobs.case.adh.p">做市商 · 阿布扎比</p>
+        <h4 data-i18n="jobs.case.adh.t">Desk Quant 入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.adh.d">中东做市/交易机构（全球人才竞争热点地区），交易台量化支持岗，薪酬对标当地市场顶尖。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">头部机构 · 北京</p>
-        <h4>机器学习研究员入职</h4>
-        <p class="case-desc">大模型 / ML 方向，头部量化机构 AI 组，薪酬市场顶尖水平。从接触到 offer 约 4 周。</p>
+        <p class="case-tag" data-i18n="jobs.case.sg3.p">做市商 · 新加坡</p>
+        <h4 data-i18n="jobs.case.sg3.t">Trader 入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.sg3.d">交易员岗，做市商新加坡办公室，EP 签证全程办理。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">全球多策略基金 · 香港</p>
-        <h4>Quant Researcher 入职</h4>
-        <p class="case-desc">国内名校 + 海外硕士，2-4 年量化研究经验，入职全球多策略基金香港办公室，Base 对标市场顶尖。</p>
+        <p class="case-tag" data-i18n="jobs.case.cryptohk.p">Crypto · 香港</p>
+        <h4 data-i18n="jobs.case.cryptohk.t" data-i18n="jobs.case.cryptosh.t">Quant Researcher（Crypto）入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.cryptohk.d">加密量化方向，香港加密做市/交易机构，Base 对标市场顶尖。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">全球大宗商品机构 · 伦敦</p>
-        <h4>大宗商品分析师入职</h4>
-        <p class="case-desc">能源/石油方向，候选人背景扎实，入职伦敦大宗商品交易机构，薪酬对标当地市场顶尖水平。</p>
-      </div>
-      <div class="case-card">
-        <p class="case-tag">做市商 · 阿布扎比</p>
-        <h4>Desk Quant 入职</h4>
-        <p class="case-desc">中东做市/交易机构（全球人才竞争热点地区），交易台量化支持岗，薪酬对标当地市场顶尖。</p>
-      </div>
-      <div class="case-card">
-        <p class="case-tag">做市商 · 新加坡</p>
-        <h4>Trader 入职</h4>
-        <p class="case-desc">交易员岗，做市商新加坡办公室，EP 签证全程办理。</p>
-      </div>
-      <div class="case-card">
-        <p class="case-tag">Crypto · 香港</p>
+        <p class="case-tag" data-i18n="jobs.case.cryptosh.p">Crypto · 上海</p>
         <h4>Quant Researcher（Crypto）入职</h4>
-        <p class="case-desc">加密量化方向，香港加密做市/交易机构，Base 对标市场顶尖。</p>
+        <p class="case-desc" data-i18n="jobs.case.cryptosh.d">加密量化，国内加密团队，对标市场顶尖薪酬。</p>
       </div>
       <div class="case-card">
-        <p class="case-tag">Crypto · 上海</p>
-        <h4>Quant Researcher（Crypto）入职</h4>
-        <p class="case-desc">加密量化，国内加密团队，对标市场顶尖薪酬。</p>
-      </div>
-      <div class="case-card">
-        <p class="case-tag">全球多策略 · 远程</p>
-        <h4>Quant Researcher 远程入职</h4>
-        <p class="case-desc">全球基金远程办公，Base 对标市场顶尖。</p>
+        <p class="case-tag" data-i18n="jobs.case.remote.p">全球多策略 · 远程</p>
+        <h4 data-i18n="jobs.case.remote.t">Quant Researcher 远程入职</h4>
+        <p class="case-desc" data-i18n="jobs.case.remote.d">全球基金远程办公，Base 对标市场顶尖。</p>
       </div>
     </div>
-    <p class="cases-note">* 以上案例均经客户与候选人同意后匿名化展示，不透露任何机构、个人身份与具体薪资信息。</p>
+    <p class="cases-note" data-i18n="jobs.cases.note">* 以上案例均经客户与候选人同意后匿名化展示，不透露任何机构、个人身份与具体薪资信息。</p>
   </section>
 
 
@@ -202,76 +204,76 @@
 
   <!-- 候选人 FAQ -->
   <section class="jobs-faq">
-    <h3>📌 投递前常见问题</h3>
-    <details><summary>投递后多久回复？</summary>
-      <p>工作日 <b>48 小时内</b>回复，简历合适即安排 15 分钟电话沟通。简历不合适也会发一封简短的反馈邮件，不会石沉大海。</p>
+    <h3 data-en="📌 FAQs before you apply">📌 投递前常见问题</h3>
+    <details><summary data-en="How fast do you reply?">投递后多久回复？</summary>
+      <p data-en="Within <b>48 hours</b> on business days. If your profile fits, we schedule a 15-minute call; if not, you still get a short feedback email — nothing goes unanswered.">工作日 <b>48 小时内</b>回复，简历合适即安排 15 分钟电话沟通。简历不合适也会发一封简短的反馈邮件，不会石沉大海。</p>
     </details>
-    <details><summary>公司名真的保密吗？我怎么知道是哪家？</summary>
-      <p>页面用「类型 + 地区」标签是为保护双方（候选人和客户），<b>真实机构名称在第一通电话沟通中确认</b>。</p>
+    <details><summary data-en="Are firm names really confidential? How do I know which firm it is?">公司名真的保密吗？我怎么知道是哪家？</summary>
+      <p data-en="We use &quot;type + region&quot; labels to protect both sides (candidate and client). The <b>actual firm name is confirmed in the first phone call</b>.">页面用「类型 + 地区」标签是为保护双方（候选人和客户），<b>真实机构名称在第一通电话沟通中确认</b>。</p>
     </details>
-    <details><summary>我现在还没准备好换工作，可以登记吗？</summary>
-      <p>可以，页面底部的「<b>候选人登记</b>」表单留下邮箱 + 方向，3-6 个月内有合适岗位我会主动联系。</p>
+    <details><summary data-en="I'm not ready to move yet — can I register?">我现在还没准备好换工作，可以登记吗？</summary>
+      <p data-en="Yes — leave your email + target direction in the <b>candidate registration</b> form at the bottom, and I'll proactively reach out within 3-6 months when a fit appears.">可以，页面底部的「<b>候选人登记</b>」表单留下邮箱 + 方向，3-6 个月内有合适岗位我会主动联系。</p>
     </details>
-    <details><summary>微信直投和邮件有什么区别？</summary>
-      <p>微信直投更快 —— 通常 12 小时内首响，但微信不是正式沟通渠道（不能发 JD 文件）。建议 <b>先微信打招呼 → 改邮件正式投递</b>。</p>
+    <details><summary data-en="What's the difference between WeChat and email?">微信直投和邮件有什么区别？</summary>
+      <p data-en="WeChat is faster — usually a first reply within 12 hours, but it's not a formal channel (no JD files). Best practice: <b>ping me on WeChat first, then apply formally by email</b>.">微信直投更快 —— 通常 12 小时内首响，但微信不是正式沟通渠道（不能发 JD 文件）。建议 <b>先微信打招呼 → 改邮件正式投递</b>。</p>
     </details>
-    <details><summary>已经投递过其他猎头会冲突吗？</summary>
-      <p>不会。每个候选人一个机构只通过一位猎头推荐，我会确认你「是否独家」再推机构。</p>
+    <details><summary data-en="Does applying via another headhunter cause a conflict?">已经投递过其他猎头会冲突吗？</summary>
+      <p data-en="No. Each candidate is represented by only one headhunter per firm. I confirm whether you are exclusive before submitting you anywhere.">不会。每个候选人一个机构只通过一位猎头推荐，我会确认你「是否独家」再推机构。</p>
     </details>
-    <details><summary>我的简历会泄露给机构吗？</summary>
-      <p><b>绝不。</b>您的简历<b>未经您书面同意，不会提供给任何机构</b>；每次推荐前我都会先与您确认机构类型与要求，才进入正式推荐流程。</p>
+    <details><summary data-en="Will my resume be shared with firms?">我的简历会泄露给机构吗？</summary>
+      <p data-en="<b>Absolutely not.</b> Your resume is <b>never shared with any firm without your written consent</b>. Before every referral I confirm the firm type and requirements with you first."><b>绝不。</b>您的简历<b>未经您书面同意，不会提供给任何机构</b>；每次推荐前我都会先与您确认机构类型与要求，才进入正式推荐流程。</p>
     </details>
   </section>
 
   <!-- 候选人登记表单（用 JS 拼接 mailto 跳转，避开 HTTPS 提交警告） -->
   <section class="jobs-register">
-    <h3>📥 没看到合适岗位？先登记简历</h3>
-    <p class="muted">3-6 个月内新职位主动联系你。或者直接微信扫一扫 → 注明「登记简历」。</p>
+    <h3 data-en="📥 Don't see a fit? Register your resume">📥 没看到合适岗位？先登记简历</h3>
+    <p class="muted" data-en="I'll proactively contact you within 3-6 months when a new role appears. Or scan my WeChat directly → note &quot;register resume&quot;.">3-6 个月内新职位主动联系你。或者直接微信扫一扫 → 注明「登记简历」。</p>
     <div>
       <div class="form-row">
-        <label>姓名<input name="name" required placeholder="中文姓名"></label>
-        <label>邮箱<input name="email" type="email" required placeholder="常用邮箱"></label>
+        <label data-en="Name">姓名<input name="name" required placeholder="中文姓名"></label>
+        <label data-en="Email">邮箱<input name="email" type="email" required placeholder="常用邮箱"></label>
       </div>
       <div class="form-row">
         <label>意向方向
           <select name="direction" required>
-            <option value="">-- 请选择 --</option>
-            <option>投研类（QR / PM / 交易 / 做市）</option>
-            <option>技术开发类（QD / QE）</option>
-            <option>机器学习类</option>
-            <option>暂不明确</option>
+            <option value="" data-en="-- Select --">-- 请选择 --</option>
+            <option data-en="Research (QR / PM / Trading / Market Making)">投研类（QR / PM / 交易 / 做市）</option>
+            <option data-en="Engineering (QD / QE)">技术开发类（QD / QE）</option>
+            <option data-en="Machine Learning">机器学习类</option>
+            <option data-en="Not sure yet">暂不明确</option>
           </select>
         </label>
         <label>意向地区
           <select name="region">
-            <option value="">不限</option>
-            <option>香港</option>
-            <option>新加坡</option>
-            <option>中国（含上海/北京/深圳/杭州）</option>
-            <option>阿布扎比</option>
-            <option>远程</option>
+            <option value="" data-en="Any">不限</option>
+            <option data-en="Hong Kong">香港</option>
+            <option data-en="Singapore">新加坡</option>
+            <option data-en="China (Shanghai / Beijing / Shenzhen / Hangzhou)">中国（含上海/北京/深圳/杭州）</option>
+            <option data-en="Abu Dhabi">阿布扎比</option>
+            <option data-en="Remote">远程</option>
           </select>
         </label>
       </div>
       <label>一句话介绍自己（可选）
         <textarea name="note" rows="3" placeholder="比如：5 年 HFT 实盘，现居新加坡"></textarea>
       </label>
-      <button type="button" onclick="submitRegister()">提交登记 →</button>
-      <p class="jobs-tip-mini">点击后会打开您的邮件客户端预填好内容，发送即完成登记（无需担心数据安全警告）</p>
-      <p class="jobs-privacy">🔒 <b>隐私承诺</b>：您的简历绝不在未经您同意时提供给任何机构；每次推荐前都会与您确认。</p>
+      <button type="button" onclick="submitRegister()" data-en="Submit →">提交登记 →</button>
+      <p class="jobs-tip-mini" data-en="Clicking opens your email client pre-filled; hit send and you're registered (no data-security warnings to worry about)">点击后会打开您的邮件客户端预填好内容，发送即完成登记（无需担心数据安全警告）</p>
+      <p class="jobs-privacy" data-en="🔒 <b>Privacy promise</b>: your resume is never shared with any firm without your consent; I confirm with you before every referral.">🔒 <b>隐私承诺</b>：您的简历绝不在未经您同意时提供给任何机构；每次推荐前都会与您确认。</p>
     </div>
   </section>
 
   <section class="jobs-tip">
-    <h4>📌 关于机构名保密</h4>
-    <p>所有在招机构按双方约定使用「类型 + 地区」标签，<b>真实机构名称在正式沟通中披露</b>。投递后首通电话告知。</p>
+    <h4 data-en="📌 About firm-name confidentiality">📌 关于机构名保密</h4>
+    <p data-en="All hiring firms appear as &quot;type + region&quot; labels by mutual agreement; the <b>real firm name is disclosed during formal conversations</b> — on the first call after you apply.">所有在招机构按双方约定使用「类型 + 地区」标签，<b>真实机构名称在正式沟通中披露</b>。投递后首通电话告知。</p>
   </section>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>© 2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
-    <p class="muted">量化岗位 / 人才合作 → 关注公众号 <b>Gravitas 人才服务</b></p>
+    <p><span data-en="© 2026 Quantopia · Ken Zhang / Gravitas Recruitment Group (Shenzhen)">© 2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</span></p>
+    <p class="muted"><span data-en="Quant roles / talent partnerships → follow <b>Gravitas Talent</b> on WeChat">量化岗位 / 人才合作 → 关注公众号 <b>Gravitas 人才服务</b></span></p>
     <p class="muted privacy-line">🔒 隐私承诺：您的简历未经您同意绝不提供给任何机构，每次推荐前均与您确认。</p>
   </div>
 </footer>
@@ -298,17 +300,42 @@
 <script>
 // ===== 数据驱动：从 jobs.json 加载 =====
 let ALL_JOBS = [];
+let EN_JOBS = [];      // 英文翻译版（jobs_en.json）
+let CUR_LANG = 'zh';   // 当前语言
+
+// 岗位枚举双语映射
+const LOC_LABEL_ZH = { 'hk':'香港', 'sg':'新加坡', 'sh':'上海', 'sz':'深圳', 'bj':'北京', 'syd':'悉尼', 'adh':'阿布扎比', 'remote':'远程' };
+const LOC_LABEL_EN = { 'hk':'Hong Kong', 'sg':'Singapore', 'sh':'Shanghai', 'sz':'Shenzhen', 'bj':'Beijing', 'syd':'Sydney', 'adh':'Abu Dhabi', 'remote':'Remote' };
+const LOC_ORDER = ['hk','sg','sh','sz','bj','syd','adh','remote'];
+const FUNC_META_ZH = {
+  research: ['🧠 投研', 'QR / PM / Trader / 做市'],
+  tech: ['🛠 技术', 'QD / QE / 平台 / 低延迟'],
+  ml: ['🤖 ML', 'ML Researcher · AI']
+};
+const FUNC_META_EN = {
+  research: ['🧠 Research', 'QR / PM / Trader / MM'],
+  tech: ['🛠 Engineering', 'QD / QE / Platform / Low-latency'],
+  ml: ['🤖 ML', 'ML Researcher · AI']
+};
+function locLabel(loc) { return CUR_LANG === 'en' ? (LOC_LABEL_EN[loc] || loc) : (LOC_LABEL_ZH[loc] || loc); }
+function funcMeta(f) { return CUR_LANG === 'en' ? (FUNC_META_EN[f] || FUNC_META_EN.research) : (FUNC_META_ZH[f] || FUNC_META_ZH.research); }
+function fmapLabel(f) { return funcMeta(f)[0]; }
 
 const FIFTEEN_SEC = 15000;
 function loadJobs(attempt = 1) {
   document.getElementById('job-total').textContent = attempt > 1 ? `· 重试中…（第 ${attempt} 次）` : '· 加载中…（15秒超时）';
   const timeoutP = new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), FIFTEEN_SEC));
-  Promise.race([fetch('jobs.json?v=' + Date.now()).then(r => {
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
-  }), timeoutP])
-  .then(data => {
+  const enP = fetch('jobs_en.json?v=' + Date.now()).then(r => r.ok ? r.json() : { jobs: [] }).catch(() => ({ jobs: [] }));
+  Promise.all([
+    Promise.race([fetch('jobs.json?v=' + Date.now()).then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }), timeoutP]),
+    enP
+  ])
+  .then(([data, enData]) => {
     ALL_JOBS = data.jobs || [];
+    EN_JOBS = enData.jobs || [];
     document.getElementById('job-updated').textContent = data.updated || '—';
     renderStats();
     renderSidebar();
@@ -374,23 +401,20 @@ function renderStats() {
   if (h_cities) h_cities.textContent = cities.size;
   if (h_funcs) h_funcs.textContent = funcs.size;
   // 保留旧统计条（兼容）
-  document.getElementById('job-total').textContent = `· 共 ${ALL_JOBS.length} 个 · 每周一更新`;
+  document.getElementById('job-total').textContent = CUR_LANG === 'en'
+    ? `· ${ALL_JOBS.length} roles · updated weekly`
+    : `· 共 ${ALL_JOBS.length} 个 · 每周一更新`;
   const stats = document.getElementById('jobs-stats');
   stats.innerHTML = `
-    <div class="stat"><b>${ALL_JOBS.length}</b><span>在招职位</span></div>
-    <div class="stat"><b>30+</b><span>覆盖机构</span></div>
-    <div class="stat"><b>${cities.size}</b><span>城市 / 地区</span></div>
-    <div class="stat"><b>${funcs.size}</b><span>职能方向</span></div>`;
+    <div class="stat"><b>${ALL_JOBS.length}</b><span>${CUR_LANG === 'en' ? 'Open roles' : '在招职位'}</span></div>
+    <div class="stat"><b>30+</b><span>${CUR_LANG === 'en' ? 'Firms covered' : '覆盖机构'}</span></div>
+    <div class="stat"><b>${cities.size}</b><span>${CUR_LANG === 'en' ? 'Cities / regions' : '城市 / 地区'}</span></div>
+    <div class="stat"><b>${funcs.size}</b><span>${CUR_LANG === 'en' ? 'Functions' : '职能方向'}</span></div>`;
 }
 
 // ===== Sidebar 筛选（WorldQuant 风）=====
-const LOC_LABEL = { 'hk':'香港', 'sg':'新加坡', 'sh':'上海', 'sz':'深圳', 'bj':'北京', 'syd':'悉尼', 'adh':'阿布扎比', 'remote':'远程' };
-const LOC_ORDER = ['hk','sg','sh','sz','bj','syd','adh','remote'];
-const FUNC_META = {
-  research: ['🧠 投研', 'QR / PM / Trader / 做市'],
-  tech: ['🛠 技术', 'QD / QE / 平台 / 低延迟'],
-  ml: ['🤖 ML', 'ML Researcher · AI']
-};
+// ⚠️ 2026-09-01 修复：删除重复的 LOC_LABEL/LOC_ORDER/FUNC_META 声明
+//（309 行已有 LOC_ORDER，310-315 行已有 FUNC_META_ZH/EN）
 const FUNC_ORDER = ['research','tech','ml'];
 let FILTER = { loc: null, func: null, search: '' };  // 当前筛选状态
 
@@ -400,7 +424,7 @@ function renderSidebar() {
   let locHtml = '';
   LOC_ORDER.forEach(loc => {
     const n = ALL_JOBS.filter(j => (j.loc_filters||[]).includes(loc)).length;
-    locHtml += `<label class="sidebar-row"><input type="checkbox" name="loc" value="${loc}"><span>${LOC_LABEL[loc]} (${n})</span></label>`;
+    locHtml += `<label class="sidebar-row"><input type="checkbox" name="loc" value="${loc}"><span>${locLabel(loc)} (${n})</span></label>`;
   });
   locBox.innerHTML = locHtml;
   locBox.querySelectorAll('input').forEach(c => c.addEventListener('change', () => {
@@ -409,10 +433,10 @@ function renderSidebar() {
   }));
   // Functions
   const funcBox = document.getElementById('sidebar-functions');
-  let funcHtml = `<label class="sidebar-row"><input type="radio" name="func" value="" checked><span>全部</span></label>`;
+  let funcHtml = `<label class="sidebar-row"><input type="radio" name="func" value="" checked><span>${CUR_LANG === 'en' ? 'All' : '全部'}</span></label>`;
   FUNC_ORDER.forEach(f => {
     const n = ALL_JOBS.filter(j => j.function === f).length;
-    funcHtml += `<label class="sidebar-row"><input type="radio" name="func" value="${f}"><span>${FUNC_META[f][0]} (${n})</span></label>`;
+    funcHtml += `<label class="sidebar-row"><input type="radio" name="func" value="${f}"><span>${funcMeta(f)[0]} (${n})</span></label>`;
   });
   funcBox.innerHTML = funcHtml;
   funcBox.querySelectorAll('input').forEach(r => r.addEventListener('change', () => {
@@ -435,17 +459,34 @@ function renderSidebar() {
 }
 
 // ===== 岗位卡片渲染 =====
+function enJob(j) {
+  // 找到英文翻译版（jobs_en.json 里同 id）
+  if (CUR_LANG !== 'en') return j;
+  const e = EN_JOBS.find(x => x.id === j.id);
+  if (!e) return j;
+  return {
+    ...j,
+    title: e.title || j.title,
+    loc: e.loc || j.loc,
+    tag: e.tag || j.tag,
+    excerpt: e.excerpt || j.excerpt,
+    fit: e.fit || j.fit,
+    why: e.why || j.why
+  };
+}
 function cardHTML(j) {
   const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML' };
+  const shown = enJob(j);
+  const fm = CUR_LANG === 'en' ? (FUNC_META_EN[j.function] ? FUNC_META_EN[j.function][0] : j.function) : (fmap[j.function] || j.function);
   // 整卡点击 → 打开右侧 drawer；job JSON 用 data-* 存到 row 上
-  return `<div class="job-row" data-job="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}" data-func="${j.function}" data-text="${esc(j.title + ' ' + j.loc + ' ' + j.tag).toLowerCase()}">
+  return `<div class="job-row" data-job="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}" data-func="${j.function}" data-text="${esc((shown.title + ' ' + shown.loc + ' ' + shown.tag + ' ' + (shown.excerpt||'')).toLowerCase())}">
     <div class="job-row-head">
-      <h4>${esc(j.title)}</h4>
+      <h4>${esc(shown.title)}</h4>
       <div class="job-row-meta">
         <span class="dot"></span>
-        <span class="loc">${esc(j.loc)}</span>
+        <span class="loc">${esc(shown.loc)}</span>
         <span class="dot-sep">·</span>
-        <span class="func">${fmap[j.function] || j.function}</span>
+        <span class="func">${fm}</span>
       </div>
       <div class="job-row-arrow">→</div>
     </div>
@@ -455,21 +496,22 @@ function cardHTML(j) {
 function openJobDrawer(id) {
   const j = ALL_JOBS.find(x => x.id === id);
   if (!j) return;
+  const shown = enJob(j);
   const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML' };
   const dr = document.getElementById('job-drawer');
-  document.getElementById('dr-tag').textContent = fmap[j.function] || j.function;
-  document.getElementById('dr-loc').textContent = '📍 ' + j.loc;
-  document.getElementById('dr-title').textContent = j.title;
+  document.getElementById('dr-tag').textContent = CUR_LANG === 'en' ? (FUNC_META_EN[j.function] ? FUNC_META_EN[j.function][0] : j.function) : (fmap[j.function] || j.function);
+  document.getElementById('dr-loc').textContent = '📍 ' + shown.loc;
+  document.getElementById('dr-title').textContent = shown.title;
   document.getElementById('dr-id').textContent = j.id;
-  document.getElementById('dr-tagline').textContent = j.tag || '';
-  document.getElementById('dr-excerpt').innerHTML = j.excerpt ? '<p class="job-excerpt">' + esc(j.excerpt) + '</p>' : '';
-  document.getElementById('dr-fit').innerHTML = j.fit ? '<h4>👤 理想候选人</h4><p>' + esc(j.fit) + '</p>' : '';
-  document.getElementById('dr-why').innerHTML = j.why ? '<h4>⭐ 为什么值得去</h4><p>' + esc(j.why) + '</p>' : '';
-  const mailHref = 'mailto:k.zhang@gravitasgroup.com?subject=' + encodeURIComponent(j.id + ' ' + j.title);
+  document.getElementById('dr-tagline').textContent = shown.tag || '';
+  document.getElementById('dr-excerpt').innerHTML = shown.excerpt ? '<p class="job-excerpt">' + esc(shown.excerpt) + '</p>' : '';
+  document.getElementById('dr-fit').innerHTML = shown.fit ? '<h4>' + (CUR_LANG === 'en' ? '👤 Ideal candidate' : '👤 理想候选人') + '</h4><p>' + esc(shown.fit) + '</p>' : '';
+  document.getElementById('dr-why').innerHTML = shown.why ? '<h4>' + (CUR_LANG === 'en' ? '⭐ Why it is worth it' : '⭐ 为什么值得去') + '</h4><p>' + esc(shown.why) + '</p>' : '';
+  const mailHref = 'mailto:k.zhang@gravitasgroup.com?subject=' + encodeURIComponent(j.id + ' ' + shown.title);
   document.getElementById('dr-mail').setAttribute('href', mailHref);
   document.getElementById('dr-wechat').setAttribute('data-job', j.id);
   // 若 excerpt/fit/why 都空，提示
-  const empty = !j.excerpt && !j.fit && !j.why;
+  const empty = !shown.excerpt && !shown.fit && !shown.why;
   document.getElementById('dr-empty').hidden = !empty;
   dr.classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -488,7 +530,8 @@ function renderJobs() {
     }
     if (FILTER.func && j.function !== FILTER.func) return false;
     if (FILTER.search) {
-      const t = (j.title + ' ' + j.loc + ' ' + j.tag + ' ' + (j.excerpt||'')).toLowerCase();
+      const jj = enJob(j);
+      const t = (jj.title + ' ' + jj.loc + ' ' + jj.tag + ' ' + (jj.excerpt||'')).toLowerCase();
       if (!t.includes(FILTER.search)) return false;
     }
     return true;
@@ -499,11 +542,19 @@ function renderJobs() {
   FUNC_ORDER.forEach(f => {
     const fJobs = shown.filter(j => j.function === f);
     if (fJobs.length === 0) return;
-    html += '<div class="jobs-func-group"><h4 class="jobs-func-h">' + FUNC_META[f][0] + ' <span>· ' + fJobs.length + '</span></h4><div class="job-list">' + fJobs.map(cardHTML).join('') + '</div></div>';
+    html += '<div class="jobs-func-group"><h4 class="jobs-func-h">' + funcMeta(f)[0] + ' <span>· ' + fJobs.length + '</span></h4><div class="job-list">' + fJobs.map(cardHTML).join('') + '</div></div>';
   });
 
-  list.innerHTML = html || '<p class="jobs-intro">该筛选条件下暂无岗位，试试其他组合。</p>';
+  list.innerHTML = html || '<p class="jobs-intro">' + (CUR_LANG === 'en' ? 'No roles match these filters. Try another combination.' : '该筛选条件下暂无岗位，试试其他组合。') + '</p>';
 }
+
+// 语言切换时重渲染岗位
+window.QuantopiaOnLangChange = function (lang) {
+  CUR_LANG = lang;
+  renderStats();
+  renderSidebar();
+  renderJobs();
+};
 
 // ===== JobPosting 结构化数据（Google 职位收录） =====
 function injectJobSchema() {
