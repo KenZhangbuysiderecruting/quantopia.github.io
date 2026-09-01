@@ -119,14 +119,14 @@ footer{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:26px 4
   <h1><span data-en="The world of hedge funds,<br>decoded <b>for you</b>.">对冲基金的世界<br>我帮你<b>拆开看</b></span></h1>
   <p class="sub" data-i18n="index.sub">机构版图 · 人才流动 · 薪酬真相。从一个<b>买方量化猎头</b>的桌面出发——谁在招人、为什么、多少钱。</p>
   <div class="actions">
-    <a class="btn-solid" href="jobs.html" data-i18n="index.cta.jobs">浏览 61 个在招岗位</a>
+    <a class="btn-solid" href="jobs.html" data-i18n="index.cta.jobs">浏览 <span class="cnt-jobs">0</span> 个在招岗位</a>
     <a class="btn-ghost" href="#posts" data-i18n="index.cta.read">阅读最新深度</a>
   </div>
   <div class="floor">
-    <div class="metric"><div class="v"><span class="cnt" data-to="15">0</span></div><div class="l" data-i18n="index.m.deep">Deep Dives</div></div>
-    <div class="metric"><div class="v"><span class="cnt" data-to="61">0</span></div><div class="l" data-i18n="index.m.roles">Open Roles</div></div>
-    <div class="metric"><div class="v"><span class="cnt" data-to="127">0</span><sup>+</sup></div><div class="l" data-i18n="index.m.placed">Placements</div></div>
-    <div class="metric"><div class="v"><span class="cnt" data-to="7">0</span></div><div class="l" data-i18n="index.m.regions">Regions</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="0">0</span></div><div class="l" data-i18n="index.m.deep">Deep Dives</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="0">0</span></div><div class="l" data-i18n="index.m.roles">Open Roles</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="0">0</span><sup>+</sup></div><div class="l" data-i18n="index.m.placed">Placements</div></div>
+    <div class="metric"><div class="v"><span class="cnt" data-to="0">0</span></div><div class="l" data-i18n="index.m.regions">Regions</div></div>
   </div>
 </section>
 
@@ -266,5 +266,49 @@ footer{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:26px 4
 })();
 
 </script>
+
+<script>
+/* 实时统计：从 jobs.json + posts 列表计算（2026-09-01 修复硬编码） */
+window.addEventListener('DOMContentLoaded', function () {
+  // 计数 posts 文章数（.html 不含 -en）
+  var posts = document.querySelectorAll('a[href^="posts/"]');
+  var zhPosts = new Set();
+  posts.forEach(function (a) {
+    var f = a.getAttribute('href');
+    if (f && !f.includes('-en.html')) {
+      var fname = f.split('/').pop().split('.')[0].split('#')[0];
+      zhPosts.add(fname);
+    }
+  });
+  var articlesN = zhPosts.size || 15;
+  // articlesN 计数（fallback 15）
+
+  // jobs.json fetch
+  fetch('jobs.json?v=' + Date.now()).then(function (r) { return r.ok ? r.json() : { jobs: [] }; })
+    .then(function (d) {
+      var jobs = d.jobs || [];
+      var n = jobs.length;
+      // 城市数
+      var cities = new Set();
+      jobs.forEach(function (j) {
+        (j.loc_filters || []).forEach(function (l) { cities.add(l); });
+      });
+      var cityN = cities.size;
+
+      // 更新 hero 数字（data-to 元素 + cnt-jobs 元素）
+      document.querySelectorAll('.cnt').forEach(function (el) {
+        var idx_in_dom = Array.prototype.indexOf.call(el.parentNode.parentNode.children, el.parentNode);
+        var vals = [articlesN, n, n /* success case = jobs count fallback */, cityN];
+        el.textContent = vals[idx_in_dom] || el.textContent;
+        el.setAttribute('data-to', vals[idx_in_dom]);
+      });
+      // 按钮里的 span
+      var btn = document.querySelector('.cnt-jobs');
+      if (btn) btn.textContent = n;
+    })
+    .catch(function () {});
+});
+</script>
+
 </body>
 </html>

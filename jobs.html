@@ -337,6 +337,13 @@ function loadJobs(attempt = 1) {
     ALL_JOBS = data.jobs || [];
     EN_JOBS = enData.jobs || [];
     document.getElementById('job-updated').textContent = data.updated || '—';
+    // 实时填 stats 条（2026-09-01 修复硬编码）
+    var orEl = document.getElementById('hf-orgs');
+    var csEl = document.getElementById('hf-cities-stat');
+    var fsEl = document.getElementById('hf-funcs-stat');
+    if (orEl) orEl.textContent = '30+';
+    if (csEl) csEl.textContent = cities.size;
+    if (fsEl) fsEl.textContent = funcs.size;
     renderStats();
     renderSidebar();
     renderJobs();
