@@ -22,6 +22,8 @@
     'index.hero2': { zh: '我帮你<b>拆开看</b>', en: 'decoded <b>for you</b>' },
     'index.sub': { zh: '机构版图 · 人才流动 · 薪酬真相。从一个<b>买方量化猎头</b>的桌面出发——谁在招人、为什么、多少钱。', en: 'Institutions · Talent flows · Compensation truth. From the desk of a <b>buy-side quant headhunter</b> — who is hiring, why, and for how much.' },
     'index.cta.jobs': { zh: '浏览 61 个在招岗位', en: 'Browse 61 open roles' },
+    'index.cta.jobs.pre': { zh: '浏览', en: 'Browse' },
+    'index.cta.jobs.post': { zh: '个在招岗位', en: 'open roles' },
     'index.cta.read': { zh: '阅读最新深度', en: 'Read latest insights' },
     'index.m.deep': { zh: '深度文章', en: 'Deep Dives' },
     'index.m.roles': { zh: '在招岗位', en: 'Open Roles' },

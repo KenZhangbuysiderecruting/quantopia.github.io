@@ -119,7 +119,7 @@ footer{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:26px 4
   <h1><span data-en="The world of hedge funds,<br>decoded <b>for you</b>.">对冲基金的世界<br>我帮你<b>拆开看</b></span></h1>
   <p class="sub" data-i18n="index.sub">机构版图 · 人才流动 · 薪酬真相。从一个<b>买方量化猎头</b>的桌面出发——谁在招人、为什么、多少钱。</p>
   <div class="actions">
-    <a class="btn-solid" href="jobs.html" data-i18n="index.cta.jobs">浏览 <span class="cnt-jobs">0</span> 个在招岗位</a>
+    <a class="btn-solid" href="jobs.html"><span data-i18n="index.cta.jobs.pre">浏览</span> <span class="cnt-jobs">0</span> <span data-i18n="index.cta.jobs.post">个在招岗位</span></a>
     <a class="btn-ghost" href="#posts" data-i18n="index.cta.read">阅读最新深度</a>
   </div>
   <div class="floor">
@@ -296,12 +296,11 @@ window.addEventListener('DOMContentLoaded', function () {
       var cityN = cities.size;
 
       // 更新 hero 数字（data-to 元素 + cnt-jobs 元素）
-      document.querySelectorAll('.cnt').forEach(function (el) {
-        var idx_in_dom = Array.prototype.indexOf.call(el.parentNode.parentNode.children, el.parentNode);
-        var vals = [articlesN, n, n /* success case = jobs count fallback */, cityN];
-        el.textContent = vals[idx_in_dom] || el.textContent;
-        el.setAttribute('data-to', vals[idx_in_dom]);
-      });
+      var cs = document.querySelectorAll('.cnt');
+      if (cs[0]) { cs[0].textContent = articlesN; cs[0].setAttribute('data-to', articlesN); }
+      if (cs[1]) { cs[1].textContent = n; cs[1].setAttribute('data-to', n); }
+      if (cs[2]) { cs[2].textContent = n; cs[2].setAttribute('data-to', n); }
+      if (cs[3]) { cs[3].textContent = cityN; cs[3].setAttribute('data-to', cityN); }
       // 按钮里的 span
       var btn = document.querySelector('.cnt-jobs');
       if (btn) btn.textContent = n;
