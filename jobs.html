@@ -301,7 +301,13 @@
 // ===== 数据驱动：从 jobs.json 加载 =====
 let ALL_JOBS = [];
 let EN_JOBS = [];      // 英文翻译版（jobs_en.json）
-let CUR_LANG = 'zh';   // 当前语言
+let CUR_LANG = (function () {
+  try {
+    const saved = localStorage.getItem('quantopia_lang');
+    if (saved === 'en' || saved === 'zh') return saved;
+  } catch (e) {}
+  return 'zh';
+})();   // 当前语言（2026-09-01：初载时从 i18n.js localStorage 同步，防止英文页跳过来仍用中文数据）
 
 // 岗位枚举双语映射
 const LOC_LABEL_ZH = { 'hk':'香港', 'sg':'新加坡', 'sh':'上海', 'sz':'深圳', 'bj':'北京', 'syd':'悉尼', 'adh':'阿布扎比', 'remote':'远程' };
