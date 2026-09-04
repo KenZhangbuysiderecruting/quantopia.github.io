@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-04",
   "note": "公司名按客户保密约定匿名化，真实机构名称仅在正式沟通中披露。投递：k.zhang@gravitasgroup.com",
   "jobs": [
     {
@@ -2411,6 +2411,20 @@
       "excerpt": "大模型与 AI Agent 在投研问答、金融决策中的应用",
       "fit": "校招/实习",
       "why": "头部量化私募，大模型×金融前沿"
+    },
+    {
+      "id": "QT-2774",
+      "function": "tech",
+      "group": "上海",
+      "tag": "顶级衍生品做市商",
+      "title": "Linux Systems Engineer — Bare Metal & Kubernetes",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "全球 Linux 团队核心岗：设计、构建并运维支撑交易环境的关键基础设施——大规模裸金属 Linux 平台 + 本地自建 Kubernetes 集群（跨全球数据中心）。",
+      "fit": "生产环境 Linux 系统工程经验 · 本地自建 K8s 实操（非托管云）· Rancher / Cilium(CNI) / ArgoCD(GitOps) / Terraform / GitHub Actions · 网络基础（L2/L3/路由/防火墙/负载均衡）",
+      "why": "顶级做市商全球 70+ 交易所；绩效奖金接入全球利润池；无需金融背景，入职培训带你上手。技术栈前沿（裸金属 + on-prem K8s），基础设施独立成军。"
     }
   ]
 }
