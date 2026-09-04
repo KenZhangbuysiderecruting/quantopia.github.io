@@ -83,7 +83,7 @@
     'jobs.drawer.email': { zh: '投递简历', en: 'Submit Resume' },
     'jobs.drawer.wechat': { zh: '微信咨询', en: 'WeChat' },
     'jobs.drawer.wechat.float': { zh: '微信直投', en: 'Direct WeChat' },
-    'jobs.drawer.email': { zh: '邮件投递', en: 'Email' },
+
     'jobs.wechat.hint': { zh: '扫一扫，发送「{job}」+ 一句话介绍', en: 'Scan and send "{job}" + one-line intro' },
     'jobs.updated.label': { zh: '📅 最近更新', en: '📅 Updated' },
 
