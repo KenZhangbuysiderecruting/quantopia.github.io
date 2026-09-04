@@ -35,11 +35,13 @@
   }
 
   function showToast(msg, isOk) {
-    var t = popup.querySelector('.share-toast');
-    if (!t) return;
+    // 移除旧 page-toast
+    document.querySelectorAll('.page-toast').forEach(function (t) { t.remove(); });
+    var t = document.createElement('div');
+    t.className = 'page-toast' + (isOk ? ' ok' : '');
     t.textContent = msg;
-    t.className = 'share-toast' + (isOk ? ' ok' : '');
-    setTimeout(function () { t.textContent = ''; t.className = 'share-toast'; }, 2600);
+    document.body.appendChild(t);
+    setTimeout(function () { t.remove(); }, 2600);
   }
 
   function createPopup(opt) {
@@ -62,10 +64,9 @@
         '<div class="share-popup-url">' + esc(url) + '</div>' +
         '<div class="share-actions">' +
           '<button class="share-act" data-act="copy">🔗<span>复制链接</span></button>' +
-          '<a class="share-act" data-act="linkedin" href="' + linkedin + '" target="_blank" rel="noopener">💼<span>LinkedIn</span></a>' +
+          '<a class="share-act" data-act="linkedin" href="' + linkedin + '" target="_blank" rel="noopener" onclick="QuantopiaShare.close()">💼<span>LinkedIn</span></a>' +
           '<button class="share-act" data-act="wechat">💬<span>微信</span></button>' +
         '</div>' +
-        '<div class="share-toast"></div>' +
       '</div>';
 
     document.body.appendChild(popup);
@@ -74,14 +75,18 @@
     popup.querySelectorAll('[data-close]').forEach(function (el) {
       el.addEventListener('click', function () { closePopup(); });
     });
-    // 复制链接
+    // 复制链接 + 立即关面板
     popup.querySelector('[data-act="copy"]').addEventListener('click', function () {
-      copyText(url, function (ok) { showToast(ok ? '✓ 链接已复制' : '复制失败，请手动复制', ok); });
+      copyText(url, function (ok) {
+        showToast(ok ? '✓ 链接已复制' : '复制失败，请手动复制', ok);
+        closePopup();
+      });
     });
-    // 微信：复制 + 提示
+    // 微信：复制 + 立即关面板
     popup.querySelector('[data-act="wechat"]').addEventListener('click', function () {
       copyText(url, function (ok) {
         showToast(ok ? '✓ 链接已复制，去微信粘贴即可分享' : '复制失败，请手动复制', ok);
+        closePopup();
       });
     });
     // LinkedIn 用原生 <a href> 新窗口打开，无需额外处理
