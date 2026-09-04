@@ -20,6 +20,7 @@
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
 <!-- End Cloudflare Web Analytics -->
 <script defer src="js/i18n.js"></script>
+<script defer src="js/share.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -522,6 +523,12 @@ function openJobDrawer(id) {
   document.getElementById('dr-why').innerHTML = shown.why ? '<h4>' + (CUR_LANG === 'en' ? '⭐ Why it is worth it' : '⭐ 为什么值得去') + '</h4><p>' + esc(shown.why) + '</p>' : '';
   const mailHref = 'mailto:k.zhang@gravitasgroup.com?subject=' + encodeURIComponent(j.id + ' ' + shown.title);
   document.getElementById('dr-mail').setAttribute('href', mailHref);
+  // 分享按钮：定位到具体岗位锚点
+  var shareBtn = document.getElementById('dr-share');
+  if (shareBtn) {
+    shareBtn.setAttribute('data-share-title', shown.title);
+    shareBtn.setAttribute('data-share-url', window.location.origin + window.location.pathname + '#' + j.id);
+  }
   document.getElementById('dr-wechat').setAttribute('data-job', j.id);
   // 若 excerpt/fit/why 都空，提示
   const empty = !shown.excerpt && !shown.fit && !shown.why;
@@ -651,7 +658,7 @@ function submitRegister() {
     </div>
     <div class="job-drawer-tagline" id="dr-tagline"></div>
     <h2 class="job-drawer-title" id="dr-title"></h2>
-    <div class="job-drawer-id"><span id="dr-id"></span></div>
+    <div class="job-drawer-id"><span id="dr-id"></span><button class="share-btn" id="dr-share" data-share-title="" data-share-url="">📤 分享</button></div>
     <div class="job-drawer-section" id="dr-excerpt"></div>
     <div class="job-drawer-section" id="dr-fit"></div>
     <div class="job-drawer-section" id="dr-why"></div>

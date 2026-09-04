@@ -677,3 +677,27 @@ html[data-lang="en"] .metric .v {
   font-family: "Times New Roman", "Times", "Georgia", serif;
   letter-spacing: -1px;
 }
+
+
+/* ==== 分享组件（share.js + .share-btn）==== */
+.share-btn{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid rgba(138,180,216,.3);color:var(--blue);padding:6px 14px;border-radius:20px;font-size:13px;cursor:pointer;transition:all .2s;font-family:inherit}
+.share-btn:hover{background:rgba(138,180,216,.1);border-color:var(--blue);color:#fff}
+.share-popup{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
+.share-popup-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.65);backdrop-filter:blur(2px)}
+.share-popup-panel{position:relative;width:min(380px,92vw);background:linear-gradient(180deg,#0F1D38,#0A1428);border:1px solid var(--line);border-radius:14px;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,.6);animation:shareIn .25s ease}
+@keyframes shareIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.share-popup-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.share-popup-head span{font-size:14px;font-weight:600;color:#fff;letter-spacing:1px}
+.share-close{background:none;border:none;color:var(--muted);font-size:22px;line-height:1;cursor:pointer;padding:0}
+.share-close:hover{color:#fff}
+.share-popup-title{font-size:15px;color:#fff;font-weight:500;line-height:1.5;margin-bottom:6px}
+.share-popup-url{font-size:11.5px;color:var(--muted);word-break:break-all;margin-bottom:18px;padding:10px;background:rgba(10,20,40,.6);border-radius:6px}
+.share-actions{display:flex;gap:10px}
+.share-act{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 8px;border-radius:8px;font-size:13px;cursor:pointer;text-decoration:none;transition:all .2s;font-family:inherit}
+.share-act span{color:var(--muted);font-size:12px}
+button.share-act{background:rgba(138,180,216,.08);border:1px solid rgba(138,180,216,.2);color:#fff}
+a.share-act{background:rgba(10,102,194,.12);border:1px solid rgba(10,102,194,.3);color:#fff}
+.share-act:hover{transform:translateY(-2px);border-color:var(--blue)}
+.share-act:hover span{color:#fff}
+.share-toast{min-height:20px;margin-top:14px;font-size:12.5px;color:#5DCAA5;text-align:center}
+.share-toast.ok{color:#5DCAA5}
