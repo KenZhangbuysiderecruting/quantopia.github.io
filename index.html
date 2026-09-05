@@ -294,7 +294,7 @@ window.addEventListener('DOMContentLoaded', function () {
       var n = jobs.length;
       var cities = new Set();
       jobs.forEach(function (j) {
-        (j.locFilters || []).forEach(function (l) { cities.add(l); });
+        (j.loc_filters || []).forEach(function (l) { cities.add(l); });
       });
       var cityN = cities.size;
       var cs = document.querySelectorAll('.cnt');
