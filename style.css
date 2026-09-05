@@ -23,7 +23,8 @@ html[data-lang="en"] .metric b {
   font-family: 'Times New Roman', 'Georgia', 'Times', serif !important;
 }
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
-.site-header{background:linear-gradient(180deg,rgba(10,20,40,.92),rgba(10,20,40,.86) 60%,rgba(10,20,40,.94)),url("images/hero_bg.png") center 40%/cover no-repeat;border-bottom:1px solid var(--line);padding:40px 0 36px;position:relative}
+.site-header{background-image:linear-gradient(180deg,rgba(10,20,40,.92),rgba(10,20,40,.86) 60%,rgba(10,20,40,.94)),url("images/hero_bg.webp");background-position:center 40%;background-size:cover;background-repeat:no-repeat;border-bottom:1px solid var(--line);padding:40px 0 36px;position:relative}
+@media (max-width:680px){.site-header{background-image:linear-gradient(180deg,rgba(10,20,40,.92),rgba(10,20,40,.86) 60%,rgba(10,20,40,.94)),url("images/hero_bg_mobile.webp")}}
 .site-header::after{content:"";position:absolute;left:0;right:0;bottom:0;top:0;background:radial-gradient(ellipse at center,rgba(10,20,40,.45) 0%,transparent 70%);pointer-events:none}
 .site-header .wrap{position:relative;z-index:1}
 .site-header h1{font-size:26px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:#fff;background:none;-webkit-text-fill-color:#fff;background-clip:initial;text-shadow:0 1px 6px rgba(0,0,0,.5)}
@@ -704,3 +705,16 @@ a.share-act{background:rgba(10,102,194,.12);border:1px solid rgba(10,102,194,.3)
 .share-act:hover span{color:#fff}
 .share-toast{min-height:20px;margin-top:14px;font-size:12.5px;color:#5DCAA5;text-align:center}
 .share-toast.ok{color:#5DCAA5}
+
+
+/* ==== 性能优化：骨架屏 + 占位高度（2026-09-05，修 CLS 0.215）==== */
+#jobs-list{min-height:800px}
+.job-skeleton{padding:24px 22px;border-bottom:1px solid var(--line)}
+.sk-line{height:13px;border-radius:4px;background:linear-gradient(90deg,rgba(138,180,216,.08) 25%,rgba(138,180,216,.22) 50%,rgba(138,180,216,.08) 75%);background-size:200% 100%;animation:shimmer 1.4s infinite;margin-bottom:12px}
+.sk-line:last-child{margin-bottom:0}
+.sk-w60{width:60%}.sk-w80{width:80%}.sk-w40{width:40%}
+.sk-w50{width:50%}.sk-w75{width:75%}.sk-w35{width:35%}
+.sk-w65{width:65%}.sk-w70{width:70%}.sk-w45{width:45%}
+.sk-w55{width:55%}.sk-w72{width:72%}.sk-w38{width:38%}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.sk-line{animation:none}}
