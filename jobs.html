@@ -509,6 +509,11 @@ function caseDict(key) {
 function renderCases() {
   var grid = document.getElementById('cases-grid');
   if (!grid) return;
+  // i18n.js 尚未加载完成时重试（首次加载竞态）
+  if (!(window.QuantopiaI18n && window.QuantopiaI18n.dict)) {
+    setTimeout(renderCases, 80);
+    return;
+  }
   grid.innerHTML = CASE_KEYS.map(function (k) {
     var p = caseDict('jobs.case.' + k + '.p');
     var t = caseDict('jobs.case.' + k + '.t');
