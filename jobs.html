@@ -78,7 +78,7 @@
 
   <!-- 数字信任条（同行借鉴：Platinum & Partners） -->
   <div class="trust-bar">
-    <div class="trust-item"><b>5 年</b><span data-i18n="jobs.trust1.v">量化猎头经验</span></div>
+    <div class="trust-item"><b id="trust-years">5</b> <span data-i18n="jobs.trust1.unit">年</span><span data-i18n="jobs.trust1.v">量化猎头经验</span></div>
     <div class="trust-item"><b>20+</b><span data-i18n="jobs.trust2.v">全球顶级机构</span></div>
     <div class="trust-item"><b>96%</b><span data-i18n="jobs.trust3.v">候选人满意度</span></div>
   </div>
@@ -558,6 +558,17 @@ function renderJobs() {
   });
   document.getElementById('showing-n').textContent = shown.length;
   document.getElementById('reset-filter').hidden = !(FILTER.loc || FILTER.func || FILTER.search);
+  // 自动算从业年限（按月份边界）：start 改为你的入职月份 "2021-02"
+  var ty = document.getElementById('trust-years');
+  if (ty) {
+    var start = '2021-02';
+    var p = start.split('-');
+    var sy = parseInt(p[0]), sm = parseInt(p[1]);
+    var now = new Date();
+    var years = now.getFullYear() - sy;
+    if ((now.getMonth() + 1) < sm) years--;
+    ty.textContent = years;
+  }
   let html = '';
   FUNC_ORDER.forEach(f => {
     const fJobs = shown.filter(j => j.function === f);

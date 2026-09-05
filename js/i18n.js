@@ -59,6 +59,7 @@
     'jobs.reply48': { zh: '投递后 <b>48h</b> 内回复', en: 'Reply within <b>48h</b>' },
     'jobs.direct': { zh: '直投', en: 'Contact' },
     'jobs.trust1.k': { zh: '5 年', en: '5 yrs' },
+    'jobs.trust1.unit': { zh: '年', en: 'yrs' },
     'jobs.trust1.v': { zh: '量化猎头经验', en: 'quant recruiting' },
     'jobs.trust2.k': { zh: '20+', en: '20+' },
     'jobs.trust2.v': { zh: '全球顶级机构', en: 'top global firms' },
