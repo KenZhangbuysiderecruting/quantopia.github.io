@@ -86,6 +86,9 @@
 
     'jobs.wechat.hint': { zh: '扫一扫，发送「{job}」+ 一句话介绍', en: 'Scan and send "{job}" + one-line intro' },
     'jobs.updated.label': { zh: '📅 最近更新', en: '📅 Updated' },
+    'jobs.showing.pre': { zh: '显示', en: 'Showing' },
+    'jobs.showing.post': { zh: '个岗位', en: 'roles' },
+    'jobs.reset': { zh: '× 重置筛选', en: '× Reset' },
 
     // ===== 岗位页 · 成功案例（补充） =====
     'jobs.cases.note': { zh: '* 以上案例均经客户与候选人同意后匿名化展示，不透露任何机构、个人身份与具体薪资信息。', en: '* All cases are anonymized with client and candidate consent; no firm, identity, or compensation specifics are disclosed.' },
