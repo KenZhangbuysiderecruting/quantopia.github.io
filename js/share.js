@@ -86,15 +86,26 @@
       lines.push('');
       lines.push('#Quant #HedgeFunds #QuantJobs #TalentMapping');
     } else {
-      // 文章/通用帖：标题 + URL + hashtag
-      // 尝试从页面 DOM 抓第一段作为摘要（增强 LinkedIn 阅读欲望）
+      // 文章/通用帖：标题 + 摘要（从第一段或 meta 抓） + URL + hashtag
       var hook = '';
       try {
+        // 优先取正文首段
         var firstP = document.querySelector('main.article p:not(.meta)');
         if (firstP) {
           var pt = (firstP.textContent || '').replace(/\s+/g, ' ').trim();
-          if (pt.length > 20 && pt.length < 220) {
-            hook = pt.length > 180 ? pt.slice(0, 178) + '…' : pt;
+          if (pt.length > 30) {
+            // 放宽长度限制到 320，长就截断
+            hook = pt.length > 320 ? pt.slice(0, 318) + '…' : pt;
+          }
+        }
+        // 兜底：用 meta description
+        if (!hook) {
+          var meta = document.querySelector('meta[name="description"]');
+          if (meta) {
+            var md = (meta.getAttribute('content') || '').replace(/\s+/g, ' ').trim();
+            if (md.length > 30) {
+              hook = md.length > 320 ? md.slice(0, 318) + '…' : md;
+            }
           }
         }
       } catch (e) {}
