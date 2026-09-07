@@ -1,17 +1,34 @@
 /* ============================================================
- * Quantopia share.js — 通用分享组件（2026-09-04）
+ * Quantopia share.js — 通用分享组件（2026-09-07 加 4th 分享图按钮）
  * 用法：
  *   <button class="share-btn" data-share-title="标题" data-share-url="https://...">分享</button>
- * 或 JS： QuantopiaShare.open({ title, url })
- * 支持：复制链接 / LinkedIn（官方分享 URL）/ 微信（复制链接+提示）
+ *   可选：data-share-job='{"id":"QT-2601","title":"...","loc":"...","function":"research","excerpt":"...","fit":"...","why":"..."}'
+ *   → 点"生成分享图"会传完整数据给 share-image.js 生成品牌化 PNG
+ * 支持：复制链接 / LinkedIn / 微信 / 生成分享图（带 QR 码）
  * ============================================================ */
 (function () {
   'use strict';
 
   var popup = null;
 
+  // 内置 i18n（避免依赖 QuantopiaI18n 加载顺序）
+  var I18N = {
+    shareTitle: { zh: '分享', en: 'Share' },
+    copyLink:   { zh: '复制链接', en: 'Copy link' },
+    linkedin:   { zh: 'LinkedIn', en: 'LinkedIn' },
+    wechat:     { zh: '微信', en: 'WeChat' },
+    image:      { zh: '生成分享图', en: 'Generate image' },
+    imageLoading: { zh: '生成中…', en: 'Generating…' },
+    imageDone:  { zh: '✓ 图片已下载', en: '✓ Image downloaded' },
+    imageFail:  { zh: '生成失败', en: 'Failed to generate' },
+  };
+  function t(k) {
+    var lang = (window.QuantopiaI18n && window.QuantopiaI18n.get) ? window.QuantopiaI18n.get() : 'zh';
+    return (I18N[k] && I18N[k][lang]) || (I18N[k] && I18N[k].zh) || k;
+  }
+
   function esc(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
   function copyText(text, cb) {
@@ -35,13 +52,12 @@
   }
 
   function showToast(msg, isOk) {
-    // 移除旧 page-toast
-    document.querySelectorAll('.page-toast').forEach(function (t) { t.remove(); });
-    var t = document.createElement('div');
-    t.className = 'page-toast' + (isOk ? ' ok' : '');
-    t.textContent = msg;
-    document.body.appendChild(t);
-    setTimeout(function () { t.remove(); }, 2600);
+    document.querySelectorAll('.page-toast').forEach(function (tt) { tt.remove(); });
+    var el = document.createElement('div');
+    el.className = 'page-toast' + (isOk ? ' ok' : '');
+    el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(function () { el.remove(); }, 3000);
   }
 
   function createPopup(opt) {
@@ -50,6 +66,7 @@
     var url = opt.url || window.location.href;
     var title = opt.title || document.title;
     var linkedin = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url);
+    var job = opt.job || null;  // 完整 job 数据（用于生成分享图）
 
     popup = document.createElement('div');
     popup.className = 'share-popup';
@@ -57,15 +74,16 @@
       '<div class="share-popup-backdrop" data-close></div>' +
       '<div class="share-popup-panel">' +
         '<div class="share-popup-head">' +
-          '<span>分享</span>' +
-          '<button class="share-close" data-close aria-label="关闭">×</button>' +
+          '<span>' + esc(t('shareTitle')) + '</span>' +
+          '<button class="share-close" data-close aria-label="close">×</button>' +
         '</div>' +
         '<div class="share-popup-title">' + esc(title) + '</div>' +
         '<div class="share-popup-url">' + esc(url) + '</div>' +
         '<div class="share-actions">' +
-          '<button class="share-act" data-act="copy">🔗<span>复制链接</span></button>' +
-          '<a class="share-act" data-act="linkedin" href="' + linkedin + '" target="_blank" rel="noopener" onclick="QuantopiaShare.close()">💼<span>LinkedIn</span></a>' +
-          '<button class="share-act" data-act="wechat">💬<span>微信</span></button>' +
+          '<button class="share-act" data-act="copy">🔗<span>' + esc(t('copyLink')) + '</span></button>' +
+          '<a class="share-act" data-act="linkedin" href="' + linkedin + '" target="_blank" rel="noopener" onclick="QuantopiaShare.close()">💼<span>' + esc(t('linkedin')) + '</span></a>' +
+          '<button class="share-act" data-act="wechat">💬<span>' + esc(t('wechat')) + '</span></button>' +
+          '<button class="share-act" data-act="image">🖼️<span>' + esc(t('image')) + '</span></button>' +
         '</div>' +
       '</div>';
 
@@ -78,15 +96,40 @@
     // 复制链接 + 立即关面板
     popup.querySelector('[data-act="copy"]').addEventListener('click', function () {
       copyText(url, function (ok) {
-        showToast(ok ? '✓ 链接已复制' : '复制失败，请手动复制', ok);
+        showToast(ok ? '✓ ' + (t('copyLink').slice(0, 2)) + '已复制' : 'Copy failed', ok);
         closePopup();
       });
     });
     // 微信：复制 + 立即关面板
     popup.querySelector('[data-act="wechat"]').addEventListener('click', function () {
       copyText(url, function (ok) {
-        showToast(ok ? '✓ 链接已复制，去微信粘贴即可分享' : '复制失败，请手动复制', ok);
+        showToast(ok ? '✓ ' + t('wechat') + '：链接已复制，去粘贴即可' : 'Copy failed', ok);
         closePopup();
+      });
+    });
+    // 生成分享图
+    popup.querySelector('[data-act="image"]').addEventListener('click', function () {
+      if (!window.QuantopiaShareImage) {
+        showToast('⚠ ' + t('imageFail') + ' (image lib not loaded)', false);
+        return;
+      }
+      // 用 job 数据生成；若是文章页（无 job），用基础 title
+      var jobForImage = job || {
+        id: '', title: title, loc: '', function: '',
+        tag: '', excerpt: '', fit: '', why: '',
+      };
+      showToast(t('imageLoading'), true);
+      closePopup();
+      // 异步生成
+      window.QuantopiaShareImage.download(
+        jobForImage,
+        url,
+        'quantopia-' + (jobForImage.id || 'share') + '.png'
+      ).then(function () {
+        showToast(t('imageDone'), true);
+      }).catch(function (err) {
+        console.error('share image gen failed:', err);
+        showToast('✗ ' + t('imageFail') + ': ' + (err && err.message || err), false);
       });
     });
     // LinkedIn 用原生 <a href> 新窗口打开，无需额外处理
@@ -113,9 +156,16 @@
     if (!btn) return;
     e.preventDefault();
     e.stopPropagation();
+    // 解析 data-share-job（JSON 字符串）
+    var job = null;
+    var jobAttr = btn.getAttribute('data-share-job');
+    if (jobAttr) {
+      try { job = JSON.parse(jobAttr); } catch (err) { job = null; }
+    }
     createPopup({
       title: btn.getAttribute('data-share-title') || document.title,
-      url: btn.getAttribute('data-share-url') || window.location.href
+      url: btn.getAttribute('data-share-url') || window.location.href,
+      job: job,
     });
   });
 })();

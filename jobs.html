@@ -21,6 +21,8 @@
 <!-- Cloudflare Web Analytics (defer, 不阻塞) -->
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
 <!-- End Cloudflare Web Analytics -->
+<script defer src="js/qrcode.min.js"></script>
+<script defer src="js/share-image.js"></script>
 <script defer src="js/i18n.js"></script>
 <script defer src="js/share.js"></script>
 </head>
@@ -453,6 +455,11 @@ function openJobDrawer(id) {
   if (shareBtn) {
     shareBtn.setAttribute('data-share-title', shown.title);
     shareBtn.setAttribute('data-share-url', window.location.origin + window.location.pathname + '#' + j.id);
+    shareBtn.setAttribute('data-share-job', JSON.stringify({
+      id: j.id, title: shown.title, loc: shown.loc,
+      function: j.function, tag: shown.tag,
+      excerpt: shown.excerpt || '', fit: shown.fit || '', why: shown.why || '',
+    }));
   }
   document.getElementById('dr-wechat').setAttribute('data-job', j.id);
   // 若 excerpt/fit/why 都空，提示
