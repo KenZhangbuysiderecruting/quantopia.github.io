@@ -21,6 +21,7 @@
     imageLoading: { zh: '生成中…', en: 'Generating…' },
     imageDone:  { zh: '✓ 图片已下载', en: '✓ Image downloaded' },
     imageFail:  { zh: '生成失败', en: 'Failed to generate' },
+    linkedinPost: { zh: '复制为 LinkedIn 帖子', en: 'Copy as LinkedIn post' },
   };
   function t(k) {
     var lang = (window.QuantopiaI18n && window.QuantopiaI18n.get) ? window.QuantopiaI18n.get() : 'zh';
@@ -60,6 +61,41 @@
     setTimeout(function () { el.remove(); }, 3000);
   }
 
+  // 构造 LinkedIn 帖子文案（绕过 share-offsite 在中国被墙的问题）
+  function buildLinkedInPost(job, url) {
+    var lines = [];
+    if (job && job.title) {
+      // 岗位帖：标题 + 地点 + 简介 + URL + hashtag
+      lines.push(job.title);
+      if (job.loc) lines.push('📍 ' + job.loc);
+      if (job.excerpt) {
+        // 截取前 180 字（一段简介）
+        var ex = String(job.excerpt).replace(/\s+/g, ' ').trim();
+        if (ex.length > 180) ex = ex.slice(0, 178) + '…';
+        lines.push('');
+        lines.push(ex);
+      }
+      if (job.why) {
+        var why = String(job.why).replace(/\s+/g, ' ').trim();
+        if (why.length > 140) why = why.slice(0, 138) + '…';
+        lines.push('');
+        lines.push('⭐ ' + why);
+      }
+      lines.push('');
+      lines.push('Apply / read more → ' + url);
+      lines.push('');
+      lines.push('#Quant #HedgeFunds #QuantJobs #TalentMapping');
+    } else {
+      // 文章/通用帖
+      lines.push(job && job.title ? job.title : (title || 'Quantopia'));
+      lines.push('');
+      lines.push(url);
+      lines.push('');
+      lines.push('#Quant #HedgeFunds');
+    }
+    return lines.join('\n');
+  }
+
   function createPopup(opt) {
     if (popup) popup.remove();
 
@@ -84,6 +120,7 @@
           '<a class="share-act" data-act="linkedin" href="' + linkedin + '" target="_blank" rel="noopener" onclick="QuantopiaShare.close()">💼<span>' + esc(t('linkedin')) + '</span></a>' +
           '<button class="share-act" data-act="wechat">💬<span>' + esc(t('wechat')) + '</span></button>' +
           '<button class="share-act" data-act="image">🖼️<span>' + esc(t('image')) + '</span></button>' +
+          '<button class="share-act" data-act="linkedinPost">📋<span>' + esc(t('linkedinPost')) + '</span></button>' +
         '</div>' +
       '</div>';
 
@@ -133,6 +170,15 @@
       });
     });
     // LinkedIn 用原生 <a href> 新窗口打开，无需额外处理
+
+    // 复制为 LinkedIn 帖子（绕过 share-offsite 在中国被墙的问题）
+    popup.querySelector('[data-act="linkedinPost"]').addEventListener('click', function () {
+      var post = buildLinkedInPost(job, url);
+      copyText(post, function (ok) {
+        showToast(ok ? '✓ LinkedIn 帖子文案已复制，去 LinkedIn 粘贴即可' : 'Copy failed', ok);
+        closePopup();
+      });
+    });
 
     document.body.style.overflow = 'hidden';
   }
