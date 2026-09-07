@@ -62,7 +62,7 @@
   }
 
   // 构造 LinkedIn 帖子文案（绕过 share-offsite 在中国被墙的问题）
-  function buildLinkedInPost(job, url) {
+  function buildLinkedInPost(job, url, title) {
     var lines = [];
     if (job && job.title) {
       // 岗位帖：标题 + 地点 + 简介 + URL + hashtag
@@ -86,12 +86,27 @@
       lines.push('');
       lines.push('#Quant #HedgeFunds #QuantJobs #TalentMapping');
     } else {
-      // 文章/通用帖
-      lines.push(job && job.title ? job.title : (title || 'Quantopia'));
+      // 文章/通用帖：标题 + URL + hashtag
+      // 尝试从页面 DOM 抓第一段作为摘要（增强 LinkedIn 阅读欲望）
+      var hook = '';
+      try {
+        var firstP = document.querySelector('main.article p:not(.meta)');
+        if (firstP) {
+          var pt = (firstP.textContent || '').replace(/\s+/g, ' ').trim();
+          if (pt.length > 20 && pt.length < 220) {
+            hook = pt.length > 180 ? pt.slice(0, 178) + '…' : pt;
+          }
+        }
+      } catch (e) {}
+      lines.push(title || 'Quantopia');
+      if (hook) {
+        lines.push('');
+        lines.push(hook);
+      }
       lines.push('');
       lines.push(url);
       lines.push('');
-      lines.push('#Quant #HedgeFunds');
+      lines.push('#Quant #HedgeFunds #Quant');
     }
     return lines.join('\n');
   }
@@ -173,7 +188,7 @@
 
     // 复制为 LinkedIn 帖子（绕过 share-offsite 在中国被墙的问题）
     popup.querySelector('[data-act="linkedinPost"]').addEventListener('click', function () {
-      var post = buildLinkedInPost(job, url);
+      var post = buildLinkedInPost(job, url, title);
       copyText(post, function (ok) {
         showToast(ok ? '✓ LinkedIn 帖子文案已复制，去 LinkedIn 粘贴即可' : 'Copy failed', ok);
         closePopup();
