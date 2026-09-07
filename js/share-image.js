@@ -29,10 +29,12 @@
 
   const I18N = {
     tagline: { zh: '对冲基金在招岗位 · 一线猎头发布', en: 'Open roles in hedge funds · from a buy-side headhunter' },
+    articleTagline: { zh: '深度文章 · 一线猎头视角', en: 'Deep dives · from a buy-side headhunter' },
     idealH:  { zh: '👤 理想候选人', en: '👤 IDEAL CANDIDATE' },
     whyH:    { zh: '⭐ 为什么值得去', en: '⭐ WHY IT IS WORTH IT' },
     cta:     { zh: '扫码查看详情', en: 'Scan QR to view' },
     ctaSub:  { zh: '在浏览器打开岗位链接', en: 'Opens the role in your browser' },
+    ctaSubArticle: { zh: '扫码读完整文章', en: 'Scan to read the full article' },
   };
 
   function t(k) {
@@ -138,7 +140,7 @@
     const tagH = 22;
     // pill
     dummy.font = pickFont(15, 600);
-    const pillH = 38;
+    const pillH = job.function ? 38 : 0;
     // title（36px，限 3 行）
     dummy.font = pickFont(36, 700);
     const titleLines = wrap(dummy, job.title || '', W_INNER).slice(0, 3);
@@ -158,7 +160,7 @@
     const whyH = job.why ? 22 + whyLines.length * 23 + 10 : 0;
 
     // 总高
-    const contentH = brandH + 12 + tagH + 28 /*divider*/ + pillH + 26 + titleH + 8 + idH
+    const contentH = brandH + 12 + tagH + 28 /*divider*/ + pillH + (job.function ? 26 : 0) + titleH + 8 + idH
       + (exH ? exH + 20 : 0)
       + fitH + whyH;
     const H = Math.max(MIN_H, Math.min(MAX_H, contentH + PAD + CTA_H + 40));
@@ -204,7 +206,7 @@
     ctx.font = pickFont(14, 400);
     ctx.fillStyle = MUTED;
     ctx.textAlign = 'center';
-    ctx.fillText(t('tagline'), W / 2, y);
+    ctx.fillText(job.excerpt ? t('tagline') : t('articleTagline'), W / 2, y);
     ctx.textAlign = 'left';
     y += tagH + 22;
 
@@ -216,28 +218,30 @@
     ctx.stroke();
     y += 18;
 
-    // Function pill + Location
-    const icon = FUNC_ICONS[job.function] || '💼';
-    const funcText = icon + '  ' + (lang === 'en'
-      ? (FUNC_LABELS[job.function] ? FUNC_LABELS[job.function][0] : (job.function || ''))
-      : (FUNC_LABELS[job.function] ? FUNC_LABELS[job.function][1] : (job.function || '')));
-    ctx.font = pickFont(15, 600);
-    const pillW = ctx.measureText(funcText).width + 32;
-    ctx.fillStyle = 'rgba(138,180,216,.12)';
-    roundRect(ctx, PAD, y, pillW, pillH, 19); ctx.fill();
-    ctx.strokeStyle = 'rgba(138,180,216,.35)';
-    ctx.lineWidth = 1;
-    ctx.stroke();
-    ctx.fillStyle = ICE;
-    ctx.textBaseline = 'middle';
-    ctx.fillText(funcText, PAD + 16, y + pillH / 2);
-    if (job.loc) {
-      const locText = '📍  ' + job.loc;
-      ctx.fillStyle = MUTED;
-      ctx.fillText(locText, PAD + pillW + 18, y + pillH / 2);
+    // Function pill + Location（仅岗位有此信息）
+    if (job.function) {
+      const icon = FUNC_ICONS[job.function] || '💼';
+      const funcText = icon + '  ' + (lang === 'en'
+        ? (FUNC_LABELS[job.function] ? FUNC_LABELS[job.function][0] : (job.function || ''))
+        : (FUNC_LABELS[job.function] ? FUNC_LABELS[job.function][1] : (job.function || '')));
+      ctx.font = pickFont(15, 600);
+      const pillW = ctx.measureText(funcText).width + 32;
+      ctx.fillStyle = 'rgba(138,180,216,.12)';
+      roundRect(ctx, PAD, y, pillW, pillH, 19); ctx.fill();
+      ctx.strokeStyle = 'rgba(138,180,216,.35)';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.fillStyle = ICE;
+      ctx.textBaseline = 'middle';
+      ctx.fillText(funcText, PAD + 16, y + pillH / 2);
+      if (job.loc) {
+        const locText = '📍  ' + job.loc;
+        ctx.fillStyle = MUTED;
+        ctx.fillText(locText, PAD + pillW + 18, y + pillH / 2);
+      }
+      ctx.textBaseline = 'top';
+      y += pillH + 22;
     }
-    ctx.textBaseline = 'top';
-    y += pillH + 22;
 
     // Title
     ctx.font = pickFont(36, 700);
@@ -318,7 +322,7 @@
     ctx.fillText(t('cta'), PAD + 26, ctaY + 46);
     ctx.font = pickFont(13, 400);
     ctx.fillStyle = MUTED;
-    ctx.fillText(t('ctaSub'), PAD + 26, ctaY + 80);
+    ctx.fillText(job.excerpt ? t('ctaSub') : t('ctaSubArticle'), PAD + 26, ctaY + 80);
     ctx.textBaseline = 'top';
 
     // QR
