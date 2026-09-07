@@ -181,7 +181,19 @@
     for (var k = 0; k < blocks.length; k++) {
       blocks[k].style.display = blocks[k].getAttribute('data-lang-block') === lang ? '' : 'none';
     }
-    // 4) html lang 属性
+    // 4) 链接 href 切换 [data-en-href]：首页文章卡片 EN 模式跳 -en.html（2026-09-07）
+    var links = document.querySelectorAll('a[data-en-href]');
+    for (var m = 0; m < links.length; m++) {
+      var a = links[m];
+      if (lang === 'en') {
+        if (!a.getAttribute('data-zh-href')) a.setAttribute('data-zh-href', a.getAttribute('href'));
+        a.setAttribute('href', a.getAttribute('data-en-href'));
+      } else {
+        var zh = a.getAttribute('data-zh-href');
+        if (zh) a.setAttribute('href', zh);
+      }
+    }
+    // 5) html lang 属性
     document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
     document.documentElement.setAttribute('data-lang', lang);
   }
