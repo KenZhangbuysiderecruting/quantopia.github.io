@@ -9,7 +9,7 @@
 
   const W = 800;
   const PAD = 56;
-  const CTA_H = 130;
+  const CTA_H = 185;
   const MAX_H = 1200;
   const MIN_H = 880;
 
@@ -315,20 +315,20 @@
     ctx.fillStyle = ORANGE;
     ctx.fillRect(PAD, ctaY + 20, 3, CTA_H - 40);
 
-    // CTA 文字
+    // CTA 文字（垂直居中，与 QR 对齐）
     ctx.textBaseline = 'middle';
     ctx.font = pickFont(20, 700);
     ctx.fillStyle = TEXT;
-    ctx.fillText(t('cta'), PAD + 26, ctaY + 46);
+    ctx.fillText(t('cta'), PAD + 26, ctaY + 70);
     ctx.font = pickFont(13, 400);
     ctx.fillStyle = MUTED;
-    ctx.fillText(job.excerpt ? t('ctaSub') : t('ctaSubArticle'), PAD + 26, ctaY + 80);
+    ctx.fillText(job.excerpt ? t('ctaSub') : t('ctaSubArticle'), PAD + 26, ctaY + 104);
     ctx.textBaseline = 'top';
 
-    // QR
-    const qrSize = 100;
+    // QR（放大到 150，方便扫描）
+    const qrSize = 150;
     const qrX = W - PAD - 24 - qrSize;
-    const qrY = ctaY + 15;
+    const qrY = ctaY + Math.round((CTA_H - qrSize) / 2);
     drawQR(ctx, qrX, qrY, qrSize, url);
 
     return new Promise(res => canvas.toBlob(res, 'image/png'));
