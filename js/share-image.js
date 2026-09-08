@@ -27,6 +27,14 @@
   };
   const FUNC_ICONS = { research: '🧠', tech: '🛠', ml: '🤖' };
 
+  // Gravitas logo（启动时预加载，缓存复用）
+  const GRAVITAS_LOGO_SRC = 'images/gravitas-logo.png';
+  const gravitasLogo = new Image();
+  gravitasLogo.src = GRAVITAS_LOGO_SRC;
+  let gravitasLogoReady = false;
+  gravitasLogo.onload = function () { gravitasLogoReady = true; };
+  gravitasLogo.onerror = function () { console.warn('gravitas-logo.png load failed'); };
+
   const I18N = {
     tagline: { zh: '对冲基金在招岗位 · 一线猎头发布', en: 'Open roles in hedge funds · from a buy-side headhunter' },
     articleTagline: { zh: '深度文章 · 一线猎头视角', en: 'Deep dives · from a buy-side headhunter' },
@@ -191,16 +199,34 @@
     // 品牌行
     ctx.textBaseline = 'top';
     ctx.font = pickFont(26, 700);
-    const brand1 = 'QUANTOPIA', xMark = '×', brand2 = 'GRAVITAS';
+    const brand1 = 'QUANTOPIA', xMark = '×';
     const w1 = ctx.measureText(brand1).width;
     const wx = ctx.measureText(xMark).width;
-    const w2 = ctx.measureText(brand2).width;
-    const totalBrand = w1 + 14 + wx + 14 + w2;
+    // Gravitas logo 尺寸：保持原比例 1416:374 ≈ 3.78:1
+    const logoH = 36;
+    const logoW = gravitasLogoReady && gravitasLogo.naturalWidth
+      ? Math.round(logoH * gravitasLogo.naturalWidth / gravitasLogo.naturalHeight)
+      : Math.round(logoH * 1416 / 374);
+    const totalBrand = w1 + 14 + wx + 14 + logoW;
     let bx = (W - totalBrand) / 2;
-    ctx.fillStyle = ICE;     ctx.fillText(brand1, bx, y); bx += w1 + 14;
-    ctx.fillStyle = '#FFFFFF'; ctx.fillText(xMark, bx, y); bx += wx + 14;
-    ctx.fillStyle = ORANGE;  ctx.fillText(brand2, bx, y);
-    y += brandH + 4;
+    // QUANTOPIA（冰蓝）
+    ctx.fillStyle = ICE;
+    ctx.fillText(brand1, bx, y + (logoH - 26) / 2);
+    bx += w1 + 14;
+    // ×（白）
+    ctx.fillStyle = '#FFFFFF';
+    ctx.fillText(xMark, bx, y + (logoH - 26) / 2);
+    bx += wx + 14;
+    // Gravitas logo（真实图片，透明背景白字）
+    if (gravitasLogoReady) {
+      ctx.drawImage(gravitasLogo, bx, y, logoW, logoH);
+    } else {
+      // 兜底：图片未加载完成，用文字
+      ctx.fillStyle = ORANGE;
+      ctx.font = pickFont(26, 700);
+      ctx.fillText('GRAVITAS', bx, y);
+    }
+    y += logoH + 4;
 
     // 副标题
     ctx.font = pickFont(14, 400);
