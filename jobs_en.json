@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04",
+  "updated": "2026-09-08",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2425,6 +2425,34 @@
       "excerpt": "Core role in the Global Linux team: design, build and operate the critical infrastructure powering the trading environment — large-scale bare-metal Linux platforms and on-prem Kubernetes clusters across global datacenters.",
       "fit": "Strong Linux systems engineering in production · hands-on on-prem Kubernetes (not just managed cloud) · Rancher / Cilium (CNI) / ArgoCD (GitOps) / Terraform / GitHub Actions · networking fundamentals (L2/L3, routing, firewalls, load balancing)",
       "why": "Top market maker trusted by 70+ exchanges · performance-based bonus from global profit pool · no prior trading experience needed, onboarding program included · frontier stack (bare-metal + on-prem K8s)."
+    },
+    {
+      "id": "QT-2775",
+      "function": "research",
+      "group": "Singapore",
+      "tag": "Top-Tier Multi-Strategy Platform",
+      "title": "Junior Execution Trader — Equity",
+      "loc": "Singapore",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "Support trade execution across equities, futures and FX — executing instructions accurately and on time while adhering to established processes, controls and risk guidelines.",
+      "fit": "Exceptional attention to detail and accuracy; follows processes closely without cutting corners; patient, methodical and team-oriented; committed to long-term growth in execution and trading operations.",
+      "why": "Top systematic multi-strategy platform with rigorous processes and controls — ideal for a candidate who values precision over speed and consistency over shortcuts."
+    },
+    {
+      "id": "QT-2776",
+      "function": "research",
+      "group": "Singapore",
+      "tag": "Top-Tier Multi-Strategy Platform",
+      "title": "Shift Trader",
+      "loc": "Singapore / London / Dubai",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "Join the Central Trading & Monitoring team for round-the-clock supervision of trading and operational processes — risk monitoring, trade oversight, incident response, plus scripting/automation to streamline workflows.",
+      "fit": "Bachelor's in a quantitative or related field; strong Python (KDB a plus); clear communication for global collaboration; a strong sense of urgency in a fast-paced environment.",
+      "why": "Central Trading & Monitoring team at a top systematic multi-strategy platform, covering Singapore / London / Dubai with 24/7 shift coverage — an ideal entry into the core of systematic trading operations."
     }
   ]
 }
