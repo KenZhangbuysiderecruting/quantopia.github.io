@@ -2453,6 +2453,21 @@
       "excerpt": "Join the Central Trading & Monitoring team for round-the-clock supervision of trading and operational processes — risk monitoring, trade oversight, incident response, plus scripting/automation to streamline workflows.",
       "fit": "Bachelor's in a quantitative or related field; strong Python (KDB a plus); clear communication for global collaboration; a strong sense of urgency in a fast-paced environment.",
       "why": "Central Trading & Monitoring team at a top systematic multi-strategy platform, covering Singapore / London / Dubai with 24/7 shift coverage — an ideal entry into the core of systematic trading operations."
+    },
+    {
+      "id": "QT-2777",
+      "function": "tech",
+      "group": "Singapore",
+      "tag": "Established HFT Proprietary Trading",
+      "title": "Software Engineer (C++) — Markets (Crypto)",
+      "loc": "Singapore / Hong Kong",
+      "loc_filters": [
+        "sg",
+        "hk"
+      ],
+      "excerpt": "Tower's Markets (Crypto) team is hiring C++ Software Engineers: design and implement a high-frequency trading platform (market data collection and order dissemination to global venues), low-latency network and systems-level optimization, historical market data systems and backtesting tools — working directly with quantitative trading teams.",
+      "fit": "At least 5 years of relevant C++ software engineering experience; strong background in data structures, algorithms and object-oriented programming; solid Linux; experience in financial and crypto markets is a plus, not required. Singapore roles prioritize citizens/PRs; Hong Kong pipeline also being built.",
+      "why": "Established HFT proprietary trading firm founded in 1998 with a 25+ year track record across 150+ trading venues; Crypto desk expanding with searches running in both Singapore and Hong Kong; flat engineering culture with engineers working directly alongside quant traders."
     }
   ]
 }
