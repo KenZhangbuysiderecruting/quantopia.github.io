@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI 对冲基金曾经年化多赚 5%，这个优势 2017 年后消失了 - Quantopia</title>
   <meta name="description" content="AI 对冲基金曾经年化多赚 5%，这个优势 2017 年后消失了">
+  <meta name="title-en" content="AI Hedge Funds Once Earned an Extra 5% a Year — Then the Edge Vanished After 2017">
   <link rel="stylesheet" href="../style.css">
   <style>
     .article-wrap { max-width: 760px; margin: 40px auto; padding: 0 20px; }
@@ -37,7 +38,7 @@
   <header class="site-header">
     <div class="wrap">
       <a href="../index.html" class="logo">📊 Quantopia</a>
-      <nav class="site-nav"><a href="../index.html">首页</a></nav>
+      <nav class="site-nav"><a href="../index.html">首页</a><a href="2026-09-09-AI对冲基金曾经年化-en.html" class="lang-switch-inline" style="margin-left:14px;color:var(--ice,#8AB4D8);border:1px solid rgba(138,180,216,.45);padding:4px 12px;border-radius:18px;font-size:12px;text-decoration:none;">EN</a></nav>
     </div>
   </header>
   <main class="article-wrap">
@@ -71,5 +72,32 @@
       <p>2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
     </div>
   </footer>
+<script>
+/* 文章页中英跳转：en ↔ -en 版本 */
+(function () {
+  function doJump() {
+    var lang = 'zh';
+    try { lang = localStorage.getItem('quantopia_lang') || 'zh'; } catch (e) {}
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  }
+  if (window.QuantopiaI18n) doJump();
+  else document.addEventListener('DOMContentLoaded', doJump);
+  window.QuantopiaOnLangChange = function (lang) {
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  };
+})();
+</script>
 </body>
 </html>
