@@ -33,17 +33,23 @@
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
   <!-- End Cloudflare Web Analytics -->
+  <script defer src="../js/qrcode.min.js"></script>
+  <script defer src="../js/share-image.js"></script>
+  <script defer src="../js/i18n.js"></script>
+  <script defer src="../js/share.js"></script>
+
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <a href="../index.html" class="logo">📊 Quantopia</a>
-      <nav class="site-nav"><a href="../index.html">首页</a></nav>
+      <nav class="site-nav"><a href="../index.html">首页</a><a href="2026-09-06-TwoSigma60-en.html" class="lang-switch-inline" style="margin-left:14px;color:var(--ice,#8AB4D8);border:1px solid rgba(138,180,216,.45);padding:4px 12px;border-radius:18px;font-size:12px;text-decoration:none;">EN</a></nav>
     </div>
   </header>
   <main class="article-wrap">
     <h1>Two Sigma 60 亿离婚案：60 亿 vs 600 万，量化巨头 50:50 共治的「最贵告破」</h1>
     <p class="meta">2026-09-06 · Ken Zhang / Gravitas Recruitment</p>
+    <button class="share-btn" data-share-title="Two Sigma 60 亿离婚案：60 亿 vs 600 万，量化巨头 50:50 共治的「最贵告破」">📤 分享</button>
 
     <p>Two Sigma 60 亿离婚案：60 亿 vs 600 万，量化巨头 50:50 共治的「最贵告破」</p>
     <p>$60 亿 vs 600 万——这是 2026 年夏天量化界最戏剧性的数字差。</p>
@@ -139,5 +145,32 @@
       <p>2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
     </div>
   </footer>
+<script>
+/* Article language jump: en <-> -en versions */
+(function () {
+  function doJump() {
+    var lang = 'zh';
+    try { lang = localStorage.getItem('quantopia_lang') || 'zh'; } catch (e) {}
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  }
+  if (window.QuantopiaI18n) doJump();
+  else document.addEventListener('DOMContentLoaded', doJump);
+  window.QuantopiaOnLangChange = function (lang) {
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  };
+})();
+</script>
 </body>
 </html>
