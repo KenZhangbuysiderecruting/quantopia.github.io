@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3000 亿欧元的合并，被 Elliott 按了暂停键：一家激进对冲基金，怎么拆掉公开市场史上最大的并购 - Quantopia</title>
-  <meta name="title-en" content="Elliott vs. Deutsche Telekom: The $300B Activist Strike That Pause Europe's Biggest Merger">
+  <meta name="title-en" content="Elliott vs. Deutsche Telekom: The $300B Activist Strike That Paused Europe's Biggest Merger">
   <meta name="description" content="3000 亿欧元的合并，被 Elliott 按了暂停键：一家激进对冲基金，怎么拆掉公开市场史上最大的并购">
   <link rel="stylesheet" href="../style.css">
   <style>
@@ -33,19 +33,23 @@
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
   <!-- End Cloudflare Web Analytics -->
+  <script defer src="../js/qrcode.min.js"></script>
+  <script defer src="../js/share-image.js"></script>
+  <script defer src="../js/i18n.js"></script>
+  <script defer src="../js/share.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <a href="../index.html" class="logo">📊 Quantopia</a>
-      <nav class="site-nav"><a href="../index.html">首页</a></nav>
+      <nav class="site-nav"><a href="../index.html">首页</a><a href="2026-09-06-3000亿欧元的合并-en.html" class="lang-switch-inline" style="margin-left:14px;color:var(--ice,#8AB4D8);border:1px solid rgba(138,180,216,.45);padding:4px 12px;border-radius:18px;font-size:12px;text-decoration:none;">EN</a></nav>
     </div>
   </header>
   <main class="article-wrap">
     <h1>3000 亿欧元的合并，被 Elliott 按了暂停键：一家激进对冲基金，怎么拆掉公开市场史上最大的并购</h1>
     <p class="meta">2026-09-06 · Ken Zhang / Gravitas Recruitment</p>
+    <button class="share-btn" data-share-title="3000 亿欧元的合并，被 Elliott 按了暂停键：一家激进对冲基金，怎么拆掉公开市场史上最大的并购">📤 分享</button>
 
-    <p>3000 亿欧元的合并，被 Elliott 按了暂停键：一家激进对冲基金，怎么拆掉公开市场史上最大的并购</p>
     <p>3000 亿美元的合并，被一个&quot;具体规模未披露&quot;的激进对冲基金按了暂停键。</p>
     <p>Elliott 投资管理公司 9 月 2 日建仓 Deutsche Telekom，持股不超过 3%——恰好规避德国证券法(WpHG §21)的强制披露门槛。Elliott 一句话：&quot;别合并了，多回购股票。&quot;</p>
     <p>公开市场史上最大的并购案，被一家激进对冲基金用&quot;看不透&quot;的持仓按住了暂停键。德国电信 CEO Tim Höttges 自 4 月起力推的合并方案，过去 12 个月股价跌 9%、市值 1380 亿欧元——&quot;德国股东补贴美国股东&quot;，是这场争议的核心。</p>
@@ -145,5 +149,31 @@
       <p>2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
     </div>
   </footer>
+<script>
+(function () {
+  function doJump() {
+    var lang = 'zh';
+    try { lang = localStorage.getItem('quantopia_lang') || 'zh'; } catch (e) {}
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  }
+  if (window.QuantopiaI18n) doJump();
+  else document.addEventListener('DOMContentLoaded', doJump);
+  window.QuantopiaOnLangChange = function (lang) {
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  };
+})();
+</script>
 </body>
 </html>
