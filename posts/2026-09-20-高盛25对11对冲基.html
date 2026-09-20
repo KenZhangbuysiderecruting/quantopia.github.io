@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>高盛25%对11%：对冲基金的钱比人多 - Quantopia</title>
   <meta name="description" content="高盛25%对11%：对冲基金的钱比人多">
+  <meta name="title-en" content="Goldman's 25% vs 11%: Hedge Funds Now Have More Money Than People">
+  <meta name="category" content="猎头独家数据 · 招聘趋势">
+  <meta name="readtime" content="5 min read">
+  <meta name="tag" content="数据">
   <link rel="stylesheet" href="../style.css">
   <style>
     .article-wrap { max-width: 760px; margin: 40px auto; padding: 0 20px; }
@@ -32,17 +36,22 @@
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
   <!-- End Cloudflare Web Analytics -->
+  <script defer src="../js/qrcode.min.js"></script>
+  <script defer src="../js/share-image.js"></script>
+  <script defer src="../js/i18n.js"></script>
+  <script defer src="../js/share.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <a href="../index.html" class="logo">📊 Quantopia</a>
-      <nav class="site-nav"><a href="../index.html">首页</a></nav>
+      <nav class="site-nav"><a href="../index.html">首页</a><a href="2026-09-20-高盛25对11对冲基-en.html" class="lang-switch-inline" style="margin-left:14px;color:var(--ice,#8AB4D8);border:1px solid rgba(138,180,216,.45);padding:4px 12px;border-radius:18px;font-size:12px;text-decoration:none;">EN</a></nav>
     </div>
   </header>
   <main class="article-wrap">
     <h1>高盛25%对11%：对冲基金的钱比人多</h1>
     <p class="meta">2026-09-20 · Ken Zhang / Gravitas Recruitment</p>
+    <button class="share-btn" data-share-title="高盛25%对11%：对冲基金的钱比人多">📤 分享</button>
 
     <p>高盛主经纪业务的高管 Freddie Parker 前几天在 AIMA 的播客里说了句话：每次有人宣布多策略平台到顶了，它们就再上一个台阶。</p>
     <p>话是场面话，但这次他手里有一组刚出炉的数字，比话本身有意思得多。</p>
@@ -85,5 +94,31 @@
       <p>2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
     </div>
   </footer>
+<script>
+(function () {
+  function doJump() {
+    var lang = 'zh';
+    try { lang = localStorage.getItem('quantopia_lang') || 'zh'; } catch (e) {}
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  }
+  if (window.QuantopiaI18n) doJump();
+  else document.addEventListener('DOMContentLoaded', doJump);
+  window.QuantopiaOnLangChange = function (lang) {
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  };
+})();
+</script>
 </body>
 </html>

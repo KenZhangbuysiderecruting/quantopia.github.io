@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>20→18，60%→新经理：对冲基金的钱正在重新投票 - Quantopia</title>
   <meta name="description" content="20→18，60%→新经理：对冲基金的钱正在重新投票">
+  <meta name="title-en" content="20 to 18, 60% to New Managers: How Allocator Money Is Re-Voting">
+  <meta name="category" content="猎头独家数据 · 资产配置">
+  <meta name="readtime" content="6 min read">
+  <meta name="tag" content="数据">
   <link rel="stylesheet" href="../style.css">
   <style>
     .article-wrap { max-width: 760px; margin: 40px auto; padding: 0 20px; }
@@ -32,17 +36,22 @@
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
   <!-- End Cloudflare Web Analytics -->
+  <script defer src="../js/qrcode.min.js"></script>
+  <script defer src="../js/share-image.js"></script>
+  <script defer src="../js/i18n.js"></script>
+  <script defer src="../js/share.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <a href="../index.html" class="logo">📊 Quantopia</a>
-      <nav class="site-nav"><a href="../index.html">首页</a></nav>
+      <nav class="site-nav"><a href="../index.html">首页</a><a href="2026-09-17-201860新经理对-en.html" class="lang-switch-inline" style="margin-left:14px;color:var(--ice,#8AB4D8);border:1px solid rgba(138,180,216,.45);padding:4px 12px;border-radius:18px;font-size:12px;text-decoration:none;">EN</a></nav>
     </div>
   </header>
   <main class="article-wrap">
     <h1>20→18，60%→新经理：对冲基金的钱正在重新投票</h1>
     <p class="meta">2026-09-17 · Ken Zhang / Gravitas Recruitment</p>
+    <button class="share-btn" data-share-title="20→18，60%→新经理：对冲基金的钱正在重新投票">📤 分享</button>
 
     <p>美国银行的一份内部报告本周在业内传开。321位资产配置者接受调查，结果里有几组数字值得单独拎出来看。</p>
     <p>第一组：对冲基金今年截至7月回报5.5%，创下2010年以来最佳上半年业绩。三年前开始的资金净流出，今年首次逆转——基金经理筹集的资金量超过了年初预期。</p>
@@ -89,5 +98,31 @@
       <p>2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
     </div>
   </footer>
+<script>
+(function () {
+  function doJump() {
+    var lang = 'zh';
+    try { lang = localStorage.getItem('quantopia_lang') || 'zh'; } catch (e) {}
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  }
+  if (window.QuantopiaI18n) doJump();
+  else document.addEventListener('DOMContentLoaded', doJump);
+  window.QuantopiaOnLangChange = function (lang) {
+    var path = window.location.pathname;
+    var isEnFile = path.indexOf('-en.html') >= 0;
+    if (lang === 'en' && !isEnFile) {
+      window.location.href = path.replace(/\.html$/, '-en.html');
+    } else if (lang === 'zh' && isEnFile) {
+      window.location.href = path.replace(/-en\.html$/, '.html');
+    }
+  };
+})();
+</script>
 </body>
 </html>
