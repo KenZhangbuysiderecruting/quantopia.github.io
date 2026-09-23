@@ -420,7 +420,7 @@ function cardHTML(j) {
   const shown = enJob(j);
   const fm = CUR_LANG === 'en' ? (FUNC_META_EN[j.function] ? FUNC_META_EN[j.function][0] : j.function) : (fmap[j.function] || j.function);
   // 整卡点击 → 打开右侧 drawer；job JSON 用 data-* 存到 row 上
-  return `<div class="job-row" data-job="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}" data-func="${j.function}" data-text="${esc((shown.title + ' ' + shown.loc + ' ' + shown.tag + ' ' + (shown.excerpt||'')).toLowerCase())}">
+  return `<div class="job-row" data-job="${j.id}" data-loc="${(j.loc_filters || []).join(' ')}" data-func="${j.function}" data-text="${esc((j.id + ' ' + j.id.replace(/[^a-z0-9]/gi, '') + ' ' + shown.title + ' ' + shown.loc + ' ' + shown.tag + ' ' + (shown.excerpt||'')).toLowerCase())}">
     <div class="job-row-head">
       <h4>${esc(shown.title)}</h4>
       <div class="job-row-meta">
@@ -428,6 +428,8 @@ function cardHTML(j) {
         <span class="loc">${esc(shown.loc)}</span>
         <span class="dot-sep">·</span>
         <span class="func">${fm}</span>
+        <span class="dot-sep">·</span>
+        <span class="jid">${esc(j.id)}</span>
       </div>
       <div class="job-row-arrow">→</div>
     </div>
@@ -483,8 +485,11 @@ function renderJobs() {
     if (FILTER.func && j.function !== FILTER.func) return false;
     if (FILTER.search) {
       const jj = enJob(j);
-      const t = (jj.title + ' ' + jj.loc + ' ' + jj.tag + ' ' + (jj.excerpt||'')).toLowerCase();
-      if (!t.includes(FILTER.search)) return false;
+      // 支持按岗位编号搜索：QT-2785 / QT2785 / 2785 均可命中
+      const idNorm = j.id.replace(/[^a-z0-9]/gi, '').toLowerCase();
+      const qNorm = FILTER.search.replace(/[^a-z0-9]/gi, '').toLowerCase();
+      const t = (jj.title + ' ' + jj.loc + ' ' + jj.tag + ' ' + (jj.excerpt||'') + ' ' + j.id + ' ' + idNorm).toLowerCase();
+      if (!t.includes(FILTER.search) && !(qNorm && idNorm.includes(qNorm))) return false;
     }
     return true;
   });

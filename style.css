@@ -282,6 +282,8 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 .job-row-meta .loc{color:#c9d4e0}
 .job-row-meta .dot-sep{color:#3b4252}
 .job-row-meta .func{color:var(--muted)}
+/* 岗位编号（2026-09-23）：卡片 meta 行展示代号，可被搜索命中 */
+.job-row-meta .jid{font-size:11px;letter-spacing:1px;color:var(--muted);opacity:.75;font-variant-numeric:tabular-nums;font-family:Inter,sans-serif}
 .job-row-arrow{font-size:18px;color:var(--muted);transition:all .2s;flex-shrink:0;font-weight:300}
 .job-row:hover .job-row-arrow{color:var(--gold);transform:translateX(4px)}
 @media(max-width:680px){.job-row{padding:18px 16px}.job-row h4{font-size:15px}}
