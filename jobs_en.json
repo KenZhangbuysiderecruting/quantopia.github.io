@@ -2551,6 +2551,34 @@
       "excerpt": "Own the build and architecture of the end-to-end trading platform, with the macro perspective to understand market microstructure and how the whole system operates. Assessed on systems management understanding and ability to land technology in production.",
       "fit": "Hands-on experience at a large financial institution or mature trading platform (\"has seen the battlefield\") · macro architectural vision and end-to-end platform design · understanding of market microstructure and the full trading chain · able to deliver in production, not just design; pure internet background requires careful assessment",
       "why": "A core role for the team, with authority spanning the entire trading platform architecture. Suited to a technology leader who has already led platform builds at an established financial institution and wants a full technology remit rather than a local module."
+    },
+    {
+      "id": "QT-2784",
+      "function": "research",
+      "group": "Hong Kong",
+      "tag": "Multi-Strategy Platform · Hong Kong",
+      "title": "Junior Quantitative Researcher — Equities / Global Futures",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Quantitative strategy research across equities and global futures. Open to candidates with 1+ years of experience — a good entry into research at an established multi-strategy platform.",
+      "fit": "1+ years of quantitative research experience · equities or global futures (either focus works)",
+      "why": "Most platforms set the research bar at 3+ years — research seats open to 1+ years are uncommon in this market. Getting into a multi-strategy platform this early in a research career is a genuinely rare window."
+    },
+    {
+      "id": "QT-2785",
+      "function": "tech",
+      "group": "Hong Kong",
+      "tag": "Multi-Strategy Platform · Hong Kong",
+      "title": "Market Data Engineer",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Own the troubleshooting of everything exchange and market-data related — data feeds, exchange connectivity, data quality and distribution — keeping data reliable for the trading teams.",
+      "fit": "Experience with exchange connectivity or market data processing · able to independently debug and resolve data pipeline issues · full-stack understanding of the market data chain",
+      "why": "Market data is the lifeline of any trading platform. This seat covers everything exchange and market-data related end to end — the shortest path to understanding the full data side of a trading system."
     }
   ]
 }
