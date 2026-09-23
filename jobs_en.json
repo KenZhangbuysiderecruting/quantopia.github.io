@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-23",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2495,6 +2495,62 @@
       "excerpt": "Mid-frequency strategy research across China A-shares, futures and options — owning the full path from factor mining and model building through portfolio management. 3–4 years of independent research experience; deep expertise in any one of equity alpha, futures CTA or options market-making is sufficient, full-stack coverage is not required.",
       "fit": "3–4 years in quantitative research (2–3 years considered for an exceptional candidate) · able to run the factor-to-portfolio cycle independently · options / convertible bonds a strong plus · fluent English (interviews include US and Europe colleagues) · willing to relocate to Hong Kong",
       "why": "A mature quantitative research group within a top-tier proprietary trading firm, with meaningful autonomy and short decision chains. Options and convertible bonds are a priority area for the team, with clear resource commitment. A structured 5–6 round process and competitive compensation assessed case by case."
+    },
+    {
+      "id": "QT-2780",
+      "function": "tech",
+      "group": "Hong Kong",
+      "tag": "Global Multi-Strategy Hedge Fund",
+      "title": "C++ Developer — Trading Systems",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "C++ development across the trading systems stack, contributing to the engineering implementation of quantitative trading workflows. 1.5–3 years of relevant experience is sufficient — a top-tier big-tech background is not required, and solid experience at an established institution is equally welcome.",
+      "fit": "1.5–3 years of C++ development · trading systems / low-latency / financial engineering exposure preferred · solid experience at an established institution valued over big-tech branding · able to invest in engineering detail over the long run",
+      "why": "The technology team of a global multi-strategy hedge fund, with the role currently open and a moderate experience bar (from 1.5 years). A strong fit for developers who want depth in trading-systems engineering rather than product work in pure tech."
+    },
+    {
+      "id": "QT-2781",
+      "function": "research",
+      "group": "Hong Kong",
+      "tag": "Global Multi-Strategy Hedge Fund",
+      "title": "Interest Rate / Treasury Futures Trader",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Interest rate trading focused on treasury futures, with treasuries as the core product (other rate instruments can be covered). Requires genuine trading logic and quantitative methods — not simple arbitrage or channel business.",
+      "fit": "Live experience in treasury futures / rate products · background in bank proprietary trading or a private fund that has gone deep in this area · complete trading logic paired with quantitative methods · able to demonstrate strategy depth rather than channel or shallow arbitrage work",
+      "why": "Specialists in rates are genuinely scarce in the market, and the team continues to invest in this area. Suited to candidates who already run a real trading framework at a bank proprietary desk or a rate-focused private fund, and want to extend into a broader product spectrum."
+    },
+    {
+      "id": "QT-2782",
+      "function": "research",
+      "group": "Hong Kong",
+      "tag": "Global Multi-Strategy Hedge Fund",
+      "title": "Options Trader — Asia Markets",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Options trading covering Asian markets (with US market exposure a plus), with a mid-to-low frequency approach rather than high-frequency market making. The candidate should be senior enough to own a strategy line independently or build one from scratch.",
+      "fit": "Options trading experience covering Asian markets (US market exposure welcome) · mid-to-low frequency methods rather than high-frequency market making · senior enough to own or build a strategy line from scratch · a complete research-and-iterate loop",
+      "why": "Asia options remains one of the rare openings in mid-to-low frequency quant where a strategy stack can genuinely be built from zero. The team grants real ownership — a senior candidate gets actual authority over the strategy line, not just execution of a fixed playbook."
+    },
+    {
+      "id": "QT-2783",
+      "function": "tech",
+      "group": "Hong Kong",
+      "tag": "Global Multi-Strategy Hedge Fund",
+      "title": "Head of Trading Platform Technology",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Own the build and architecture of the end-to-end trading platform, with the macro perspective to understand market microstructure and how the whole system operates. Assessed on systems management understanding and ability to land technology in production.",
+      "fit": "Hands-on experience at a large financial institution or mature trading platform (\"has seen the battlefield\") · macro architectural vision and end-to-end platform design · understanding of market microstructure and the full trading chain · able to deliver in production, not just design; pure internet background requires careful assessment",
+      "why": "A core role for the team, with authority spanning the entire trading platform architecture. Suited to a technology leader who has already led platform builds at an established financial institution and wants a full technology remit rather than a local module."
     }
   ]
 }
