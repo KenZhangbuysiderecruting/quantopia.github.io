@@ -35,6 +35,9 @@
     cta:     { zh: '扫码查看详情', en: 'Scan QR to view' },
     ctaSub:  { zh: '在浏览器打开岗位链接', en: 'Opens the role in your browser' },
     ctaSubArticle: { zh: '扫码读完整文章', en: 'Scan to read the full article' },
+    // 编号搜索提示（仅岗位分享图；en 的编号前后缀语序不同）
+    idTipPre:  { zh: '或在岗位页搜索编号 ', en: 'Or search ' },
+    idTipPost: { zh: '', en: ' on our jobs page' },
   };
 
   function t(k) {
@@ -159,11 +162,13 @@
     const whyLines = job.why ? wrap(dummy, job.why, W_INNER).slice(0, 2) : [];
     const whyH = job.why ? 22 + whyLines.length * 23 + 10 : 0;
 
-    // 总高
+    // 总高（岗位图带编号提示 → CTA 区加高 15px）
+    const hasIdTip = !!(job.id && job.excerpt);
+    const ctaHTotal = hasIdTip ? 200 : CTA_H;
     const contentH = brandH + 12 + tagH + 28 /*divider*/ + pillH + (job.function ? 26 : 0) + titleH + 8 + idH
       + (exH ? exH + 20 : 0)
       + fitH + whyH;
-    const H = Math.max(MIN_H, Math.min(MAX_H, contentH + PAD + CTA_H + 40));
+    const H = Math.max(MIN_H, Math.min(MAX_H, contentH + PAD + ctaHTotal + 40));
 
     // ==== 正式画 ====
     const canvas = document.createElement('canvas');
@@ -304,31 +309,53 @@
       }
     }
 
-    // 底部 CTA
-    const ctaY = H - CTA_H - 36;
+    // 底部 CTA（岗位图带编号搜索提示 → 加高一行；文章图保持原高）
+    const ctaH = hasIdTip ? 200 : CTA_H;
+    const ctaY = H - ctaH - 36;
     ctx.fillStyle = 'rgba(138,180,216,0.10)';
-    roundRect(ctx, PAD, ctaY, W - PAD * 2, CTA_H, 16); ctx.fill();
+    roundRect(ctx, PAD, ctaY, W - PAD * 2, ctaH, 16); ctx.fill();
     ctx.strokeStyle = 'rgba(138,180,216,.30)';
     ctx.lineWidth = 1;
     ctx.stroke();
     // 左侧橙色 accent
     ctx.fillStyle = ORANGE;
-    ctx.fillRect(PAD, ctaY + 20, 3, CTA_H - 40);
+    ctx.fillRect(PAD, ctaY + 20, 3, ctaH - 40);
 
-    // CTA 文字（垂直居中，与 QR 对齐）
+    // CTA 文字（垂直居中，与 QR 对齐；三行时行距收紧）
     ctx.textBaseline = 'middle';
     ctx.font = pickFont(20, 700);
     ctx.fillStyle = TEXT;
-    ctx.fillText(t('cta'), PAD + 26, ctaY + 70);
+    ctx.fillText(t('cta'), PAD + 26, ctaY + (hasIdTip ? 60 : 70));
     ctx.font = pickFont(13, 400);
     ctx.fillStyle = MUTED;
-    ctx.fillText(job.excerpt ? t('ctaSub') : t('ctaSubArticle'), PAD + 26, ctaY + 104);
+    ctx.fillText(job.excerpt ? t('ctaSub') : t('ctaSubArticle'), PAD + 26, ctaY + (hasIdTip ? 92 : 104));
+
+    // 编号搜索提示行（金色 monospace 编号 + muted 前后缀）
+    if (hasIdTip) {
+      let tx = PAD + 26;
+      const ty = ctaY + 126;
+      ctx.font = pickFont(13, 400);
+      ctx.fillStyle = MUTED;
+      ctx.fillText(t('idTipPre'), tx, ty);
+      tx += ctx.measureText(t('idTipPre')).width;
+      ctx.font = '600 13px "SF Mono", "Consolas", "Menlo", monospace';
+      ctx.fillStyle = GOLD;
+      ctx.fillText(job.id, tx, ty);
+      // 注意：idTipPost 中文为空串，不能走 t()（falsy 会 fallback 成 key 名），直接查表
+      const postTxt = (I18N.idTipPost && I18N.idTipPost[lang]) || '';
+      if (postTxt) {
+        tx += ctx.measureText(job.id).width;
+        ctx.font = pickFont(13, 400);
+        ctx.fillStyle = MUTED;
+        ctx.fillText(postTxt, tx, ty);
+      }
+    }
     ctx.textBaseline = 'top';
 
     // QR（放大到 150，方便扫描）
     const qrSize = 150;
     const qrX = W - PAD - 24 - qrSize;
-    const qrY = ctaY + Math.round((CTA_H - qrSize) / 2);
+    const qrY = ctaY + Math.round((ctaH - qrSize) / 2);
     drawQR(ctx, qrX, qrY, qrSize, url);
 
     return new Promise(res => canvas.toBlob(res, 'image/png'));
