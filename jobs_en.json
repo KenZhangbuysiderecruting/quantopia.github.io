@@ -2515,14 +2515,14 @@
       "function": "research",
       "group": "Hong Kong",
       "tag": "Global Multi-Strategy Hedge Fund",
-      "title": "Interest Rate / Treasury Futures Trader",
+      "title": "Quantitative Researcher — Rates / Treasury Futures",
       "loc": "Hong Kong",
       "loc_filters": [
         "hk"
       ],
-      "excerpt": "Interest rate trading focused on treasury futures, with treasuries as the core product (other rate instruments can be covered). Requires genuine trading logic and quantitative methods — not simple arbitrage or channel business.",
-      "fit": "Live experience in treasury futures / rate products · background in bank proprietary trading or a private fund that has gone deep in this area · complete trading logic paired with quantitative methods · able to demonstrate strategy depth rather than channel or shallow arbitrage work",
-      "why": "Specialists in rates are genuinely scarce in the market, and the team continues to invest in this area. Suited to candidates who already run a real trading framework at a bank proprietary desk or a rate-focused private fund, and want to extend into a broader product spectrum."
+      "excerpt": "Quantitative strategy research across rates and treasury futures, with treasuries as the core focus (other rate instruments can be covered). Requires genuine research depth and quantitative methods — not simple arbitrage or channel business — with the ability to produce deployable strategy output.",
+      "fit": "Research or trading experience in rates / treasury futures · background in bank proprietary trading or a private fund that has gone deep in this space · a complete research methodology (data → signal → portfolio) · backgrounds limited to simple arbitrage or channel business are not a fit",
+      "why": "Specialists in rates research are genuinely scarce, and the team continues to invest in this area. Suited to researchers who already have real experience at a bank prop desk or a rate-focused private fund and want to extend into a broader product spectrum."
     },
     {
       "id": "QT-2782",
