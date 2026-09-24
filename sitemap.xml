@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-09-24-%E6%AD%A2%E4%BA%8E%E8%87%B3%E5%96%845%E4%B8%87%E9%A2%9D%E5%BA%A6%E7%A7%81%E5%8B%9F.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-09-23-SIG%E9%A6%99%E6%B8%AF%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%89%A93.html</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-09-23-%E6%AF%95%E8%BE%BE%E5%93%A5%E6%8B%89%E6%96%AF12%E5%B9%B4%E7%A6%BB%E4%BB%BB.html</loc>
