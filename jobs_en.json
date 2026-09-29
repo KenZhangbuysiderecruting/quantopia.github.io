@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-29",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2579,6 +2579,62 @@
       "excerpt": "Own the troubleshooting of everything exchange and market-data related — data feeds, exchange connectivity, data quality and distribution — keeping data reliable for the trading teams.",
       "fit": "Experience with exchange connectivity or market data processing · able to independently debug and resolve data pipeline issues · full-stack understanding of the market data chain",
       "why": "Market data is the lifeline of any trading platform. This seat covers everything exchange and market-data related end to end — the shortest path to understanding the full data side of a trading system."
+    },
+    {
+      "id": "QT-2786",
+      "function": "tech",
+      "group": "Global / Remote",
+      "tag": "US AI-Driven Quant Hedge Fund",
+      "title": "C++ Engineer — Low Latency Trading Systems",
+      "loc": "Asia (City TBD)",
+      "loc_filters": [
+        "remote"
+      ],
+      "excerpt": "Core hire for a newly forming Asia engineering team — feed handlers, trading systems, exchange connectivity and API development. Requires expert-level C++ and real low-latency production experience.",
+      "fit": "Expert-level C++ · hands-on low-latency systems · real team experience in at least one of: feed handlers / trading systems / exchange connectivity / APIs",
+      "why": "A founding-member seat in the Asia trading stack build-out. Bilingual Mandarin/English is a plus on the engineering team; a Mandarin-friendly working environment."
+    },
+    {
+      "id": "QT-2787",
+      "function": "tech",
+      "group": "Global / Remote",
+      "tag": "US AI-Driven Quant Hedge Fund",
+      "title": "Senior Engineering Lead — Asia Trading Stack",
+      "loc": "Asia (City TBD)",
+      "loc_filters": [
+        "remote"
+      ],
+      "excerpt": "Senior engineer / tech lead seat: 10+ years of experience, owning the architecture and delivery of the Asia trading stack from zero to one, with full ownership of the technical roadmap.",
+      "fit": "10+ years in engineering · low-latency trading system architecture · a proven track record leading a 0-to-1 trading stack build",
+      "why": "Tech-lead seat for Asia with full architectural ownership, working directly with a US AI-driven quant platform's global team."
+    },
+    {
+      "id": "QT-2788",
+      "function": "tech",
+      "group": "Global / Remote",
+      "tag": "US AI-Driven Quant Hedge Fund",
+      "title": "Trading Operations — China Futures",
+      "loc": "Asia (City TBD)",
+      "loc_filters": [
+        "remote"
+      ],
+      "excerpt": "Core trading-operations seat in the Asia build-out, focused on China futures market operations. Deep familiarity with the Chinese futures market is the core requirement.",
+      "fit": "Hands-on China futures operations (trading / clearing / risk / exchange rules) · background from a top HFT or market-making firm · detail- and process-oriented",
+      "why": "The client is building Asia operations capability from scratch; operations experience from top HFT / market-making firms is the exact profile sought. Early core headcount."
+    },
+    {
+      "id": "QT-2789",
+      "function": "research",
+      "group": "Global / Remote",
+      "tag": "US AI-Driven Quant Hedge Fund",
+      "title": "Quantitative Researcher — Non-PhD Track",
+      "loc": "Asia (City TBD)",
+      "loc_filters": [
+        "remote"
+      ],
+      "excerpt": "Seat on a newly forming Asia research team with the PhD requirement explicitly dropped — strong master's candidates are welcome, and quant-developer / research-analyst backgrounds are a direct path in.",
+      "fit": "Strong master's degree or above · hands-on quant dev / research analyst background · verifiable research output",
+      "why": "Dropping the PhD-only rule is a deliberate signal in this expansion. Native English is not required on the research team; practical output matters more than pedigree."
     }
   ]
 }
