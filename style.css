@@ -273,20 +273,22 @@ main.wrap{padding-top:36px;padding-bottom:60px}
 .jobs-func-h span{color:var(--blue);font-weight:400}
 .job-list{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
 @media(max-width:780px){.job-list{grid-template-columns:1fr}}
-.job-row{display:flex;justify-content:space-between;align-items:center;padding:26px 24px;background:var(--bg);text-decoration:none;color:inherit;transition:background .2s;gap:14px}
+.job-row{display:flex;justify-content:space-between;align-items:center;padding:26px 24px;background:var(--bg);text-decoration:none;color:inherit;transition:background .2s;gap:14px;position:relative}
 .job-row:hover{background:rgba(138,180,216,.06)}
 .job-row-main{flex:1;min-width:0}
-.job-row h4{font-size:17px;font-weight:500;line-height:1.3;color:#fff;margin-bottom:8px;letter-spacing:-.2px;font-family:Inter,sans-serif}
-.job-row-meta{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.job-row h4{font-size:17px;font-weight:500;line-height:1.3;color:#fff;margin-bottom:8px;letter-spacing:-.2px;font-family:Inter,sans-serif;padding-right:76px}
+.job-row-meta{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);flex-wrap:wrap;row-gap:4px}
 .job-row-meta .dot{width:7px;height:7px;background:#5DCAA5;border-radius:50%;flex-shrink:0;box-shadow:0 0 6px rgba(93,202,165,.4)}
 .job-row-meta .loc{color:#c9d4e0}
 .job-row-meta .dot-sep{color:#3b4252}
 .job-row-meta .func{color:var(--muted)}
-/* 岗位编号（2026-09-23）：卡片 meta 行展示代号，可被搜索命中 */
-.job-row-meta .jid{font-size:11px;letter-spacing:1px;color:var(--muted);opacity:.75;font-variant-numeric:tabular-nums;font-family:Inter,sans-serif}
+/* 防碎：地点/职能整块不内折，放不下整块掉行，绝不出现竖排碎字 */
+.job-row-meta .loc,.job-row-meta .func{white-space:nowrap}
+/* 岗位编号（2026-09-23）：右上角独立显示，不占 meta 行宽度，仍可被搜索命中 */
+.job-row .jid{position:absolute;top:26px;right:22px;font-size:11px;letter-spacing:1px;color:var(--muted);opacity:.85;font-variant-numeric:tabular-nums;font-family:Inter,sans-serif;white-space:nowrap}
 .job-row-arrow{font-size:18px;color:var(--muted);transition:all .2s;flex-shrink:0;font-weight:300}
 .job-row:hover .job-row-arrow{color:var(--gold);transform:translateX(4px)}
-@media(max-width:680px){.job-row{padding:18px 16px}.job-row h4{font-size:15px}}
+@media(max-width:680px){.job-row{padding:18px 16px}.job-row h4{font-size:15px;padding-right:64px}.job-row .jid{top:17px;right:14px}}
 .site-footer .muted{color:var(--muted);margin-top:6px}
 .site-footer b{color:var(--gold)}
 
