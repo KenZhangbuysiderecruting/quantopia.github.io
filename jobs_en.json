@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-08",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2635,6 +2635,21 @@
       "excerpt": "Seat on a newly forming Asia research team with the PhD requirement explicitly dropped — strong master's candidates are welcome, and quant-developer / research-analyst backgrounds are a direct path in.",
       "fit": "Strong master's degree or above · hands-on quant dev / research analyst background · verifiable research output",
       "why": "Dropping the PhD-only rule is a deliberate signal in this expansion. Native English is not required on the research team; practical output matters more than pedigree."
+    },
+    {
+      "id": "QT-2790",
+      "function": "tech",
+      "group": "Hong Kong / Shanghai",
+      "tag": "Global Quant Trading Firm · Technology Procurement",
+      "title": "Technology Procurement Manager — APAC",
+      "loc": "Hong Kong / Shanghai",
+      "loc_filters": [
+        "hk",
+        "sh"
+      ],
+      "excerpt": "Own end-to-end procurement of technology services and hardware across APAC, with primary focus on China, Hong Kong and Singapore. The role is hardware-led (network circuits, datacenter equipment) while also handling smaller software purchases; large enterprise software buys are led by another team member. You will process TO and LQ tickets through internal workflows, source vendors on pricing and contracts under legal and management guidance, and manage relationships with local carriers, datacenter operators and hardware suppliers. 4–8 years in technology procurement, vendor management or IT sourcing; financial services preferred, with tech-industry backgrounds (cloud providers, compute and datacenters) also welcome. Fluent written and verbal English and Mandarin.",
+      "fit": "4–8 years in technology procurement / vendor management / IT sourcing · familiarity with network circuits and/or hardware procurement · fluent written and verbal English and Mandarin · experience with internal approval workflows and legal/compliance processes · detail-oriented, able to run high-volume concurrent workstreams · proficient in Microsoft Office; Jira or similar ticketing systems a plus",
+      "why": "A core APAC procurement seat, dealing directly with local carriers, datacenter operators and hardware suppliers — the hub for the firm’s compute and datacenter buildout. A hardware-led, software-supported scope means you build scarce experience across both datacenter/network hardware procurement and smaller software buys. Based in Hong Kong or Shanghai, covering China, Hong Kong and Singapore. Competitive compensation assessed case by case."
     }
   ]
 }

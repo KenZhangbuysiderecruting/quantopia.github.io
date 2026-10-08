@@ -2,15 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-10-08-AIMA20%E7%A8%8E%E5%B7%AE%E4%BF%A1%E6%96%B0.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-10-08-%E8%8A%82%E5%90%8E%E7%AC%AC%E4%B8%80%E5%91%A8%E5%85%88%E6%B5%8B%E4%B8%80%E6%B5%8B%E4%BD%A0.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-10-07-Millennium.html</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kenzhangbuysiderecruting.github.io/quantopia.github.io/posts/2026-10-04-FiveRings2.html</loc>
