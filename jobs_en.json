@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2650,6 +2650,21 @@
       "excerpt": "Own end-to-end procurement of technology services and hardware across APAC, with primary focus on China, Hong Kong and Singapore. The role is hardware-led (network circuits, datacenter equipment) while also handling smaller software purchases; large enterprise software buys are led by another team member. You will process TO and LQ tickets through internal workflows, source vendors on pricing and contracts under legal and management guidance, and manage relationships with local carriers, datacenter operators and hardware suppliers. 4–8 years in technology procurement, vendor management or IT sourcing; financial services preferred, with tech-industry backgrounds (cloud providers, compute and datacenters) also welcome. Fluent written and verbal English and Mandarin.",
       "fit": "4–8 years in technology procurement / vendor management / IT sourcing · familiarity with network circuits and/or hardware procurement · fluent written and verbal English and Mandarin · experience with internal approval workflows and legal/compliance processes · detail-oriented, able to run high-volume concurrent workstreams · proficient in Microsoft Office; Jira or similar ticketing systems a plus",
       "why": "A core APAC procurement seat, dealing directly with local carriers, datacenter operators and hardware suppliers — the hub for the firm’s compute and datacenter buildout. A hardware-led, software-supported scope means you build scarce experience across both datacenter/network hardware procurement and smaller software buys. Based in Hong Kong or Shanghai, covering China, Hong Kong and Singapore. Competitive compensation assessed case by case."
+    },
+    {
+      "id": "QT-2791",
+      "function": "research",
+      "group": "Hong Kong / Shanghai",
+      "tag": "Global Quant Trading Firm · Systematic A-Share Alpha",
+      "title": "Quantitative Researcher — Systematic A-Share Alpha (New Team)",
+      "loc": "Hong Kong (Shanghai considered as an exception)",
+      "loc_filters": [
+        "hk",
+        "sh"
+      ],
+      "excerpt": "A brand-new, purely systematic platform building A-share alpha strategies from scratch: factor mining, signal research, model construction and portfolio optimisation end to end. 1–5 years of quant research experience is the main axis, with more senior candidates equally welcome. Requires strong A-share alpha mining skills, an understanding of A-share market microstructure, and English strong enough for a fully English interview. Strategy scope is not limited to Delta One — commodity / futures are also on the roadmap.",
+      "fit": "1–5 years of quantitative research experience (more senior welcome) · strong A-share alpha mining ability / understanding of A-share microstructure · English sufficient for a fully English interview · based primarily in Hong Kong · an ongoing non-compete does not block an application — the client is willing to wait",
+      "why": "A new team on a new platform, with no legacy correlation burden and real strategic freedom; core members come from senior researcher and PM roles at global top-tier firms. Based primarily in Hong Kong (Shanghai considered as an exception). Compensation benchmarks to global top-tier quant levels, with roughly 5–6 months of overseas training on joining. The team has many senior Chinese-speaking leaders, so day-to-day communication is smooth; interviews are in English, but the substance of technical explanation matters more than accent."
     }
   ]
 }
