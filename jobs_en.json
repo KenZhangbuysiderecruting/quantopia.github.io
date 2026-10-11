@@ -100,8 +100,8 @@
       "loc": "Singapore / Hong Kong",
       "group": "Hong Kong",
       "tag": "Top-Tier Multi-Strategy Quant Platform",
-      "excerpt": "Junior QR seat open to new grads and those with 1–2 years of experience. The platform offers a structured training program.",
-      "fit": "New grad / 1–2 years · top school in math / statistics / CS · solid Python",
+      "excerpt": "Junior QR seat open to new grads and those with 1-2 years of experience. The platform offers a structured training program.",
+      "fit": "New grad / 1-2 years · top school in math / statistics / CS · solid Python",
       "why": "A strong mentorship program for juniors — full visibility from research infrastructure to live trading."
     },
     {
@@ -115,7 +115,7 @@
       "loc": "Hong Kong / Singapore",
       "group": "Hong Kong",
       "tag": "Top Market Maker",
-      "excerpt": "Day-to-day trading and risk management of systematic strategies, working closely with strategy development and technology teams. Base range $150k–325k.",
+      "excerpt": "Day-to-day trading and risk management of systematic strategies, working closely with strategy development and technology teams. Base range $150k-325k.",
       "fit": "Electronic trading experience · Python · Linux · top-tier STEM / finance degree",
       "why": "A top global market maker with a mature platform and rigorous risk controls — traders carry real voice and the base band is transparent."
     },
@@ -130,7 +130,7 @@
       "loc": "Hong Kong / Singapore",
       "group": "Hong Kong",
       "tag": "Top Market Maker",
-      "excerpt": "Semi-systematic trading, refining strategies together with the QR team across complex products including options, ETFs, and futures. Base range $175k–350k.",
+      "excerpt": "Semi-systematic trading, refining strategies together with the QR team across complex products including options, ETFs, and futures. Base range $175k-350k.",
       "fit": "Experience trading complex financial products · Python/SQL/R · interest in game theory",
       "why": "A top-tier global market-making platform — traders collaborate deeply with QRs and enjoy broad decision-making autonomy."
     },
@@ -160,7 +160,7 @@
       "group": "Hong Kong",
       "tag": "Top-Tier Multi-Strategy Platform",
       "excerpt": "Multi-asset quant research plus trading, with three location options. The platform is one of the world's top multi-strategy firms.",
-      "fit": "1–5 years in quant research or trading · math / physics / CS · strong coding",
+      "fit": "1-5 years in quant research or trading · math / physics / CS · strong coding",
       "why": "Three offices to choose from (SG/HK/SH). Large platform with ample capital and research resources."
     },
     {
@@ -231,7 +231,7 @@
       "group": "Singapore",
       "tag": "Established HFT Proprietary Trading · SG",
       "excerpt": "The Latour team in Singapore is actively hiring Junior Quants — candidates within a three-month notice period are fine, and both buy-side and sell-side backgrounds are welcome. EP sponsorship available.",
-      "fit": "0–3 years of experience · math / physics / CS / financial engineering · trading or research background",
+      "fit": "0-3 years of experience · math / physics / CS / financial engineering · trading or research background",
       "why": "The Singapore team is expanding with full EP sponsorship. Juniors get hands-on with proprietary capital — a steep growth curve."
     },
     {
@@ -244,8 +244,8 @@
       "loc": "Singapore",
       "group": "Singapore",
       "tag": "Top-Tier Multi-Strategy Quant Platform",
-      "excerpt": "Fundamental analysis in commodities, working closely with the trading team. Open to new grads and those with 1–3 years of experience.",
-      "fit": "New grad / 1–3 years · commodities / energy / macro background · strong data analysis",
+      "excerpt": "Fundamental analysis in commodities, working closely with the trading team. Open to new grads and those with 1-3 years of experience.",
+      "fit": "New grad / 1-3 years · commodities / energy / macro background · strong data analysis",
       "why": "Commodities is a new expansion area combining fundamental and quant approaches — a rare career path."
     },
     {
@@ -317,7 +317,7 @@
       "tag": "Top 10B-RMB Quant Fund",
       "excerpt": "Alpha signal research and portfolio optimization; 60+ in the department. Master's from a top-tier (985) university or above; live strategy experience preferred. Average researcher carry ranges from RMB 2M to 5M.",
       "fit": "985 master's + 2+ years of quant research · verifiable live performance · Python/C++",
-      "why": "Consistently among the largest quant funds domestically, with average researcher carry of RMB 2–5M. The alpha department of 60+ has a complete mentorship system."
+      "why": "Consistently among the largest quant funds domestically, with average researcher carry of RMB 2-5M. The alpha department of 60+ has a complete mentorship system."
     },
     {
       "id": "QT-2612",
@@ -457,8 +457,8 @@
       "loc": "Hong Kong",
       "group": "Hong Kong",
       "tag": "Top-Tier Multi-Strategy Platform · HK",
-      "excerpt": "Desk Quant for a new trading desk, junior-to-mid (2–6 years), pure Python, open to pure engineering backgrounds. Sit alongside the desk and directly serve its strategies.",
-      "fit": "2–6 years of Python · trading desk / platform development",
+      "excerpt": "Desk Quant for a new trading desk, junior-to-mid (2-6 years), pure Python, open to pure engineering backgrounds. Sit alongside the desk and directly serve its strategies.",
+      "fit": "2-6 years of Python · trading desk / platform development",
       "why": "A new desk means brand-new PnL opportunity; joining early as a QD can lead into strategy work. Urgent hiring, fast process."
     },
     {
@@ -514,7 +514,7 @@
       "loc": "Hong Kong",
       "group": "Hong Kong",
       "tag": "Top-Tier Multi-Strategy Platform · HK",
-      "excerpt": "Desk Quant on the CTA desk — a new headcount. CTA asset-class experience required; seniority flexible (2–30 years all welcome).",
+      "excerpt": "Desk Quant on the CTA desk — a new headcount. CTA asset-class experience required; seniority flexible (2-30 years all welcome).",
       "fit": "Python · CTA / futures strategy experience",
       "why": "CTA is a scarce niche; candidates matching both the skill set and the asset class are rare — a match is high value."
     },
@@ -585,8 +585,8 @@
       "loc": "Hong Kong",
       "group": "Hong Kong",
       "tag": "Top-Tier Multi-Strategy Platform · HK",
-      "excerpt": "8–12 years of experience; language-agnostic but you'll ultimately work in Go. Build the toolchain for the HPC research platform. Urgent hiring; big-tech backgrounds preferred.",
-      "fit": "8–12 years · Go · HPC / platform engineering · big-tech background",
+      "excerpt": "8-12 years of experience; language-agnostic but you'll ultimately work in Go. Build the toolchain for the HPC research platform. Urgent hiring; big-tech backgrounds preferred.",
+      "fit": "8-12 years · Go · HPC / platform engineering · big-tech background",
       "why": "The HPC research platform is the firm's core quant infrastructure. Extremely urgent hiring; big-tech backgrounds can go straight to negotiation."
     },
     {
@@ -627,7 +627,7 @@
       "loc": "Singapore",
       "group": "Singapore",
       "tag": "Top-Tier Multi-Strategy Quant Platform",
-      "excerpt": "KDB+/Q time-series database development for the research data platform. Open to new grads and 1–2 years of experience.",
+      "excerpt": "KDB+/Q time-series database development for the research data platform. Open to new grads and 1-2 years of experience.",
       "fit": "KDB+/Q or related time-series experience · new grads welcome",
       "why": "KDB+ is a core quant-industry skill. The platform provides structured training — master it and you become scarce."
     },
@@ -2492,9 +2492,9 @@
       "loc_filters": [
         "hk"
       ],
-      "excerpt": "Mid-frequency strategy research across China A-shares, futures and options — owning the full path from factor mining and model building through portfolio management. 3–4 years of independent research experience; deep expertise in any one of equity alpha, futures CTA or options market-making is sufficient, full-stack coverage is not required.",
-      "fit": "3–4 years in quantitative research (2–3 years considered for an exceptional candidate) · able to run the factor-to-portfolio cycle independently · options / convertible bonds a strong plus · fluent English (interviews include US and Europe colleagues) · willing to relocate to Hong Kong",
-      "why": "A mature quantitative research group within a top-tier proprietary trading firm, with meaningful autonomy and short decision chains. Options and convertible bonds are a priority area for the team, with clear resource commitment. A structured 5–6 round process and competitive compensation assessed case by case."
+      "excerpt": "Mid-frequency strategy research across China A-shares, futures and options — owning the full path from factor mining and model building through portfolio management. 3-4 years of independent research experience; deep expertise in any one of equity alpha, futures CTA or options market-making is sufficient, full-stack coverage is not required.",
+      "fit": "3-4 years in quantitative research (2-3 years considered for an exceptional candidate) · able to run the factor-to-portfolio cycle independently · options / convertible bonds a strong plus · fluent English (interviews include US and Europe colleagues) · willing to relocate to Hong Kong",
+      "why": "A mature quantitative research group within a top-tier proprietary trading firm, with meaningful autonomy and short decision chains. Options and convertible bonds are a priority area for the team, with clear resource commitment. A structured 5-6 round process and competitive compensation assessed case by case."
     },
     {
       "id": "QT-2780",
@@ -2506,8 +2506,8 @@
       "loc_filters": [
         "hk"
       ],
-      "excerpt": "C++ development across the trading systems stack, contributing to the engineering implementation of quantitative trading workflows. 1.5–3 years of relevant experience is sufficient — a top-tier big-tech background is not required, and solid experience at an established institution is equally welcome.",
-      "fit": "1.5–3 years of C++ development · trading systems / low-latency / financial engineering exposure preferred · solid experience at an established institution valued over big-tech branding · able to invest in engineering detail over the long run",
+      "excerpt": "C++ development across the trading systems stack, contributing to the engineering implementation of quantitative trading workflows. 1.5-3 years of relevant experience is sufficient — a top-tier big-tech background is not required, and solid experience at an established institution is equally welcome.",
+      "fit": "1.5-3 years of C++ development · trading systems / low-latency / financial engineering exposure preferred · solid experience at an established institution valued over big-tech branding · able to invest in engineering detail over the long run",
       "why": "The technology team of a global multi-strategy hedge fund, with the role currently open and a moderate experience bar (from 1.5 years). A strong fit for developers who want depth in trading-systems engineering rather than product work in pure tech."
     },
     {
@@ -2647,8 +2647,8 @@
         "hk",
         "sh"
       ],
-      "excerpt": "Own end-to-end procurement of technology services and hardware across APAC, with primary focus on China, Hong Kong and Singapore. The role is hardware-led (network circuits, datacenter equipment) while also handling smaller software purchases; large enterprise software buys are led by another team member. You will process TO and LQ tickets through internal workflows, source vendors on pricing and contracts under legal and management guidance, and manage relationships with local carriers, datacenter operators and hardware suppliers. 4–8 years in technology procurement, vendor management or IT sourcing; financial services preferred, with tech-industry backgrounds (cloud providers, compute and datacenters) also welcome. Fluent written and verbal English and Mandarin.",
-      "fit": "4–8 years in technology procurement / vendor management / IT sourcing · familiarity with network circuits and/or hardware procurement · fluent written and verbal English and Mandarin · experience with internal approval workflows and legal/compliance processes · detail-oriented, able to run high-volume concurrent workstreams · proficient in Microsoft Office; Jira or similar ticketing systems a plus",
+      "excerpt": "Own end-to-end procurement of technology services and hardware across APAC, with primary focus on China, Hong Kong and Singapore. The role is hardware-led (network circuits, datacenter equipment) while also handling smaller software purchases; large enterprise software buys are led by another team member. You will process TO and LQ tickets through internal workflows, source vendors on pricing and contracts under legal and management guidance, and manage relationships with local carriers, datacenter operators and hardware suppliers. 4-8 years in technology procurement, vendor management or IT sourcing; financial services preferred, with tech-industry backgrounds (cloud providers, compute and datacenters) also welcome. Fluent written and verbal English and Mandarin.",
+      "fit": "4-8 years in technology procurement / vendor management / IT sourcing · familiarity with network circuits and/or hardware procurement · fluent written and verbal English and Mandarin · experience with internal approval workflows and legal/compliance processes · detail-oriented, able to run high-volume concurrent workstreams · proficient in Microsoft Office; Jira or similar ticketing systems a plus",
       "why": "A core APAC procurement seat, dealing directly with local carriers, datacenter operators and hardware suppliers — the hub for the firm’s compute and datacenter buildout. A hardware-led, software-supported scope means you build scarce experience across both datacenter/network hardware procurement and smaller software buys. Based in Hong Kong or Shanghai, covering China, Hong Kong and Singapore. Competitive compensation assessed case by case."
     },
     {
@@ -2662,9 +2662,9 @@
         "hk",
         "sh"
       ],
-      "excerpt": "A brand-new, purely systematic platform building A-share alpha strategies from scratch: factor mining, signal research, model construction and portfolio optimisation end to end. 1–5 years of quant research experience is the main axis, with more senior candidates equally welcome. Requires strong A-share alpha mining skills, an understanding of A-share market microstructure, and English strong enough for a fully English interview. Strategy scope is not limited to Delta One — commodity / futures are also on the roadmap.",
-      "fit": "1–5 years of quantitative research experience (more senior welcome) · strong A-share alpha mining ability / understanding of A-share microstructure · English sufficient for a fully English interview · based primarily in Hong Kong · an ongoing non-compete does not block an application — the client is willing to wait",
-      "why": "A new team on a new platform, with no legacy correlation burden and real strategic freedom; core members come from senior researcher and PM roles at global top-tier firms. Based primarily in Hong Kong (Shanghai considered as an exception). Compensation benchmarks to global top-tier quant levels, with roughly 5–6 months of overseas training on joining. The team has many senior Chinese-speaking leaders, so day-to-day communication is smooth; interviews are in English, but the substance of technical explanation matters more than accent."
+      "excerpt": "A brand-new, purely systematic platform building A-share alpha strategies from scratch: factor mining, signal research, model construction and portfolio optimisation end to end. 1-5 years of quant research experience is the main axis, with more senior candidates equally welcome. Requires strong A-share alpha mining skills, an understanding of A-share market microstructure, and English strong enough for a fully English interview. Strategy scope is not limited to Delta One — commodity / futures are also on the roadmap.",
+      "fit": "1-5 years of quantitative research experience (more senior welcome) · strong A-share alpha mining ability / understanding of A-share microstructure · English sufficient for a fully English interview · based primarily in Hong Kong · an ongoing non-compete does not block an application — the client is willing to wait",
+      "why": "A new team on a new platform, with no legacy correlation burden and real strategic freedom; core members come from senior researcher and PM roles at global top-tier firms. Based primarily in Hong Kong (Shanghai considered as an exception). Compensation benchmarks to global top-tier quant levels, with roughly 5-6 months of overseas training on joining. The team has many senior Chinese-speaking leaders, so day-to-day communication is smooth; interviews are in English, but the substance of technical explanation matters more than accent."
     }
   ]
 }
