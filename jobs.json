@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-20",
   "note": "公司名按客户保密约定匿名化，真实机构名称仅在正式沟通中披露。投递：k.zhang@gravitasgroup.com",
   "jobs": [
     {
@@ -2665,6 +2665,48 @@
       "excerpt": "全新纯系统化平台，从零搭建 A股 Alpha 策略：因子挖掘、信号研究、模型构建与组合优化全链路。以 1-5 年量化研究经验为主轴，更资深同样欢迎；要求扎实的 A股 Alpha 挖掘能力、对 A股市场微观结构的理解，以及可胜任全英文面试的英语表达。策略范围不限于 Delta One，commodity / futures 等方向也在拓展视野内。",
       "fit": "1-5 年量化研究经验（更资深欢迎） · 扎实的 A股 Alpha 挖掘能力 / 熟悉 A股市场微观结构 · 英语可胜任全英文面试 · 工作地点以香港为主 · 竞业未结束不影响投递，客户愿意等",
       "why": "新团队、新平台，没有历史 correlation 负担，策略自由度大；核心成员来自全球头部机构的资深研究员与 PM。工作地点以香港为主（上海可视个人情况作例外）。薪酬对标国际一线量化机构水准，入职提供约 5-6 个月的海外培训。团队内部华裔高管多、日常沟通无碍，面试全英文，但对技术表达实质的要求高于口音。"
+    },
+    {
+      "id": "QT-2792",
+      "function": "ml",
+      "group": "香港",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Machine Learning Researcher — Strategy Desk",
+      "loc": "香港",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "为投资策略团队构建规模化模型，跑通数据提取 → 分析 → 模型校准 → 报告的完整链路。顶尖 PhD + 2-3 年经验，不强制量化交易背景，AI Lab / 大模型团队出身可聊。",
+      "fit": "顶尖 PhD（数学 / 统计 / CS / 物理）· 2-3 年经验 · 建模功底扎实 · 大模型或 AI Lab 背景加分",
+      "why": "明确不卡量化交易背景，国内头部大模型团队出身同样在考虑范围内——对 AI 方向的人是很开放的入口；研究直接服务实盘策略需求。"
+    },
+    {
+      "id": "QT-2793",
+      "function": "research",
+      "group": "香港",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Junior Quant Developer / Researcher — Equities",
+      "loc": "香港",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "股票方向的初级量化开发与量化研究，在既有框架下承担独立模块。1-2 年经验，顶级投行或顶尖名校背景，IMO / IOI 获奖为加分项。",
+      "fit": "1-2 年经验 · 顶级投行 / 金融机构背景 · 顶尖院校 · IMO / IOI 获奖加分 · 上手快",
+      "why": "Junior 级别即可，1-2 年经验正合适；竞赛背景（IMO / IOI）被明确看重，是凭硬实力入场的口子。"
+    },
+    {
+      "id": "QT-2794",
+      "function": "tech",
+      "group": "新加坡",
+      "tag": "老牌 HFT 自营交易",
+      "title": "Trading Operations / Support Engineer",
+      "loc": "新加坡",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "生产环境支持、执行交易员支持、故障排查与监控，需配合交易时段值守。精通 C++ 与 Python，头部量化机构或 production support 背景优先。",
+      "fit": "精通 C++ 与 Python · 能配合交易时段（早 7/8 点至下午 4/5 点）· production support / execution trader support 经验优先",
+      "why": "直接贴近实盘交易一线，C++ 与 Python 双栈能力用在交易支撑上；Application / Reliability Engineer 背景对口。"
     }
   ]
 }

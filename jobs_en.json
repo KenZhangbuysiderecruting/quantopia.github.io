@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-20",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2665,6 +2665,48 @@
       "excerpt": "A brand-new, purely systematic platform building A-share alpha strategies from scratch: factor mining, signal research, model construction and portfolio optimisation end to end. 1-5 years of quant research experience is the main axis, with more senior candidates equally welcome. Requires strong A-share alpha mining skills, an understanding of A-share market microstructure, and English strong enough for a fully English interview. Strategy scope is not limited to Delta One — commodity / futures are also on the roadmap.",
       "fit": "1-5 years of quantitative research experience (more senior welcome) · strong A-share alpha mining ability / understanding of A-share microstructure · English sufficient for a fully English interview · based primarily in Hong Kong · an ongoing non-compete does not block an application — the client is willing to wait",
       "why": "A new team on a new platform, with no legacy correlation burden and real strategic freedom; core members come from senior researcher and PM roles at global top-tier firms. Based primarily in Hong Kong (Shanghai considered as an exception). Compensation benchmarks to global top-tier quant levels, with roughly 5-6 months of overseas training on joining. The team has many senior Chinese-speaking leaders, so day-to-day communication is smooth; interviews are in English, but the substance of technical explanation matters more than accent."
+    },
+    {
+      "id": "QT-2792",
+      "function": "ml",
+      "group": "Hong Kong",
+      "tag": "Established HFT Proprietary Trading",
+      "title": "Machine Learning Researcher — Strategy Desk",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Build large-scale models for the investment strategy team, owning the full chain from data extraction and analysis through model calibration to reporting. Top PhD plus 2-3 years of experience. No prior quant trading background required — candidates from AI labs and LLM teams are welcome.",
+      "fit": "PhD from a top programme (maths / statistics / CS / physics) · 2-3 years' experience · strong modelling · LLM or AI lab background a plus",
+      "why": "Prior quant trading experience is explicitly not required and candidates from leading LLM teams are in scope — an unusually open door for AI profiles. Research feeds directly into live strategy needs."
+    },
+    {
+      "id": "QT-2793",
+      "function": "research",
+      "group": "Hong Kong",
+      "tag": "Established HFT Proprietary Trading",
+      "title": "Junior Quant Developer / Researcher — Equities",
+      "loc": "Hong Kong",
+      "loc_filters": [
+        "hk"
+      ],
+      "excerpt": "Junior quant development and research on the equities side, owning discrete modules within an existing framework. 1-2 years of experience, from a top investment bank or a top-tier university. IMO / IOI medals a plus.",
+      "fit": "1-2 years' experience · top investment bank or financial institution · top-tier university · IMO / IOI medals a plus · quick to ramp up",
+      "why": "Open at junior level — 1-2 years is exactly the target. Competition backgrounds (IMO / IOI) are explicitly valued, so hard technical ability is the way in."
+    },
+    {
+      "id": "QT-2794",
+      "function": "tech",
+      "group": "Singapore",
+      "tag": "Established HFT Proprietary Trading",
+      "title": "Trading Operations / Support Engineer",
+      "loc": "Singapore",
+      "loc_filters": [
+        "sg"
+      ],
+      "excerpt": "Production environment support, execution trader support, troubleshooting and monitoring, aligned to trading hours. Strong C++ and Python required; background at a top quant firm or in production support preferred.",
+      "fit": "Strong C++ and Python · available across trading hours (from 07:00/08:00 to 16:00/17:00) · production support / execution trader support experience preferred",
+      "why": "Directly on the front line of live trading, applying a C++ and Python stack to trading support. Suits an Application or Reliability Engineer profile."
     }
   ]
 }
