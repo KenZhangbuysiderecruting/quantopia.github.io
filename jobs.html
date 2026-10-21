@@ -255,15 +255,37 @@ function funcMeta(f) { return CUR_LANG === 'en' ? (FUNC_META_EN[f] || FUNC_META_
 function fmapLabel(f) { return funcMeta(f)[0]; }
 
 const FIFTEEN_SEC = 15000;
+// 2026-10-20 性能优化：去掉 Date.now() 缓存穿透 + localStorage 6h 缓存（每周更新足够）；英文 JSON 按需加载
+const JOBS_CACHE_KEY = 'quantopia_jobs_cache_v1';
+const JOBS_CACHE_TTL = 6 * 3600 * 1000;
+
+function fetchJobsZhCached() {
+  // 快速路径：localStorage 命中（6h 内直接秒开，不发请求）
+  try {
+    const cached = JSON.parse(localStorage.getItem(JOBS_CACHE_KEY) || 'null');
+    if (cached && cached.data && Date.now() - cached.t < JOBS_CACHE_TTL) return Promise.resolve(cached.data);
+  } catch (e) {}
+  // 无缓存穿透（?v=Date.now() 已移除）：GitHub Pages 返回 ETag，二次访问走 304
+  return fetch('jobs.json').then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }).then(data => {
+    try { localStorage.setItem(JOBS_CACHE_KEY, JSON.stringify({ t: Date.now(), data })); } catch (e) {}
+    return data;
+  });
+}
+
+function fetchJobsEnLazy() {
+  return fetch('jobs_en.json').then(r => r.ok ? r.json() : { jobs: [] }).catch(() => ({ jobs: [] }));
+}
+
 function loadJobs(attempt = 1) {
   document.getElementById('job-total').textContent = attempt > 1 ? `· 重试中…（第 ${attempt} 次）` : '· 加载中…（15秒超时）';
   const timeoutP = new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), FIFTEEN_SEC));
-  const enP = fetch('jobs_en.json?v=' + Date.now()).then(r => r.ok ? r.json() : { jobs: [] }).catch(() => ({ jobs: [] }));
+  // 英文 JSON 仅在当前语言为 EN 时首载；中文用户不再白拉 117KB
+  const enP = (CUR_LANG === 'en') ? fetchJobsEnLazy() : Promise.resolve({ jobs: [] });
   Promise.all([
-    Promise.race([fetch('jobs.json?v=' + Date.now()).then(r => {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    }), timeoutP]),
+    Promise.race([fetchJobsZhCached(), timeoutP]),
     enP
   ])
   .then(([data, enData]) => {
@@ -542,6 +564,17 @@ function renderCases() {
 
 window.QuantopiaOnLangChange = function (lang) {
   CUR_LANG = lang;
+  // 英文 JSON 按需加载：首次切到 EN 时才拉取，拉到后重渲染
+  if (lang === 'en' && !EN_JOBS.length) {
+    fetchJobsEnLazy().then(enData => {
+      EN_JOBS = enData.jobs || [];
+      renderStats();
+      renderSidebar();
+      renderJobs();
+      renderCases();
+    });
+    return;
+  }
   renderStats();
   renderSidebar();
   renderJobs();
