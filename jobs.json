@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-27",
   "note": "公司名按客户保密约定匿名化，真实机构名称仅在正式沟通中披露。投递：k.zhang@gravitasgroup.com",
   "jobs": [
     {
@@ -2707,6 +2707,20 @@
       "excerpt": "生产环境支持、执行交易员支持、故障排查与监控，需配合交易时段值守。精通 C++ 与 Python，头部量化机构或 production support 背景优先。",
       "fit": "精通 C++ 与 Python · 能配合交易时段（早 7/8 点至下午 4/5 点）· production support / execution trader support 经验优先",
       "why": "直接贴近实盘交易一线，C++ 与 Python 双栈能力用在交易支撑上；Application / Reliability Engineer 背景对口。"
+    },
+    {
+      "id": "QT-2795",
+      "function": "ml",
+      "group": "上海",
+      "tag": "全球系统化交易平台 · ML 预测因子",
+      "title": "Data Scientist — ML Predictive Factors (Shanghai)",
+      "loc": "上海",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "为下游交易策略供给预测因子与特征：用高级统计方法处理大规模数据集，产出可进入生产流程的系统性因子，喂给机器学习模型。不是策略岗，策略盈亏不直接归属，但模型上游的东西由这个岗位决定。要求顶级院校数理背景、至少一门主流语言过硬，中英双语配合跨地区团队。",
+      "fit": "数学 / 统计 / 金融工程 / 计算机 / 物理，顶级院校 · 至少精通一门主流语言：C++ / Java / Python / kdb·q · 因子挖掘 → 回测 → 上线的完整闭环 · 熟悉 ML pipeline 与回测框架 · 中英双语 · 工作地点上海",
+      "why": "产出直接进入交易策略，不停留在纯研究环节；数据与执行管道由平台承担，精力集中在建模。亚洲交易所市场结构是团队起点方向而非附属业务。一次申请即进入该机构人才库，更匹配的岗位由团队主动接洽。薪酬对标国际一线，按个案评估。"
     }
   ]
 }
