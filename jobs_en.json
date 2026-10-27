@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-27",
   "note": "English translations of Quantopia open roles",
   "jobs": [
     {
@@ -2707,6 +2707,20 @@
       "excerpt": "Production environment support, execution trader support, troubleshooting and monitoring, aligned to trading hours. Strong C++ and Python required; background at a top quant firm or in production support preferred.",
       "fit": "Strong C++ and Python · available across trading hours (from 07:00/08:00 to 16:00/17:00) · production support / execution trader support experience preferred",
       "why": "Directly on the front line of live trading, applying a C++ and Python stack to trading support. Suits an Application or Reliability Engineer profile."
+    },
+    {
+      "id": "QT-2795",
+      "function": "ml",
+      "group": "Shanghai",
+      "tag": "Global Systematic Trading Platform · ML Predictive Factors",
+      "title": "Data Scientist — ML Predictive Factors (Shanghai)",
+      "loc": "Shanghai",
+      "loc_filters": [
+        "sh"
+      ],
+      "excerpt": "Supplying predictive factors and features to downstream trading strategies: applying advanced statistical methods to large-scale datasets and producing systematic factors that reach production, feeding machine-learning models. Not a strategy seat — P&L is not directly attributed to this role, but the upstream of the models is decided here. Requires a top-tier quantitative background, at least one strong programming language, and bilingual Chinese/English for cross-region collaboration.",
+      "fit": "Mathematics / Statistics / Financial Engineering / Computer Science / Physics from a top-tier university · at least one strong mainstream language: C++ / Java / Python / kdb·q · a complete loop from factor mining to backtesting to production · familiar with ML pipelines and backtesting frameworks · bilingual Chinese/English · based in Shanghai",
+      "why": "Output flows straight into trading strategies rather than stopping at pure research; the data and execution pipelines are carried by the platform, so the work stays on modelling. Asian exchange market structure is a starting direction for the team, not a side business. One application puts you into the firm’s talent pool, with the team proactively reaching out on better-fitting roles. Compensation benchmarks to global top-tier levels, assessed case by case."
     }
   ]
 }
