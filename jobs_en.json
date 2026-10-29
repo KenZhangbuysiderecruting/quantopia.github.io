@@ -2735,6 +2735,20 @@
    "excerpt": "A data-engineering seat upgraded from the former Data Integration Specialist role: the focus has shifted from pure development toward the business side, working directly on the research team's data needs. Understanding what researchers build is expected, and financial knowledge is a plus. In substance the role leans data science, but coding must be solid — strong Python fundamentals with object-oriented programming closely examined. Interviews allow AI for syntax questions but not for solving problems.",
    "fit": "Data-science backgrounds with financial experience preferred · solid Python fundamentals (object-oriented programming a key focus) · able to understand research needs and collaborate with researchers · based in Hong Kong or willing to relocate",
    "why": "First-hand intel: the team has been interviewing and rejecting multiple candidates, so the headcount is real and moving fast. The role has just pivoted from tech to the business side — pure developers lack the finance sense and pure DS profiles fall short on code. Hybrid profiles are exactly what fits this window."
+  },
+  {
+   "id": "QT-2797",
+   "function": "tech",
+   "group": "Hong Kong",
+   "tag": "Global Top-Tier Proprietary Trading Firm",
+   "title": "Quantitative Developer — Equity Stat Arb (Hong Kong)",
+   "loc": "Hong Kong",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "A new Hong Kong team build-out within a successful global equity stat arb business: as a quantitative developer you will architect, build and maintain the team's research infrastructure and production systems alongside researchers and engineers. Project areas include a proprietary end-to-end ML pipeline, market-microstructure research tooling, a portfolio optimization system, and data pipeline / system management. Requires a 5+ year track record of solving hard problems through code (industry or academia) with strong Python and/or C++; 2+ years with industrial-grade compiled codebases (C++) is advantageous, as is HPC and distributed large-scale model training.",
+   "fit": "5+ years of coding impact with real metrics (industry or academia) · strong Python and/or C++ · 2+ years on industrial-grade compiled codebases (C++) preferred · HPC / distributed large-scale model training a plus · reliable availability for production systems · enjoys open-ended problems and owning solutions",
+   "why": "Ground-floor build-out of a new team on a proven business: the research infrastructure, ML pipeline and portfolio optimization system all get shaped by early members. Sits on the same business line as the firm's Hong Kong mid-frequency researcher seat, covering the full cycle from research to engineering to production operations — one of the shortest paths for engineers into the research side of a top proprietary platform. Values learning speed and curiosity over quant pedigree."
   }
  ]
 }
