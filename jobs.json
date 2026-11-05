@@ -165,7 +165,7 @@
   },
   {
    "id": "QT-2647",
-   "function": "research",
+   "function": "data",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
    "title": "Data Scientist",
@@ -279,7 +279,7 @@
   },
   {
    "id": "QT-2606",
-   "function": "research",
+   "function": "data",
    "group": "阿布扎比",
    "tag": "主权财富基金 · 阿布扎比",
    "title": "Data Scientist",
@@ -520,7 +520,7 @@
   },
   {
    "id": "QT-2655",
-   "function": "tech",
+   "function": "data",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
    "title": "Senior Software Engineer — Data Platform",
@@ -591,7 +591,7 @@
   },
   {
    "id": "QT-2660",
-   "function": "tech",
+   "function": "data",
    "group": "香港",
    "tag": "顶级多策略平台 · 香港",
    "title": "Data Support Engineer",
@@ -860,7 +860,7 @@
   },
   {
    "id": "QT-2663",
-   "function": "research",
+   "function": "data",
    "group": "上海",
    "tag": "买方量化机构",
    "title": "Data Acquisition Specialist（另类数据采购）",
@@ -1126,7 +1126,7 @@
   },
   {
    "id": "QT-2682",
-   "function": "ml",
+   "function": "data",
    "group": "新加坡",
    "tag": "顶级多策略平台",
    "title": "Senior Data Scientist",
@@ -1210,7 +1210,7 @@
   },
   {
    "id": "QT-2688",
-   "function": "ml",
+   "function": "data",
    "group": "新加坡",
    "tag": "全球多策略对冲基金",
    "title": "Data Scientist — AI Enablement",
@@ -1658,7 +1658,7 @@
   },
   {
    "id": "QT-2720",
-   "function": "ml",
+   "function": "data",
    "group": "上海",
    "tag": "顶级 HFT · 加密做市",
    "title": "Data Scientist — Post Trade Analytics",
@@ -2568,7 +2568,7 @@
   },
   {
    "id": "QT-2785",
-   "function": "tech",
+   "function": "data",
    "group": "香港",
    "tag": "多策略平台 · 香港",
    "title": "Market Data Engineer",
@@ -2710,7 +2710,7 @@
   },
   {
    "id": "QT-2795",
-   "function": "ml",
+   "function": "data",
    "group": "上海",
    "tag": "全球系统化交易平台 · ML 预测因子",
    "title": "Data Scientist — ML Predictive Factors (Shanghai)",
@@ -2724,7 +2724,7 @@
   },
   {
    "id": "QT-2796",
-   "function": "tech",
+   "function": "data",
    "group": "香港",
    "tag": "全球顶级量化研究机构",
    "title": "Quantitative Data Engineer (Hong Kong)",
@@ -2851,7 +2851,7 @@
   },
   {
    "id": "QT-2805",
-   "function": "tech",
+   "function": "data",
    "group": "北京 / 上海",
    "tag": "头部量化 · 数据团队",
    "title": "数据开发 Leader（北京 / 上海）",
@@ -2866,7 +2866,7 @@
   },
   {
    "id": "QT-2806",
-   "function": "tech",
+   "function": "data",
    "group": "北京 / 上海",
    "tag": "头部量化 · 数据团队",
    "title": "数据开发 IC · Junior（北京 / 上海）",
