@@ -505,20 +505,6 @@
    "why": "多 desk 支持=视野广，接触平台所有策略线。"
   },
   {
-   "id": "QT-2654",
-   "function": "tech",
-   "group": "香港",
-   "tag": "顶级多策略平台 · 香港",
-   "title": "Desk Quant — Python (CTA)",
-   "loc": "香港",
-   "loc_filters": [
-    "hk"
-   ],
-   "excerpt": "CTA 交易台 Desk Quant，新 HC。需 CTA 资产类别经验，seniority 不限（2-30 年均可）。",
-   "fit": "Python · CTA / 期货策略经验",
-   "why": "CTA 是稀缺方向，技能+资产类别双匹配很难找，匹配即高价值。"
-  },
-  {
    "id": "QT-2655",
    "function": "data",
    "group": "香港",
@@ -548,34 +534,6 @@
    "why": "研究框架是全员依赖的核心设施，影响面大；SG/HK 双地可选。"
   },
   {
-   "id": "QT-2657",
-   "function": "tech",
-   "group": "香港",
-   "tag": "顶级多策略平台 · 香港",
-   "title": "Software Engineer — Researcher Experience",
-   "loc": "香港",
-   "loc_filters": [
-    "hk"
-   ],
-   "excerpt": "服务研究员的技术支持工程师，帮研究员解决技术问题、提升效率。SaaS 客户解决方案工程师背景最匹配。",
-   "fit": "技术+沟通 · 客户解决方案工程师经验",
-   "why": "研究员体验岗=长期稳定，金融知识非必需，沟通型工程师天堂。"
-  },
-  {
-   "id": "QT-2658",
-   "function": "tech",
-   "group": "香港",
-   "tag": "顶级多策略平台 · 香港",
-   "title": "Desk Quant — C++ Pricing & Risk",
-   "loc": "香港",
-   "loc_filters": [
-    "hk"
-   ],
-   "excerpt": "交易台定价风控 C++ 方向，强 C++ 定价/量化库，FX/期权资产类别经验。急招。",
-   "fit": "强 C++ · 定价/量化库 · FX 或期权经验",
-   "why": "定价风控是核心利润系统，急招=真实在推；技能稀缺定价高。"
-  },
-  {
    "id": "QT-2659",
    "function": "tech",
    "group": "香港",
@@ -588,20 +546,6 @@
    "excerpt": "8-12 年经验，语言不限但最终用 Go。建设 HPC 研究平台的工具链。急招，偏好大厂背景。",
    "fit": "8-12 年 · Go · HPC / 平台工程 · 大厂背景",
    "why": "HPC 研究平台=量化核心基础设施，超级急招，大厂背景直接可谈。"
-  },
-  {
-   "id": "QT-2660",
-   "function": "data",
-   "group": "香港",
-   "tag": "顶级多策略平台 · 香港",
-   "title": "Data Support Engineer",
-   "loc": "香港",
-   "loc_filters": [
-    "hk"
-   ],
-   "excerpt": "数据支持工程师，2+ 年经验，技术门槛低于其他岗位，需接受做支持。急招。",
-   "fit": "2+ 年 · 数据/运维支持 · 沟通好",
-   "why": "低门槛进顶级多策略平台的机会；急招流程快。"
   },
   {
    "id": "QT-2618",
@@ -658,34 +602,6 @@
    "excerpt": "低延迟交易系统 C++ 开发，核心订单管理系统。5+ 年 C++ 经验。",
    "fit": "5+ 年 C++ · 低延迟/网络编程 · Linux",
    "why": "做市商核心系统，直接接触全球级低延迟架构，技术天花板高。"
-  },
-  {
-   "id": "QT-2637",
-   "function": "tech",
-   "group": "上海",
-   "tag": "全球顶级衍生品做市商 · 上海",
-   "title": "Data Centre Engineer",
-   "loc": "上海",
-   "loc_filters": [
-    "sh"
-   ],
-   "excerpt": "数据中心基础设施管理，交易所托管机房、网络布线、硬件部署。",
-   "fit": "数据中心/机房运维经验 · 懂网络/硬件",
-   "why": "交易公司数据中心是核心资产，接触全球交易所托管架构。"
-  },
-  {
-   "id": "QT-2638",
-   "function": "tech",
-   "group": "上海",
-   "tag": "全球顶级衍生品做市商 · 上海",
-   "title": "Network Engineer",
-   "loc": "上海",
-   "loc_filters": [
-    "sh"
-   ],
-   "excerpt": "交易所网络接入、低延迟网络架构与运维。",
-   "fit": "网络工程经验 · 低延迟网络 · CCNP/同等水平",
-   "why": "全球级低延迟网络架构，与交易所直连，网络工程师成长平台顶级。"
   },
   {
    "id": "QT-2639",
@@ -899,34 +815,6 @@
    "excerpt": "机器学习驱动的全自动交易策略研发",
    "fit": "5 年+量化研究，BS/MS/PhD",
    "why": "头部做市商核心研究岗，数据与算力资源顶级"
-  },
-  {
-   "id": "QT-2666",
-   "function": "tech",
-   "group": "新加坡",
-   "tag": "顶级做市商",
-   "title": "Software Engineer",
-   "loc": "新加坡",
-   "loc_filters": [
-    "sg"
-   ],
-   "excerpt": "构建公司核心系统与开发工具",
-   "fit": "本科/硕士计算机相关，工程能力强",
-   "why": "顶级做市商，工程文化闻名，薪酬极具竞争力"
-  },
-  {
-   "id": "QT-2667",
-   "function": "tech",
-   "group": "新加坡",
-   "tag": "顶级做市商",
-   "title": "Cybersecurity Engineer",
-   "loc": "新加坡",
-   "loc_filters": [
-    "sg"
-   ],
-   "excerpt": "安全工程与防护体系搭建",
-   "fit": "有安全工程经验",
-   "why": "技术栈前沿，安全团队独立建制"
   },
   {
    "id": "QT-2668",
@@ -1153,48 +1041,6 @@
    "why": "全球多策略量化平台，投研台前岗"
   },
   {
-   "id": "QT-2684",
-   "function": "research",
-   "group": "新加坡",
-   "tag": "顶级多策略量化平台",
-   "title": "Junior Quant Researcher",
-   "loc": "新加坡",
-   "loc_filters": [
-    "sg"
-   ],
-   "excerpt": "量化研究",
-   "fit": "硕士/博士",
-   "why": "平台扩编，新人培养体系成熟"
-  },
-  {
-   "id": "QT-2685",
-   "function": "tech",
-   "group": "新加坡",
-   "tag": "全球多策略对冲基金",
-   "title": "Platform Engineer — Trade Support",
-   "loc": "新加坡",
-   "loc_filters": [
-    "sg"
-   ],
-   "excerpt": "量化交易平台 7×24 支持与自动化",
-   "fit": "本科 CS，5 年+",
-   "why": "全球多策略，平台工程核心岗"
-  },
-  {
-   "id": "QT-2686",
-   "function": "tech",
-   "group": "新加坡",
-   "tag": "全球多策略对冲基金",
-   "title": "Senior Platform Support Engineer",
-   "loc": "新加坡",
-   "loc_filters": [
-    "sg"
-   ],
-   "excerpt": "平台支持工程",
-   "fit": "资深",
-   "why": "稳定平台，技术栈成熟"
-  },
-  {
    "id": "QT-2687",
    "function": "tech",
    "group": "新加坡",
@@ -1221,20 +1067,6 @@
    "excerpt": "生成式 AI 赋能投研",
    "fit": "数据科学背景",
    "why": "AI+投研前沿方向"
-  },
-  {
-   "id": "QT-2689",
-   "function": "ml",
-   "group": "新加坡",
-   "tag": "顶级多策略对冲基金",
-   "title": "Machine Learning Researcher — PhD Intern",
-   "loc": "新加坡",
-   "loc_filters": [
-    "sg"
-   ],
-   "excerpt": "ML/深度学习交易模型研究",
-   "fit": "博士在读/应届",
-   "why": "顶级多策略，ML 研究岗稀缺"
   },
   {
    "id": "QT-2690",
