@@ -505,20 +505,6 @@
    "why": "Supporting multiple desks gives you broad visibility across all of the platform's strategy lines."
   },
   {
-   "id": "QT-2654",
-   "function": "tech",
-   "loc_filters": [
-    "hk"
-   ],
-   "title": "Desk Quant — Python (CTA)",
-   "loc": "Hong Kong",
-   "group": "Hong Kong",
-   "tag": "Top-Tier Multi-Strategy Platform · HK",
-   "excerpt": "Desk Quant on the CTA desk — a new headcount. CTA asset-class experience required; seniority flexible (2-30 years all welcome).",
-   "fit": "Python · CTA / futures strategy experience",
-   "why": "CTA is a scarce niche; candidates matching both the skill set and the asset class are rare — a match is high value."
-  },
-  {
    "id": "QT-2655",
    "function": "data",
    "loc_filters": [
@@ -548,34 +534,6 @@
    "why": "The research framework is core infrastructure everyone depends on — huge impact. Choose between SG or HK."
   },
   {
-   "id": "QT-2657",
-   "function": "tech",
-   "loc_filters": [
-    "hk"
-   ],
-   "title": "Software Engineer — Researcher Experience",
-   "loc": "Hong Kong",
-   "group": "Hong Kong",
-   "tag": "Top-Tier Multi-Strategy Platform · HK",
-   "excerpt": "A technical support engineer serving researchers, solving their technical issues and boosting productivity. SaaS customer solutions engineer backgrounds are the best fit.",
-   "fit": "Technical + communication skills · customer solutions engineer experience",
-   "why": "A researcher-experience role means long-term stability; finance knowledge is not required — a great fit for communication-driven engineers."
-  },
-  {
-   "id": "QT-2658",
-   "function": "tech",
-   "loc_filters": [
-    "hk"
-   ],
-   "title": "Desk Quant — C++ Pricing & Risk",
-   "loc": "Hong Kong",
-   "group": "Hong Kong",
-   "tag": "Top-Tier Multi-Strategy Platform · HK",
-   "excerpt": "C++ pricing & risk on a trading desk — strong C++ with pricing / quant libraries, plus FX / options asset-class experience. Urgent hiring.",
-   "fit": "Strong C++ · pricing / quant libraries · FX or options experience",
-   "why": "Pricing & risk sits at the core of the profit engine. Urgent hiring means it's real; scarce skills command premium pay."
-  },
-  {
    "id": "QT-2659",
    "function": "tech",
    "loc_filters": [
@@ -588,20 +546,6 @@
    "excerpt": "8-12 years of experience; language-agnostic but you'll ultimately work in Go. Build the toolchain for the HPC research platform. Urgent hiring; big-tech backgrounds preferred.",
    "fit": "8-12 years · Go · HPC / platform engineering · big-tech background",
    "why": "The HPC research platform is the firm's core quant infrastructure. Extremely urgent hiring; big-tech backgrounds can go straight to negotiation."
-  },
-  {
-   "id": "QT-2660",
-   "function": "data",
-   "loc_filters": [
-    "hk"
-   ],
-   "title": "Data Support Engineer",
-   "loc": "Hong Kong",
-   "group": "Hong Kong",
-   "tag": "Top-Tier Multi-Strategy Platform · HK",
-   "excerpt": "Data support engineer, 2+ years of experience. The technical bar is lower than other roles, but you must be comfortable with a support function. Urgent hiring.",
-   "fit": "2+ years · data / ops support · strong communication",
-   "why": "A lower-barrier entry into a top multi-strategy platform. Urgent hiring means a fast process."
   },
   {
    "id": "QT-2618",
@@ -658,34 +602,6 @@
    "excerpt": "C++ development on low-latency trading systems, core OMS. 5+ years of C++ experience.",
    "fit": "5+ years of C++ · low latency / network programming · Linux",
    "why": "Core market-maker systems with direct exposure to global-scale low-latency architecture — a high technical ceiling."
-  },
-  {
-   "id": "QT-2637",
-   "function": "tech",
-   "loc_filters": [
-    "sh"
-   ],
-   "title": "Data Centre Engineer",
-   "loc": "Shanghai",
-   "group": "Shanghai",
-   "tag": "Global Top Derivatives Market Maker · Shanghai",
-   "excerpt": "Data center infrastructure management: exchange colocation facilities, network cabling, and hardware deployment.",
-   "fit": "Data center / colocation ops experience · networking and hardware knowledge",
-   "why": "Data centers are core assets for a trading firm — exposure to global exchange colocation architecture."
-  },
-  {
-   "id": "QT-2638",
-   "function": "tech",
-   "loc_filters": [
-    "sh"
-   ],
-   "title": "Network Engineer",
-   "loc": "Shanghai",
-   "group": "Shanghai",
-   "tag": "Global Top Derivatives Market Maker · Shanghai",
-   "excerpt": "Exchange network connectivity, low-latency network architecture, and operations.",
-   "fit": "Network engineering experience · low-latency networks · CCNP or equivalent",
-   "why": "Global-scale low-latency network architecture with direct exchange connectivity — a top environment for network engineers."
   },
   {
    "id": "QT-2639",
@@ -899,34 +815,6 @@
    "excerpt": "Develop fully automated trading strategies driven by machine learning.",
    "fit": "5+ years in quantitative research; BS/MS/PhD",
    "why": "Core research role at a leading market maker with top-tier data and compute resources."
-  },
-  {
-   "id": "QT-2666",
-   "function": "tech",
-   "loc_filters": [
-    "sg"
-   ],
-   "title": "Software Engineer",
-   "loc": "Singapore",
-   "group": "Singapore",
-   "tag": "Top Market Maker",
-   "excerpt": "Build the firm's core systems and developer tooling.",
-   "fit": "Bachelor's/Master's in CS or related field, strong engineering skills",
-   "why": "Top market maker renowned for its engineering culture and highly competitive compensation."
-  },
-  {
-   "id": "QT-2667",
-   "function": "tech",
-   "loc_filters": [
-    "sg"
-   ],
-   "title": "Cybersecurity Engineer",
-   "loc": "Singapore",
-   "group": "Singapore",
-   "tag": "Top Market Maker",
-   "excerpt": "Security engineering and building out the firm's defense infrastructure.",
-   "fit": "Security engineering experience",
-   "why": "Cutting-edge tech stack with a dedicated, independently organized security team."
   },
   {
    "id": "QT-2668",
@@ -1153,48 +1041,6 @@
    "why": "Global multi-strategy quant platform; front-of-desk research role."
   },
   {
-   "id": "QT-2684",
-   "function": "research",
-   "loc_filters": [
-    "sg"
-   ],
-   "title": "Junior Quant Researcher",
-   "loc": "Singapore",
-   "group": "Singapore",
-   "tag": "Top Multi-Strategy Quant Platform",
-   "excerpt": "Quantitative research.",
-   "fit": "Master's/PhD",
-   "why": "Platform expanding; mature development program for juniors."
-  },
-  {
-   "id": "QT-2685",
-   "function": "tech",
-   "loc_filters": [
-    "sg"
-   ],
-   "title": "Platform Engineer — Trade Support",
-   "loc": "Singapore",
-   "group": "Singapore",
-   "tag": "Global Multi-Strategy Hedge Fund",
-   "excerpt": "7×24 support and automation for the quant trading platform.",
-   "fit": "Bachelor's in CS, 5+ years",
-   "why": "Global multi-strategy fund; core platform engineering role."
-  },
-  {
-   "id": "QT-2686",
-   "function": "tech",
-   "loc_filters": [
-    "sg"
-   ],
-   "title": "Senior Platform Support Engineer",
-   "loc": "Singapore",
-   "group": "Singapore",
-   "tag": "Global Multi-Strategy Hedge Fund",
-   "excerpt": "Platform support engineering.",
-   "fit": "Senior-level experience",
-   "why": "Stable platform with a mature tech stack."
-  },
-  {
    "id": "QT-2687",
    "function": "tech",
    "loc_filters": [
@@ -1221,20 +1067,6 @@
    "excerpt": "Generative AI to empower research and investment.",
    "fit": "Data science background",
    "why": "Frontier direction combining AI with investment research."
-  },
-  {
-   "id": "QT-2689",
-   "function": "ml",
-   "loc_filters": [
-    "sg"
-   ],
-   "title": "Machine Learning Researcher — PhD Intern",
-   "loc": "Singapore",
-   "group": "Singapore",
-   "tag": "Top Multi-Strategy Hedge Fund",
-   "excerpt": "Research on ML/deep learning trading models.",
-   "fit": "Current PhD student or recent graduate",
-   "why": "Top multi-strategy fund; scarce ML research role."
   },
   {
    "id": "QT-2690",
