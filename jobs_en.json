@@ -2882,12 +2882,14 @@
   {
    "id": "QT-2807",
    "function": "research",
-   "group": "Beijing",
+   "group": "Beijing/Shanghai/Shenzhen",
    "tag": "AI-Native Quant · Equity Mid/Low-Freq",
-   "title": "Quant Researcher — Equity Mid/Low-Freq, A-Share (Beijing, 2 HC)",
-   "loc": "Beijing",
+   "title": "Quant Researcher — Equity Mid/Low-Freq, A-Share (Beijing/Shanghai/Shenzhen, 2 HC)",
+   "loc": "Beijing / Shanghai / Shenzhen (Beijing preferred)",
    "loc_filters": [
-    "bj"
+    "bj",
+    "sh",
+    "sz"
    ],
    "excerpt": "A rising AI-native quant shop (founded 2025, four funding rounds; core team from a top hedge fund plus DeepMind / Google Brain / Anthropic; their Alpha-mining paper made the ACL 2026 main conference) is hiring equity mid/low-frequency researchers covering A-shares. Factor-driven profiles preferred; candidates from top-100bn domestic quant funds preferred, near-100bn welcome. Base salary RMB 40-70K/month. Based in Beijing; Shanghai / Shenzhen candidates must accept an initial few months on-site in Beijing.",
    "fit": "2+ yrs · A-share mid/low-freq factor research · Top/near-100bn fund background preferred",
@@ -2896,12 +2898,14 @@
   {
    "id": "QT-2808",
    "function": "research",
-   "group": "Beijing",
+   "group": "Beijing/Shanghai/Shenzhen",
    "tag": "AI-Native Quant · Equity Mid/Low-Freq",
-   "title": "Quant Researcher — Equity Mid/Low-Freq, HK-Share (Beijing, 1-2 HC)",
-   "loc": "Beijing",
+   "title": "Quant Researcher — Equity Mid/Low-Freq, HK-Share (Beijing/Shanghai/Shenzhen, 1-2 HC)",
+   "loc": "Beijing / Shanghai / Shenzhen (Beijing preferred)",
    "loc_filters": [
-    "bj"
+    "bj",
+    "sh",
+    "sz"
    ],
    "excerpt": "The HK-share line of the same team (1-2 HC): equity mid/low-frequency alpha factor research covering Hong Kong. Same bar as the A-share line: 2+ years, factor background, top/near-100bn funds preferred. Base salary RMB 40-70K/month; based in Beijing with the same initial on-site requirement for Shanghai / Shenzhen candidates.",
    "fit": "2+ yrs · HK (or transferable) mid/low-freq factors · Top/near-100bn preferred",
@@ -2910,12 +2914,14 @@
   {
    "id": "QT-2809",
    "function": "research",
-   "group": "Beijing",
+   "group": "Beijing/Shanghai/Shenzhen",
    "tag": "AI-Native Quant · Equity PM",
-   "title": "Equity Portfolio Manager — Any Frequency (Beijing)",
-   "loc": "Beijing",
+   "title": "Equity Portfolio Manager — Any Frequency (Beijing/Shanghai/Shenzhen)",
+   "loc": "Beijing / Shanghai / Shenzhen (Beijing preferred)",
    "loc_filters": [
-    "bj"
+    "bj",
+    "sh",
+    "sz"
    ],
    "excerpt": "Frequency-agnostic: high, mid and low frequency all welcome. Requires experience independently running equity strategies and a book, ideally with a mature strategy framework; a verifiable track record in any frequency band works. Base salary RMB 60-100K/month. Based in Beijing (Shanghai / Shenzhen negotiable, same terms to be confirmed).",
    "fit": "Independently ran an equity book · Verifiable track record in any frequency · Top/near-100bn preferred",
