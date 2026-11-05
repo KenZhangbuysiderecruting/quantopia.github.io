@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-05",
  "note": "English translations of Quantopia open roles",
  "jobs": [
   {
@@ -2749,6 +2749,177 @@
    "excerpt": "A new Hong Kong team build-out within a successful global equity stat arb business: as a quantitative developer you will architect, build and maintain the team's research infrastructure and production systems alongside researchers and engineers. Project areas include a proprietary end-to-end ML pipeline, market-microstructure research tooling, a portfolio optimization system, and data pipeline / system management. Requires a 5+ year track record of solving hard problems through code (industry or academia) with strong Python and/or C++; 2+ years with industrial-grade compiled codebases (C++) is advantageous, as is HPC and distributed large-scale model training.",
    "fit": "5+ years of coding impact with real metrics (industry or academia) · strong Python and/or C++ · 2+ years on industrial-grade compiled codebases (C++) preferred · HPC / distributed large-scale model training a plus · reliable availability for production systems · enjoys open-ended problems and owning solutions",
    "why": "Ground-floor build-out of a new team on a proven business: the research infrastructure, ML pipeline and portfolio optimization system all get shaped by early members. Sits on the same business line as the firm's Hong Kong mid-frequency researcher seat, covering the full cycle from research to engineering to production operations — one of the shortest paths for engineers into the research side of a top proprietary platform. Values learning speed and curiosity over quant pedigree."
+  },
+  {
+   "id": "QT-2798",
+   "function": "tech",
+   "group": "Beijing",
+   "tag": "Top Quant Firm · Tech Leadership",
+   "title": "Head of Performance Engineering (Beijing)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "A performance-engineering department currently led by the CTO is getting a dedicated head: solid-line management of 10+ engineers (including performance reviews and full hire-to-exit ownership), hands-on low-level system performance optimization. Open to candidates from top HF firms, broker low-latency desks, returning overseas talent, or big-tech performance teams. Interview loop is CTO → CFO → CEO; comp is open — this seat has historically reached RMB 3M+.",
+   "fit": "Solid-line management of 10+ · Low-level performance optimization hands-on · Top-tier HF / broker / big-tech background",
+   "why": "Dedicated leadership seat; executive-panel loop; high comp ceiling."
+  },
+  {
+   "id": "QT-2799",
+   "function": "tech",
+   "group": "Beijing",
+   "tag": "Top Quant Firm · AI Infra",
+   "title": "AI Infrastructure / Research Platform Engineer (Beijing, 2 HC)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "Build out the AI-infrastructure backbone of a quant research platform: AI infra, storage, distributed systems, GPU optimization. 5+ years, big-tech background preferred. Newly opened and high priority.",
+   "fit": "5+ years · AI infra / storage / distributed / GPU optimization · Big-tech preferred",
+   "why": "Newly opened, high priority; platform-level impact."
+  },
+  {
+   "id": "QT-2800",
+   "function": "tech",
+   "group": "Beijing",
+   "tag": "Top Quant Firm · HFT Engineering",
+   "title": "Quantitative Developer — HFT (Beijing, 3 HC)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "Strong engineering skills are what matter: non-industry candidates with 1-5 years are welcome, but QR-to-dev career switchers are explicitly excluded. Long-running req and historically one of the fastest-closing roles at this firm.",
+   "fit": "Strong engineering · Non-industry 1-5 yrs OK · Pure QR-to-dev profiles not accepted",
+   "why": "Fast-closing; open year-round."
+  },
+  {
+   "id": "QT-2801",
+   "function": "tech",
+   "group": "Shanghai / Beijing",
+   "tag": "Top Quant Firm · C++",
+   "title": "C++ Developer (Shanghai 2 HC + Beijing 1 HC)",
+   "loc": "Shanghai / Beijing",
+   "loc_filters": [
+    "sh",
+    "bj"
+   ],
+   "excerpt": "Shanghai: one mid-level (3-5 yrs) and one senior; Beijing: 0-3 yrs, fresh graduates considered. Low-level directions (storage / database / networking) convert to offers at a much higher rate; application-layer profiles are passed on directly. 9 of 10 hires this year came from big tech.",
+   "fit": "Strong C++ · Low-level focus preferred (storage / DB / networking) · Shanghai 3-5 yrs / Beijing 0-3 yrs",
+   "why": "Always-on req; fast closing."
+  },
+  {
+   "id": "QT-2802",
+   "function": "tech",
+   "group": "Shanghai",
+   "tag": "Top Quant Firm · Trading Systems",
+   "title": "Python Developer — Trading Systems (Shanghai)",
+   "loc": "Shanghai",
+   "loc_filters": [
+    "sh"
+   ],
+   "excerpt": "Backend engineering on the trading system, specifically the risk-control stack. 3+ years. Purely data-oriented Python profiles are explicitly out of scope. Large candidate pool; closes fast.",
+   "fit": "Python engineering · Trading-system backend / risk control · 3+ yrs · Not a pure-data profile",
+   "why": "Fast-closing seat."
+  },
+  {
+   "id": "QT-2803",
+   "function": "tech",
+   "group": "Beijing",
+   "tag": "Top Quant Firm · FPGA",
+   "title": "FPGA Developer (Beijing)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "Reopened as workload rebounds (hired last year, paused during the AI-efficiency phase). Senior preferred; strong juniors with excellent academic credentials also considered. 985 university threshold, relaxable for senior candidates.",
+   "fit": "FPGA development · Senior preferred, or 985-background high-potential",
+   "why": "Reopened req; less competition."
+  },
+  {
+   "id": "QT-2804",
+   "function": "tech",
+   "group": "Beijing",
+   "tag": "Top Quant Firm · Infra Ops",
+   "title": "DevOps / SRE Engineer (Beijing, 2 HC)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "Development ability is a plus; quant-industry background preferred, big tech also welcome. Not urgent — good fits get moved quickly.",
+   "fit": "DevOps / SRE · Development ability a plus",
+   "why": "Friendly bar; always open."
+  },
+  {
+   "id": "QT-2805",
+   "function": "tech",
+   "group": "Beijing / Shanghai",
+   "tag": "Top Quant · Data Team",
+   "title": "Data Engineering Lead (Beijing / Shanghai)",
+   "loc": "Beijing / Shanghai",
+   "loc_filters": [
+    "bj",
+    "sh"
+   ],
+   "excerpt": "3-8 years of experience; the team skews young (around 30). Pitched as leading a 1-4 person squad, with the actual scope set at interview. Two preferred paths: a PhD in finance or statistics (2-4 years post-graduation; never having managed people is fine) or a background at a domestic or international financial / alternative data provider. Data-startup, data-company and top-fintech high-potential profiles are all in scope. Key traits: sharp, resilient, genuinely interested in data, willing to dig across the whole data pipeline, hands-on. Internet-industry backgrounds are not prioritized.",
+   "fit": "3-8 yrs · Finance/stats PhD or financial-data-provider background · Pipeline-wide curiosity · Hands-on",
+   "why": "Data is the strategy backbone; flexible management scope (1-4 to start)."
+  },
+  {
+   "id": "QT-2806",
+   "function": "tech",
+   "group": "Beijing / Shanghai",
+   "tag": "Top Quant · Data Team",
+   "title": "Data Engineer — Junior (Beijing / Shanghai)",
+   "loc": "Beijing / Shanghai",
+   "loc_filters": [
+    "bj",
+    "sh"
+   ],
+   "excerpt": "1-3 years of experience, stretchable to 4 for exceptional backgrounds — beyond that, no. Good academic record and comparable experience required; data engineering first. Preferred sources: young high-potentials from the top brokers (CITIC / CICC / etc.), international investment banks, or financial data providers. Explicitly not too senior. Pure internet backgrounds rank low; finance exposure ranks high.",
+   "fit": "1-3 yrs (max 4) · Top brokers / IB / financial data providers · Strong academic record",
+   "why": "High-potential junior seat; the client's most urgent line."
+  },
+  {
+   "id": "QT-2807",
+   "function": "research",
+   "group": "Beijing",
+   "tag": "AI-Native Quant · Equity Mid/Low-Freq",
+   "title": "Quant Researcher — Equity Mid/Low-Freq, A-Share (Beijing, 2 HC)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "A rising AI-native quant shop (founded 2025, four funding rounds; core team from a top hedge fund plus DeepMind / Google Brain / Anthropic; their Alpha-mining paper made the ACL 2026 main conference) is hiring equity mid/low-frequency researchers covering A-shares. Factor-driven profiles preferred; candidates from top-100bn domestic quant funds preferred, near-100bn welcome. Base salary RMB 40-70K/month. Based in Beijing; Shanghai / Shenzhen candidates must accept an initial few months on-site in Beijing.",
+   "fit": "2+ yrs · A-share mid/low-freq factor research · Top/near-100bn fund background preferred",
+   "why": "Team scaling phase; genuine AI-quant integration; 2 urgent seats."
+  },
+  {
+   "id": "QT-2808",
+   "function": "research",
+   "group": "Beijing",
+   "tag": "AI-Native Quant · Equity Mid/Low-Freq",
+   "title": "Quant Researcher — Equity Mid/Low-Freq, HK-Share (Beijing, 1-2 HC)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "The HK-share line of the same team (1-2 HC): equity mid/low-frequency alpha factor research covering Hong Kong. Same bar as the A-share line: 2+ years, factor background, top/near-100bn funds preferred. Base salary RMB 40-70K/month; based in Beijing with the same initial on-site requirement for Shanghai / Shenzhen candidates.",
+   "fit": "2+ yrs · HK (or transferable) mid/low-freq factors · Top/near-100bn preferred",
+   "why": "Newly opened direction; same platform as the A-share team."
+  },
+  {
+   "id": "QT-2809",
+   "function": "research",
+   "group": "Beijing",
+   "tag": "AI-Native Quant · Equity PM",
+   "title": "Equity Portfolio Manager — Any Frequency (Beijing)",
+   "loc": "Beijing",
+   "loc_filters": [
+    "bj"
+   ],
+   "excerpt": "Frequency-agnostic: high, mid and low frequency all welcome. Requires experience independently running equity strategies and a book, ideally with a mature strategy framework; a verifiable track record in any frequency band works. Base salary RMB 60-100K/month. Based in Beijing (Shanghai / Shenzhen negotiable, same terms to be confirmed).",
+   "fit": "Independently ran an equity book · Verifiable track record in any frequency · Top/near-100bn preferred",
+   "why": "Final round is the boss — short decision chain; high comp ceiling."
   }
  ]
 }
