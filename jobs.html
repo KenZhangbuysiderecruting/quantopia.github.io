@@ -168,6 +168,7 @@
             <option data-en="Research (QR / PM / Trading / Market Making)">投研类（QR / PM / 交易 / 做市）</option>
             <option data-en="Engineering (QD / QE)">技术开发类（QD / QE）</option>
             <option data-en="Machine Learning">机器学习类</option>
+            <option data-en="Data (Data Eng / DS / Data Platform)">数据类（数据工程 / 数据科学 / 数据平台）</option>
             <option data-en="Not sure yet">暂不明确</option>
           </select>
         </label>
@@ -243,12 +244,14 @@ const LOC_ORDER = ['hk','sg','sh','sz','bj','syd','adh','remote'];
 const FUNC_META_ZH = {
   research: ['🧠 投研', 'QR / PM / Trader / 做市'],
   tech: ['🛠 技术', 'QD / QE / 平台 / 低延迟'],
-  ml: ['🤖 ML', 'ML Researcher · AI']
+  ml: ['🤖 ML', 'ML Researcher · AI'],
+  data: ['🗄 数据', '数据工程 / 数据科学 / 数据平台']
 };
 const FUNC_META_EN = {
   research: ['🧠 Research', 'QR / PM / Trader / MM'],
   tech: ['🛠 Engineering', 'QD / QE / Platform / Low-latency'],
-  ml: ['🤖 ML', 'ML Researcher · AI']
+  ml: ['🤖 ML', 'ML Researcher · AI'],
+  data: ['🗄 Data', 'Data Eng / DS / Data Platform']
 };
 function locLabel(loc) { return CUR_LANG === 'en' ? (LOC_LABEL_EN[loc] || loc) : (LOC_LABEL_ZH[loc] || loc); }
 function funcMeta(f) { return CUR_LANG === 'en' ? (FUNC_META_EN[f] || FUNC_META_EN.research) : (FUNC_META_ZH[f] || FUNC_META_ZH.research); }
@@ -256,7 +259,7 @@ function fmapLabel(f) { return funcMeta(f)[0]; }
 
 const FIFTEEN_SEC = 15000;
 // 2026-10-20 性能优化：去掉 Date.now() 缓存穿透 + localStorage 6h 缓存（每周更新足够）；英文 JSON 按需加载
-const JOBS_CACHE_KEY = 'quantopia_jobs_cache_v1';
+const JOBS_CACHE_KEY = 'quantopia_jobs_cache_v2';  // v2: 新增 Data 职能分类（2026-11-05）
 const JOBS_CACHE_TTL = 6 * 3600 * 1000;
 
 function fetchJobsZhCached() {
@@ -378,7 +381,7 @@ function renderStats() {
 // ===== Sidebar 筛选（WorldQuant 风）=====
 // ⚠️ 2026-09-01 修复：删除重复的 LOC_LABEL/LOC_ORDER/FUNC_META 声明
 //（309 行已有 LOC_ORDER，310-315 行已有 FUNC_META_ZH/EN）
-const FUNC_ORDER = ['research','tech','ml'];
+const FUNC_ORDER = ['research','tech','ml','data'];
 let FILTER = { loc: null, func: null, search: '' };  // 当前筛选状态
 
 function renderSidebar() {
@@ -438,7 +441,7 @@ function enJob(j) {
   };
 }
 function cardHTML(j) {
-  const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML' };
+  const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML', data: '🗄 数据' };
   const shown = enJob(j);
   const fm = CUR_LANG === 'en' ? (FUNC_META_EN[j.function] ? FUNC_META_EN[j.function][0] : j.function) : (fmap[j.function] || j.function);
   // 整卡点击 → 打开右侧 drawer；job JSON 用 data-* 存到 row 上
@@ -461,7 +464,7 @@ function openJobDrawer(id) {
   const j = ALL_JOBS.find(x => x.id === id);
   if (!j) return;
   const shown = enJob(j);
-  const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML' };
+  const fmap = { research: '🧠 投研', tech: '🛠 技术', ml: '🤖 ML', data: '🗄 数据' };
   const dr = document.getElementById('job-drawer');
   document.getElementById('dr-tag').textContent = CUR_LANG === 'en' ? (FUNC_META_EN[j.function] ? FUNC_META_EN[j.function][0] : j.function) : (fmap[j.function] || j.function);
   document.getElementById('dr-loc').textContent = '📍 ' + shown.loc;
