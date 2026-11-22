@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大模型挖因子18个月：相关性0.2算不算数 - Quantopia</title>
+  <meta name="description" content="某头部量化称大模型零人工介入挖出的另类因子实盘跑赢基准 18 个月、与人工因子相关性不足 0.2。三处该问清的：18 个月够不够杂、零人工指哪一段、0.2 的分母是谁。">
+  <meta name="title-en" content="18 Months, 0.2 Correlation: Does the AI-Dug Factor Hold Up? - Quantopia">
+  <meta name="category" content="AI">
+  <meta name="readtime" content="阅读 7 min">
+  <meta name="tag" content="AI×量化">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .article-wrap { max-width: 760px; margin: 40px auto; padding: 0 20px; }
+    .article-wrap h1 { color: #c9d1d9; font-size: 28px; line-height: 1.4; margin-bottom: 16px; }
+    .article-wrap .meta { color: #8b949e; font-size: 14px; margin-bottom: 30px; border-bottom: 1px solid #30363d; padding-bottom: 16px; }
+    .article-wrap h2 { color: #58a6ff; font-size: 20px; margin-top: 32px; margin-bottom: 14px; border-left: 3px solid #58a6ff; padding-left: 12px; }
+    .article-wrap p { color: #c9d1d9; font-size: 16px; line-height: 1.85; margin-bottom: 16px; }
+    .article-wrap ul { color: #c9d1d9; line-height: 1.85; margin-bottom: 16px; padding-left: 24px; }
+    .article-wrap li { margin-bottom: 8px; }
+    .article-wrap .hook { color: #c9d1d9; font-size: 17px; line-height: 1.85; margin-bottom: 24px; padding: 16px 18px; background: #161b22; border-left: 3px solid #f0883e; border-radius: 4px; }
+    .article-wrap .sources { margin-top: 28px; padding: 16px 18px; background: #161b22; border-left: 3px solid #30363d; border-radius: 4px; }
+    .article-wrap .sources h3 { color: #8b949e; font-size: 14px; margin: 0 0 10px; font-weight: 600; }
+    .article-wrap .sources ul { color: #8b949e; font-size: 13px; line-height: 1.85; margin: 0; padding-left: 20px; }
+    .article-wrap .sources li { margin-bottom: 6px; }
+    .article-wrap .qr-section { margin-top: 36px; padding: 24px 20px; background: #161b22; border-radius: 6px; text-align: center; border: 1px solid #30363d; }
+    .article-wrap .qr-img { width: 160px; height: 160px; border-radius: 4px; display: block; margin: 0 auto 12px; }
+    .article-wrap .qr-label { color: #c9d1d9; font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .article-wrap .qr-sub { color: #8b949e; font-size: 13px; margin: 0; }
+    .back-home { display: block; text-align: center; margin: 30px 0; color: #8b949e; font-size: 14px; text-decoration: none; }
+    .back-home:hover { color: #58a6ff; }
+    table { width:100%; border-collapse:collapse; margin:18px 0; font-size:15px; }
+    thead tr { background:#161b22; }
+  </style>
+  <!-- Cloudflare Web Analytics -->
+  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9373b23427524d409987861f7e5b0e29"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="../index.html" class="logo">📊 Quantopia</a>
+      <nav class="site-nav"><a href="../index.html">首页</a><a href="2026-11-25-大模型因子18个月-en.html" class="lang-switch-inline" style="margin-left:14px;color:var(--ice,#8AB4D8);border:1px solid rgba(138,180,216,.45);padding:4px 12px;border-radius:18px;font-size:12px;text-decoration:none;">EN</a>
+  </nav>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <h1>大模型挖因子18个月：相关性0.2算不算数</h1>
+    <p class="meta">2026-11-25 · Ken Zhang / Gravitas Recruitment</p>
+    <p class="hook">一个人说 18 个月，一个行业说 6 个月。</p>
+    <p>上周圈内传开的说法是：某家头部量化机构在内部交流会上提到，公司用大模型全程自主挖掘、零人工研究员介入的另类因子，实盘跑赢基准超过 18 个月，与传统人工因子相关性不足 0.2。如果成立，它同时推翻两件事——因子平均 6 个月衰减的行业经验，和「AI 只是提效工具」这个保守定位。</p>
+    <p>消息由北京量化投资管理有限公司总经理窦长民转述给《每日经济新闻》。他说这个实盘数据可信度很高，关键是跳出了人类研究员预设的逻辑框架。同一篇报道里，另外两家机构的回应克制得多。</p>
+
+    <h2>先把几个数摆平</h2>
+    <table>
+    <thead><tr><th style="border:1px solid #30363d;padding:10px 12px;text-align:left;color:#58a6ff;">数字</th><th style="border:1px solid #30363d;padding:10px 12px;text-align:left;color:#58a6ff;">含义</th></tr></thead><tbody>
+    <tr><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">18 个月</td><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">该因子实盘跑赢基准的时长，机构自述</td></tr>
+    <tr><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">&lt; 0.2</td><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">与传统人工因子的相关系数，自述，未说明对比基准</td></tr>
+    <tr><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">6 个月</td><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">行业经验里的因子平均衰减周期，被这条消息直接对撞</td></tr>
+    <tr><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">3 家</td><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">公开回应此事的机构数，其中两家对前提提出疑问</td></tr>
+    <tr><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">0.6 元 / 0.2 元</td><td style="border:1px solid #30363d;padding:10px 12px;color:#c9d1d9;">Wind 截至 11 月初，部分量化产品半年内跌到的单位净值，后者是极端个案</td></tr>
+    </tbody></table>
+
+    <h2>18 个月，问的是「够不够杂」</h2>
+    <p>这 18 个月大致横跨 2025 下半年到 2026 全年。而今年下半年 A 股走了一轮风格反转：成长股大幅回撤，市场长时间超卖，短期反转也没带来像样修复。上海一家头部量化的说法是，这轮回撤该放在这样的市场环境里理解，跟是否用 AI 研发没有直接关系。</p>
+    <p>这句表面在替 AI 说话，实际指向更硬的一层：一个因子 18 个月跑赢基准，可能只是恰好长在这段行情的形状上。天算量化的表述更直接——模型如果在训练中不知不觉吸收了前期占优的市场风格，平时不易察觉，风格切换时就可能放大回撤。</p>
+    <p>所以 18 个月该问的不是够不够久，是够不够杂。</p>
+
+    <h2>「零人工」，问的是哪一段</h2>
+    <p>一个因子从想法到上线，至少四个环节会留下人的痕迹：选什么数据、定什么目标、设什么风控阈值、什么时候认定它失效。上海那家说，AI 可以完成给定的挖掘任务，但抛开结果质量和可靠性、只谈任务是否完成，意义有限。</p>
+    <p>「零人工介入」如果指全流程，它描述的是一个不需要研究员的组织；如果只指因子生成那一段，它描述的是一种工具。两者量级完全不同，报道没说清是哪一种。</p>
+    <p>0.2 这层同理。跟自家旧因子库算 0.2，说明它在自家组合里能分散；跟全行业公开因子库算 0.2，才是新闻。前者是内部优化，后者才是那句「打破铁律」。报道没给对比基准——这处留白比 18 个月更关键，因为「低相关」是这类叙事里最容易被复用的一句话，也几乎从来不带口径。</p>
+
+    <h2>这轮回撤，AI 有没有责任</h2>
+    <p>一边「零人工因子跑赢 18 个月」，一边「半年跌成 0.6 元净值」。这不是矛盾，是两个样本：前者是策略自述，后者是行业分布，同一时间也有机构在赚。</p>
+    <p>三家有个共识：AI 是研究工具，工具普及不等于结果趋同。天算说，信号从稀缺走向普及是大概率路径，容易被复制的因子会被竞争压缩、超额变薄；上海那家认为，AI 会让信息更快反映进价格，同时加剧投研竞争。</p>
+    <p>翻成一句更直白的：AI 摊薄的是信号，不是机构之间的差距。</p>
+
+    <h2>对做这行的人</h2>
+    <p>这类消息对从业者的意义不在真假，在于它怎么改招聘口径。若「大模型自主挖因子」被普遍接受，研究员的价值往两头挪：一头是问题定义与数据口径——决定让模型找什么、凭什么相信它找到的；另一头是风险暴露与拥挤度判断——判断一组信号在什么环境下会同时失效。中间那段「按给定框架做因子迭代」，压缩得最快。</p>
+    <p>三家讲回撤归因时，落点几乎一致地停在风险暴露、拥挤程度、换手、杠杆和执行能力上，而不是「用没用 AI」。这个落点，就是这类岗位现在被考核的东西。</p>
+
+    <h2>边界</h2>
+    <p>三个数据全部来自内部交流会上的自述，经第三方转述，没有产品月报、没有归因报告、没有对比基准。窦长民认为可信度高，另两家对前提存疑，两种态度都合理，因为可验证的部分确实太少。</p>
+    <p>0.6 元、0.2 元净值是 Wind 口径的行业分布，不能反推到任何具体机构。</p>
+    <p>想验证那条因子，只需要问三句：这 18 个月最大回撤发生在哪个区间；0.2 是跟哪个因子库算的；换手率和持仓集中度是多少。三句都答得出来，才算方法；答不出来，还停在叙事。</p>
+    <div class="qr-section">
+      <img src="../images/qrcode.png" alt="Quantopia 微信公众号" class="qr-img" loading="lazy">
+      <p class="qr-label">关注 Quantopia</p>
+      <p class="qr-sub">全球对冲基金深度 · 中国市场视角 · 猎头一线洞察</p>
+    </div>
+    <div class="sources">
+      <h3>来源</h3>
+      <ul>
+        <li>每日经济新闻（记者 黄宗彦，2026 年 11 月 20 日）《年内多只量化私募基金业绩受挫，头部机构押注大模型自主挖掘因子技术引发业内热议》：北京量化投资管理有限公司总经理窦长民转述某头部量化机构内部交流会内容——大模型全程自主挖掘、零人工研究员介入的另类因子实盘跑赢基准超 18 个月，与人工因子相关性不足 0.2；业内长期经验为因子平均 6 个月衰减</li>
+        <li>同上报道：上海某头部量化私募、天算量化（北京）资本管理有限公司受访，对「18 个月是否覆盖足够多样的市场环境」「零人工介入具体指哪些环节（数据选择、目标设定、风险控制仍离不开人的判断）」「证据是否比技术标签更重要」提出疑问</li>
+        <li>同上报道：天算量化称 AI 本身不会带来独占性信号，差异来自数据、问题定义与对市场的理解；模型若在训练中吸收前期占优风格，风格切换时可能放大回撤；应重点观察风险暴露、拥挤程度、换手、杠杆与执行能力</li>
+        <li>同上报道：上海某头部量化私募称今年下半年成长股大幅回撤、市场持续超卖、短期反转未带来有力修复，该轮回撤与是否使用 AI 开展研发无直接关系</li>
+        <li>Wind 数据（截至 2026 年 11 月初，经上述报道引用）：部分量化私募产品半年内单位净值跌至 0.6 元区间，个别跌至 0.2 元区间</li>
+      </ul>
+    </div>
+    <a href="../index.html" class="back-home">← 返回首页</a>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>2026 Quantopia · 作者 Ken Zhang / Gravitas Recruitment Group（深圳）</p>
+    </div>
+  </footer>
+</body>
+</html>
