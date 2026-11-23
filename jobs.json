@@ -2763,29 +2763,57 @@
    "id": "QT-2810",
    "function": "research",
    "group": "香港",
-   "tag": "新锐量化基金（2026 成立）",
-   "title": "Quantitative Researcher — Mid-Frequency Equity",
+   "tag": "2026 新锐量化基金（香港）",
+   "title": "Quantitative Researcher — Contextual Alpha",
    "loc": "香港",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "2026 年 6 月成立的香港新锐量化基金，策略中频（持仓 5-10 天），团队规划 15-20 人，招聘火力全在投研核心岗。3-5 年经验最好，清北本硕优先，数学建模竞赛加分，基本面量化背景也看。junior base 约 15 万美金，资深按个案谈。",
-   "fit": "3-5 年中频窗口实盘经验 · 清北本硕优先 · 数学建模等竞赛经历加分 · 中英双语流利",
-   "why": "早期基金，编制 15-20 人，中后台不补——加人全加在投研，能接触到的策略面和资源远超同期进大平台拧螺丝；客户明确不因薪酬卡人。"
+   "excerpt": "2026 年成立的香港新锐量化基金，Contextual Alpha 研究线核心位：从公司事件与财报、NLP（filing / 新闻 / 电话会）、资金流与网络结构、情绪、另类数据中提取预测信号，建成可持续的研究线。约 3-5 年 alpha 研究，NLP/LLM 深度经验，需至少一条实盘研究线端到端负责并带过人。理工/经济金融高级学位，名校学术记录优秀。",
+   "fit": "3-5 年量化 alpha 研究 · NLP/LLM 文本特征实战 · point-in-time 与防泄漏纪律 · Python + 统计/ML 功底 · 带人与定方法论的能力",
+   "why": "firm 在 event/contextual alpha 上的重心位置——研究方向你自己定，标准和 pipeline 也由你建，不是接需求做因子。"
   },
   {
    "id": "QT-2811",
-   "function": "tech",
+   "function": "ml",
    "group": "香港",
-   "tag": "新锐量化基金（2026 成立）",
-   "title": "Quantitative Developer — C++ / Python",
+   "tag": "2026 新锐量化基金（香港）",
+   "title": "Deep Learning Quantitative Researcher",
    "loc": "香港",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "同一家 2026 年成立的香港新锐量化基金，开发岗要求 C++ 或 Python，核心是工程化能力：能独立构建并维护交易系统基础设施，从零把系统立起来，而不是接需求写模块。流程约 5 轮（1 意向 + 4 技术/主管/高管面）。",
-   "fit": "C++ 或 Python · 独立搭建交易系统的工程化能力 · 中英双语流利 · 能赴港实地办公",
-   "why": "新基金的基础设施窗口期就这一次——早期加入意味着你搭的东西就是未来全公司跑的地基，不是在大厂维护别人写了十年的祖传代码。"
+   "excerpt": "同一家香港新锐量化基金，DL 岗要建并拥有公司 alpha 研究的深度学习引擎：从数据准备、分布式训练到评估与生产部署，主导相当比例的研究议程。约 3-5 年把 DL 用于大规模问题，分布式/多卡训练、混合精度、吞吐优化实操；顶级 AI 公司训大模型的 PhD 同等欢迎。",
+   "fit": "3-5 年大规模 DL · 至少一个重要生产系统/研究线的全生命周期负责 · Python + 现代 DL 框架 · 分布式训练与性能优化 · 统计/优化/ML 基础扎实",
+   "why": "全公司 DL 专业性的中心节点：定架构选型、训练诊断、模型评估标准，建标准化训练与推理接口——技术判断力直接变成公司标准。"
+  },
+  {
+   "id": "QT-2812",
+   "function": "tech",
+   "group": "香港",
+   "tag": "2026 新锐量化基金（香港）",
+   "title": "Quant Research Engineer — AI-Native Research Stack",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "同一家基金的工程线：拥有量化研究的技术骨架（管道、数据基础设施、研究与生产算力），并给下一代 AI-native 研究栈定架构方向——LLM 服务、agentic workflow、检索基础设施怎么嵌进研究流程。约 3-5 年量化开发，现代 C++/Python + 大规模数据基建 + 云（AWS/GCP/Azure）。",
+   "fit": "3-5 年量化开发 · 现代 C++/Python（HPC 场景）· 实时/历史 tick 数据基建 · 云与并行计算 · KDB+/Spark/Dask/Redis 选型判断 · K8s/Terraform/CI-CD",
+   "why": "AI-native 不是口号：要把 LLM 与 agent 变成全公司研究流程的常规加速器，同时清楚哪里必须保持确定性——这种判断力在市场上很稀缺。"
+  },
+  {
+   "id": "QT-2813",
+   "function": "tech",
+   "group": "香港",
+   "tag": "2026 新锐量化基金（香港）",
+   "title": "Quant Research Engineer — C++ (Market Data)",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "同一家基金，C++ 必须岗：设计并拥有把 tick 数据变成干净、point-in-time 正确特征的 C++ 框架，服务研究与交易。流式/在线计算、零未来函数、回测与实盘结果一致是硬要求。约 3-5 年量化或高性能开发，有大规模行情数据经验者强加分。",
+   "fit": "现代 C++（必须）+ Python · 流式在线计算与时序处理 · point-in-time 正确性 · 低延迟/HPC、Linux profiling · 可组合框架设计能力",
+   "why": "行情计算层是全公司信号的地基——回测和实盘能不能对齐，取决于这一段写得对不对。做深这一块，比在大厂维护祖传代码更能建立技术话语权。"
   }
  ]
 }

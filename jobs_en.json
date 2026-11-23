@@ -2763,29 +2763,57 @@
    "id": "QT-2810",
    "function": "research",
    "group": "Hong Kong",
-   "tag": "Newly Launched Quant Fund (est. 2026)",
-   "title": "Quantitative Researcher — Mid-Frequency Equity",
+   "tag": "New HK Quant Fund (est. 2026)",
+   "title": "Quantitative Researcher — Contextual Alpha",
    "loc": "Hong Kong",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "A Hong Kong quant fund established in June 2026, running mid-frequency strategies (5-10 day holding periods) with a planned team size of 15-20. All hiring is focused on core investment roles. 3-5 years of experience is ideal; Tsinghua/Peking University background preferred, math olympiad/modeling track record a plus. Junior base around USD 150K.",
-   "fit": "3-5 yrs live mid-frequency experience · top-tier (Tsinghua/PKU) academic background preferred · math competition track record a plus · fluent bilingual (Mandarin + English)",
-   "why": "Early-stage fund where every hire sits on the investment core — exposure to strategy and resources far exceeds a seat at a big platform. Client explicitly does not gate candidates on compensation."
+   "excerpt": "Hong Kong quant fund (est. 2026) building out its Contextual Alpha agenda: extracting predictive signal from corporate events and earnings, NLP on filings/news/transcripts, flow and network structure, sentiment, and alternative data. ~3-5 years of alpha research with deep NLP/LLM experience; proven end-to-end ownership of at least one live research line, including mentoring others. Advanced degree from a leading university.",
+   "fit": "3-5 yrs quant alpha research · NLP/LLM feature engineering on financial text · point-in-time correctness & leakage control · Python + stats/ML · research leadership",
+   "why": "The firm's centre of gravity for event- and context-driven alpha — you set the research direction and the pipelines, not just produce factors."
   },
   {
    "id": "QT-2811",
-   "function": "tech",
+   "function": "ml",
    "group": "Hong Kong",
-   "tag": "Newly Launched Quant Fund (est. 2026)",
-   "title": "Quantitative Developer — C++ / Python",
+   "tag": "New HK Quant Fund (est. 2026)",
+   "title": "Deep Learning Quantitative Researcher",
    "loc": "Hong Kong",
    "loc_filters": [
     "hk"
    ],
-   "excerpt": "Same fund: the dev role is about engineering depth — independently building and maintaining trading system infrastructure from scratch, not taking tickets on someone else's stack. C++ or Python both welcome. Process is ~5 rounds (1 intro + 4 technical/management/exec).",
-   "fit": "C++ or Python · proven ability to build trading infrastructure independently · fluent bilingual (Mandarin + English) · must be able to relocate to Hong Kong",
-   "why": "The infrastructure window at a new fund opens exactly once — what you build here becomes the foundation the whole firm runs on."
+   "excerpt": "Same fund, DL seat: build and own the deep learning engine behind alpha research — data prep, distributed training, evaluation, production deployment — and drive a meaningful share of the research agenda. ~3-5 years applying DL to large-scale problems; hands-on distributed/multi-GPU training, mixed precision, throughput optimisation. Strong PhD record plus large-model training at a leading AI company equally welcome.",
+   "fit": "3-5 yrs DL at scale · full model-lifecycle ownership on a production system · Python + modern DL framework · distributed training & perf tuning · stats/optimisation/ML depth",
+   "why": "The firm's central point of DL expertise: architecture choices, training diagnostics, evaluation standards — your technical judgment becomes company standard."
+  },
+  {
+   "id": "QT-2812",
+   "function": "tech",
+   "group": "Hong Kong",
+   "tag": "New HK Quant Fund (est. 2026)",
+   "title": "Quant Research Engineer — AI-Native Research Stack",
+   "loc": "Hong Kong",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "Same fund, engineering: own the technical backbone of quant research — pipelines, data infrastructure, research and production compute — and set the architecture for a next-generation AI-native stack (LLM services, agentic workflows, retrieval infrastructure). ~3-5 years in quant development; modern C++/Python, large-scale data infrastructure, cloud (AWS/GCP/Azure).",
+   "fit": "3-5 yrs quant dev · modern C++/Python in HPC · real-time & historical tick data infra · cloud & parallel computing · KDB+/Spark/Dask/Redis · K8s/Terraform/CI-CD",
+   "why": "AI-native with real judgment: making LLMs and agents a routine accelerant across research while knowing exactly where determinism must hold."
+  },
+  {
+   "id": "QT-2813",
+   "function": "tech",
+   "group": "Hong Kong",
+   "tag": "New HK Quant Fund (est. 2026)",
+   "title": "Quant Research Engineer — C++ (Market Data)",
+   "loc": "Hong Kong",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "Same fund, C++ mandatory: design and own a scalable C++ framework that turns tick data into clean, point-in-time-correct features for research and trading. Streaming/online computation, zero look-ahead bias, identical backtest and live results. ~3-5 years in quant or high-performance development; large-scale market data experience a strong plus.",
+   "fit": "Modern C++ (mandatory) + Python · streaming/online computation over time series · point-in-time correctness · low-latency/HPC, Linux profiling · composable framework design",
+   "why": "The market-data layer is the foundation every signal sits on — backtest/live alignment lives or dies here. Own a core piece of research infrastructure, not legacy code."
   }
  ]
 }
