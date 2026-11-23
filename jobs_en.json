@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-23",
  "note": "English translations of Quantopia open roles",
  "jobs": [
   {
@@ -2758,6 +2758,34 @@
    "excerpt": "Frequency-agnostic: high, mid and low frequency all welcome. Requires experience independently running equity strategies and a book, ideally with a mature strategy framework; a verifiable track record in any frequency band works. Base salary RMB 60-100K/month. Based in Beijing (Shanghai / Shenzhen negotiable, same terms to be confirmed).",
    "fit": "Independently ran an equity book · Verifiable track record in any frequency · Top/near-100bn preferred",
    "why": "Final round is the boss — short decision chain; high comp ceiling."
+  },
+  {
+   "id": "QT-2810",
+   "function": "research",
+   "group": "Hong Kong",
+   "tag": "Newly Launched Quant Fund (est. 2026)",
+   "title": "Quantitative Researcher — Mid-Frequency Equity",
+   "loc": "Hong Kong",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "A Hong Kong quant fund established in June 2026, running mid-frequency strategies (5-10 day holding periods) with a planned team size of 15-20. All hiring is focused on core investment roles. 3-5 years of experience is ideal; Tsinghua/Peking University background preferred, math olympiad/modeling track record a plus. Junior base around USD 150K.",
+   "fit": "3-5 yrs live mid-frequency experience · top-tier (Tsinghua/PKU) academic background preferred · math competition track record a plus · fluent bilingual (Mandarin + English)",
+   "why": "Early-stage fund where every hire sits on the investment core — exposure to strategy and resources far exceeds a seat at a big platform. Client explicitly does not gate candidates on compensation."
+  },
+  {
+   "id": "QT-2811",
+   "function": "tech",
+   "group": "Hong Kong",
+   "tag": "Newly Launched Quant Fund (est. 2026)",
+   "title": "Quantitative Developer — C++ / Python",
+   "loc": "Hong Kong",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "Same fund: the dev role is about engineering depth — independently building and maintaining trading system infrastructure from scratch, not taking tickets on someone else's stack. C++ or Python both welcome. Process is ~5 rounds (1 intro + 4 technical/management/exec).",
+   "fit": "C++ or Python · proven ability to build trading infrastructure independently · fluent bilingual (Mandarin + English) · must be able to relocate to Hong Kong",
+   "why": "The infrastructure window at a new fund opens exactly once — what you build here becomes the foundation the whole firm runs on."
   }
  ]
 }
