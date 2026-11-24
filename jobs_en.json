@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "note": "English translations of Quantopia open roles",
  "jobs": [
   {
@@ -2814,6 +2814,62 @@
    "excerpt": "Same fund, C++ mandatory: design and own a scalable C++ framework that turns tick data into clean, point-in-time-correct features for research and trading. Streaming/online computation, zero look-ahead bias, identical backtest and live results. ~3-5 years in quant or high-performance development; large-scale market data experience a strong plus.",
    "fit": "Modern C++ (mandatory) + Python · streaming/online computation over time series · point-in-time correctness · low-latency/HPC, Linux profiling · composable framework design",
    "why": "The market-data layer is the foundation every signal sits on — backtest/live alignment lives or dies here. Own a core piece of research infrastructure, not legacy code."
+  },
+  {
+   "id": "QT-2814",
+   "function": "tech",
+   "group": "Singapore",
+   "tag": "Top-Tier Derivatives Market Maker",
+   "title": "C++ Developer — Low-Latency Options Trading Systems",
+   "loc": "Singapore",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "Options team at a global top-tier derivatives market maker: build low-latency HFT trading systems where performance and architecture matter. Multi-threading is mandatory, along with experience designing and building large-scale systems (not ticket-driven module work). 3-7 years; big-tech or fintech backgrounds all welcome — the team has hired from Ant Group, Morgan Stanley and Google. No mandatory finance background. Fluent spoken English required.",
+   "fit": "3-7 yrs C++ · multi-threading (mandatory) · large-scale system design & build · low-latency/perf-sensitive · fluent spoken English · strong academic record (MSc preferred)",
+   "why": "The platform is being re-architected — you build the foundation of the whole trading stack. Performance and architecture speak for themselves; no finance background needed."
+  },
+  {
+   "id": "QT-2815",
+   "function": "tech",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "title": "Strategy Developer — Mid & High Frequency (Equities / Futures / Cash)",
+   "loc": "Shanghai",
+   "loc_filters": [
+    "sh"
+   ],
+   "excerpt": "Strategy development seat on a partner-structured core trading team in Shanghai of a global top derivatives market maker: equities, futures and cash, spanning mid- and high-frequency — explicitly not a pure HFT team. They value high-performance systems optimisation or strategy-dev backgrounds from top local/overseas quant firms (Two Sigma / Citadel tier). Non-industry candidates need exceptional engineering strength. Fluent English required.",
+   "fit": "live strategy development · high-performance/low-latency optimisation or top local/overseas quant background · mid/high-freq market insight · fluent English",
+   "why": "Partner-structured team where one seat maps to one strategy line — real ownership, plus meaningful volatility-strategy implementation work."
+  },
+  {
+   "id": "QT-2816",
+   "function": "tech",
+   "group": "Singapore",
+   "tag": "Top-Tier Derivatives Market Maker",
+   "title": "Network Engineer",
+   "loc": "Singapore",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "Network Engineer (2 openings) at a global top-tier derivatives market maker: every interview round is conducted in English with the overseas team, so the technical bar and the spoken-English bar are both high. 7+ years typical; 4-5 years acceptable with exceptional strength. Big-tech backgrounds welcome, but spoken English must hold up.",
+   "fit": "7+ yrs network engineering (or 4-5 yrs exceptional) · full-English technical interviews · solid networking stack · direct collaboration with overseas teams",
+   "why": "Core seat on the trading network stack — past failures were almost always English, not technology. Strong networking plus real spoken fluency is a rare combination here."
+  },
+  {
+   "id": "QT-2817",
+   "function": "tech",
+   "group": "Shanghai",
+   "tag": "Global Top Derivatives Market Maker · Shanghai",
+   "title": "IT Procurement Manager",
+   "loc": "Shanghai",
+   "loc_filters": [
+    "sh"
+   ],
+   "excerpt": "Reopened IT Procurement Manager seat at a global top-tier derivatives market maker: software and hardware procurement (servers, network equipment etc.), 4-8 years experience. English bar is high — round 1 with the Singapore team, round 2 with overseas management, round 3 on-site in Shanghai.",
+   "fit": "4-8 yrs software/hardware procurement · fluent English (3 interview rounds) · server/network equipment sourcing background",
+   "why": "Procurement here directly shapes compute and network quality for trading infrastructure — a core enablement role, not back office. Reopened because the need is real."
   }
  ]
 }
