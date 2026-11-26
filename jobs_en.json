@@ -2927,6 +2927,21 @@
    "excerpt": "Junior Python Developer for the Research Technology team: typically 1-3 years; anyone below 5 years with the right skills is in range. The stack is two keywords: Python plus trading infrastructure / trading systems. A rare low-tenure entry point into buy-side research tech.",
    "fit": "1-3 yrs (below 5 yrs considered) · Python · trading infrastructure / trading systems knowledge · interest in research technology support",
    "why": "Research tech serves the investment team directly — a low tenure bar but a targeted stack makes this a rare junior door into the buy side."
+  },
+  {
+   "id": "QT-2822",
+   "function": "research",
+   "group": "Singapore / Hong Kong",
+   "tag": "Global Quant Fund · ML Line",
+   "title": "Quantitative Researcher — ML Alpha Research",
+   "loc": "Singapore / Hong Kong",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "ML Alpha Research at a global quantitative investment manager: research statistical techniques (time-series, machine learning, NLP) to extract value from data, analyze large datasets to identify trading opportunities, build statistical/ML tools used across the firm, and deploy & monitor the models that generate live trading signals. Requires an advanced STEM degree (CS, ML/NLP, statistics, signal processing, optimization, mathematics; masters or higher), a demonstrated record of rigorous research, and proficiency in Python or kdb-q. Application discipline: apply to the one role that best fits your skillset — their team will reach out if you suit an alternate opening.",
+   "fit": "advanced STEM degree (masters+) · rigorous research track record · Python or kdb-q · large-dataset analysis · cross-region collaboration",
+   "why": "Research goes straight into live trading signals, not paper-only work — three parallel lines (time-series / ML / NLP) with real data supply, built for people who want their ML research to trade."
   }
  ]
 }
