@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-26",
  "note": "公司名按客户保密约定匿名化，真实机构名称仅在正式沟通中披露。投递：k.zhang@gravitasgroup.com",
  "jobs": [
   {
@@ -989,21 +989,21 @@
    "function": "research",
    "group": "新加坡",
    "tag": "顶级多策略平台",
-   "title": "Cubist Quantitative Researcher",
+   "title": "Quantitative Researcher — Systematic Equities",
    "loc": "新加坡",
    "loc_filters": [
     "sg"
    ],
    "excerpt": "系统化股票 alpha 研究",
    "fit": "硕士/博士",
-   "why": "Cubist 系统化平台，数据与投研资源顶级"
+   "why": "系统化平台，数据与投研资源顶级"
   },
   {
    "id": "QT-2681",
    "function": "research",
    "group": "新加坡",
    "tag": "顶级多策略平台",
-   "title": "Cubist Portfolio Manager",
+   "title": "Portfolio Manager — Systematic Strategies",
    "loc": "新加坡",
    "loc_filters": [
     "sg"
@@ -2884,6 +2884,49 @@
    "excerpt": "全球顶级衍生品做市商 Linux 工程师岗：global team，面试基本全部与海外进行，英语和技术必须双硬。7 年以上经验为主，4-5 年但能力极强的也可看；SRE / DevOps 背景对口，互联网背景可以考虑，但英语口语必须过硬。此前想找 Linux + Kubernetes 双技能的人，发现市场上同时具备的太少，现在重点看 Linux 运维本身。",
    "fit": "7 年+ Linux 运维（或 4-5 年极强）· SRE/DevOps 背景 · 全英文海外面试能力 · Kubernetes 加分",
    "why": "交易基础设施的稳定性直接决定做市业务的下限——纯 Linux 运维功底比技能清单更值钱，英语过关就是稀缺组合。"
+  },
+  {
+   "id": "QT-2819",
+   "function": "data",
+   "group": "新加坡",
+   "tag": "全球对冲基金 · 系统化条线",
+   "title": "Data Scientist — Systematic Trading（最高优先级）",
+   "loc": "新加坡",
+   "loc_filters": [
+    "sg"
+   ],
+   "excerpt": "全球领先对冲基金系统化条线新加坡办公室数据科学家岗，当前最高招聘优先级（≥3 个名额）。重要口径：这不是 AI 方向的 DS——要的是经典数据科学能力用在金融数据上，或有系统化交易策略相关工作经验。偏好金融服务公司背景（明确不是以互联网 / 科技公司为主要来源）。看重可直接迁移的实操经验。",
+   "fit": "金融数据处理或系统化交易策略经验 · 金融服务公司背景优先 · 经典 DS 技能（非 AI 方向）· 可迁移的实操经验",
+   "why": "客户明确的最高优先级岗位，3 个名额起——先到先面，金融服务背景在这条线上是稀缺信号。"
+  },
+  {
+   "id": "QT-2820",
+   "function": "research",
+   "group": "香港",
+   "tag": "全球对冲基金 · 系统化条线",
+   "title": "Quantitative Researcher — Equities & Futures",
+   "loc": "香港",
+   "loc_filters": [
+    "hk"
+   ],
+   "excerpt": "该机构香港办公室量化研究员岗，覆盖股票与期货方向。当前该板块为机会性招聘（opportunistic）而非大规模扩张——遇到合适背景的人选随时会看，但不为单一缺口组织专项流程。标准灵活，背景对口就有得谈。",
+   "fit": "股票 / 期货量化研究背景 · 系统化研究方法 · 香港可到岗 · 机会性窗口随时可谈",
+   "why": "机会性岗意味着标准灵活——背景对口就有得谈，不必等 HC 公开再排队。"
+  },
+  {
+   "id": "QT-2821",
+   "function": "tech",
+   "group": "新加坡/香港",
+   "tag": "全球对冲基金 · 系统化条线",
+   "title": "Junior Python Developer — Research Technology",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "研究技术团队增补初级 Python 开发：典型 1-3 年经验，5 年以下技能水平的候选人均在考虑范围。技术栈两个关键词：Python + 交易基础设施 / 交易系统（trading infrastructure / trading systems）。这是技术条线里少见的低年限入口。",
+   "fit": "1-3 年（5 年以下均可）· Python · 交易基础设施 / 交易系统知识 · 对研究技术支持有兴趣",
+   "why": "研究技术团队直接服务投研——年限门槛低但方向对口，是进入买方技术条线少见的 junior 入口。"
   }
  ]
 }
