@@ -2927,6 +2927,21 @@
    "excerpt": "研究技术团队增补初级 Python 开发：典型 1-3 年经验，5 年以下技能水平的候选人均在考虑范围。技术栈两个关键词：Python + 交易基础设施 / 交易系统（trading infrastructure / trading systems）。这是技术条线里少见的低年限入口。",
    "fit": "1-3 年（5 年以下均可）· Python · 交易基础设施 / 交易系统知识 · 对研究技术支持有兴趣",
    "why": "研究技术团队直接服务投研——年限门槛低但方向对口，是进入买方技术条线少见的 junior 入口。"
+  },
+  {
+   "id": "QT-2822",
+   "function": "research",
+   "group": "新加坡/香港",
+   "tag": "全球量化基金 · ML 条线",
+   "title": "Quantitative Researcher — ML Alpha Research",
+   "loc": "新加坡 / 香港",
+   "loc_filters": [
+    "sg",
+    "hk"
+   ],
+   "excerpt": "全球量化投资机构的 ML Alpha Research 岗：用时间序列、机器学习和 NLP 从大规模数据集中挖掘交易机会，开发统计/ML 工具解决全机构的数据问题，并把信号模型部署上线、持续监控。要求 STEM 硕士及以上（CS/ML/NLP/统计/信号处理/优化/数学），有严谨研究的实证记录，精通 Python 或 kdb-q。投递纪律：官方 JD 明确只投一个最匹配的岗位，团队认为更合适其他岗会主动转介。",
+   "fit": "STEM 硕士及以上（CS/ML/NLP/统计/信号处理/优化/数学）· 严谨研究实证记录 · Python 或 kdb-q · 大规模数据分析 · 跨区域沟通协作",
+   "why": "研究直接上线产生交易信号、不是纯 paper research——时间序列/ML/NLP 三条课题线都有数据供给，适合想把 ML 研究做成实盘产出的人。"
   }
  ]
 }
