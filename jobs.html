@@ -259,7 +259,7 @@ function fmapLabel(f) { return funcMeta(f)[0]; }
 
 const FIFTEEN_SEC = 15000;
 // 2026-10-20 性能优化：去掉 Date.now() 缓存穿透 + localStorage 6h 缓存（每周更新足够）；英文 JSON 按需加载
-const JOBS_CACHE_KEY = 'quantopia_jobs_cache_v3';  // v3: QT-2819~2821 新岗 + QT-2680/2681 匿名化（2026-11-26）
+const JOBS_CACHE_KEY = 'quantopia_jobs_cache_v4';  // v4: QT-2822 QR-ML Alpha Research 新岗（2026-11-26）
 const JOBS_CACHE_TTL = 6 * 3600 * 1000;
 
 function fetchJobsZhCached() {
